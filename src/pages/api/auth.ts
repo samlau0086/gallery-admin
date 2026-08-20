@@ -27,10 +27,21 @@ export const GET: APIRoute = async ({ request, locals }) => {
   }
 
   if (!clientId || !clientSecret) return new Response('GitHub OAuth is not configured on this deployment.', { status: 500 });
-  const tokenResponse = await fetch('https://github.com/login/oauth/access_token', { method: 'POST', headers: { accept: 'application/json', 'content-type': 'application/json' }, body: JSON.stringify({ client_id: clientId, client_secret: clientSecret, code, redirect_uri: redirectUri }) });
+  const tokenResponse = await fetch('https://github.com/login/oauth/access_token', {
+    method: 'POST',
+    headers: { accept: 'application/json', 'content-type': 'application/json' },
+    body: JSON.stringify({ client_id: clientId, client_secret: clientSecret, code, redirect_uri: redirectUri }),
+  });
   const token = await tokenResponse.json() as { access_token?: string; error?: string; error_description?: string };
   if (!token.access_token) return new Response(token.error_description || token.error || 'GitHub OAuth failed.', { status: 502 });
+
   const payload = JSON.stringify({ token: token.access_token, provider: 'github' }).replace(/</g, '\\u003c');
-  const html = '<script>window.opener && window.opener.postMessage(\'authorization:github:success:' + payload + '\', window.location.origin); window.close();</script>';
+  const message = 'authorization:github:success:' + payload;
+  const html = '<!doctype html><html><body><p>登录成功，请返回管理后台。</p><script>' +
+    'const message = ' + JSON.stringify(message) + ';' +
+    'if (window.opener) window.opener.postMessage(message, "*");' +
+    'if (window.parent && window.parent !== window) window.parent.postMessage(message, "*");' +
+    'setTimeout(() => window.close(), 100);' +
+    '</script></body></html>';
   return new Response(html, { headers: { 'content-type': 'text/html; charset=utf-8' } });
 };
