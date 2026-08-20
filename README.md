@@ -169,6 +169,8 @@ npm run dev
 
 如果看到 /api/auth 的 404，说明开发服务器没有重启或仍在使用旧代码。如果看到 GitHub OAuth is not configured，说明 .env 没有创建、变量名写错，或者修改 .env 后没有重启 npm run dev。 .env 已被 .gitignore 忽略，不会提交到 GitHub。
 
+如果终端出现 Connect Timeout Error、fetch failed 或无法连接 github.com:443，说明浏览器可以访问 GitHub，但本地 Node.js 进程被网络、防火墙或代理阻止。这不是账号密码错误。此时可以检查公司网络或代理设置，或者先部署到 Cloudflare Pages，再使用线上地址测试 OAuth。
+
 ## 8. 使用 Cloudflare Access 保护后台
 
 建议只保护 /admin/*，不要保护网站前台：
