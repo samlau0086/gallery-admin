@@ -1,18 +1,193 @@
-# Gallery Admin
+# 无服务器商品相册
 
-无服务器商品相册：Astro + Decap CMS + Cloudflare Pages/R2。
+这是一个面向小型店铺、工作室和个人卖家的在线商品目录。访客可以浏览图片、筛选分类、搜索商品、查看详情，并通过 WhatsApp 或邮件联系你。
 
-## 本地运行
+项目不使用传统数据库，也不需要购买常驻服务器：Astro 负责前台，Decap CMS 负责后台，GitHub 保存商品资料，Cloudflare Pages 托管网站，Cloudflare R2 保存图片和视频，Cloudflare Access 保护后台。
 
-运行 npm install，然后执行 npm run dev。前台地址为 /，后台地址为 /admin/。
+## 1. 你需要准备什么
 
-## Cloudflare 配置
+需要准备一个 GitHub 账号、一个 Cloudflare 账号，以及一个 GitHub 仓库。域名不是必须的，没有域名时可以先使用 Cloudflare Pages 提供的 pages.dev 地址。
 
-1. 将仓库连接到 Cloudflare Pages，构建命令为 npm run build，输出目录为 dist。
-2. 创建 R2 bucket gallery-media，绑定自定义域名，并绑定 MEDIA_BUCKET。
-3. 设置 PUBLIC_MEDIA_URL 为 R2 自定义域名。
-4. 在 GitHub 创建 OAuth App，将回调地址设为 https://你的域名/api/auth，并配置 GITHUB_CLIENT_ID、GITHUB_CLIENT_SECRET、GITHUB_REDIRECT_URI。
-5. 修改 public/admin/config.yml 中的 repo。
-6. 用 Cloudflare Access 保护 /admin/*。
+## 2. 上传到 GitHub
 
-商品文件位于 src/content/products/。商品资料进入 Git，媒体文件进入 R2，不需要数据库。
+在项目目录打开终端，执行：
+
+~~~bash
+git remote add origin https://github.com/你的用户名/你的仓库名.git
+git branch -M main
+git push -u origin main
+~~~
+
+如果提示 origin 已存在，可以执行 git remote -v 查看远程地址。
+
+项目中的 .gitignore 已经忽略 node_modules、dist、.astro、.env、日志、缓存和本地上传文件。
+
+## 3. 本地运行
+
+先安装 Node.js 22 或更高版本，然后检查：
+
+~~~bash
+node -v
+npm -v
+~~~
+
+安装依赖并启动：
+
+~~~bash
+cd gallery-admin
+npm install
+npm run dev
+~~~
+
+通常可以打开以下地址：
+
+- 前台：http://localhost:4321/
+- 后台：http://localhost:4321/admin/
+
+本地后台不能完成正式 GitHub OAuth 登录，正式后台请使用部署后的 Cloudflare 地址。
+
+检查代码和内容：
+
+~~~bash
+npm run check
+npm run build
+~~~
+
+## 4. 部署到 Cloudflare Pages
+
+1. 登录 Cloudflare 控制台。
+2. 进入 Workers & Pages。
+3. 点击 Create application，再选择 Pages。
+4. 选择 Connect to Git，选中你的 GitHub 仓库。
+5. 构建命令填写 npm run build。
+6. 输出目录填写 dist。
+7. Node.js 版本选择 22。
+8. 点击部署。
+
+部署后会得到类似 https://gallery-admin.pages.dev 的网址。以后向 main 分支推送代码或商品资料，Cloudflare Pages 会自动重新部署。
+
+## 5. 创建 R2 存储图片
+
+1. 在 Cloudflare 控制台进入 R2 Object Storage。
+2. 点击 Create bucket。
+3. Bucket 名称填写 gallery-media。
+4. 为 bucket 绑定一个媒体域名，例如 media.example.com。
+
+打开项目中的 wrangler.toml，把媒体域名改成自己的地址：
+
+~~~toml
+[[r2_buckets]]
+binding = "MEDIA_BUCKET"
+bucket_name = "gallery-media"
+
+[vars]
+PUBLIC_MEDIA_URL = "https://media.example.com"
+~~~
+
+第一版建议直接在 R2 控制台上传图片或视频，然后复制公开 URL，粘贴到后台的 Cover URL 或 Media URL 字段。
+
+项目中的 functions/upload.ts 已提供上传接口骨架，但还没有接入 Decap CMS 的一键上传按钮。
+
+## 6. 配置 Decap CMS
+
+打开 public/admin/config.yml，把仓库配置改成实际值：
+
+~~~yaml
+repo: 你的GitHub用户名/你的仓库名
+~~~
+
+例如：
+
+~~~yaml
+repo: samla/gallery-admin
+~~~
+
+商品文件保存在 src/content/products/。后台字段说明：
+
+- Title：英文商品名。
+- Chinese title：中文商品名，可选。
+- Category：分类，例如 Bags。
+- Cover URL：列表封面图片地址。
+- Media：详情页图片或视频地址。
+- Price：价格或 Price on request。
+- Description：商品简介。
+- Tags：标签。
+- Published：是否显示在前台。
+- Sort order：数字越小越靠前。
+
+## 7. 配置 GitHub OAuth
+
+Decap CMS 需要 GitHub OAuth 才能把后台修改写回仓库。
+
+在 GitHub 进入 Settings → Developer settings → OAuth Apps → New OAuth App。
+
+填写：
+
+- Application name：Gallery Admin。
+- Homepage URL：Cloudflare Pages 网站地址。
+- Authorization callback URL：网站地址加上 /api/auth。
+
+创建后保存 Client ID 和 Client Secret。
+
+在 Cloudflare Pages 项目的 Settings → Environment variables 中添加：
+
+- GITHUB_CLIENT_ID
+- GITHUB_CLIENT_SECRET
+- GITHUB_REDIRECT_URI
+
+GITHUB_REDIRECT_URI 必须和 GitHub 中的 callback URL 完全一致。Client Secret 不要写入代码，也不要提交到 GitHub。
+
+## 8. 使用 Cloudflare Access 保护后台
+
+建议只保护 /admin/*，不要保护网站前台：
+
+1. 在 Cloudflare Zero Trust 中进入 Access → Applications。
+2. 添加 Self-hosted application。
+3. 填写网站域名。
+4. 路径填写 /admin/*。
+5. 创建允许规则，只允许你的邮箱访问。
+
+## 9. 日常添加商品
+
+1. 打开网站地址加上 /admin/。
+2. 通过 Cloudflare Access 验证身份。
+3. 使用 GitHub OAuth 登录。
+4. 进入 Products，点击 New Products。
+5. 填写标题、分类、封面 URL 和媒体 URL。
+6. 勾选 Published。
+7. 点击 Save，再点击 Publish。
+8. 等待 Cloudflare Pages 自动部署。
+
+如果不使用后台，也可以直接编辑 src/content/products/ 下的 Markdown 文件，然后执行：
+
+~~~bash
+git add .
+git commit -m "更新商品资料"
+git push
+~~~
+
+## 10. 常见问题
+
+### 页面没有商品
+
+确认商品文件中的 published 是 true，cover 和 category 有值，并运行 npm run check。
+
+### 图片打不开
+
+确认 R2 文件可以公开访问，URL 能在浏览器直接打开，PUBLIC_MEDIA_URL 正确，并且 URL 中没有空格。
+
+### 后台打不开
+
+确认 Cloudflare Access 允许你的邮箱，并且访问地址包含 /admin/。
+
+### GitHub 登录失败
+
+重点检查 GitHub OAuth 的 callback URL 与 GITHUB_REDIRECT_URI 是否完全一致。
+
+### 修改没有马上出现
+
+进入 Cloudflare Pages 的 Deployments 查看最新部署日志。构建失败时，在本地执行 npm run check 和 npm run build。
+
+## 11. 当前版本暂不包含
+
+购物车、在线支付、订单管理、库存扣减、客户账户、自动图片压缩，以及 Decap CMS 内置的一键 R2 媒体库。
