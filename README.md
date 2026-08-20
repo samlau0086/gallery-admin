@@ -61,8 +61,9 @@ npm run build
 4. 选择 Connect to Git，选中你的 GitHub 仓库。
 5. 构建命令填写 npm run build。
 6. 输出目录填写 dist。
-7. Node.js 版本选择 22。
-8. 点击部署。
+7. 点击部署。
+
+Cloudflare Pages 新版界面可能没有 Node.js 版本下拉框，这是正常的。当前 Pages Build Image 默认使用 Node.js 22；本项目根目录的 .node-version 已固定为 22.16.0，Cloudflare 会在构建时读取它。如果控制台没有识别该文件，也可以在项目的 Settings → Environment variables 中添加 NODE_VERSION=22.16.0。
 
 部署后会得到类似 https://gallery-admin.pages.dev 的网址。以后向 main 分支推送代码或商品资料，Cloudflare Pages 会自动重新部署。
 
