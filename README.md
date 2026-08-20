@@ -139,7 +139,19 @@ GITHUB_REDIRECT_URI 必须和 GitHub 中的 callback URL 完全一致。Client S
 
 ### 本地测试登录
 
-在项目根目录复制 .env.example 为 .env，填入 GitHub OAuth App 的真实值：
+本地测试需要单独配置 GitHub OAuth。请先在 GitHub 的 Settings → Developer settings → OAuth Apps → New OAuth App 创建一个 OAuth App：
+
+1. Homepage URL 填写 http://localhost:4321。
+2. Authorization callback URL 填写 http://localhost:4321/api/auth。
+3. 创建后复制 Client ID，并生成一个 Client Secret。
+
+然后在项目根目录复制 .env.example 为 .env。Windows PowerShell 可以执行：
+
+~~~powershell
+Copy-Item .env.example .env
+~~~
+
+打开 .env，填入真实值：
 
 ~~~env
 GITHUB_CLIENT_ID=你的Client_ID
@@ -147,7 +159,15 @@ GITHUB_CLIENT_SECRET=你的Client_Secret
 GITHUB_REDIRECT_URI=http://localhost:4321/api/auth
 ~~~
 
-然后重启 npm run dev。GitHub OAuth App 的 Authorization callback URL 也必须填写 http://localhost:4321/api/auth。如果没有配置这些变量，/api/auth 会返回 GitHub OAuth is not configured，这是配置缺失提示，不是 GitHub 账号错误。
+保存后重启开发服务器：
+
+~~~bash
+npm run dev
+~~~
+
+浏览器打开 http://localhost:4321/admin/，点击 Login with GitHub。登录成功后，Decap CMS 会请求 GitHub 仓库的 repo 权限，用于读取和提交商品文件。
+
+如果看到 /api/auth 的 404，说明开发服务器没有重启或仍在使用旧代码。如果看到 GitHub OAuth is not configured，说明 .env 没有创建、变量名写错，或者修改 .env 后没有重启 npm run dev。 .env 已被 .gitignore 忽略，不会提交到 GitHub。
 
 ## 8. 使用 Cloudflare Access 保护后台
 
