@@ -137,6 +137,18 @@ Decap CMS 需要 GitHub OAuth 才能把后台修改写回仓库。
 
 GITHUB_REDIRECT_URI 必须和 GitHub 中的 callback URL 完全一致。Client Secret 不要写入代码，也不要提交到 GitHub。
 
+### 本地测试登录
+
+在项目根目录复制 .env.example 为 .env，填入 GitHub OAuth App 的真实值：
+
+~~~env
+GITHUB_CLIENT_ID=你的Client_ID
+GITHUB_CLIENT_SECRET=你的Client_Secret
+GITHUB_REDIRECT_URI=http://localhost:4321/api/auth
+~~~
+
+然后重启 npm run dev。GitHub OAuth App 的 Authorization callback URL 也必须填写 http://localhost:4321/api/auth。如果没有配置这些变量，/api/auth 会返回 GitHub OAuth is not configured，这是配置缺失提示，不是 GitHub 账号错误。
+
 ## 8. 使用 Cloudflare Access 保护后台
 
 建议只保护 /admin/*，不要保护网站前台：
