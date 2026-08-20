@@ -1,0 +1,11 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import { site, categories } from '../data/site';
+import '../styles/global.css';
+const products = (await getCollection('products', ({ data }) => data.published)).sort((a,b) => a.data.sortOrder - b.data.sortOrder);
+---
+<Layout title={site.name} description={site.tagline}><main class="shell"><header class="topbar"><a class="brand" href="/">{site.name}</a><nav class="top-actions"><a href="#collection">Collection</a><a href={site.contact.email}>Contact</a><a href="/admin/">Admin</a></nav></header><section class="hero"><img src={site.hero} alt={site.name} /><div class="hero-copy"><h1>{site.name}</h1><p>{site.tagline}</p></div></section><section id="collection"><div class="toolbar"><div class="categories">{categories.map((category)=><button class={'category'+(category==='All'?' active':'')} data-category={category}>{category}</button>)}</div><input class="search" type="search" placeholder="Search collection" aria-label="Search collection" /></div><div class="grid" id="product-grid">{products.map((product)=><a class="card" data-category={product.data.category} data-search={(product.data.title+' '+(product.data.titleZh??'')+' '+product.data.tags.join(' ')).toLowerCase()} href={'/products/'+product.slug+'/' }><img src={product.data.cover} alt={product.data.title} loading="lazy"/><div class="card-meta"><span>{product.data.title}</span><span class="muted">{product.data.category}</span></div></a>)}</div></section><footer class="footer"><span>{site.name} · {new Date().getFullYear()}</span><span>Private appointments and wholesale enquiries welcome.</span></footer></main></Layout>
+<script>
+const cards=[...document.querySelectorAll<HTMLElement>('.card')],buttons=[...document.querySelectorAll<HTMLButtonElement>('.category')],search=document.querySelector<HTMLInputElement>('.search');let active='All';function filter(){const q=(search?.value||'').toLowerCase();cards.forEach(card=>{card.hidden=!((active==='All'||card.dataset.category===active)&&(!q||card.dataset.search?.includes(q)))})}buttons.forEach(button=>button.addEventListener('click',()=>{active=button.dataset.category||'All';buttons.forEach(b=>b.classList.toggle('active',b===button));filter()}));search?.addEventListener('input',filter);
+</script>

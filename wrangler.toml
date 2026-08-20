@@ -1,0 +1,7 @@
+name = "gallery-admin"
+compatibility_date = "2026-08-20"
+[[r2_buckets]]
+binding = "MEDIA_BUCKET"
+bucket_name = "gallery-media"
+[vars]
+PUBLIC_MEDIA_URL = "https://media.example.com"

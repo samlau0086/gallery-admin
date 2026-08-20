@@ -1,0 +1,9 @@
+---
+import { getCollection, render } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import { site } from '../../data/site';
+import '../../styles/global.css';
+export async function getStaticPaths(){const products=await getCollection('products',({data})=>data.published);return products.map(product=>({params:{slug:product.slug},props:{product}}))}
+const {product}=Astro.props;const {Content}=await render(product);const media=product.data.media.length?product.data.media:[{url:product.data.cover,type:'image',alt:product.data.title}];
+---
+<Layout title={product.data.title+' · '+site.name} description={product.data.description}><main class="shell detail"><header class="topbar"><a class="brand" href="/">{site.name}</a><nav class="top-actions"><a href="/">Collection</a><a href={site.contact.email}>Contact</a></nav></header><a class="back" href="/">← Back to collection</a><div class="detail-grid"><div class="media-stack">{media.map(item=>item.type==='video'?<video src={item.url} controls preload="metadata"></video>:<img src={item.url} alt={item.alt??product.data.title} loading="lazy"/>)}</div><aside class="detail-copy"><p class="muted">{product.data.category}</p><h1>{product.data.title}</h1>{product.data.price&&<p>{product.data.price}</p>}<p>{product.data.description}</p><div class="contact-links"><a class="contact-link" href={site.contact.whatsapp}>WhatsApp enquiry</a><a class="contact-link" href={site.contact.email}>Email enquiry</a></div><div class="muted"><Content/></div></aside></div></main></Layout>
