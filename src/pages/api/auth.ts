@@ -17,7 +17,7 @@ export const GET: APIRoute = async ({ request, locals }) => {
   }
   const env = getEnv(locals);
   const clientId = env.GITHUB_CLIENT_ID;
-  const redirectUri = env.GITHUB_REDIRECT_URI || url.origin + '/api/auth/callback';
+  const redirectUri = url.origin + '/api/auth/callback';
   if (!clientId) return new Response('GitHub OAuth is not configured.', { status: 500 });
   const authorize = new URL('https://github.com/login/oauth/authorize');
   authorize.searchParams.set('client_id', clientId);

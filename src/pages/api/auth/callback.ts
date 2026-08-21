@@ -11,7 +11,7 @@ export const GET: APIRoute = async ({ request, locals }) => {
   const env = getEnv(locals);
   const clientId = env.GITHUB_CLIENT_ID;
   const clientSecret = env.GITHUB_CLIENT_SECRET;
-  const redirectUri = env.GITHUB_REDIRECT_URI || url.origin + '/api/auth/callback';
+  const redirectUri = url.origin + '/api/auth/callback';
   if (!code || !clientId || !clientSecret) return new Response('GitHub OAuth callback is missing configuration.', { status: 400 });
   let tokenResponse: Response;
   try {
