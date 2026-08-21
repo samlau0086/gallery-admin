@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: YOUR_GITHUB_OWNER/YOUR_GITHUB_REPO
+  repo: samlau0086/gallery-admin
   branch: main
   base_url: /api
   auth_endpoint: auth
