@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
 import { site, categories } from '../data/site';
 import '../styles/global.css';
+import '../styles/overrides.css';
 const products = (await getCollection('products', ({ data }) => data.published)).sort((a,b) => a.data.sortOrder - b.data.sortOrder);
 const categoryItems = categories.filter((category) => category !== 'All');
 ---
