@@ -136,7 +136,7 @@ Decap CMS 需要 GitHub OAuth 才能把后台修改写回仓库。
 - GITHUB_CLIENT_SECRET
 - GITHUB_REDIRECT_URI
 
-GITHUB_REDIRECT_URI 必须和 GitHub 中的 callback URL 完全一致。Client Secret 不要写入代码，也不要提交到 GitHub。
+GITHUB_REDIRECT_URI 必须和 GitHub 中的 callback URL 完全一致。线上统一使用 https://cf.maesvanti.online/api/auth/callback，不要填写根域名。Client Secret 不要写入代码，也不要提交到 GitHub。
 
 ### 本地测试登录
 

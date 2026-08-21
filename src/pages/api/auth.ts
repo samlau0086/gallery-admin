@@ -7,6 +7,14 @@ function getEnv(locals: App.Locals): RuntimeEnv {
 }
 export const GET: APIRoute = async ({ request, locals }) => {
   const url = new URL(request.url);
+  const code = url.searchParams.get('code');
+  if (code) {
+    const callback = new URL('/api/auth/callback', url.origin);
+    callback.searchParams.set('code', code);
+    const state = url.searchParams.get('state');
+    if (state) callback.searchParams.set('state', state);
+    return Response.redirect(callback, 302);
+  }
   const env = getEnv(locals);
   const clientId = env.GITHUB_CLIENT_ID;
   const redirectUri = env.GITHUB_REDIRECT_URI || url.origin + '/api/auth/callback';
