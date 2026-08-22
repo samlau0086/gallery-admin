@@ -3,23 +3,3 @@ import { site } from '../data/site';
 ---
 <header class="app-header"><div class="header-inner"><div class="header-left"><button class="header-tool category-trigger" type="button" aria-expanded="false"><span class="tool-icon">☷</span><span>Category</span></button><button class="header-tool search-trigger" type="button" aria-expanded="false"><span class="tool-icon">⌕</span><span>Search</span></button></div><a class="brand-lockup" href="/"><span class="brand-mark">{site.name.slice(0,1)}</span><span>{site.name}</span></a><div class="header-right"><a class="icon-link" href={site.contact.whatsapp} aria-label="WhatsApp" title="WhatsApp">◉</a><a class="icon-link" href={site.contact.email} aria-label="Email" title="Email">✉</a><button class="icon-link contact-trigger contact-icon" type="button" aria-label="Contact" title="Contact"><img src="/contact.svg" alt="" /></button></div></div></header><div class="search-panel" id="global-search-panel" hidden><div class="search-wrap"><span class="search-icon">⌕</span><input class="search global-search" type="search" placeholder="Search collection" aria-label="Search collection" autocomplete="off" /></div><div class="search-results" role="listbox" hidden></div></div>
 <script src="/search.js" defer></script>
-<script is:inline>
-window.addEventListener('load', function () {
-  var trigger = document.querySelector('.search-trigger');
-  var panel = document.querySelector('#global-search-panel');
-  var input = document.querySelector('.global-search');
-  var results = panel && panel.querySelector('.search-results');
-  if (!trigger || !panel || !input || !results || trigger.dataset.inlineSearchReady) return;
-  trigger.dataset.inlineSearchReady = '1';
-  trigger.addEventListener('click', function () { panel.hidden = !panel.hidden; trigger.setAttribute('aria-expanded', String(!panel.hidden)); if (!panel.hidden) input.focus(); });
-  input.addEventListener('input', function () {
-    var q = input.value.trim();
-    if (!q) { results.hidden = true; return; }
-    fetch('/api/search?q=' + encodeURIComponent(q)).then(function (r) { return r.json(); }).then(function (data) {
-      results.innerHTML = (data.results || []).map(function (item) { return '<a class="search-result" href="/products/' + item.slug + '/"><img src="' + item.cover + '" alt=""><span><strong>' + (item.titleZh || item.title) + '</strong><em>' + item.category + ' · ' + item.title + '</em></span></a>'; }).join('') || '<div class="search-empty">No matching works</div>';
-      results.hidden = false;
-    }).catch(function () { results.innerHTML = '<div class="search-empty">Search unavailable</div>'; results.hidden = false; });
-  });
-  input.addEventListener('keydown', function (event) { if (event.key === 'Enter' && input.value.trim()) { event.preventDefault(); window.location.href = '/search?q=' + encodeURIComponent(input.value.trim()); } });
-});
-</script>
