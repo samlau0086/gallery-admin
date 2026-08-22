@@ -11,3 +11,4 @@
 .whatsapp-link{background:#25D366;color:#fff}.whatsapp-link:hover{background:#1ebe5d}.whatsapp-link svg{stroke:#fff}.whatsapp-link svg path:first-child{fill:#fff;stroke:none}.whatsapp-link svg path:last-child{stroke:#25D366;stroke-width:1.5}
 .header-right>.icon-link:first-child{background:#25D366;color:#fff}.header-right>.icon-link:first-child:hover{background:#1ebe5d}.header-right>.icon-link:first-child svg path:first-child{fill:none;stroke:#fff;stroke-width:1.7}.header-right>.icon-link:first-child svg path:last-child{stroke:#fff;stroke-width:1.5}
 .header-right>.icon-link:first-child{font-size:0;background:#25d366 url('/whatsapp.svg') center/22px 22px no-repeat}.header-right>.icon-link:first-child svg{display:none}.help-button{font-size:0}.help-button::before{content:'';display:block;width:26px;height:26px;background:url('/whatsapp.svg') center/contain no-repeat}.help-button span{font-size:12px}
+.contact-icon img{display:block;width:18px;height:18px}
