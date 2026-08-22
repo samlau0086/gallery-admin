@@ -91,7 +91,7 @@ PUBLIC_MEDIA_URL = "https://media.example.com"
 
 ## 6. 配置 Decap CMS
 
-打开 public/admin/config.yml，把仓库配置改成实际值：
+打开 src/pages/admin/config.yml.ts，把仓库配置改成实际值：
 
 ~~~yaml
 repo: 你的GitHub用户名/你的仓库名

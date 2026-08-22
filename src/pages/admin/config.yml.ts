@@ -1,4 +1,4 @@
-backend:
+const config = String.raw`backend:
   name: github
   repo: samlau0086/gallery-admin
   branch: main
@@ -24,3 +24,15 @@ collections:
       - { label: Tags, name: tags, widget: list, required: false }
       - { label: Published, name: published, widget: boolean, default: true }
       - { label: Sort order, name: sortOrder, widget: number, value_type: int, default: 0 }
+`;
+
+export const prerender = false;
+
+export function GET() {
+  return new Response(config, {
+    headers: {
+      'content-type': 'text/yaml; charset=utf-8',
+      'cache-control': 'no-store',
+    },
+  });
+}
