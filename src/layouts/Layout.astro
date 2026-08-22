@@ -1,4 +1,5 @@
 ---
 const { title = 'Atelier Eleven', description = 'A considered collection of objects.' } = Astro.props;
+import SiteHeader from '../components/SiteHeader.astro';
 ---
-<!doctype html><html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width" /><meta name="description" content={description} /><title>{title}</title></head><body><slot /></body></html>
+<!doctype html><html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width" /><meta name="description" content={description} /><title>{title}</title></head><body><SiteHeader /><slot /></body></html>
