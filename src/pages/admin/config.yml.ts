@@ -6,18 +6,20 @@ const config = String.raw`backend:
   auth_endpoint: api/auth
 media_folder: "public/uploads"
 public_folder: "/uploads"
-files:
-  - name: site
-    label: Site settings
-    file: src/data/site.json
-    format: json
-    fields:
-      - { label: Site name, name: name, widget: string }
-      - { label: Tagline, name: tagline, widget: string }
-      - { label: Hero image URL, name: hero, widget: image }
-      - { label: WhatsApp URL, name: whatsapp, widget: string, hint: 'Include https://wa.me/ and the full international number' }
-      - { label: Email address, name: email, widget: string }
 collections:
+  - name: settings
+    label: Site settings
+    files:
+      - name: site
+        label: Site settings
+        file: src/data/site.json
+        format: json
+        fields:
+          - { label: Site name, name: name, widget: string }
+          - { label: Tagline, name: tagline, widget: string }
+          - { label: Hero image URL, name: hero, widget: image }
+          - { label: WhatsApp URL, name: whatsapp, widget: string, hint: 'Include https://wa.me/ and the full international number' }
+          - { label: Email address, name: email, widget: string }
   - name: products
     label: Products
     folder: src/content/products
