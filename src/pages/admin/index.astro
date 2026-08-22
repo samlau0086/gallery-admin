@@ -1,5 +1,25 @@
 ---
 const title = 'Gallery Admin';
+const cmsConfig = {
+  backend: { name: 'github', repo: 'samlau0086/gallery-admin', branch: 'main', base_url: 'https://cf.maesvanti.online', auth_endpoint: 'api/auth' },
+  media_folder: 'public/uploads',
+  public_folder: '/uploads',
+  collections: [{
+    name: 'products', label: 'Products', folder: 'src/content/products', create: true, slug: '{{slug}}', format: 'frontmatter',
+    fields: [
+      { label: 'Title', name: 'title', widget: 'string' },
+      { label: 'Chinese title', name: 'titleZh', widget: 'string', required: false },
+      { label: 'Category', name: 'category', widget: 'string' },
+      { label: 'Cover URL', name: 'cover', widget: 'image' },
+      { label: 'Media', name: 'media', widget: 'list', required: false, fields: [{ label: 'URL', name: 'url', widget: 'string' }, { label: 'Type', name: 'type', widget: 'select', options: ['image', 'video'] }, { label: 'Alt text', name: 'alt', widget: 'string', required: false }] },
+      { label: 'Price', name: 'price', widget: 'string', required: false },
+      { label: 'Description', name: 'description', widget: 'text', required: false },
+      { label: 'Tags', name: 'tags', widget: 'list', required: false },
+      { label: 'Published', name: 'published', widget: 'boolean', default: true },
+      { label: 'Sort order', name: 'sortOrder', widget: 'number', value_type: 'int', default: 0 },
+    ],
+  }],
+};
 ---
 <!doctype html>
 <html lang="en">
@@ -10,6 +30,9 @@ const title = 'Gallery Admin';
     <title>{title}</title>
   </head>
   <body>
-    <script is:inline src="https://unpkg.com/decap-cms@^3.4.0/dist/decap-cms.js"></script>
+    <script is:inline define:vars={{ cmsConfig }}>
+      window.__GALLERY_CMS_CONFIG__ = cmsConfig;
+    </script>
+    <script src="../../scripts/admin.ts"></script>
   </body>
 </html>
