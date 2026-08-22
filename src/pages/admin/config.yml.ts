@@ -7,8 +7,8 @@ const config = String.raw`backend:
 media_folder: "public/uploads"
 public_folder: "/uploads"
 collections:
-  - name: settings
-    label: Site settings
+  - name: options
+    label: Options
     files:
       - name: site
         label: Site settings
