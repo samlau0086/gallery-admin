@@ -1,13 +1,51 @@
 (function () {
   function init() {
     var inputs = Array.prototype.slice.call(document.querySelectorAll("input.search"));
-    var trigger = document.querySelector(".search-trigger");
-    if (!inputs.length || !trigger) return;
-    var panels = inputs.map(function (input) { return input.closest(".search-panel"); }).filter(Boolean);
-    if (!trigger.dataset.searchToggleReady) {
-      trigger.dataset.searchToggleReady = "1";
-      trigger.addEventListener("click", function (event) { event.preventDefault(); event.stopImmediatePropagation(); var panel = panels[0]; if (!panel) return; var open = !panel.hidden; panels.forEach(function (item) { item.hidden = true; }); trigger.setAttribute("aria-expanded", "false"); if (!open) { panel.hidden = false; trigger.setAttribute("aria-expanded", "true"); inputs[0].focus(); } }, true);
+    var searchTrigger = document.querySelector(".search-trigger");
+    var categoryTrigger = document.querySelector(".category-trigger");
+    var searchPanel = document.querySelector("#global-search-panel");
+    var categoryPanel = document.querySelector("#global-category-panel");
+    if (!inputs.length || !searchTrigger || !categoryTrigger || !searchPanel || !categoryPanel) return;
+
+    function closePanels() {
+      searchPanel.hidden = true;
+      categoryPanel.hidden = true;
+      searchTrigger.setAttribute("aria-expanded", "false");
+      categoryTrigger.setAttribute("aria-expanded", "false");
     }
+
+    function togglePanel(panel, trigger, focusTarget) {
+      var isOpen = !panel.hidden;
+      closePanels();
+      if (!isOpen) {
+        panel.hidden = false;
+        trigger.setAttribute("aria-expanded", "true");
+        if (focusTarget) focusTarget.focus();
+      }
+    }
+
+    if (!searchTrigger.dataset.searchToggleReady) {
+      searchTrigger.dataset.searchToggleReady = "1";
+      searchTrigger.addEventListener("click", function (event) {
+        event.preventDefault();
+        event.stopImmediatePropagation();
+        togglePanel(searchPanel, searchTrigger, inputs[0]);
+      }, true);
+    }
+    if (!categoryTrigger.dataset.categoryToggleReady) {
+      categoryTrigger.dataset.categoryToggleReady = "1";
+      categoryTrigger.addEventListener("click", function (event) {
+        event.preventDefault();
+        event.stopImmediatePropagation();
+        togglePanel(categoryPanel, categoryTrigger);
+      }, true);
+    }
+    document.addEventListener("click", function (event) {
+      if (!event.target.closest(".header-left, .search-panel, .category-panel")) closePanels();
+    });
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "Escape") closePanels();
+    });
     inputs.forEach(function (input) {
       var panel = input.closest(".search-panel"), results = panel && panel.querySelector(".search-results"), timer = 0;
       if (panel && !results) { results = document.createElement("div"); results.className = "search-results"; results.setAttribute("role", "listbox"); results.hidden = true; panel.appendChild(results); }
