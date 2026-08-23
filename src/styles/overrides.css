@@ -18,3 +18,5 @@
 .help-button{display:grid;place-items:center;line-height:0}
 .help-button::before{display:block;position:absolute;inset:0;margin:auto}
 .header-right> .icon-link:first-child::before{display:block;position:absolute;inset:0;margin:auto}
+.content-column{width:min(100% - 32px,1280px);padding-left:16px;padding-right:16px}
+@media(max-width:620px){.content-column{width:calc(100% - 20px);padding-left:0;padding-right:0}}
