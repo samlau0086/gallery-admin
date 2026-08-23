@@ -13,13 +13,16 @@ const NOTIFY_EMAIL = 'info@maesvanti.online';
 function doPost(e) {
   try {
     const data = JSON.parse(e.postData.contents || '{}');
-    const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(SHEET_NAME)
-      || SpreadsheetApp.getActiveSpreadsheet().insertSheet(SHEET_NAME);
+    const isReview = data.source === 'review';
+    const targetSheetName = isReview ? 'Reviews' : SHEET_NAME;
+    const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(targetSheetName)
+      || SpreadsheetApp.getActiveSpreadsheet().insertSheet(targetSheetName);
     if (sheet.getLastRow() === 0) {
-      sheet.appendRow(['Submitted at', 'Name', 'Email', 'WhatsApp', 'Product', 'Message', 'Source']);
+      sheet.appendRow(isReview ? ['Submitted at', 'Name', 'Email', 'Product', 'Rating', 'Title', 'Review', 'Variants', 'Status'] : ['Submitted at', 'Name', 'Email', 'WhatsApp', 'Product', 'Message', 'Source']);
     }
     const submittedAt = data.submittedAt || new Date().toISOString();
-    sheet.appendRow([submittedAt, data.name || '', data.email || '', data.whatsapp || '', data.product || '', data.message || '', data.source || 'website']);
+    if (isReview) sheet.appendRow([submittedAt, data.name || '', data.email || '', data.product || '', data.rating || '', data.title || '', data.message || '', data.variants || '', 'Pending']);
+    else sheet.appendRow([submittedAt, data.name || '', data.email || '', data.whatsapp || '', data.product || '', data.message || '', data.source || 'website']);
     MailApp.sendEmail({
       to: NOTIFY_EMAIL,
       subject: 'New gallery contact from ' + (data.name || 'website visitor'),

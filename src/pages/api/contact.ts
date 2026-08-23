@@ -35,6 +35,7 @@ export const POST: APIRoute = async ({ request, locals }) => {
   const message = String(payload.message || '').trim();
   const whatsapp = String(payload.whatsapp || '').trim();
   const product = String(payload.product || '').trim();
+  const source = String(payload.source || 'gallery-admin').trim();
 
   if (name.length < 2 || name.length > 100) return json({ error: 'Please enter your name.' }, 400);
   if (!/^\S+@\S+\.\S+$/.test(email) || email.length > 200) return json({ error: 'Please enter a valid email.' }, 400);
@@ -48,7 +49,7 @@ export const POST: APIRoute = async ({ request, locals }) => {
     const response = await fetch(endpoint, {
       method: 'POST',
       headers: { 'content-type': 'application/json' },
-      body: JSON.stringify({ name, email, whatsapp, product, message, source: 'gallery-admin', submittedAt: new Date().toISOString() }),
+      body: JSON.stringify({ name, email, whatsapp, product, message, source, rating: payload.rating || '', title: payload.title || '', variants: payload.variants || '', submittedAt: new Date().toISOString() }),
     });
     if (!response.ok) return json({ error: 'Unable to send your message right now.' }, 502);
     return json({ ok: true });
