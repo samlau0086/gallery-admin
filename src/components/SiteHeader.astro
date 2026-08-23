@@ -1,6 +1,28 @@
 ---
 import { categories, categorySlug, site } from '../data/site';
 ---
-<header class="app-header"><div class="header-inner"><div class="header-left"><button class="header-tool category-trigger" type="button" aria-expanded="false"><span class="tool-icon">☷</span><span>Category</span></button><button class="header-tool search-trigger" type="button" aria-expanded="false"><span class="tool-icon">⌕</span><span>Search</span></button></div><a class="brand-lockup" href="/"><span class="brand-mark">{site.name.slice(0,1)}</span><span>{site.name}</span></a><div class="header-right"><a class="icon-link" href={site.contact.whatsapp} aria-label="WhatsApp" title="WhatsApp">◉</a><a class="icon-link" href={site.contact.email} aria-label="Email" title="Email">✉</a><button class="icon-link contact-trigger contact-icon" type="button" aria-label="Contact" title="Contact"><img src="/contact.svg" alt="" /></button></div></div></header><div class="search-panel" id="global-search-panel" hidden><div class="search-wrap"><span class="search-icon">⌕</span><input class="search global-search" type="search" placeholder="Search collection" aria-label="Search collection" autocomplete="off" /></div><div class="search-results" role="listbox" hidden></div></div>
-<div class="category-panel" id="global-category-panel" hidden><nav class="category-list" aria-label="Categories"><a class="category-option" href="/?category=all">All products</a>{categories.filter((category) => category !== 'All').map((category) => <a class="category-option" href={'/?category=' + categorySlug(category)}>{category}</a>)}</nav></div>
+<header class="app-header">
+  <div class="header-inner">
+    <div class="header-left">
+      <button class="header-tool category-trigger" type="button" aria-expanded="false"><span class="tool-icon">☷</span><span>Category</span></button>
+      <button class="header-tool search-trigger" type="button" aria-expanded="false"><span class="tool-icon">⌕</span><span>Search</span></button>
+    </div>
+    <a class="brand-lockup" href="/"><span class="brand-mark">{site.name.slice(0,1)}</span><span>{site.name}</span></a>
+    <div class="header-right">
+      <a class="icon-link" href={site.contact.whatsapp} aria-label="WhatsApp" title="WhatsApp">◉</a>
+      <a class="icon-link" href={site.contact.email} aria-label="Email" title="Email">✉</a>
+      <button class="icon-link contact-trigger contact-icon" type="button" aria-label="Contact" title="Contact"><img src="/contact.svg" alt="" /></button>
+    </div>
+  </div>
+  <div class="search-panel" id="global-search-panel" hidden>
+    <div class="search-wrap"><span class="search-icon">⌕</span><input class="search global-search" type="search" placeholder="Search collection" aria-label="Search collection" autocomplete="off" /></div>
+    <div class="search-results" role="listbox" hidden></div>
+  </div>
+  <div class="category-panel" id="global-category-panel" hidden>
+    <nav class="category-list" aria-label="Categories">
+      <a class="category-option" href="/?category=all">All products</a>
+      {categories.filter((category) => category !== 'All').map((category) => <a class="category-option" href={'/?category=' + categorySlug(category)}>{category}</a>)}
+    </nav>
+  </div>
+</header>
 <script src="/search.js" defer></script>
