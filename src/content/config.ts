@@ -7,4 +7,5 @@ const products = defineCollection({ type: 'content', schema: z.object({
   reviews:z.array(z.object({author:z.string(),email:z.string().email().optional(),rating:z.number().min(1).max(5),title:z.string().optional(),body:z.string(),date:z.string().optional(),variants:z.string().optional()})).default([]),
   featured:z.boolean().default(false), published:z.boolean().default(true), sortOrder:z.number().default(0)
 }) });
-export const collections = { products };
+const reviews = defineCollection({ type: 'content', schema: z.object({ product:z.string(), author:z.string(), email:z.string().email().optional(), rating:z.number().min(1).max(5), title:z.string().optional(), body:z.string(), date:z.string(), variants:z.string().optional(), status:z.enum(['pending','approved','rejected']).default('pending') }) });
+export const collections = { products, reviews };

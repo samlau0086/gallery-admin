@@ -112,6 +112,9 @@ repo: samla/gallery-admin
 - Media：详情页图片或视频地址。
 - Price：价格或 Price on request。
 - Description：商品简介。
+- SKU：商品库存编号，可选。
+- Variants：颜色、尺寸等可选变体。
+- Reviews：产品评价。后台可编辑评价状态；前台新提交的评价默认是 pending。
 - Tags：标签。
 - Published：是否显示在前台。
 - Sort order：数字越小越靠前。
@@ -172,7 +175,34 @@ npm run dev
 
 如果终端出现 Connect Timeout Error、fetch failed 或无法连接 github.com:443，说明浏览器可以访问 GitHub，但本地 Node.js 进程被网络、防火墙或代理阻止。这不是账号密码错误。此时可以检查公司网络或代理设置，或者先部署到 Cloudflare Pages，再使用线上地址测试 OAuth。
 
-## 8. 使用 Cloudflare Access 保护后台
+## 8. 配置前台 Review 持久化
+
+前台 Review 不会只停留在浏览器或邮件通知中。提交后，服务端会通过 GitHub Contents API 在仓库中创建一个待审核文件：
+
+~~~text
+src/content/reviews/<review-id>.md
+~~~
+
+Decap CMS 的后台会显示一个独立的 Reviews 集合。审核流程如下：
+
+1. 在 GitHub 右上角头像中打开 Settings → Developer settings → Personal access tokens → Fine-grained tokens，然后点击 Generate new token。
+2. Token name 可填写 `gallery-admin-reviews`；Resource owner 选择仓库所属账号；Repository access 选择 Only select repositories，并只选择此项目仓库。
+3. 在 Repository permissions 中将 Contents 设置为 Read and write；其余权限保持默认即可。生成后立即复制 Token，GitHub 不会再次显示完整值。
+4. 在 Cloudflare Pages 的 Settings → Environment variables 中添加：
+
+~~~env
+GITHUB_CONTENT_TOKEN=刚复制的Fine-grainedToken
+GITHUB_REPO=samlau0086/gallery-admin
+GITHUB_BRANCH=main
+~~~
+
+5. 如果仓库名或分支不同，请替换为实际值；Token 不要提交到 GitHub，也不要在前端代码中使用。
+6. 重新部署 Cloudflare Pages。
+7. 访客提交 Review 后，在后台打开 Reviews 集合，将 Status 从 `pending` 改为 `approved` 或 `rejected`，然后保存。
+
+只有 `approved` 的 Review 会展示在前台产品详情页。`GOOGLE_APPS_SCRIPT_URL` 仍可用于 Contact/Review 的通知与表格留档，但它不是后台 CMS 的主数据来源。
+
+## 9. 使用 Cloudflare Access 保护后台
 
 建议只保护 /admin/*，不要保护网站前台：
 
@@ -182,7 +212,7 @@ npm run dev
 4. 路径填写 /admin/*。
 5. 创建允许规则，只允许你的邮箱访问。
 
-## 9. 日常添加商品
+## 10. 日常添加商品
 
 1. 打开网站地址加上 /admin/。
 2. 通过 Cloudflare Access 验证身份。
@@ -201,7 +231,7 @@ git commit -m "更新商品资料"
 git push
 ~~~
 
-## 10. 常见问题
+## 11. 常见问题
 
 ### 页面没有商品
 
@@ -223,6 +253,6 @@ git push
 
 进入 Cloudflare Pages 的 Deployments 查看最新部署日志。构建失败时，在本地执行 npm run check 和 npm run build。
 
-## 11. 当前版本暂不包含
+## 12. 当前版本暂不包含
 
 购物车、在线支付、订单管理、库存扣减、客户账户、自动图片压缩，以及 Decap CMS 内置的一键 R2 媒体库。

@@ -6,6 +6,8 @@
 4. Deploy as **Web app**: execute as **Me**, access **Anyone**.
 5. Copy the `/exec` URL into `GOOGLE_APPS_SCRIPT_URL` in Cloudflare Pages/Workers environment variables.
 
+This script provides notification and spreadsheet audit records. The Decap CMS backend reads review content from GitHub, so also configure `GITHUB_CONTENT_TOKEN`, `GITHUB_REPO`, and `GITHUB_BRANCH` as described in the project README. New reviews are written to `src/content/reviews/*.md` with `status: pending`; approve them in the CMS Reviews collection before they appear publicly.
+
 ```javascript
 const SHEET_NAME = 'Contacts';
 const NOTIFY_EMAIL = 'info@maesvanti.online';
