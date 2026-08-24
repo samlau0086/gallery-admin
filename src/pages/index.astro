@@ -30,18 +30,18 @@ const contactCard=document.querySelector<HTMLElement>('#contact-modal .modal-car
 
 <script is:inline>
 const deferredNode=document.querySelector('#deferred-products');
-const productGrid=document.querySelector<HTMLElement>('#product-grid');
+const productGrid=document.querySelector('#product-grid');
 const loadSentinel=document.querySelector('#load-more-sentinel');
 let deferredProducts=JSON.parse(deferredNode?.textContent||'[]');
-let allProductCards=[...document.querySelectorAll<HTMLElement>('.product-card')];
+let allProductCards=[...document.querySelectorAll('.product-card')];
 let activeListCategory=document.querySelector('.category-option.active')?.getAttribute('data-category')||'All',activeListKind='';
 const makeProductCard=(product)=>{const link=document.createElement('a');link.className='product-card';link.href=`/products/${product.slug}/`;link.dataset.category=product.category;link.dataset.kind=product.featured?'new':'photos';link.dataset.search=`${product.title} ${product.titleZh||''} ${(product.tags||[]).join(' ')}`.toLowerCase();link.innerHTML=`<div class="image-frame"><img src="${product.cover}" alt="${product.title}" width="1200" height="1600" loading="lazy" decoding="async"><span class="share-mark">↗</span></div><div class="product-copy"><strong>${product.titleZh||product.title}</strong><span>${product.title}</span><p>${product.description||''}</p></div>`;return link};
 const applyListFilter=()=>{const searchInput=document.querySelector('.search');const q=(searchInput?.value||'').toLowerCase();allProductCards.forEach(card=>{card.hidden=!((activeListCategory==='All'||card.dataset.category===activeListCategory)&&(!activeListKind||card.dataset.kind===activeListKind)&&(!q||card.dataset.search?.includes(q)))})};
 const appendProducts=()=>{if(!productGrid||!deferredProducts.length)return;const batch=deferredProducts.splice(0,24);const fragment=document.createDocumentFragment();batch.forEach(product=>fragment.appendChild(makeProductCard(product)));productGrid.appendChild(fragment);allProductCards=[...document.querySelectorAll('.product-card')];applyListFilter()};
 if(loadSentinel&&'IntersectionObserver' in window){const loadObserver=new IntersectionObserver(entries=>{if(entries.some(entry=>entry.isIntersecting))appendProducts()},{rootMargin:'700px'});loadObserver.observe(loadSentinel)}
-document.querySelectorAll<HTMLElement>('.category-option').forEach(button=>button.addEventListener('click',()=>{activeListCategory=button.dataset.category||'All';activeListKind='';applyListFilter()}));
-document.querySelectorAll<HTMLElement>('.tab').forEach(tab=>tab.addEventListener('click',()=>{activeListKind=tab.dataset.kind||'';if(tab.dataset.category)activeListCategory=tab.dataset.category;applyListFilter()}));
-document.querySelector<HTMLInputElement>('.search')?.addEventListener('input',applyListFilter);
+document.querySelectorAll('.category-option').forEach(button=>button.addEventListener('click',()=>{activeListCategory=button.dataset.category||'All';activeListKind='';applyListFilter()}));
+document.querySelectorAll('.tab').forEach(tab=>tab.addEventListener('click',()=>{activeListKind=tab.dataset.kind||'';if(tab.dataset.category)activeListCategory=tab.dataset.category;applyListFilter()}));
+document.querySelector('.search')?.addEventListener('input',applyListFilter);
 </script>
 <script>
 const headerCategoryPanel=document.querySelector<HTMLElement>('#global-category-panel');
