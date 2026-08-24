@@ -1,0 +1,30 @@
+name: Promote approved reviews
+
+on:
+  push:
+    branches: [main]
+    paths: ['src/content/reviews-pending/**']
+
+permissions:
+  contents: write
+
+jobs:
+  promote:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Move approved reviews
+        run: node .github/scripts/promote-approved-reviews.mjs
+      - name: Commit promoted reviews
+        run: |
+          if git diff --quiet; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/content/reviews-pending src/content/reviews
+          git commit -m "Promote approved reviews"
+          git push

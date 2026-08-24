@@ -167,7 +167,7 @@ npm run dev
 前台 Review 不会只停留在浏览器或邮件通知中。提交后，服务端会通过 GitHub Contents API 在仓库中创建一个待审核文件：
 
 ~~~text
-src/content/reviews/<review-id>.md
+src/content/reviews-pending/<review-id>.md
 ~~~
 
 Decap CMS 的后台会显示一个独立的 Reviews 集合。审核流程如下：
@@ -185,9 +185,19 @@ GITHUB_BRANCH=main
 
 5. 如果仓库名或分支不同，请替换为实际值；Token 不要提交到 GitHub，也不要在前端代码中使用。
 6. 重新部署 Cloudflare Pages。
-7. 访客提交 Review 后，在后台打开 Reviews 集合，将 Status 从 `pending` 改为 `approved` 或 `rejected`，然后保存。
+7. 访客提交 Review 后，在后台打开 Pending Reviews 集合，将 Status 从 `pending` 改为 `approved` 或 `rejected`，然后保存。GitHub Actions 会自动把 approved 文件移动到 `src/content/reviews/`，随后触发正式站点部署。
 
 只有 `approved` 的 Review 会展示在前台产品详情页。`GOOGLE_APPS_SCRIPT_URL` 仍可用于 Contact/Review 的通知与表格留档，但它不是后台 CMS 的主数据来源。
+
+### 跳过 pending Review 的 Cloudflare 构建
+
+在 Cloudflare Pages 项目的 Settings → Builds & deployments → Build watch paths 中添加排除路径：
+
+~~~text
+src/content/reviews-pending/*
+~~~
+
+这样新提交的 pending Review 不会触发 Cloudflare 构建；审核通过后，GitHub Actions 会将文件移动到 `src/content/reviews/`，该提交仍会触发正式部署。若 Cloudflare 控制台没有配置这个排除路径，pending Review 仍会触发构建，但不会显示在前台。
 
 ## 9. 使用 Cloudflare Access 保护后台
 

@@ -7,5 +7,7 @@ const products = defineCollection({ type: 'content', schema: z.object({
   reviews:z.array(z.object({author:z.string(),email:z.string().email().optional(),rating:z.number().min(1).max(5),title:z.string().optional(),body:z.string(),date:z.string().optional(),variants:z.string().optional()})).default([]),
   featured:z.boolean().default(false), published:z.boolean().default(true), sortOrder:z.number().default(0)
 }) });
-const reviews = defineCollection({ type: 'content', schema: z.object({ product:z.string(), author:z.string(), email:z.string().email().optional(), rating:z.number().min(1).max(5), title:z.string().optional(), review:z.string(), date:z.union([z.string(), z.date()]).transform(value => value instanceof Date ? value.toISOString().slice(0,10) : value), variants:z.string().optional(), status:z.enum(['pending','approved','rejected']).default('pending') }) });
-export const collections = { products, reviews };
+const reviewSchema = z.object({ product:z.string(), author:z.string(), email:z.string().email().optional(), rating:z.number().min(1).max(5), title:z.string().optional(), review:z.string(), date:z.union([z.string(), z.date()]).transform(value => value instanceof Date ? value.toISOString().slice(0,10) : value), variants:z.string().optional(), status:z.enum(['pending','approved','rejected']).default('pending') });
+const reviews = defineCollection({ type: 'content', schema: reviewSchema });
+const reviewsPending = defineCollection({ type: 'content', schema: reviewSchema });
+export const collections = { products, reviews, 'reviews-pending': reviewsPending };

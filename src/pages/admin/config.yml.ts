@@ -40,8 +40,23 @@ collections:
       - { label: Tags, name: tags, widget: list, required: false }
       - { label: Published, name: published, widget: boolean, default: true }
       - { label: Sort order, name: sortOrder, widget: number, value_type: int, default: 0 }
+  - name: reviewsPending
+    label: Pending Reviews
+    folder: src/content/reviews-pending
+    create: false
+    format: frontmatter
+    fields:
+      - { label: Product slug, name: product, widget: string }
+      - { label: Author, name: author, widget: string }
+      - { label: Email, name: email, widget: string, required: false }
+      - { label: Rating, name: rating, widget: number, value_type: int, min: 1, max: 5 }
+      - { label: Title, name: title, widget: string, required: false }
+      - { label: Review, name: review, widget: text }
+      - { label: Date, name: date, widget: string }
+      - { label: Variants, name: variants, widget: string, required: false }
+      - { label: Status, name: status, widget: select, options: [approved, rejected], default: approved }
   - name: reviews
-    label: Reviews
+    label: Approved Reviews
     folder: src/content/reviews
     create: false
     format: frontmatter
