@@ -12,9 +12,11 @@ export const POST: APIRoute = async ({ request, locals }) => {
   const ext = (file.name.split('.').pop() || 'jpg').toLowerCase().replace(/[^a-z0-9]/g, '') || 'jpg';
   const folder = String(form?.get('folder') || 'uploads').replace(/[^a-z0-9/_-]/gi, '').replace(/^\/+|\/{2,}/g, '/').replace(/\/$/, '') || 'uploads';
   const token = request.headers.get('authorization')?.replace(/^Bearer\s+/i, '');
-  if (!token) return json({ error: 'Unauthorized.' }, 401);
-  const verified = await fetch('https://api.github.com/user', { headers: { Authorization: 'Bearer ' + token, Accept: 'application/vnd.github+json' } }).then(response => response.ok).catch(() => false);
-  if (!verified) return json({ error: 'Unauthorized.' }, 401);
+  if (!folder.startsWith('reviews')) {
+    if (!token) return json({ error: 'Unauthorized.' }, 401);
+    const verified = await fetch('https://api.github.com/user', { headers: { Authorization: 'Bearer ' + token, Accept: 'application/vnd.github+json' } }).then(response => response.ok).catch(() => false);
+    if (!verified) return json({ error: 'Unauthorized.' }, 401);
+  }
   const key = folder + '/' + Date.now() + '-' + crypto.randomUUID().slice(0, 8) + '.' + ext;
   await bucket.put(key, file.stream(), { httpMetadata: { contentType: file.type, cacheControl: 'public, max-age=31536000, immutable' } });
   const base = String(env.R2_PUBLIC_URL || '').replace(/\/$/, '');
