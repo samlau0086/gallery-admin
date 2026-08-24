@@ -20,8 +20,8 @@ import { categories, categorySlug, site } from '../data/site';
   </div>
   <div class="category-panel" id="global-category-panel" hidden>
     <nav class="category-list" aria-label="Categories">
-      <a class="category-option" href="/?category=all">All products</a>
-      {categories.filter((category) => category !== 'All').map((category) => <a class="category-option" href={'/?category=' + categorySlug(category)}>{category}</a>)}
+      <a class="category-option" data-category="All" href="/?category=all">All products</a>
+      {categories.filter((category) => category !== 'All').map((category) => <a class="category-option" data-category={category} href={'/?category=' + categorySlug(category)}>{category}</a>)}
     </nav>
   </div>
 </header>
