@@ -69,7 +69,12 @@ Cloudflare Pages 新版界面可能没有 Node.js 版本下拉框，这是正常
 
 ### 跳过 pending Review 的 Cloudflare 构建
 
-为避免每条待审核 Review 都触发正式站点构建，在 Cloudflare Pages 项目的 **Settings → Builds & deployments → Build watch paths** 中，将默认的 `*` 替换为以下包含路径：
+截图中的 Cloudflare Pages 界面只有“包含路径”，没有“排除路径”。请按以下步骤配置：
+
+1. 打开 Cloudflare Pages 项目，进入 **Settings → Builds & deployments**。
+2. 找到 **Build watch paths**，点击右侧编辑按钮。
+3. 删除输入框中默认的 `*`。
+4. 逐条添加下面的包含路径，然后点击 **Save**：
 
 ~~~text
 src/pages/*
