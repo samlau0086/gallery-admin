@@ -2,7 +2,7 @@
 
 这是一个面向小型店铺、工作室和个人卖家的在线商品目录。访客可以浏览图片、筛选分类、搜索商品、查看详情，并通过 WhatsApp 或邮件联系你。
 
-项目不使用传统数据库，也不需要购买常驻服务器：Astro 负责前台，Decap CMS 负责后台，GitHub 保存商品资料，Cloudflare Pages 托管网站，Cloudflare R2 保存图片和视频，Cloudflare Access 保护后台。
+项目不使用传统数据库，也不需要购买常驻服务器：Astro 负责前台，Decap CMS 负责后台，GitHub 保存商品资料，Cloudflare Pages 托管网站，Cloudflare Access 保护后台。
 
 ## 1. 你需要准备什么
 
@@ -67,27 +67,14 @@ Cloudflare Pages 新版界面可能没有 Node.js 版本下拉框，这是正常
 
 部署后会得到类似 https://gallery-admin.pages.dev 的网址。以后向 main 分支推送代码或商品资料，Cloudflare Pages 会自动重新部署。
 
-## 5. 创建 R2 存储图片
+## 5. 可选：使用 R2 存储图片
 
 1. 在 Cloudflare 控制台进入 R2 Object Storage。
 2. 点击 Create bucket。
 3. Bucket 名称填写 gallery-media。
 4. 为 bucket 绑定一个媒体域名，例如 media.example.com。
 
-打开项目中的 wrangler.toml，把媒体域名改成自己的地址：
-
-~~~toml
-[[r2_buckets]]
-binding = "MEDIA_BUCKET"
-bucket_name = "gallery-media"
-
-[vars]
-PUBLIC_MEDIA_URL = "https://media.example.com"
-~~~
-
-第一版建议直接在 R2 控制台上传图片或视频，然后复制公开 URL，粘贴到后台的 Cover URL 或 Media URL 字段。
-
-项目中的 functions/upload.ts 已提供上传接口骨架，但还没有接入 Decap CMS 的一键上传按钮。
+直接在 R2 控制台上传图片或视频，然后复制公开 URL，粘贴到后台的 Cover URL 或 Media URL 字段。R2 不是部署本站的必需配置。
 
 ## 6. 配置 Decap CMS
 
@@ -239,7 +226,7 @@ git push
 
 ### 图片打不开
 
-确认 R2 文件可以公开访问，URL 能在浏览器直接打开，PUBLIC_MEDIA_URL 正确，并且 URL 中没有空格。
+确认图片文件可以公开访问，URL 能在浏览器直接打开，并且 URL 中没有空格。
 
 ### 后台打不开
 
