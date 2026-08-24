@@ -14,7 +14,8 @@ const deferredProducts = products.slice(24).map(({ slug, data }) => ({
   featured: data.featured,
   cover: data.cover,
   description: data.description ?? '',
-  tags: data.tags
+  tags: data.tags,
+  sku: data.sku ?? ''
 }));
 ---
 <Layout title={site.name} description={site.tagline}>
@@ -35,7 +36,7 @@ const loadSentinel=document.querySelector('#load-more-sentinel');
 let deferredProducts=JSON.parse(deferredNode?.textContent||'[]');
 let allProductCards=[...document.querySelectorAll('.product-card')];
 let activeListCategory=document.querySelector('.category-option.active')?.getAttribute('data-category')||'All',activeListKind='';
-const makeProductCard=(product)=>{const link=document.createElement('a');link.className='product-card';link.href=`/products/${product.slug}/`;link.dataset.category=product.category;link.dataset.kind=product.featured?'new':'photos';link.dataset.search=`${product.title} ${product.titleZh||''} ${(product.tags||[]).join(' ')}`.toLowerCase();link.innerHTML=`<div class="image-frame"><img src="${product.cover}" alt="${product.title}" width="1200" height="1600" loading="lazy" decoding="async"><span class="share-mark">↗</span></div><div class="product-copy"><strong>${product.titleZh||product.title}</strong><span>${product.title}</span><p>${product.description||''}</p></div>`;return link};
+const makeProductCard=(product)=>{const link=document.createElement('a');link.className='product-card';link.href=`/products/${product.slug}/`;link.dataset.category=product.category;link.dataset.kind=product.featured?'new':'photos';link.dataset.productTitle=product.title;link.dataset.productSku=product.sku||'';link.dataset.productImage=product.cover;link.dataset.search=`${product.title} ${product.titleZh||''} ${(product.tags||[]).join(' ')}`.toLowerCase();link.innerHTML=`<div class="image-frame"><img src="${product.cover}" alt="${product.title}" width="1200" height="1600" loading="lazy" decoding="async"><span class="share-mark">↗</span></div><div class="product-copy"><strong>${product.titleZh||product.title}</strong><span>${product.title}</span><p>${product.description||''}</p></div><button class="inquiry-card-button" type="button" data-inquiry-product>WhatsApp inquiry</button>`;return link};
 const applyListFilter=()=>{const searchInput=document.querySelector('.search');const q=(searchInput?.value||'').toLowerCase();allProductCards.forEach(card=>{card.hidden=!((activeListCategory==='All'||card.dataset.category===activeListCategory)&&(!activeListKind||card.dataset.kind===activeListKind)&&(!q||card.dataset.search?.includes(q)))})};
 const appendProducts=()=>{if(!productGrid||!deferredProducts.length)return;const batch=deferredProducts.splice(0,24);const fragment=document.createDocumentFragment();batch.forEach(product=>fragment.appendChild(makeProductCard(product)));productGrid.appendChild(fragment);allProductCards=[...document.querySelectorAll('.product-card')];applyListFilter()};
 if(loadSentinel&&'IntersectionObserver' in window){const loadObserver=new IntersectionObserver(entries=>{if(entries.some(entry=>entry.isIntersecting))appendProducts()},{rootMargin:'700px'});loadObserver.observe(loadSentinel)}
