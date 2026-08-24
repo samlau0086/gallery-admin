@@ -69,13 +69,27 @@ Cloudflare Pages 新版界面可能没有 Node.js 版本下拉框，这是正常
 
 ### 跳过 pending Review 的 Cloudflare 构建
 
-为避免每条待审核 Review 都触发正式站点构建，在 Cloudflare Pages 项目的 **Settings → Builds & deployments → Build watch paths** 中添加排除路径：
+为避免每条待审核 Review 都触发正式站点构建，在 Cloudflare Pages 项目的 **Settings → Builds & deployments → Build watch paths** 中，将默认的 `*` 替换为以下包含路径：
 
 ~~~text
-src/content/reviews-pending/*
+src/pages/*
+src/components/*
+src/layouts/*
+src/styles/*
+src/scripts/*
+src/data/*
+src/content/products/*
+src/content/reviews/*
+public/*
+functions/*
+astro.config.mjs
+package.json
+package-lock.json
+tsconfig.json
+wrangler.toml
 ~~~
 
-这样新提交的 pending Review 不会触发 Cloudflare 构建。审核通过后，GitHub Actions 会将文件移动到 `src/content/reviews/`，该提交仍会触发正式部署。若控制台没有配置这个排除路径，pending Review 仍会触发构建，但不会显示在前台。
+不要添加 `src/content/reviews-pending/*`。这样新提交的 pending Review 不会触发 Cloudflare 构建。审核通过后，GitHub Actions 会将文件移动到 `src/content/reviews/`，该提交会匹配包含路径并触发正式部署。如果一次提交同时修改了包含路径和 pending 目录，仍会触发构建，这是预期行为。
 
 ## 5. 可选：使用 R2 存储图片
 
