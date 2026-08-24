@@ -51,7 +51,7 @@ collections:
       - { label: Email, name: email, widget: string, required: false }
       - { label: Rating, name: rating, widget: number, value_type: int, min: 1, max: 5 }
       - { label: Title, name: title, widget: string, required: false }
-      - { label: Review, name: body, widget: text }
+      - { label: Review, name: review, widget: text }
       - { label: Date, name: date, widget: string }
       - { label: Variants, name: variants, widget: string, required: false }
       - { label: Status, name: status, widget: select, options: [pending, approved, rejected], default: pending }
