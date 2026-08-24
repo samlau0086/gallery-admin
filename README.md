@@ -84,14 +84,43 @@ src/content/reviews-pending/*
 
 这样新提交的 pending Review 不会触发 Cloudflare 构建。审核通过后，GitHub Actions 会将文件移动到 `src/content/reviews/`，由于该路径未被排除，移动提交会触发正式部署。如果一次提交同时修改了排除路径和其他站点文件，仍会触发构建，这是预期行为。
 
-## 5. 可选：使用 R2 存储图片
+## 5. 配置 Cloudflare R2 图片存储
 
-1. 在 Cloudflare 控制台进入 R2 Object Storage。
-2. 点击 Create bucket。
-3. Bucket 名称填写 gallery-media。
-4. 为 bucket 绑定一个媒体域名，例如 media.example.com。
+后台图片上传默认使用 Cloudflare R2。产品封面、产品媒体和 Review 图片都会先上传到 R2，再把图片地址保存到 GitHub 内容文件中。
 
-直接在 R2 控制台上传图片或视频，然后复制公开 URL，粘贴到后台的 Cover URL 或 Media URL 字段。R2 不是部署本站的必需配置。
+### 创建 R2 bucket
+
+1. 在 Cloudflare 控制台进入 **R2 Object Storage**。
+2. 点击 **Create bucket**。
+3. Bucket 名称填写 `gallery-images`，或使用其他名称，但必须与项目绑定配置一致。
+4. 如果希望图片使用独立域名，在 bucket 的 **Settings → Custom Domains** 中绑定，例如 `images.example.com`。
+5. 确认该域名可以公开读取图片；不要把 R2 Access Key 或 Secret Key 放进前端代码。
+
+### 配置 Cloudflare Pages
+
+进入 Pages 项目：**Settings → Bindings**，新增 **R2 bucket binding**：
+
+- Binding name：`IMAGES_BUCKET`
+- R2 bucket：选择 `gallery-images`
+
+`IMAGES_BUCKET` 是 Worker/Pages 的 R2 Binding，不是普通环境变量。生产环境和 Preview 环境都要分别确认绑定。
+
+然后进入 **Settings → Variables and Secrets**，添加普通变量：
+
+~~~text
+R2_PUBLIC_URL=https://images.example.com
+~~~
+
+如果没有配置自定义域名，可以暂时不添加 `R2_PUBLIC_URL`，系统会通过站内 `/api/media/...` 路由读取 R2 对象。配置后需要重新部署 Pages。
+
+### 验证上传
+
+1. 打开部署后的 `/admin/` 并完成 GitHub 登录。
+2. 新建或编辑一个 Product，上传 Cover image，确认图片预览正常。
+3. 打开一个商品详情页提交带图片的 Review，确认 Review 图片随内容进入 Pending Reviews。
+4. 在 R2 bucket 中确认出现 `products/` 或 `reviews/` 前缀的对象。
+
+如果上传返回 `R2 storage is not configured`，检查 `IMAGES_BUCKET` Binding 是否添加到了当前部署环境；如果图片地址无法访问，检查 `R2_PUBLIC_URL` 的域名、公开访问设置和 DNS 配置。
 
 ## 6. 配置 Decap CMS
 

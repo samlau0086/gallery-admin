@@ -1,0 +1,22 @@
+import type { APIRoute } from 'astro';
+export const prerender = false;
+type Env = Record<string, any>;
+const getEnv = (locals: App.Locals) => ((locals as App.Locals & { runtime?: { env?: Env } }).runtime?.env ?? import.meta.env) as Env;
+const json = (body: Record<string, unknown>, status = 200) => new Response(JSON.stringify(body), { status, headers: { 'content-type': 'application/json' } });
+export const POST: APIRoute = async ({ request, locals }) => {
+  const env = getEnv(locals); const bucket = env.IMAGES_BUCKET;
+  if (!bucket) return json({ error: 'R2 storage is not configured.' }, 503);
+  const form = await request.formData().catch(() => null); const file = form?.get('file');
+  if (!(file instanceof File) || !file.type.startsWith('image/')) return json({ error: 'Please upload an image.' }, 400);
+  if (file.size > 10 * 1024 * 1024) return json({ error: 'Image must be smaller than 10MB.' }, 400);
+  const ext = (file.name.split('.').pop() || 'jpg').toLowerCase().replace(/[^a-z0-9]/g, '') || 'jpg';
+  const folder = String(form?.get('folder') || 'uploads').replace(/[^a-z0-9/_-]/gi, '').replace(/^\/+|\/{2,}/g, '/').replace(/\/$/, '') || 'uploads';
+  const token = request.headers.get('authorization')?.replace(/^Bearer\s+/i, '');
+  if (!token) return json({ error: 'Unauthorized.' }, 401);
+  const verified = await fetch('https://api.github.com/user', { headers: { Authorization: 'Bearer ' + token, Accept: 'application/vnd.github+json' } }).then(response => response.ok).catch(() => false);
+  if (!verified) return json({ error: 'Unauthorized.' }, 401);
+  const key = folder + '/' + Date.now() + '-' + crypto.randomUUID().slice(0, 8) + '.' + ext;
+  await bucket.put(key, file.stream(), { httpMetadata: { contentType: file.type, cacheControl: 'public, max-age=31536000, immutable' } });
+  const base = String(env.R2_PUBLIC_URL || '').replace(/\/$/, '');
+  return json({ url: base ? base + '/' + key : '/api/media/' + key, key });
+};
