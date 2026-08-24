@@ -67,6 +67,16 @@ Cloudflare Pages 新版界面可能没有 Node.js 版本下拉框，这是正常
 
 部署后会得到类似 https://gallery-admin.pages.dev 的网址。以后向 main 分支推送代码或商品资料，Cloudflare Pages 会自动重新部署。
 
+### 跳过 pending Review 的 Cloudflare 构建
+
+为避免每条待审核 Review 都触发正式站点构建，在 Cloudflare Pages 项目的 **Settings → Builds & deployments → Build watch paths** 中添加排除路径：
+
+~~~text
+src/content/reviews-pending/*
+~~~
+
+这样新提交的 pending Review 不会触发 Cloudflare 构建。审核通过后，GitHub Actions 会将文件移动到 `src/content/reviews/`，该提交仍会触发正式部署。若控制台没有配置这个排除路径，pending Review 仍会触发构建，但不会显示在前台。
+
 ## 5. 可选：使用 R2 存储图片
 
 1. 在 Cloudflare 控制台进入 R2 Object Storage。
@@ -188,16 +198,6 @@ GITHUB_BRANCH=main
 7. 访客提交 Review 后，在后台打开 Pending Reviews 集合，将 Status 从 `pending` 改为 `approved` 或 `rejected`，然后保存。GitHub Actions 会自动把 approved 文件移动到 `src/content/reviews/`，随后触发正式站点部署。
 
 只有 `approved` 的 Review 会展示在前台产品详情页。`GOOGLE_APPS_SCRIPT_URL` 仍可用于 Contact/Review 的通知与表格留档，但它不是后台 CMS 的主数据来源。
-
-### 跳过 pending Review 的 Cloudflare 构建
-
-在 Cloudflare Pages 项目的 Settings → Builds & deployments → Build watch paths 中添加排除路径：
-
-~~~text
-src/content/reviews-pending/*
-~~~
-
-这样新提交的 pending Review 不会触发 Cloudflare 构建；审核通过后，GitHub Actions 会将文件移动到 `src/content/reviews/`，该提交仍会触发正式部署。若 Cloudflare 控制台没有配置这个排除路径，pending Review 仍会触发构建，但不会显示在前台。
 
 ## 9. 使用 Cloudflare Access 保护后台
 
