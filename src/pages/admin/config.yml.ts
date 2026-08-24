@@ -31,8 +31,8 @@ collections:
       - { label: Chinese title, name: titleZh, widget: string, required: false }
       - { label: Category, name: category, widget: string }
       - { label: SKU, name: sku, widget: string, required: false }
-      - { label: Cover URL, name: cover, widget: image }
-      - { label: Media, name: media, widget: list, required: false, fields: [{ label: URL, name: url, widget: string }, { label: Type, name: type, widget: select, options: [image, video] }, { label: Alt text, name: alt, widget: string, required: false }] }
+      - { label: Cover image, name: cover, widget: r2-image }
+      - { label: Product images, name: media, widget: r2-media, required: false }
       - { label: Price, name: price, widget: string, required: false }
       - { label: Description, name: description, widget: text, required: false }
       - { label: Variants, name: variants, widget: list, required: false, fields: [{ label: Name, name: name, widget: string }, { label: Options, name: options, widget: list, required: false }] }
