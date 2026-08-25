@@ -4,6 +4,9 @@
   var list = document.querySelector('#basket-items');
   var count = document.querySelectorAll('[data-basket-count]');
   var empty = document.querySelector('#basket-empty');
+  var countryInput;
+  var countryOptions;
+  var countries = ['United States', 'United Kingdom', 'Canada', 'Australia', 'Germany', 'France', 'Italy', 'Spain', 'Singapore', 'Malaysia', 'Japan', 'South Korea', 'China', 'Hong Kong', 'Taiwan', 'India', 'Other'];
 
   function read() {
     try {
@@ -23,6 +26,48 @@
     return String(value || '').replace(/[&<>'"]/g, function (character) {
       return { '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' }[character];
     });
+  }
+
+  function closeCountryOptions() {
+    if (countryOptions) countryOptions.hidden = true;
+    if (countryInput) countryInput.setAttribute('aria-expanded', 'false');
+  }
+
+  function showCountryOptions() {
+    if (countryOptions) countryOptions.hidden = false;
+    if (countryInput) countryInput.setAttribute('aria-expanded', 'true');
+  }
+
+  function filterCountryOptions() {
+    var query = countryInput ? countryInput.value.trim().toLowerCase() : '';
+    if (!countryOptions) return;
+    countryOptions.querySelectorAll('button').forEach(function (option) {
+      option.hidden = !option.textContent.toLowerCase().includes(query);
+    });
+  }
+
+  function selectCountry(country) {
+    if (!countryInput) return;
+    countryInput.value = country;
+    localStorage.setItem('inquiry-country', country);
+    closeCountryOptions();
+  }
+
+  function setupCountryPicker() {
+    var footer = document.querySelector('.basket-footer');
+    if (!footer || footer.querySelector('#basket-country')) return;
+    footer.insertAdjacentHTML('afterbegin', '<div class="country-combobox basket-country-combobox"><input id="basket-country" name="country" placeholder="Search country" required autocomplete="off" aria-label="Country" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="basket-countries"><div id="basket-countries" class="country-options" role="listbox" hidden>' + countries.map(function (country) { return '<button type="button" role="option">' + country + '</button>'; }).join('') + '</div></div>');
+    countryInput = document.querySelector('#basket-country');
+    countryOptions = document.querySelector('#basket-countries');
+    if (countryInput) countryInput.value = localStorage.getItem('inquiry-country') || '';
+    countryInput?.addEventListener('focus', function () { filterCountryOptions(); showCountryOptions(); });
+    countryInput?.addEventListener('input', function () {
+      var country = countryInput.value.trim();
+      if (country) localStorage.setItem('inquiry-country', country); else localStorage.removeItem('inquiry-country');
+      filterCountryOptions();
+      showCountryOptions();
+    });
+    countryInput?.addEventListener('keydown', function (event) { if (event.key === 'Escape') closeCountryOptions(); });
   }
 
   function render() {
@@ -71,7 +116,14 @@
   function inquiry(channel) {
     var items = read();
     if (!items.length) return;
-    var message = 'Hello, I would like to enquire about the following items:\n\n' + items.map(function (item, index) {
+    var country = countryInput ? countryInput.value.trim() : '';
+    if (!country) {
+      countryInput?.focus();
+      showCountryOptions();
+      return;
+    }
+    localStorage.setItem('inquiry-country', country);
+    var message = "I'm from " + country + ', hello, I would like to enquire about the following items:\n\n' + items.map(function (item, index) {
       var reference = item.sku ? 'SKU: ' + item.sku : 'Reference: ' + item.id;
       return (index + 1) + '. ' + reference + (item.variants ? ' | ' + item.variants : '') + ' × ' + item.quantity;
     }).join('\n\n') + '\n\nPlease send me a quote and availability.';
@@ -89,6 +141,8 @@
     if (addButton) { event.preventDefault(); event.stopPropagation(); add(addButton); return; }
     if (target.closest('[data-basket-open]')) { open(); return; }
     if (target.closest('[data-basket-close]')) { close(); return; }
+    var countryOption = target.closest('#basket-countries button');
+    if (countryOption) { selectCountry(countryOption.textContent.trim()); return; }
     var item = target.closest('.basket-item');
     if (item && target.closest('[data-basket-remove]')) { write(read().filter(function (entry) { return entry.id !== item.dataset.basketId; })); return; }
     var quantity = target.closest('[data-basket-quantity]');
@@ -102,9 +156,11 @@
     }
     var inquiryButton = target.closest('[data-basket-inquiry]');
     if (inquiryButton) inquiry(inquiryButton.getAttribute('data-basket-inquiry'));
+    if (!target.closest('.basket-country-combobox')) closeCountryOptions();
   });
 
-  document.addEventListener('keydown', function (event) { if (event.key === 'Escape') close(); });
+  document.addEventListener('keydown', function (event) { if (event.key === 'Escape') { close(); closeCountryOptions(); } });
   window.addEventListener('storage', function (event) { if (event.key === storageKey) render(); });
+  setupCountryPicker();
   render();
 })();
