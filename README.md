@@ -278,7 +278,7 @@ npm run convert:products -- src/gucci_handbag.json
 npm run convert:products -- path/to/products.json --brand Gucci --category Bags
 ~~~
 
-默认不会覆盖已有商品。确实需要用 JSON 更新同名 SKU 时，才添加 `--overwrite`。
+默认不会覆盖已有商品。标题为空时会自动使用 SKU；只有 SKU 和图片都为空时才跳过。缺少图片但有 SKU 的商品会使用站内占位图。确实需要用 JSON 更新同名 SKU 时，才添加 `--overwrite`。
 
 ## 11. 常见问题
 

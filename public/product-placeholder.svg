@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800" role="img" aria-labelledby="title description">
+  <title id="title">Product image unavailable</title>
+  <desc id="description">Neutral placeholder for a product without photos.</desc>
+  <rect width="800" height="800" fill="#f3f1ed"/>
+  <path d="M260 260h280v280H260z" fill="none" stroke="#8b8175" stroke-width="16"/>
+  <path d="M330 380h140M400 310v140" stroke="#8b8175" stroke-width="16" stroke-linecap="square"/>
+</svg>
