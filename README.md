@@ -264,6 +264,22 @@ git commit -m "更新商品资料"
 git push
 ~~~
 
+### 从 JSON 批量导入商品
+
+JSON 文件包含 `ID`、`标签`、`货号`、`标题`、`图片`、`时间` 字段时，可执行：
+
+~~~bash
+npm run convert:products -- src/gucci_handbag.json
+~~~
+
+脚本会在 `src/content/products/` 中生成 Astro 商品文件，自动使用首张图片作为封面，并按 JSON 的顺序设置排序。文件名会根据 JSON 文件名推断品牌；也可以显式指定：
+
+~~~bash
+npm run convert:products -- path/to/products.json --brand Gucci --category Bags
+~~~
+
+默认不会覆盖已有商品。确实需要用 JSON 更新同名 SKU 时，才添加 `--overwrite`。
+
 ## 11. 常见问题
 
 ### 页面没有商品
