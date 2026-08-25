@@ -1,6 +1,6 @@
 import { defineCollection, z } from 'astro:content';
 const products = defineCollection({ type: 'content', schema: z.object({
-  title:z.string(), titleZh:z.string().optional(), category:z.string(), sku:z.string().optional(), cover:z.string().min(1),
+  title:z.string(), titleZh:z.string().optional(), category:z.string(), brand:z.string().optional(), sku:z.string().optional(), cover:z.string().min(1),
   media:z.array(z.object({url:z.string().min(1),type:z.enum(['image','video']).default('image'),alt:z.string().optional()})).default([]),
   price:z.string().optional(), description:z.string().optional(), descriptionZh:z.string().optional(), tags:z.array(z.string()).default([]),
   variants:z.array(z.object({name:z.string(),options:z.array(z.string()).default([])})).default([]),

@@ -30,6 +30,7 @@ collections:
       - { label: Title, name: title, widget: string }
       - { label: Chinese title, name: titleZh, widget: string, required: false }
       - { label: Category, name: category, widget: string }
+      - { label: Brand, name: brand, widget: string, required: false }
       - { label: SKU, name: sku, widget: string, required: false }
       - { label: Cover image, name: cover, widget: r2-image }
       - { label: Product images, name: media, widget: r2-media, required: false }
