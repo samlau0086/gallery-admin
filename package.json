@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "scripts": { "dev": "astro dev", "build": "astro build", "preview": "astro preview", "check": "astro check", "convert:products": "node tools/json-to-products.mjs" },
+  "scripts": { "dev": "astro dev", "prebuild": "node tools/build-search-index.mjs", "build": "astro build", "preview": "astro preview", "check": "astro check", "convert:products": "node tools/json-to-products.mjs" },
   "dependencies": { "@astrojs/cloudflare": "^12.6.0", "astro": "^5.12.0", "decap-cms-app": "^3.4.3", "zod": "^3.25.76" },
   "devDependencies": { "@astrojs/check": "^0.9.4", "typescript": "^5.8.3" }
 }

@@ -1,10 +1,9 @@
 import type { APIRoute } from 'astro';
-import { getCollection } from 'astro:content';
+import { searchIndex } from '../../data/search-index';
 
 export const GET: APIRoute = async ({ url }) => {
   const query = (url.searchParams.get('q') || '').trim().toLowerCase();
   if (!query) return new Response(JSON.stringify({ results: [] }), { headers: { 'content-type': 'application/json' } });
-  const products = await getCollection('products', ({ data }) => data.published);
-  const results = products.filter(({ data }) => [data.title, data.titleZh, data.category, ...data.tags].filter(Boolean).join(' ').toLowerCase().includes(query)).sort((a, b) => a.data.sortOrder - b.data.sortOrder).slice(0, 6).map(({ slug, data }) => ({ slug, title: data.title, titleZh: data.titleZh, category: data.category, cover: data.cover }));
+  const results = searchIndex.filter((product) => product.searchable.includes(query)).slice(0, 6).map(({ slug, title, titleZh, category, cover, sku }) => ({ slug, title, titleZh, category, cover, sku }));
   return new Response(JSON.stringify({ results }), { headers: { 'content-type': 'application/json', 'cache-control': 'public, max-age=30' } });
 };
