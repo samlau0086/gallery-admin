@@ -78,9 +78,10 @@
     empty.hidden = items.length > 0;
     list.hidden = items.length === 0;
     list.innerHTML = items.map(function (item) {
+      var productUrl = item.url || '/products/' + encodeURIComponent(String(item.id).split('::')[0]) + '/';
       return '<article class="basket-item" data-basket-id="' + escapeHtml(item.id) + '">' +
         '<img src="' + escapeHtml(item.image) + '" alt="' + escapeHtml(item.title) + '">' +
-        '<div class="basket-item-copy"><strong>' + escapeHtml(item.title) + '</strong>' +
+        '<div class="basket-item-copy"><strong><a class="basket-product-link" href="' + escapeHtml(productUrl) + '">' + escapeHtml(item.title) + '</a></strong>' +
         (item.sku ? '<span>SKU · ' + escapeHtml(item.sku) + (item.variants ? ' · ' + escapeHtml(item.variants) : '') + '</span>' : '') +
         '<div class="basket-item-actions"><div class="basket-quantity" aria-label="Quantity"><button type="button" data-basket-quantity="-1" aria-label="Decrease quantity">−</button><span>' + item.quantity + '</span><button type="button" data-basket-quantity="1" aria-label="Increase quantity">+</button></div><button class="basket-remove" type="button" data-basket-remove>Remove</button></div></div></article>';
     }).join('');
@@ -103,6 +104,7 @@
       sku: button.dataset.productSku || '',
       variants: variants,
       image: button.dataset.productImage || '',
+      url: button.dataset.productUrl || '',
       quantity: 1
     };
     if (!item.id || !item.title) return;
