@@ -14,8 +14,8 @@ const productCategories = [...new Set((await getCollection('products', ({ data }
     </div>
     <a class="brand-lockup" href="/"><span class="brand-mark">{site.name.slice(0,1)}</span><span>{site.name}</span></a>
     <div class="header-right">
-      <a class="icon-link" href={site.contact.whatsapp} aria-label="WhatsApp" title="WhatsApp">◉</a>
-      <a class="icon-link" href={site.contact.email} aria-label="Email" title="Email">✉</a>
+      <button class="icon-link" type="button" data-inquiry-product data-inquiry-channel="whatsapp" aria-label="WhatsApp" title="WhatsApp">◉</button>
+      <button class="icon-link" type="button" data-inquiry-product data-inquiry-channel="email" aria-label="Email" title="Email">✉</button>
       <button class="icon-link contact-trigger contact-icon" type="button" aria-label="Contact" title="Contact"><img src="/contact.svg" alt="" /></button>
     </div>
   </div>
