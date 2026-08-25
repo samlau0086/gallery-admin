@@ -36,7 +36,7 @@
       return '<article class="basket-item" data-basket-id="' + escapeHtml(item.id) + '">' +
         '<img src="' + escapeHtml(item.image) + '" alt="' + escapeHtml(item.title) + '">' +
         '<div class="basket-item-copy"><strong>' + escapeHtml(item.title) + '</strong>' +
-        (item.sku ? '<span>SKU · ' + escapeHtml(item.sku) + '</span>' : '') +
+        (item.sku ? '<span>SKU · ' + escapeHtml(item.sku) + (item.variants ? ' · ' + escapeHtml(item.variants) : '') + '</span>' : '') +
         '<div class="basket-item-actions"><div class="basket-quantity" aria-label="Quantity"><button type="button" data-basket-quantity="-1" aria-label="Decrease quantity">−</button><span>' + item.quantity + '</span><button type="button" data-basket-quantity="1" aria-label="Increase quantity">+</button></div><button class="basket-remove" type="button" data-basket-remove>Remove</button></div></div></article>';
     }).join('');
   }
@@ -45,12 +45,19 @@
   function close() { if (drawer) { drawer.hidden = true; document.body.classList.remove('basket-open'); } }
 
   function add(button) {
+    var variantGroups = button.closest('.detail-copy') ? button.closest('.detail-copy').querySelectorAll('.variant-group') : [];
+    var variants = button.dataset.productVariants || Array.prototype.map.call(variantGroups, function (group) {
+      var name = group.getAttribute('data-variant-name') || '';
+      var value = group.querySelector('.variant-option.selected')?.getAttribute('data-value') || '';
+      return name && value ? name + ': ' + value : '';
+    }).filter(Boolean).join('; ');
+    var productId = button.dataset.productId || button.dataset.productSku || button.dataset.productTitle || '';
     var item = {
-      id: button.dataset.productId || button.dataset.productSku || button.dataset.productTitle || '',
+      id: productId + (variants ? '::' + variants : ''),
       title: button.dataset.productTitle || '',
       sku: button.dataset.productSku || '',
+      variants: variants,
       image: button.dataset.productImage || '',
-      url: button.dataset.productUrl || location.href,
       quantity: 1
     };
     if (!item.id || !item.title) return;
@@ -65,7 +72,8 @@
     var items = read();
     if (!items.length) return;
     var message = 'Hello, I would like to enquire about the following items:\n\n' + items.map(function (item, index) {
-      return (index + 1) + '. ' + item.title + (item.sku ? ' (SKU: ' + item.sku + ')' : '') + ' × ' + item.quantity + (item.url ? '\n' + item.url : '');
+      var reference = item.sku ? 'SKU: ' + item.sku : 'Reference: ' + item.id;
+      return (index + 1) + '. ' + reference + (item.variants ? ' | ' + item.variants : '') + ' × ' + item.quantity;
     }).join('\n\n') + '\n\nPlease send me a quote and availability.';
     if (channel === 'email') {
       window.location.href = 'mailto:info@maesvanti.online?subject=' + encodeURIComponent('Basket enquiry') + '&body=' + encodeURIComponent(message);
