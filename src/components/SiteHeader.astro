@@ -1,5 +1,10 @@
 ---
-import { categories, categorySlug, site } from '../data/site';
+import { getCollection } from 'astro:content';
+import { categorySlug, site } from '../data/site';
+
+const productCategories = [...new Set((await getCollection('products', ({ data }) => data.published))
+  .map(({ data }) => data.category.trim())
+  .filter(Boolean))].sort((a, b) => a.localeCompare(b));
 ---
 <header class="app-header">
   <div class="header-inner">
@@ -21,8 +26,9 @@ import { categories, categorySlug, site } from '../data/site';
   <div class="category-panel" id="global-category-panel" hidden>
     <nav class="category-list" aria-label="Categories">
       <a class="category-option" data-category="All" href="/?category=all">All products</a>
-      {categories.filter((category) => category !== 'All').map((category) => <a class="category-option" data-category={category} href={'/?category=' + categorySlug(category)}>{category}</a>)}
+      {productCategories.map((category) => <a class="category-option" data-category={category} href={'/?category=' + categorySlug(category)}>{category}</a>)}
     </nav>
   </div>
 </header>
 <script src="/search.js" defer></script>
+<script src="/contact-modal.js" defer></script>

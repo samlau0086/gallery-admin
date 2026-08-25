@@ -6,5 +6,4 @@ export const site = {
   hero: settings.hero,
   contact: { whatsapp: settings.whatsapp, email: 'mailto:' + settings.email },
 };
-export const categories = ['All','Apparel','Bags','Accessories'];
 export const categorySlug = (category: string) => category.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
