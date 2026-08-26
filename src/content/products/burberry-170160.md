@@ -1,0 +1,15 @@
+---
+title: "B brand's backpack is so so so good-looking. The classic checkered pattern gives off a collegiate vibe, creating a full retro atmosphere."
+category: "Bags"
+brand: "BURBERRY"
+sku: "170160"
+cover: "https://xcimg.szwego.com/imgHD/b7f85c57/20250320/cmp_i1742445896801_156_0_0.jpg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/b7f85c57/20250320/cmp_i1742445896801_156_0_0.jpg","type":"image","alt":"B brand's backpack is so so so good-looking. The classic checkered pattern gives off a collegiate vibe, creating a full retro atmosphere. image 1"},{"url":"https://xcimg.szwego.com/imgHD/b7f85c57/20250320/cmp_i1742445895700_5676_0_1.jpg","type":"image","alt":"B brand's backpack is so so so good-looking. The classic checkered pattern gives off a collegiate vibe, creating a full retro atmosphere. image 2"},{"url":"https://xcimg.szwego.com/imgHD/b7f85c57/20250320/cmp_i1742445895700_8338_0_2.jpg","type":"image","alt":"B brand's backpack is so so so good-looking. The classic checkered pattern gives off a collegiate vibe, creating a full retro atmosphere. image 3"},{"url":"https://xcimg.szwego.com/imgHD/b7f85c57/20250320/cmp_i1742445895700_3662_0_3.jpg","type":"image","alt":"B brand's backpack is so so so good-looking. The classic checkered pattern gives off a collegiate vibe, creating a full retro atmosphere. image 4"},{"url":"https://xcimg.szwego.com/imgHD/b7f85c57/20250320/cmp_i1742445895700_5225_0_4.jpg","type":"image","alt":"B brand's backpack is so so so good-looking. The classic checkered pattern gives off a collegiate vibe, creating a full retro atmosphere. image 5"},{"url":"https://xcimg.szwego.com/imgHD/b7f85c57/20250320/cmp_i1742445896803_7151_0_5.jpg","type":"image","alt":"B brand's backpack is so so so good-looking. The classic checkered pattern gives off a collegiate vibe, creating a full retro atmosphere. image 6"},{"url":"https://xcimg.szwego.com/imgHD/b7f85c57/20250320/cmp_i1742445895700_7378_0_6.jpg","type":"image","alt":"B brand's backpack is so so so good-looking. The classic checkered pattern gives off a collegiate vibe, creating a full retro atmosphere. image 7"},{"url":"https://xcimg.szwego.com/imgHD/b7f85c57/20250320/cmp_i1742445896802_4354_0_7.jpg","type":"image","alt":"B brand's backpack is so so so good-looking. The classic checkered pattern gives off a collegiate vibe, creating a full retro atmosphere. image 8"},{"url":"https://xcimg.szwego.com/imgHD/b7f85c57/20250320/cmp_i1742445896802_1468_0_8.jpg","type":"image","alt":"B brand's backpack is so so so good-looking. The classic checkered pattern gives off a collegiate vibe, creating a full retro atmosphere. image 9"}]
+description: "B brand's backpack is so so so good-looking. The classic checkered pattern gives off a collegiate vibe, creating a full retro atmosphere."
+tags: ["Burberry handbag","Bags"]
+featured: false
+published: true
+sortOrder: 200
+---
+
+B brand's backpack is so so so good-looking. The classic checkered pattern gives off a collegiate vibe, creating a full retro atmosphere.

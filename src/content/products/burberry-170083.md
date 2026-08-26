@@ -1,0 +1,15 @@
+---
+title: "B brand's latest chain bag, an irresistible versatile piece. Authentic product, exclusive release. Available in black, beige, and wine red."
+category: "Bags"
+brand: "BURBERRY"
+sku: "170083"
+cover: "https://xcimg.szwego.com/imgHD/b7f85c57/20250613/cmp_i1749788511865_5382_0_0.jpg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/b7f85c57/20250613/cmp_i1749788511865_5382_0_0.jpg","type":"image","alt":"B brand's latest chain bag, an irresistible versatile piece. Authentic product, exclusive release. Available in black, beige, and wine red. image 1"},{"url":"https://xcimg.szwego.com/imgHD/b7f85c57/20250613/cmp_i1749788511864_600_0_1.jpg","type":"image","alt":"B brand's latest chain bag, an irresistible versatile piece. Authentic product, exclusive release. Available in black, beige, and wine red. image 2"},{"url":"https://xcimg.szwego.com/imgHD/b7f85c57/20250613/cmp_i1749788511864_6436_0_2.jpg","type":"image","alt":"B brand's latest chain bag, an irresistible versatile piece. Authentic product, exclusive release. Available in black, beige, and wine red. image 3"},{"url":"https://xcimg.szwego.com/imgHD/b7f85c57/20250613/cmp_i1749788541284_9377_0_3.jpg","type":"image","alt":"B brand's latest chain bag, an irresistible versatile piece. Authentic product, exclusive release. Available in black, beige, and wine red. image 4"},{"url":"https://xcimg.szwego.com/imgHD/b7f85c57/20250613/cmp_i1749788550165_6619_0_4.jpg","type":"image","alt":"B brand's latest chain bag, an irresistible versatile piece. Authentic product, exclusive release. Available in black, beige, and wine red. image 5"},{"url":"https://xcimg.szwego.com/imgHD/b7f85c57/20250613/cmp_i1749788499752_334_0_2.jpg","type":"image","alt":"B brand's latest chain bag, an irresistible versatile piece. Authentic product, exclusive release. Available in black, beige, and wine red. image 6"},{"url":"https://xcimg.szwego.com/imgHD/b7f85c57/20250613/cmp_i1749788511864_109_0_6.jpg","type":"image","alt":"B brand's latest chain bag, an irresistible versatile piece. Authentic product, exclusive release. Available in black, beige, and wine red. image 7"},{"url":"https://xcimg.szwego.com/imgHD/b7f85c57/20250613/cmp_i1749788541284_9712_0_7.jpg","type":"image","alt":"B brand's latest chain bag, an irresistible versatile piece. Authentic product, exclusive release. Available in black, beige, and wine red. image 8"},{"url":"https://xcimg.szwego.com/imgHD/b7f85c57/20250613/cmp_i1749788541373_3300_0_8.jpg","type":"image","alt":"B brand's latest chain bag, an irresistible versatile piece. Authentic product, exclusive release. Available in black, beige, and wine red. image 9"}]
+description: "B brand's latest chain bag, an irresistible versatile piece. Authentic product, exclusive release. Available in black, beige, and wine red."
+tags: ["Burberry handbag","Bags"]
+featured: false
+published: true
+sortOrder: 276
+---
+
+B brand's latest chain bag, an irresistible versatile piece. Authentic product, exclusive release. Available in black, beige, and wine red.

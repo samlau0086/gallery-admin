@@ -1,0 +1,15 @@
+---
+title: "B brand is promoting birch wood brown checkered pattern this year. It's a must-have in the fashion circle, so make sure to get your hands on it! ❤️"
+category: "Bags"
+brand: "BURBERRY"
+sku: "170321"
+cover: "https://xcimg.szwego.com/imgHD/b7f85c57/20250519/cmp_i1747623214330_6758_0_0.jpg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/b7f85c57/20250519/cmp_i1747623214330_6758_0_0.jpg","type":"image","alt":"B brand is promoting birch wood brown checkered pattern this year. It's a must-have in the fashion circle, so make sure to get your hands on it! ❤️ image 1"},{"url":"https://xcimg.szwego.com/imgHD/b7f85c57/20250519/cmp_i1747623211030_3954_0_1.jpg","type":"image","alt":"B brand is promoting birch wood brown checkered pattern this year. It's a must-have in the fashion circle, so make sure to get your hands on it! ❤️ image 2"},{"url":"https://xcimg.szwego.com/imgHD/b7f85c57/20250519/cmp_i1747623211030_6723_0_2.jpg","type":"image","alt":"B brand is promoting birch wood brown checkered pattern this year. It's a must-have in the fashion circle, so make sure to get your hands on it! ❤️ image 3"},{"url":"https://xcimg.szwego.com/imgHD/b7f85c57/20250519/cmp_i1747623211030_9934_0_3.jpg","type":"image","alt":"B brand is promoting birch wood brown checkered pattern this year. It's a must-have in the fashion circle, so make sure to get your hands on it! ❤️ image 4"},{"url":"https://xcimg.szwego.com/imgHD/b7f85c57/20250519/cmp_i1747623214329_5582_0_4.jpg","type":"image","alt":"B brand is promoting birch wood brown checkered pattern this year. It's a must-have in the fashion circle, so make sure to get your hands on it! ❤️ image 5"},{"url":"https://xcimg.szwego.com/imgHD/b7f85c57/20250519/cmp_i1747623216181_4384_0_5.jpg","type":"image","alt":"B brand is promoting birch wood brown checkered pattern this year. It's a must-have in the fashion circle, so make sure to get your hands on it! ❤️ image 6"},{"url":"https://xcimg.szwego.com/imgHD/b7f85c57/20250519/cmp_i1747623211030_1324_0_6.jpg","type":"image","alt":"B brand is promoting birch wood brown checkered pattern this year. It's a must-have in the fashion circle, so make sure to get your hands on it! ❤️ image 7"},{"url":"https://xcimg.szwego.com/imgHD/b7f85c57/20250519/cmp_i1747623211030_7601_0_7.jpg","type":"image","alt":"B brand is promoting birch wood brown checkered pattern this year. It's a must-have in the fashion circle, so make sure to get your hands on it! ❤️ image 8"},{"url":"https://xcimg.szwego.com/imgHD/b7f85c57/20250519/cmp_i1747623214330_4280_0_8.jpg","type":"image","alt":"B brand is promoting birch wood brown checkered pattern this year. It's a must-have in the fashion circle, so make sure to get your hands on it! ❤️ image 9"}]
+description: "B brand is promoting birch wood brown checkered pattern this year. It's a must-have in the fashion circle, so make sure to get your hands on it! ❤️"
+tags: ["Burberry handbag","Bags"]
+featured: false
+published: true
+sortOrder: 40
+---
+
+B brand is promoting birch wood brown checkered pattern this year. It's a must-have in the fashion circle, so make sure to get your hands on it! ❤️
