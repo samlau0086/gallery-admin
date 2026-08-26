@@ -17,10 +17,22 @@ export const GET: APIRoute = async ({ url, locals }) => {
   const query = (url.searchParams.get('q') || '').trim().toLowerCase();
   const category = (url.searchParams.get('category') || '').trim();
   const kind = (url.searchParams.get('kind') || '').trim();
+  const brand = (url.searchParams.get('brand') || '').trim();
+  const tag = (url.searchParams.get('tag') || '').trim();
+  const facetsOnly = url.searchParams.get('facets') === '1';
   try {
-    const products = (await loadIndex(url, locals)).filter((product) =>
+    const allProducts = await loadIndex(url, locals);
+    if (facetsOnly) {
+      const categories = [...new Set(allProducts.map((product) => product.category).filter(Boolean))].sort((a, b) => a.localeCompare(b));
+      const brands = [...new Set(allProducts.map((product) => product.brand).filter(Boolean))].sort((a, b) => a.localeCompare(b));
+      const tags = [...new Set(allProducts.flatMap((product) => product.tags || []).filter(Boolean))].sort((a, b) => a.localeCompare(b));
+      return new Response(JSON.stringify({ categories, brands, tags }), { headers: { 'content-type': 'application/json', 'cache-control': 'public, max-age=300, stale-while-revalidate=900' } });
+    }
+    const products = allProducts.filter((product) =>
       (!query || product.searchable.includes(query)) &&
       (!category || product.category === category) &&
+      (!brand || product.brand === brand) &&
+      (!tag || (product.tags || []).includes(tag)) &&
       (!kind || kind === 'photos' || (kind === 'new' && product.featured))
     );
     const start = (page - 1) * pageSize;
