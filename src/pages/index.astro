@@ -38,7 +38,7 @@ const loadSentinel=document.querySelector<HTMLElement>('#load-more-sentinel');
 const loadStatus=document.querySelector<HTMLElement>('#load-more-status');
 const collectionCount=document.querySelector<HTMLElement>('.collection-count');
 const search=document.querySelector<HTMLInputElement>('.search');
-const tabs=[...document.querySelectorAll<HTMLButtonElement>('.tab')];
+const tabs=[...document.querySelectorAll<HTMLButtonElement>('.tab')].slice(0,3);document.querySelectorAll<HTMLButtonElement>('.tab').forEach((tab,index)=>{if(index>=3)tab.remove()});
 const categoryButtons=[...document.querySelectorAll<HTMLElement>('.category-option')];
 const viewMenu=document.querySelector<HTMLElement>('.view-menu');
 const productCache:CatalogProduct[]=[];
