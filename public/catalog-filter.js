@@ -6,7 +6,6 @@
   var bySlug = new Map(metadata.map(function (product) { return [product.slug, product]; }));
   var tabs = Array.prototype.slice.call(document.querySelectorAll('.tab')).slice(0, 3);
   var grid = document.getElementById('product-grid');
-  var label = document.getElementById('collection-label');
   var controls;
   var mode = 'all';
   var selected = '';
@@ -85,7 +84,6 @@
     mode = nextMode;
     selected = '';
     tabs.forEach(function (tab) { tab.classList.toggle('active', tab.dataset.filterMode === mode); });
-    label.textContent = mode === 'all' ? 'All products' : mode === 'tags' ? 'All tags' : 'All brands';
     renderOptions();
     apply();
   }
@@ -101,7 +99,6 @@
     var button = event.target.closest('button[data-value]');
     if (!button) return;
     selected = button.dataset.value || '';
-    label.textContent = selected || ('All ' + (mode === 'tags' ? 'tags' : 'brands'));
     renderOptions();
     apply();
   });
