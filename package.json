@@ -15,7 +15,6 @@
     "@astrojs/cloudflare": "^12.6.0",
     "astro": "^5.12.0",
     "decap-cms-app": "^3.4.3",
-    "jspdf": "^4.2.1",
     "zod": "^3.25.76"
   },
   "devDependencies": {
