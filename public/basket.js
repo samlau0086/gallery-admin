@@ -11,7 +11,13 @@
   function read() {
     try {
       var stored = JSON.parse(localStorage.getItem(storageKey) || '[]');
-      return Array.isArray(stored) ? stored.filter(function (item) { return item && item.id && item.title; }) : [];
+      return Array.isArray(stored) ? stored.filter(function (item) { return item && item.id && item.title; }).map(function (item) {
+        if (item.sku === item.title) {
+          var match = String(item.url || '').match(/products\/[^/]*-([^/?#]+)\/?(?:[?#].*)?$/);
+          if (match) item.sku = match[1];
+        }
+        return item;
+      }) : [];
     } catch (_) { return []; }
   }
 
@@ -91,6 +97,7 @@
   function close() { if (drawer) { drawer.hidden = true; document.body.classList.remove('basket-open'); } }
 
   function add(button) {
+    var productCard = button.closest('.product-card');
     var variantGroups = button.closest('.detail-copy') ? button.closest('.detail-copy').querySelectorAll('.variant-group') : [];
     var variants = button.dataset.productVariants || Array.prototype.map.call(variantGroups, function (group) {
       var name = group.getAttribute('data-variant-name') || '';
@@ -98,10 +105,11 @@
       return name && value ? name + ': ' + value : '';
     }).filter(Boolean).join('; ');
     var productId = button.dataset.productId || button.dataset.productSku || button.dataset.productTitle || '';
+    var productSku = productCard?.dataset.productSku || button.dataset.productSku || '';
     var item = {
       id: productId + (variants ? '::' + variants : ''),
       title: button.dataset.productTitle || '',
-      sku: button.dataset.productSku || '',
+      sku: productSku,
       variants: variants,
       image: button.dataset.productImage || '',
       url: button.dataset.productUrl || '',
