@@ -1,14 +1,23 @@
 ---
-import { getCollection } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
 import { site } from '../data/site';
 import '../styles/global.css';
 import '../styles/overrides.css';
+export const prerender = false;
+const runtime = (Astro.locals as App.Locals & { runtime?: { env?: { ASSETS?: { fetch: (request: Request | string) => Promise<Response> } } } }).runtime;
+const response = runtime?.env?.ASSETS ? await runtime.env.ASSETS.fetch(new Request(new URL('/search-index.json', Astro.url))) : await fetch(new URL('/search-index.json', Astro.url));
+const productsData = response.ok ? await response.json() : [];
 const query=(Astro.url.searchParams.get('q')||'').trim();
 const q=query.toLowerCase();
-const products=(await getCollection('products',({data})=>data.published)).filter(({data})=>!q||[data.title,data.titleZh,data.category,data.brand,data.sku,...data.tags].filter(Boolean).join(' ').toLowerCase().includes(q)).sort((a,b)=>a.data.sortOrder-b.data.sortOrder);
+const products=productsData.filter(({published=true,title,titleZh,category,brand,sku,tags=[]})=>published&&(!q||[title,titleZh,category,brand,sku,...tags].filter(Boolean).join(' ').toLowerCase().includes(q))).sort((a,b)=>a.sortOrder-b.sortOrder);
 ---
 <Layout title={'Search'+(query?' : '+query:'')+' | '+site.name} description="Search the collection">
-<main class="content-column search-page"><form class="search-page-form" action="/search" method="get"><span class="search-icon">⌕</span><input class="search-page-input" name="q" value={query} placeholder="Search collection" aria-label="Search collection" /><button type="submit">Search</button></form><h1 class="search-page-heading">{query?products.length+' result'+(products.length===1?'':'s')+' for “'+query+'”':'Search collection'}</h1>{query&&!products.length?<p class="search-empty-page">No matching works.</p>:<section class="product-grid">{products.map(product=><a class="product-card" data-product-title={product.data.title} data-product-sku={product.data.sku??''} data-product-image={product.data.cover} href={'/products/'+product.slug+'/'}><div class="image-frame"><img src={product.data.cover} alt={product.data.title} loading="lazy" /></div><div class="product-copy"><strong>{product.data.titleZh??product.data.title}</strong><span>{product.data.title}</span><p>{product.data.description}</p></div><button class="basket-card-button" type="button" data-add-to-basket data-product-id={product.slug} data-product-title={product.data.title} data-product-sku={product.data.sku??''} data-product-image={product.data.cover} data-product-url={'/products/'+product.slug+'/'}><img src="/cart.svg" alt="" />Add to basket</button></a>)}</section>}</main>
+<main class="content-column search-page"><form class="search-page-form" action="/search" method="get"><span class="search-icon">⌕</span><input class="search-page-input" name="q" value={query} placeholder="Search collection" aria-label="Search collection" /><button type="submit">Search</button></form><h1 class="search-page-heading">{query?products.length+' result'+(products.length===1?'':'s')+' for “'+query+'”':'Search collection'}</h1>{query&&!products.length?<p class="search-empty-page">No matching works.</p>:<section class="product-grid">{products.map(product=><a class="product-card" data-product-title={product.title} data-product-sku={product.sku??''} data-product-image={product.cover} href={'/products/'+product.slug+'/'}><div class="image-frame"><img src={product.cover} alt={product.title} loading="lazy" /></div><div class="product-copy"><strong>{product.titleZh??product.title}</strong><span>{product.title}</span><p>{product.description}</p></div><button class="basket-card-button" type="button" data-add-to-basket data-product-id={product.slug} data-product-title={product.title} data-product-sku={product.sku??''} data-product-image={product.cover} data-product-url={'/products/'+product.slug+'/'}><img src="/cart.svg" alt="" />Add to basket</button></a>)}</section>}</main>
 </Layout>
 <script src="/deduplicate.js" defer></script>
+
+
+
+
+
+

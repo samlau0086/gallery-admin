@@ -52,3 +52,8 @@ uploads/
 
 # Cloudflare local state
 .dev.vars
+
+# Generated product data used by the Cloudflare build
+/public/search-index.json
+/public/product-data/
+src/data/product-categories.ts

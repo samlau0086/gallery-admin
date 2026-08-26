@@ -1,10 +1,6 @@
 ---
-import { getCollection } from 'astro:content';
 import { categorySlug, site } from '../data/site';
-
-const productCategories = [...new Set((await getCollection('products', ({ data }) => data.published))
-  .map(({ data }) => data.category.trim())
-  .filter(Boolean))].sort((a, b) => a.localeCompare(b));
+import { productCategories } from '../data/product-categories';
 ---
 <header class="app-header">
   <div class="header-inner">
@@ -32,3 +28,4 @@ const productCategories = [...new Set((await getCollection('products', ({ data }
 </header>
 <script src="/search.js" defer></script>
 <script src="/contact-modal.js" defer></script>
+
