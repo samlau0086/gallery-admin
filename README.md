@@ -252,7 +252,25 @@ npm run dev
 
 如果终端出现 Connect Timeout Error、fetch failed 或无法连接 github.com:443，说明浏览器可以访问 GitHub，但本地 Node.js 进程被网络、防火墙或代理阻止。这不是账号密码错误。此时可以检查公司网络或代理设置，或者先部署到 Cloudflare Pages，再使用线上地址测试 OAuth。
 
-## 9. 配置前台 Review 持久化
+## 9. 配置 Google Sheets Contact 与批量询盘
+
+项目使用 Google Apps Script 将 Contact Form、Review 和购物篮批量询盘写入 Google Sheets。请在 Google Sheets 中打开 **Extensions → Apps Script**，使用 `docs/google-apps-script-contact.md` 中的脚本，并部署为 Web app：
+
+- Execute as：`Me`
+- Who has access：`Anyone`
+
+在 Cloudflare Pages 的 Settings → Environment variables 中配置：
+
+~~~env
+# Contact Form 和 Review 使用
+GOOGLE_APPS_SCRIPT_URL=https://script.google.com/macros/s/your_contact_deployment_id/exec
+
+# 购物篮批量询盘使用
+GOOGLE_APPS_SCRIPT_INQUIRY_URL=https://script.google.com/macros/s/your_inquiry_deployment_id/exec
+~~~
+
+两个变量可以填写同一个 Apps Script `/exec` 地址，也可以分别部署到不同的 Google Spreadsheet。购物篮询盘会写入 `Inquiries` 工作表，并向 `NOTIFY_EMAIL` 发送包含完整产品清单的通知；WhatsApp 和 Email 只发送询盘编号，因此不会因产品数量过多而超出消息长度限制。修改环境变量后需要重新部署 Cloudflare Pages。
+## 10. 配置前台 Review 持久化
 
 前台 Review 不会只停留在浏览器或邮件通知中。提交后，服务端会通过 GitHub Contents API 在仓库中创建一个待审核文件：
 
@@ -279,7 +297,7 @@ GITHUB_BRANCH=main
 
 只有 `approved` 的 Review 会展示在前台产品详情页。`GOOGLE_APPS_SCRIPT_URL` 仍可用于 Contact/Review 的通知与表格留档，但它不是后台 CMS 的主数据来源。 购物篮批量询盘会通过独立的 `GOOGLE_APPS_SCRIPT_INQUIRY_URL` 写入 Google Sheets 的 `Inquiries` 工作表；WhatsApp/Email 只发送询盘编号，不再发送完整产品清单，避免产品过多时消息超长。配置方式见 `docs/google-apps-script-contact.md`。
 
-## 10. 使用 Cloudflare Access 保护后台
+## 11. 使用 Cloudflare Access 保护后台
 
 建议只保护 /admin/*，不要保护网站前台：
 
@@ -289,7 +307,7 @@ GITHUB_BRANCH=main
 4. 路径填写 /admin/*。
 5. 创建允许规则，只允许你的邮箱访问。
 
-## 11. 日常添加商品
+## 12. 日常添加商品
 
 1. 打开网站地址加上 /admin/。
 2. 通过 Cloudflare Access 验证身份。
@@ -324,7 +342,7 @@ npm run convert:products -- path/to/products.json --brand Gucci --category Bags
 
 默认不会覆盖已有商品。标题为空时会自动使用 SKU；只有 SKU 和图片都为空时才跳过。缺少图片但有 SKU 的商品会使用站内占位图。确实需要用 JSON 更新同名 SKU 时，才添加 `--overwrite`。
 
-## 12. 常见问题
+## 13. 常见问题
 
 ### 页面没有商品
 
@@ -346,6 +364,6 @@ npm run convert:products -- path/to/products.json --brand Gucci --category Bags
 
 进入 Cloudflare Pages 的 Deployments 查看最新部署日志。构建失败时，在本地执行 npm run check 和 npm run build。
 
-## 13. 当前版本暂不包含
+## 14. 当前版本暂不包含
 
 购物车、在线支付、订单管理、库存扣减、客户账户、自动图片压缩，以及 Decap CMS 内置的一键 R2 媒体库。
