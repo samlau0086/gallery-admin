@@ -123,7 +123,7 @@
     open();
   }
 
-  function inquiry(channel) {
+  async function inquiry(channel, button) {
     var items = read();
     if (!items.length) return;
     var country = countryInput ? countryInput.value.trim() : '';
@@ -133,14 +133,31 @@
       return;
     }
     localStorage.setItem('inquiry-country', country);
-    var message = "I'm from " + country + ', hello, I would like to enquire about the following items:\n\n' + items.map(function (item, index) {
-      var reference = item.sku ? 'SKU: ' + item.sku : 'Reference: ' + item.id;
-      return (index + 1) + '. ' + reference + (item.variants ? ' | ' + item.variants : '') + ' × ' + item.quantity;
-    }).join('\n\n') + '\n\nPlease send me a quote and availability.';
-    if (channel === 'email') {
-      window.location.href = 'mailto:info@maesvanti.online?subject=' + encodeURIComponent('Basket enquiry') + '&body=' + encodeURIComponent(message);
-    } else {
-      window.open('https://wa.me/85265426672?text=' + encodeURIComponent(message), '_blank', 'noopener');
+    var popup = channel === 'whatsapp' ? window.open('', '_blank') : null;
+    if (button) { button.disabled = true; button.dataset.originalText = button.textContent; button.textContent = 'Preparing enquiry…'; }
+    try {
+      var response = await fetch('/api/inquiry', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ country: country, items: items.map(function (item) {
+          return { title: item.title, sku: item.sku || '', variants: item.variants || '', quantity: item.quantity, url: item.url || '' };
+        }) })
+      });
+      var result = await response.json();
+      if (!response.ok || !result.ok) throw new Error(result.error || 'Unable to create inquiry.');
+      var message = "I'm from " + country + ', hello, I would like to enquire about ' + result.itemCount + ' items.\n\nInquiry ID: ' + result.inquiryId + '\n\nPlease send me a quote and availability.';
+      if (channel === 'email') {
+        window.location.href = 'mailto:info@maesvanti.online?subject=' + encodeURIComponent('Basket enquiry ' + result.inquiryId) + '&body=' + encodeURIComponent(message);
+      } else if (popup) {
+        popup.location = 'https://wa.me/85265426672?text=' + encodeURIComponent(message);
+      } else {
+        window.open('https://wa.me/85265426672?text=' + encodeURIComponent(message), '_blank', 'noopener');
+      }
+    } catch (error) {
+      if (popup) popup.close();
+      window.alert(error instanceof Error ? error.message : 'Unable to create inquiry right now.');
+    } finally {
+      if (button) { button.disabled = false; button.textContent = button.dataset.originalText || button.textContent; }
     }
   }
 
@@ -165,7 +182,7 @@
       return;
     }
     var inquiryButton = target.closest('[data-basket-inquiry]');
-    if (inquiryButton) inquiry(inquiryButton.getAttribute('data-basket-inquiry'));
+    if (inquiryButton) inquiry(inquiryButton.getAttribute('data-basket-inquiry'), inquiryButton);
     if (!target.closest('.basket-country-combobox')) closeCountryOptions();
   });
 
