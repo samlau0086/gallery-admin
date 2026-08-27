@@ -1,0 +1,20 @@
+# Maesvanti
+
+> Maesvanti is an online gallery of carefully selected fashion and lifestyle objects. Browse the collection, search products, review product details, and contact the gallery for sourcing and quotation enquiries.
+
+Maesvanti publishes product information for human visitors and AI systems that need a concise, directly navigable view of the site. Product availability, media, descriptions, and review content may change over time; the canonical product pages are the source of truth.
+
+## Primary pages
+
+- [Collection](https://gallery.maesvanti.online/): Browse the complete product collection with category, tag, brand, and search controls.
+- [Search](https://gallery.maesvanti.online/search/): Search the published product catalogue.
+
+## Product information
+
+- [Product API](https://gallery.maesvanti.online/api/products): JSON catalogue endpoint used by the collection interface.
+- [Search API](https://gallery.maesvanti.online/api/search): JSON search endpoint for published products.
+
+## Contact
+
+- [WhatsApp](https://wa.me/85265426672): Contact the gallery about product details, sourcing, and quotations.
+- [Email](mailto:info@maesvanti.online): Send an email enquiry to the gallery.
