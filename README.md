@@ -53,7 +53,51 @@ npm run check
 npm run build
 ~~~
 
-## 4. 部署到 Cloudflare Pages
+## 4. 配置 Google Analytics 4（流量与事件）
+
+本项目已内置 GA4 接入。未配置统计 ID 时，网站不会加载 Google Analytics；配置后会自动记录页面浏览和下列关键事件：
+
+- `view_item`：访问商品详情页。
+- `select_item`：从商品列表打开商品。
+- `add_to_cart`：加入购物篮。
+- `view_cart`：打开购物篮。
+- `search`：提交站内搜索。为保护隐私，仅上报搜索词长度，不上报搜索内容。
+- `generate_lead`：点击 WhatsApp / Email 询盘，或提交商品询盘表单。
+
+### 获取 GA4 衡量 ID
+
+1. 打开 Google Analytics，创建或选择一个 GA4 媒体资源。
+2. 进入 **管理 → 数据流 → Web**，创建或选择网站数据流。
+3. 复制显示为 `G-XXXXXXXXXX` 的 **衡量 ID（Measurement ID）**。
+
+### 本地配置
+
+复制 `.env.example` 为 `.env`，在其中添加真实衡量 ID：
+
+~~~env
+PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX
+~~~
+
+修改后重启 `npm run dev`。`PUBLIC_` 前缀表示该值会在浏览器中使用；GA 衡量 ID 不是密钥，可以公开。不要将 Google Ads、Google Tag Manager 或其他服务的私密凭据放入该变量。
+
+### Cloudflare Pages 配置
+
+在 Cloudflare Pages 项目的 **Settings → Environment variables** 中新增：
+
+~~~text
+Variable name: PUBLIC_GA_MEASUREMENT_ID
+Value: G-你的真实衡量ID
+~~~
+
+分别为 Production 和 Preview（如需预览环境统计）添加后，重新部署站点。建议 Preview 使用单独的 GA4 数据流，以免测试流量混入正式报表。
+
+### 验证和报表
+
+部署后访问网站并操作一次商品、购物篮或询盘功能，再在 GA4 的 **报告 → 实时** 或 **管理 → DebugView** 检查事件。自定义参数如 `lead_channel`、`search_term_length` 需要在 **管理 → 自定义定义** 中注册后，才会出现在探索报告中。
+
+请勿将访客姓名、邮箱、电话、留言、完整搜索内容或其他可识别个人身份的信息作为 Analytics 事件参数上报。若网站面向需征得 Cookie 同意的地区，请在用户同意统计 Cookie 后再加载 GA4，并同步更新隐私政策。
+
+## 5. 部署到 Cloudflare Pages
 
 1. 登录 Cloudflare 控制台。
 2. 进入 Workers & Pages。
@@ -84,7 +128,7 @@ src/content/reviews-pending/*
 
 这样新提交的 pending Review 不会触发 Cloudflare 构建。审核通过后，GitHub Actions 会将文件移动到 `src/content/reviews/`，由于该路径未被排除，移动提交会触发正式部署。如果一次提交同时修改了排除路径和其他站点文件，仍会触发构建，这是预期行为。
 
-## 5. 配置 Cloudflare R2 图片存储
+## 6. 配置 Cloudflare R2 图片存储
 
 后台图片上传默认使用 Cloudflare R2。产品封面、产品媒体和 Review 图片都会先上传到 R2，再把图片地址保存到 GitHub 内容文件中。
 
@@ -122,7 +166,7 @@ R2_PUBLIC_URL=https://images.example.com
 
 如果上传返回 `R2 storage is not configured`，检查 `IMAGES_BUCKET` Binding 是否添加到了当前部署环境；如果图片地址无法访问，检查 `R2_PUBLIC_URL` 的域名、公开访问设置和 DNS 配置。
 
-## 6. 配置 Decap CMS
+## 7. 配置 Decap CMS
 
 打开 src/pages/admin/config.yml.ts，把仓库配置改成实际值：
 
@@ -152,7 +196,7 @@ repo: samla/gallery-admin
 - Published：是否显示在前台。
 - Sort order：数字越小越靠前。
 
-## 7. 配置 GitHub OAuth
+## 8. 配置 GitHub OAuth
 
 Decap CMS 需要 GitHub OAuth 才能把后台修改写回仓库。
 
@@ -208,7 +252,7 @@ npm run dev
 
 如果终端出现 Connect Timeout Error、fetch failed 或无法连接 github.com:443，说明浏览器可以访问 GitHub，但本地 Node.js 进程被网络、防火墙或代理阻止。这不是账号密码错误。此时可以检查公司网络或代理设置，或者先部署到 Cloudflare Pages，再使用线上地址测试 OAuth。
 
-## 8. 配置前台 Review 持久化
+## 9. 配置前台 Review 持久化
 
 前台 Review 不会只停留在浏览器或邮件通知中。提交后，服务端会通过 GitHub Contents API 在仓库中创建一个待审核文件：
 
@@ -235,7 +279,7 @@ GITHUB_BRANCH=main
 
 只有 `approved` 的 Review 会展示在前台产品详情页。`GOOGLE_APPS_SCRIPT_URL` 仍可用于 Contact/Review 的通知与表格留档，但它不是后台 CMS 的主数据来源。
 
-## 9. 使用 Cloudflare Access 保护后台
+## 10. 使用 Cloudflare Access 保护后台
 
 建议只保护 /admin/*，不要保护网站前台：
 
@@ -245,7 +289,7 @@ GITHUB_BRANCH=main
 4. 路径填写 /admin/*。
 5. 创建允许规则，只允许你的邮箱访问。
 
-## 10. 日常添加商品
+## 11. 日常添加商品
 
 1. 打开网站地址加上 /admin/。
 2. 通过 Cloudflare Access 验证身份。
@@ -280,7 +324,7 @@ npm run convert:products -- path/to/products.json --brand Gucci --category Bags
 
 默认不会覆盖已有商品。标题为空时会自动使用 SKU；只有 SKU 和图片都为空时才跳过。缺少图片但有 SKU 的商品会使用站内占位图。确实需要用 JSON 更新同名 SKU 时，才添加 `--overwrite`。
 
-## 11. 常见问题
+## 12. 常见问题
 
 ### 页面没有商品
 
@@ -302,6 +346,6 @@ npm run convert:products -- path/to/products.json --brand Gucci --category Bags
 
 进入 Cloudflare Pages 的 Deployments 查看最新部署日志。构建失败时，在本地执行 npm run check 和 npm run build。
 
-## 12. 当前版本暂不包含
+## 13. 当前版本暂不包含
 
 购物车、在线支付、订单管理、库存扣减、客户账户、自动图片压缩，以及 Decap CMS 内置的一键 R2 媒体库。
