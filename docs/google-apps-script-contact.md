@@ -4,7 +4,7 @@
 2. In Google Sheets, open **Extensions > Apps Script** and replace the project code with the script below.
 3. Change `NOTIFY_EMAIL` to the inbox that should receive notifications.
 4. Deploy as **Web app**: execute as **Me**, access **Anyone**.
-5. Copy the `/exec` URL into `GOOGLE_APPS_SCRIPT_INQUIRY_URL` in Cloudflare Pages/Workers environment variables. Keep `GOOGLE_APPS_SCRIPT_URL` for the existing Contact/Review form. The same Apps Script deployment may be used for both variables, or you may deploy a separate script if you want separate spreadsheets.
+5. Copy the `/exec` URL into `GOOGLE_APPS_SCRIPT_URL` in Cloudflare Pages/Workers environment variables. This single deployment handles Contact, Review, and Basket Inquiry requests.
 
 Basket enquiries are written as one row in `Inquiries`. The full product list is stored in the `Items` column, and WhatsApp/email only send a short inquiry ID. This avoids URL and message-length limits when a customer selects many products.
 

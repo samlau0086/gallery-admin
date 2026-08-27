@@ -58,7 +58,7 @@ export const POST: APIRoute = async ({ request, locals }) => {
   if (!items.length) return json({ error: 'Please add at least one item.' }, 400);
 
   const env = getEnv(locals);
-  const endpoint = env.GOOGLE_APPS_SCRIPT_INQUIRY_URL;
+  const endpoint = env.GOOGLE_APPS_SCRIPT_URL;
   if (!endpoint) return json({ error: 'Inquiry service is not configured.' }, 503);
 
   const submittedAt = new Date().toISOString();

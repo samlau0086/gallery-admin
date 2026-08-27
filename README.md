@@ -259,17 +259,14 @@ npm run dev
 - Execute as：`Me`
 - Who has access：`Anyone`
 
-在 Cloudflare Pages 的 Settings → Environment variables 中配置：
+在 Cloudflare Pages 的 Settings → Environment variables 中配置唯一的 Apps Script 地址：
 
 ~~~env
-# Contact Form 和 Review 使用
-GOOGLE_APPS_SCRIPT_URL=https://script.google.com/macros/s/your_contact_deployment_id/exec
-
-# 购物篮批量询盘使用
-GOOGLE_APPS_SCRIPT_INQUIRY_URL=https://script.google.com/macros/s/your_inquiry_deployment_id/exec
+# Contact Form、Review 和购物篮批量询盘共用
+GOOGLE_APPS_SCRIPT_URL=https://script.google.com/macros/s/your_deployment_id/exec
 ~~~
 
-两个变量可以填写同一个 Apps Script `/exec` 地址，也可以分别部署到不同的 Google Spreadsheet。购物篮询盘会写入 `Inquiries` 工作表，并向 `NOTIFY_EMAIL` 发送包含完整产品清单的通知；WhatsApp 和 Email 只发送询盘编号，因此不会因产品数量过多而超出消息长度限制。修改环境变量后需要重新部署 Cloudflare Pages。
+这个 Apps Script 部署统一处理 Contact Form、Review 和购物篮批量询盘。购物篮询盘会写入 `Inquiries` 工作表，并向 `NOTIFY_EMAIL` 发送包含完整产品清单的通知；WhatsApp 和 Email 只发送询盘编号，因此不会因产品数量过多而超出消息长度限制。修改环境变量后需要重新部署 Cloudflare Pages。
 ## 10. 配置前台 Review 持久化
 
 前台 Review 不会只停留在浏览器或邮件通知中。提交后，服务端会通过 GitHub Contents API 在仓库中创建一个待审核文件：
@@ -295,7 +292,7 @@ GITHUB_BRANCH=main
 6. 重新部署 Cloudflare Pages。
 7. 访客提交 Review 后，在后台打开 Pending Reviews 集合，将 Status 从 `pending` 改为 `approved` 或 `rejected`，然后保存。GitHub Actions 会自动把 approved 文件移动到 `src/content/reviews/`，随后触发正式站点部署。
 
-只有 `approved` 的 Review 会展示在前台产品详情页。`GOOGLE_APPS_SCRIPT_URL` 仍可用于 Contact/Review 的通知与表格留档，但它不是后台 CMS 的主数据来源。 购物篮批量询盘会通过独立的 `GOOGLE_APPS_SCRIPT_INQUIRY_URL` 写入 Google Sheets 的 `Inquiries` 工作表；WhatsApp/Email 只发送询盘编号，不再发送完整产品清单，避免产品过多时消息超长。配置方式见 `docs/google-apps-script-contact.md`。
+只有 `approved` 的 Review 会展示在前台产品详情页。`GOOGLE_APPS_SCRIPT_URL` 可用于 Contact、Review 和购物篮批量询盘的通知与表格留档，但它不是后台 CMS 的主数据来源。购物篮批量询盘会写入 Google Sheets 的 `Inquiries` 工作表；WhatsApp/Email 只发送询盘编号，不再发送完整产品清单，避免产品过多时消息超长。配置方式见 `docs/google-apps-script-contact.md`。
 
 ## 11. 使用 Cloudflare Access 保护后台
 
