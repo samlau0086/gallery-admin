@@ -10,6 +10,14 @@ const extensionFrom = (response: Response, source: string) => {
 
 const filenamePart = (value: string) => value.replace(/[^a-z0-9_-]+/gi, '-').replace(/^-+|-+$/g, '') || 'product-images';
 
+const initDownloadImageButtons = () => {
+  document.querySelectorAll<HTMLButtonElement>('[data-download-images]').forEach((button) => {
+    if (button.dataset.downloadImagesBound) return;
+    button.dataset.downloadImagesBound = 'true';
+    button.addEventListener('click', () => downloadImages(button));
+  });
+};
+
 const downloadImages = async (button: HTMLButtonElement) => {
   const status = document.querySelector<HTMLElement>('[data-download-images-status]');
   const urls: string[] = JSON.parse(button.dataset.imageUrls || '[]');
@@ -44,6 +52,5 @@ const downloadImages = async (button: HTMLButtonElement) => {
   }
 };
 
-document.querySelectorAll<HTMLButtonElement>('[data-download-images]').forEach((button) => {
-  button.addEventListener('click', () => downloadImages(button));
-});
+initDownloadImageButtons();
+document.addEventListener('astro:page-load', initDownloadImageButtons);
