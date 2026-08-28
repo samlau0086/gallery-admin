@@ -8,6 +8,28 @@
   var countryOptions;
   var countries = ['United States', 'United Kingdom', 'Canada', 'Australia', 'Germany', 'France', 'Italy', 'Spain', 'Singapore', 'Malaysia', 'Japan', 'South Korea', 'China', 'Hong Kong', 'Taiwan', 'India', 'Other'];
 
+  function updateInquiryCopy() {
+    document.querySelectorAll('[data-add-to-basket]').forEach(function (button) {
+      if (button.lastChild && button.lastChild.nodeType === Node.TEXT_NODE && button.lastChild.textContent !== 'Add to inquiry list') {
+        button.lastChild.textContent = 'Add to inquiry list';
+      }
+    });
+    document.querySelectorAll('[data-basket-open]').forEach(function (button) {
+      button.setAttribute('aria-label', 'View inquiry list');
+      button.setAttribute('title', 'View inquiry list');
+    });
+    var title = document.querySelector('#basket-title');
+    if (title) {
+      title.id = 'inquiry-list-title';
+      if (title.textContent !== 'Inquiry list') title.textContent = 'Inquiry list';
+    }
+    var panel = document.querySelector('.basket-panel');
+    if (panel) panel.setAttribute('aria-labelledby', 'inquiry-list-title');
+    var closeButton = document.querySelector('.basket-close');
+    if (closeButton) closeButton.setAttribute('aria-label', 'Close inquiry list');
+    if (empty) empty.textContent = 'Your inquiry list is empty.';
+  }
+
   function read() {
     try {
       var stored = JSON.parse(localStorage.getItem(storageKey) || '[]');
@@ -147,7 +169,7 @@
       if (!response.ok || !result.ok) throw new Error(result.error || 'Unable to create inquiry.');
       var message = "I'm from " + country + ', hello, I would like to enquire about ' + result.itemCount + ' items.\n\nInquiry ID: ' + result.inquiryId + '\n\nPlease send me a quote and availability.';
       if (channel === 'email') {
-        window.location.href = 'mailto:info@maesvanti.online?subject=' + encodeURIComponent('Basket enquiry ' + result.inquiryId) + '&body=' + encodeURIComponent(message);
+        window.location.href = 'mailto:info@maesvanti.online?subject=' + encodeURIComponent('Product inquiry ' + result.inquiryId) + '&body=' + encodeURIComponent(message);
       } else if (popup) {
         popup.location = 'https://wa.me/85265426672?text=' + encodeURIComponent(message);
       } else {
@@ -188,6 +210,8 @@
 
   document.addEventListener('keydown', function (event) { if (event.key === 'Escape') { close(); closeCountryOptions(); } });
   window.addEventListener('storage', function (event) { if (event.key === storageKey) render(); });
+  new MutationObserver(updateInquiryCopy).observe(document.body, { childList: true, subtree: true });
+  updateInquiryCopy();
   setupCountryPicker();
   render();
 })();
