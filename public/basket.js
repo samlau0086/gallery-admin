@@ -210,7 +210,6 @@
 
   document.addEventListener('keydown', function (event) { if (event.key === 'Escape') { close(); closeCountryOptions(); } });
   window.addEventListener('storage', function (event) { if (event.key === storageKey) render(); });
-  new MutationObserver(updateInquiryCopy).observe(document.body, { childList: true, subtree: true });
   updateInquiryCopy();
   setupCountryPicker();
   render();
