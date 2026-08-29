@@ -25,11 +25,14 @@ import GoogleAnalytics from './GoogleAnalytics.astro';
     <nav class="category-list" aria-label="Categories">
       <a class="category-option" data-category="All" href="/?category=all">All products</a>
       {productCategories.map((category) => <a class="category-option" data-category={category} href={'/?category=' + categorySlug(category)}>{category}</a>)}
-      <a class="category-option" data-filter-mode="tags" href="/?filter=tags">Tags</a>
-      <a class="category-option" data-filter-mode="brands" href="/?filter=brands">Brands</a>
+      <button class="category-option category-parent" type="button" data-filter-mode="tags" aria-expanded="false">Tags<span aria-hidden="true">›</span></button>
+      <button class="category-option category-parent" type="button" data-filter-mode="brands" aria-expanded="false">Brands<span aria-hidden="true">›</span></button>
     </nav>
+    <section class="category-submenu" data-submenu="tags" aria-label="Tags" hidden><div class="category-submenu-heading">Tags</div><div class="category-terms" data-terms="tags"><span class="category-terms-loading">Loading…</span></div></section>
+    <section class="category-submenu" data-submenu="brands" aria-label="Brands" hidden><div class="category-submenu-heading">Brands</div><div class="category-terms" data-terms="brands"><span class="category-terms-loading">Loading…</span></div></section>
   </div>
 </header>
 <script src="/search.js" defer></script>
+<script src="/category-menu.js" defer></script>
 <script src="/contact-modal.js" defer></script>
 
