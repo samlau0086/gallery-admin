@@ -1,13 +1,24 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { site } from '../data/site';
+import { absoluteUrl } from '../data/seo';
 import '../styles/global.css';
 import '../styles/overrides.css';
 export const prerender = true;
+const canonical = absoluteUrl('/');
+const homeDescription = 'Explore Maesvanti’s curated collection of fashion, bags, accessories, and distinctive objects.';
+const homeSchema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    { '@type': 'WebSite', name: site.name, url: canonical, description: homeDescription },
+    { '@type': 'Organization', name: site.name, url: canonical, email: site.contact.email.replace(/^mailto:/, '') },
+  ],
+};
 ---
-<Layout title={site.name} description={site.tagline}>
+<Layout title="Maesvanti | Curated Fashion & Accessories" description={homeDescription} canonical={canonical} image={site.hero} jsonLd={homeSchema}>
+<style is:global>.visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}</style>
 <div class="app-shell">
-<main class="content-column"><section class="collection-head"><div class="tabs"><button class="tab active" type="button" data-category="All">All</button><button class="tab" type="button" data-kind="new">New</button><button class="tab" type="button" data-kind="video">Video</button><button class="tab" type="button" data-kind="photos">Photos</button></div><div class="view-controls"><span class="collection-count">Loading collection</span><button class="view-button" type="button" aria-label="Change grid view">▦</button><div class="view-menu" hidden><button type="button" data-view="grid">▦ Gallery</button><button type="button" data-view="large">▤ Large image</button><button type="button" data-view="list">☷ List view</button></div></div></section><section class="product-grid is-loading" id="product-grid" aria-busy="true">{Array.from({ length: 12 }, (_, index) => <div class="product-skeleton" aria-hidden="true" key={index}><div class="skeleton-image"></div><div class="skeleton-line skeleton-title"></div><div class="skeleton-line skeleton-subtitle"></div><div class="skeleton-line skeleton-description"></div></div>)}</section><div id="load-more-sentinel" aria-hidden="true"></div><p class="load-more-status" id="load-more-status" aria-live="polite"></p></main>
+<main class="content-column"><h1 class="visually-hidden">Maesvanti curated fashion and accessories collection</h1><section class="collection-head"><div class="tabs"><button class="tab active" type="button" data-category="All">All</button><button class="tab" type="button" data-kind="new">New</button><button class="tab" type="button" data-kind="video">Video</button><button class="tab" type="button" data-kind="photos">Photos</button></div><div class="view-controls"><span class="collection-count">Loading collection</span><button class="view-button" type="button" aria-label="Change grid view">▦</button><div class="view-menu" hidden><button type="button" data-view="grid">▦ Gallery</button><button type="button" data-view="large">▤ Large image</button><button type="button" data-view="list">☷ List view</button></div></div></section><section class="product-grid is-loading" id="product-grid" aria-busy="true">{Array.from({ length: 12 }, (_, index) => <div class="product-skeleton" aria-hidden="true" key={index}><div class="skeleton-image"></div><div class="skeleton-line skeleton-title"></div><div class="skeleton-line skeleton-subtitle"></div><div class="skeleton-line skeleton-description"></div></div>)}</section><div id="load-more-sentinel" aria-hidden="true"></div><p class="load-more-status" id="load-more-status" aria-live="polite"></p></main>
 <button class="export-button" id="export-pdf" type="button" aria-label="Export filtered products as PDF" title="Export filtered products as PDF"><img src="/download-svgrepo-com.svg" alt="" /><span>PDF</span></button>
 </div>
 <div class="export-modal" id="export-modal" hidden><div class="modal-backdrop"></div><section class="modal-card export-progress-card" role="dialog" aria-modal="true" aria-labelledby="export-modal-title"><span class="eyebrow">PDF export</span><h2 id="export-modal-title">Preparing PDF</h2><p id="export-modal-status" role="status" aria-live="polite">Starting…</p><div class="export-progress-track"><span id="export-progress-bar"></span></div><div class="export-modal-actions"><button class="export-cancel" id="export-cancel" type="button">Cancel</button><button class="export-save" id="export-save" type="button" hidden>Save PDF</button></div></section></div>

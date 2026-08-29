@@ -290,7 +290,7 @@ GITHUB_BRANCH=main
 
 5. 如果仓库名或分支不同，请替换为实际值；Token 不要提交到 GitHub，也不要在前端代码中使用。
 6. 重新部署 Cloudflare Pages。
-7. 访客提交 Review 后，在后台打开 Pending Reviews 集合，将 Status 从 `pending` 改为 `approved` 或 `rejected`，然后保存。GitHub Actions 会自动把 approved 文件移动到 `src/content/reviews/`，随后触发正式站点部署。
+7. 访客提交 Review 后，在后台打开 Pending Reviews 集合，将 Status 从 `pending` 改为 `approved`、`published` 或 `rejected`，然后保存。GitHub Actions 会自动把 `approved` 或 `published` 文件移动到 `src/content/reviews/`，并统一保存为 `approved`，随后触发正式站点部署。
 
 只有 `approved` 的 Review 会展示在前台产品详情页。`GOOGLE_APPS_SCRIPT_URL` 可用于 Contact、Review 和购物篮批量询盘的通知与表格留档，但它不是后台 CMS 的主数据来源。购物篮批量询盘会写入 Google Sheets 的 `Inquiries` 工作表；WhatsApp/Email 只发送询盘编号，不再发送完整产品清单，避免产品过多时消息超长。配置方式见 `docs/google-apps-script-contact.md`。
 

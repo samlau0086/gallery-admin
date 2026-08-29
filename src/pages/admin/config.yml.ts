@@ -72,7 +72,7 @@ collections:
       - { label: Images, name: images, widget: list, required: false, field: { label: Image, name: url, widget: r2-image } }
       - { label: Date, name: date, widget: string }
       - { label: Variants, name: variants, widget: string, required: false }
-      - { label: Status, name: status, widget: select, options: [pending, approved, rejected], default: pending }
+      - { label: Status, name: status, widget: select, options: [pending, approved, published, rejected], default: pending }
 `;
 
 export const prerender = false;

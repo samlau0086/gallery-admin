@@ -11,7 +11,12 @@ for (const entry of entries) {
   const source = path.join(pendingDir, entry.name);
   const content = await fs.readFile(source, 'utf8');
   const status = content.match(/^status:\s*["']?([^"'\r\n]+)["']?\s*$/m)?.[1]?.trim();
-  if (status !== 'approved') continue;
+  if (status !== 'approved' && status !== 'published') continue;
+  const normalizedContent = content.replace(
+    /^status:\s*["']?[^"'\r\n]+["']?\s*$/m,
+    'status: "approved"',
+  );
+  await fs.writeFile(source, normalizedContent, 'utf8');
   await fs.rename(source, path.join(approvedDir, entry.name));
   moved += 1;
 }
