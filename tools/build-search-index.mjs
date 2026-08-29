@@ -5,18 +5,49 @@ const productsDir = path.resolve('src/content/products');
 const searchOutputPath = path.resolve('public/search-index.json');
 const productsOutputDir = path.resolve('public/product-data');
 const categoriesOutputPath = path.resolve('src/data/product-categories.ts');
+const reviewsDir = path.resolve('src/content/reviews');
 const parseScalar = (value = '') => {
   const trimmed = value.trim();
   if (!trimmed) return '';
   try { return JSON.parse(trimmed); } catch { return trimmed.replace(/^['"]|['"]$/g, ''); }
 };
+const parseFrontmatter = (source) => {
+  const frontmatter = source.match(/^---\s*\n([\s\S]*?)\n---/m)?.[1] ?? '';
+  const get = (key) => parseScalar(frontmatter.match(new RegExp(`^${key}:\\s*(.+)$`, 'm'))?.[1]);
+  const getList = (key) => {
+    const list = frontmatter.match(new RegExp(`^${key}:\\s*\\n((?:\\s+-\\s+.*\\n?)+)`, 'm'))?.[1] ?? '';
+    return list.split('\n').map((line) => line.match(/^\s+-\s+(.+)$/)?.[1]).filter(Boolean).map(parseScalar);
+  };
+  return { get, getList };
+};
 const files = (await readdir(productsDir)).filter((file) => file.endsWith('.md'));
+const reviewFiles = (await readdir(reviewsDir).catch(() => [])).filter((file) => file.endsWith('.md'));
+const approvedReviews = [];
+for (const file of reviewFiles) {
+  const { get, getList } = parseFrontmatter(await readFile(path.join(reviewsDir, file), 'utf8'));
+  const status = get('status');
+  if (status && status !== 'approved') continue;
+  const product = get('product');
+  const author = get('author');
+  const review = get('review');
+  if (!product || !author || !review) continue;
+  approvedReviews.push({
+    product,
+    author,
+    email: get('email') || undefined,
+    rating: Number(get('rating')),
+    title: get('title') || undefined,
+    body: review,
+    images: getList('images'),
+    date: get('date') || undefined,
+    variants: get('variants') || undefined,
+  });
+}
 const records = [];
 for (const file of files) {
   const source = await readFile(path.join(productsDir, file), 'utf8');
-  const frontmatter = source.match(/^---\s*\n([\s\S]*?)\n---/m)?.[1] ?? '';
-  const get = (key) => parseScalar(frontmatter.match(new RegExp(`^${key}:\\s*(.+)$`, 'm'))?.[1]);
-  const tags = parseScalar(frontmatter.match(/^tags:\s*(.+)$/m)?.[1]);
+  const { get } = parseFrontmatter(source);
+  const tags = parseScalar(source.match(/^tags:\s*(.+)$/m)?.[1]);
   if (get('published') === false || get('published') === 'false') continue;
   const slug = file.replace(/\.md$/, '');
   const title = get('title'); const titleZh = get('titleZh'); const category = get('category');
@@ -28,7 +59,10 @@ for (const file of files) {
     media: Array.isArray(get('media')) ? get('media') : [],
     price: get('price'), description: get('description'), tags: Array.isArray(tags) ? tags : [],
     variants: Array.isArray(get('variants')) ? get('variants') : [],
-    reviews: Array.isArray(get('reviews')) ? get('reviews') : [],
+    reviews: [
+      ...(Array.isArray(get('reviews')) ? get('reviews') : []),
+      ...approvedReviews.filter((review) => review.product === slug),
+    ],
   });
 }
 records.sort((a, b) => a.sortOrder - b.sortOrder);
