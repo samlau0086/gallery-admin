@@ -4,6 +4,7 @@
   var list = document.querySelector('#basket-items');
   var count = document.querySelectorAll('[data-basket-count]');
   var empty = document.querySelector('#basket-empty');
+  var clearButton = document.querySelector('[data-basket-clear]');
   var countryInput;
   var countryOptions;
   var countries = ['United States', 'United Kingdom', 'Canada', 'Australia', 'Germany', 'France', 'Italy', 'Spain', 'Singapore', 'Malaysia', 'Japan', 'South Korea', 'China', 'Hong Kong', 'Taiwan', 'India', 'Other'];
@@ -102,6 +103,7 @@
     var items = read();
     var itemCount = total(items);
     count.forEach(function (node) { node.textContent = String(itemCount); node.hidden = itemCount === 0; });
+    if (clearButton) clearButton.disabled = items.length === 0;
     if (!list || !empty) return;
     empty.hidden = items.length > 0;
     list.hidden = items.length === 0;
@@ -190,6 +192,7 @@
     if (addButton) { event.preventDefault(); event.stopPropagation(); add(addButton); return; }
     if (target.closest('[data-basket-open]')) { open(); return; }
     if (target.closest('[data-basket-close]')) { close(); return; }
+    if (target.closest('[data-basket-clear]')) { write([]); return; }
     var countryOption = target.closest('#basket-countries button');
     if (countryOption) { selectCountry(countryOption.textContent.trim()); return; }
     var item = target.closest('.basket-item');
