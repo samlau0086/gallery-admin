@@ -3,7 +3,7 @@ name: Promote approved reviews
 on:
   push:
     branches: [main]
-    paths: ['src/content/reviews-pending/**']
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -14,10 +14,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Sync main branch
+        run: git fetch origin main && git reset --hard origin/main
       - name: Move approved reviews
         run: node .github/scripts/promote-approved-reviews.mjs
       - name: Commit promoted reviews
