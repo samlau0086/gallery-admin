@@ -25,6 +25,8 @@ import GoogleAnalytics from './GoogleAnalytics.astro';
     <nav class="category-list" aria-label="Categories">
       <a class="category-option" data-category="All" href="/?category=all">All products</a>
       {productCategories.map((category) => <a class="category-option" data-category={category} href={'/?category=' + categorySlug(category)}>{category}</a>)}
+      <a class="category-option" data-filter-mode="tags" href="/?filter=tags">Tags</a>
+      <a class="category-option" data-filter-mode="brands" href="/?filter=brands">Brands</a>
     </nav>
   </div>
 </header>
