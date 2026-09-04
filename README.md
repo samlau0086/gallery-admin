@@ -339,7 +339,23 @@ npm run convert:products -- path/to/products.json --brand Gucci --category Bags
 
 默认不会覆盖已有商品。标题为空时会自动使用 SKU；只有 SKU 和图片都为空时才跳过。缺少图片但有 SKU 的商品会使用站内占位图。确实需要用 JSON 更新同名 SKU 时，才添加 `--overwrite`。
 
-## 13. 常见问题
+## 13. 外部产品查询接口
+
+外部系统可以通过 SKU 查询已发布商品的完整信息：
+
+~~~http
+GET https://gallery.maesvanti.online/api/products/by-sku?sku=170004
+~~~
+
+接口无需额外鉴权。SKU 查询会忽略首尾空格和大小写，成功时直接返回完整商品 JSON，包括标题、品牌、分类、SKU、封面、媒体、价格、描述、标签、变体和评价。
+
+- `200`：查询成功，响应为商品对象。
+- `400`：未提供 `sku` 参数或参数为空。
+- `404`：未找到对应 SKU 的已发布商品。
+- `409`：存在多个相同 SKU，需先修正商品数据。
+- `503`：商品索引或商品数据暂时不可用。
+
+## 14. 常见问题
 
 ### 页面没有商品
 
