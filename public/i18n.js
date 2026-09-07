@@ -164,8 +164,14 @@
     setText('.search-trigger span:last-child', 'search');
     setAttr('.global-search', 'placeholder', 'searchCollection');
     setAttr('.global-search', 'aria-label', 'searchCollection');
+    setAttr('#export-pdf', 'aria-label', 'exportFilteredProducts');
+    setAttr('#export-pdf', 'title', 'exportFilteredProducts');
+    setAttr('.view-button', 'aria-label', 'changeGridView');
     setAttr('.category-list', 'aria-label', 'categories');
     setText('.category-option[data-category="All"]', 'allProducts');
+    document.querySelectorAll('.category-option[data-category="Bags"], .detail-copy > .muted').forEach(function (node) {
+      if (node.textContent.trim() === 'Bags') node.textContent = text('bags');
+    });
     setText('.category-parent[data-filter-mode="tags"]', 'tags');
     setText('.category-parent[data-filter-mode="brands"]', 'brands');
     document.querySelectorAll('.category-submenu').forEach(function (node) {
@@ -238,6 +244,12 @@
       node.textContent = '';
       if (image) node.appendChild(image);
       node.appendChild(document.createTextNode(' ' + text('addToBasket')));
+    });
+    document.querySelectorAll('.inquiry-card-button').forEach(function (node) {
+      var image = node.querySelector('img');
+      node.textContent = '';
+      if (image) node.appendChild(image);
+      node.appendChild(document.createTextNode(' ' + text('whatsappInquiry')));
     });
     document.querySelectorAll('.detail-copy .contact-link').forEach(function (node) {
       if (node.textContent?.includes('WhatsApp')) node.textContent = text('whatsappInquiry');

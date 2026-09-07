@@ -63,24 +63,24 @@
 .basket-country-combobox{grid-column:1/-1}.basket-country-combobox input{width:100%;border:1px solid #dedee4;border-radius:4px;padding:10px 11px;background:#fff;color:#202126;font-size:16px;outline:none}.basket-country-combobox input:focus{border-color:#20b96c;box-shadow:0 0 0 3px #20b96c18}.basket-country-combobox .country-options{top:auto;bottom:calc(100% + 4px)}
 
 .product-skeleton{min-width:0;overflow:hidden}.skeleton-image{aspect-ratio:1/1.08;background:linear-gradient(100deg,#f1f1f3 20%,#fafafa 38%,#f1f1f3 56%);background-size:200% 100%;animation:skeleton-shimmer 1.4s ease-in-out infinite}.skeleton-line{height:10px;margin:10px 7px 0;border-radius:3px;background:#f1f1f3}.skeleton-title{width:72%;height:12px}.skeleton-subtitle{width:54%;margin-top:7px}.skeleton-description{width:88%;margin-top:12px}.load-more-retry{border:0;background:transparent;color:#20a965;text-decoration:underline;cursor:pointer;font-size:12px}@keyframes skeleton-shimmer{to{background-position:-200% 0}}@media(prefers-reduced-motion:reduce){.skeleton-image{animation:none}}
-.basket-card-button[data-add-to-basket],.add-to-basket-button[data-add-to-basket]{font-size:0}.basket-card-button[data-add-to-basket]::after,.add-to-basket-button[data-add-to-basket]::after{content:'Add to inquiry list';font-size:12px}.add-to-basket-button[data-add-to-basket]::after{font-size:13px}
+.basket-card-button[data-add-to-basket]{font-size:12px}.add-to-basket-button[data-add-to-basket]{font-size:13px}
 
 .download-images-button{width:100%;margin:-8px 0 18px;padding:12px;border:1px solid #202126;background:#fff;color:#202126;font:inherit;font-size:12px;cursor:pointer}.download-images-button:hover{border-color:#20b96c;color:#20b96c}.download-images-button:disabled{cursor:wait;opacity:.65}.download-images-status{min-height:18px;margin:-10px 0 16px!important;color:#70717a!important;font-size:12px!important}
 
 .header-right>.icon-link:first-child::before{display:none}
 .header-right>.icon-link:first-child img{display:block;width:20px;height:20px;filter:brightness(0) invert(1)}
-.language-switcher{position:fixed;z-index:46;right:28px;bottom:92px;display:flex;flex-direction:column;align-items:stretch;gap:7px}
+.language-switcher{position:fixed;z-index:46;right:28px;bottom:128px;display:flex;flex-direction:column;align-items:stretch;gap:9px}
 .language-current,.language-menu button{display:flex;align-items:center;gap:7px;border:1px solid #dedee4;background:#fff;color:#202126;cursor:pointer;font-size:12px;line-height:1}
-.language-current{justify-content:center;min-width:68px;height:36px;padding:0 9px;border-radius:18px;box-shadow:0 6px 18px #1112}
+.language-current{justify-content:center;min-width:88px;height:44px;padding:0 12px;border-radius:22px;box-shadow:0 6px 18px #1112;font-size:13px}
 .language-current:hover,.language-current:focus-visible,.language-menu button:hover,.language-menu button:focus-visible{border-color:#20b96c;outline:none}
 .language-chevron{font-size:15px;line-height:10px;transition:transform .15s ease}
 .language-switcher.is-open .language-chevron{transform:rotate(180deg)}
-.language-menu{display:flex;flex-direction:column;gap:4px;position:absolute;right:0;bottom:calc(100% + 7px);min-width:68px;padding:5px;border:1px solid #dedee4;border-radius:8px;background:#fff;box-shadow:0 8px 24px #1113}
+.language-menu{display:flex;flex-direction:column;gap:4px;position:absolute;right:0;bottom:calc(100% + 9px);min-width:88px;padding:5px;border:1px solid #dedee4;border-radius:8px;background:#fff;box-shadow:0 8px 24px #1113}
 .language-menu button{justify-content:flex-start;width:100%;padding:9px 8px;border-color:transparent;border-radius:4px}
 .language-menu button.active{background:#f1fbf5;color:#159653}
-.language-flag{font-size:16px;line-height:1}
+.language-flag{font-size:19px;line-height:1}
 .language-code{font-weight:600;letter-spacing:.04em}
-@media(max-width:620px){.language-switcher{right:16px;bottom:82px}}
+@media(max-width:620px){.language-switcher{right:16px;bottom:106px}.language-current{min-width:82px;height:42px}.language-menu{min-width:82px}}
 .language-suggestion-open{overflow:hidden}
 .language-suggestion-modal{position:fixed;inset:0;z-index:90;display:grid;place-items:center;padding:20px;background:#1118;backdrop-filter:blur(3px)}
 .language-suggestion-card{width:min(100%,420px);padding:32px;background:#fff;box-shadow:0 18px 60px #1115}
