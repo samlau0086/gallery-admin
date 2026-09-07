@@ -12,8 +12,8 @@ const response = runtime?.env?.ASSETS ? await runtime.env.ASSETS.fetch(new Reque
 const product = response.ok ? await response.json() : null;
 if(!product||!product.published)return Astro.redirect('/');
 const locale = productLocaleFromUrl(Astro.url);
-const localizedTitle = localizedValue(product.i18n?.title || product.title, locale, product.titleZh || product.title || '');
-const localizedDescription = localizedValue(product.i18n?.description || product.description, locale, product.descriptionZh || product.description || localizedTitle);
+const localizedTitle = localizedValue(product.i18n?.title || product.title, locale, product.title || "");
+const localizedDescription = localizedValue(product.i18n?.description || product.description, locale, product.description || localizedTitle);
 const localizedCategory = localizedValue(product.i18n?.category || product.category, locale, product.category || '');
 const localizedProduct = { ...product, title: localizedTitle, description: localizedDescription, category: localizedCategory };
 const media=product.media.length?product.media:[{url:product.cover,type:'image',alt:localizedTitle}];

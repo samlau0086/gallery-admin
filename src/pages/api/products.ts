@@ -1,7 +1,7 @@
 import type { APIRoute } from 'astro';
 
 type RuntimeLocals = App.Locals & { runtime?: { env?: { ASSETS?: { fetch: (request: Request | string) => Promise<Response> } } } };
-type Product = { slug: string; title: string; titleZh?: string; category: string; brand?: string; sku?: string; cover: string; sortOrder: number; searchable: string; description?: string; tags?: string[]; featured?: boolean; i18n?: { title?: Record<string, string>; description?: Record<string, string>; category?: Record<string, string> } };
+type Product = { slug: string; title: string; category: string; brand?: string; sku?: string; cover: string; sortOrder: number; searchable: string; description?: string; tags?: string[]; featured?: boolean; i18n?: { title?: Record<string, string>; description?: Record<string, string>; category?: Record<string, string> } };
 
 const SUCCESS_CACHE_CONTROL = 'public, max-age=2592000, s-maxage=2592000, stale-while-revalidate=86400';
 const ERROR_CACHE_CONTROL = 'no-store';

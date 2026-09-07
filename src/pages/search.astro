@@ -12,17 +12,15 @@ const query=(Astro.url.searchParams.get('q')||'').trim();
 const q=query.toLowerCase();
 const locale = productLocaleFromUrl(Astro.url);
 const localizedValues = (value: unknown) => value && typeof value === 'object' ? Object.values(value as Record<string, unknown>) : [value];
-const productTitle = (product: any) => localizedValue(product.i18n?.title || product.title, locale, product.titleZh || product.title || '');
-const productDescription = (product: any) => localizedValue(product.i18n?.description || product.description, locale, product.descriptionZh || '');
+const productTitle = (product: any) => localizedValue(product.i18n?.title || product.title, locale, product.title || "");
+const productDescription = (product: any) => localizedValue(product.i18n?.description || product.description, locale, '');
 const products=productsData.filter((product: any)=>product.published !== false&&(!q||[
   ...localizedValues(product.i18n?.title),
   ...localizedValues(product.i18n?.description),
   ...localizedValues(product.i18n?.category),
   product.title,
-  product.titleZh,
   product.category,
   product.description,
-  product.descriptionZh,
   product.brand,
   product.sku,
   ...(product.tags || []),

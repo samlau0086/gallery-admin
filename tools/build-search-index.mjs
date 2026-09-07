@@ -78,12 +78,10 @@ for (const file of files) {
   if (get('published') === false || get('published') === 'false') continue;
   const slug = file.replace(/\.md$/, '');
   const titleSource = get('title');
-  const titleZh = get('titleZh');
   const categorySource = get('category');
   const descriptionSource = get('description');
-  const descriptionZh = get('descriptionZh');
-  const titleI18n = localizedMap(undefined, titleSource, { zh: titleZh });
-  const descriptionI18n = localizedMap(undefined, descriptionSource, { zh: descriptionZh });
+  const titleI18n = localizedMap(undefined, titleSource);
+  const descriptionI18n = localizedMap(undefined, descriptionSource);
   const categoryI18n = localizedMap(undefined, categorySource);
   const title = localizedValue(titleI18n);
   const category = localizedValue(categoryI18n);
@@ -98,7 +96,7 @@ for (const file of files) {
     ...(Array.isArray(tags) ? tags : []),
   ].filter(Boolean).join(' ').toLowerCase();
   records.push({
-    slug, title, titleZh, category, brand, sku, cover, sortOrder, searchable, published: true,
+    slug, title, category, brand, sku, cover, sortOrder, searchable, published: true,
     i18n: { title: titleI18n, description: descriptionI18n, category: categoryI18n },
     media: Array.isArray(get('media')) ? get('media') : [],
     price: get('price'), description: localizedValue(descriptionI18n), tags: Array.isArray(tags) ? tags : [],
@@ -111,7 +109,7 @@ for (const file of files) {
 }
 records.sort((a, b) => a.sortOrder - b.sortOrder);
 await mkdir(path.dirname(searchOutputPath), { recursive: true });
-await writeFile(searchOutputPath, JSON.stringify(records.map(({ slug, title, titleZh, category, brand, sku, cover, sortOrder, searchable, description, tags, i18n }) => ({ slug, title, titleZh, category, brand, sku, cover, sortOrder, searchable, description, tags, i18n, featured: sortOrder < 24 }))), 'utf8');
+await writeFile(searchOutputPath, JSON.stringify(records.map(({ slug, title, category, brand, sku, cover, sortOrder, searchable, description, tags, i18n }) => ({ slug, title, category, brand, sku, cover, sortOrder, searchable, description, tags, i18n, featured: sortOrder < 24 }))), 'utf8');
 await mkdir(productsOutputDir, { recursive: true });
 for (const record of records) await writeFile(path.join(productsOutputDir, `${record.slug}.json`), JSON.stringify(record), 'utf8');
 const categories = [...new Set(records.map(({ category }) => String(category).trim()).filter(Boolean))].sort((a, b) => a.localeCompare(b));

@@ -35,8 +35,7 @@ collections:
         fields:
           - { label: English, name: en, widget: string }
           - { label: Spanish, name: es, widget: string, required: false }
-          - { label: Chinese (legacy), name: zh, widget: string, required: false }
-      - { label: Chinese title (legacy), name: titleZh, widget: string, required: false, hint: 'Use the localized title fields above for new content.' }
+          - { label: Chinese, name: zh, widget: string, required: false }
       - label: Category
         name: category
         widget: object
@@ -55,8 +54,7 @@ collections:
         fields:
           - { label: English, name: en, widget: text, required: false }
           - { label: Spanish, name: es, widget: text, required: false }
-          - { label: Chinese (legacy), name: zh, widget: text, required: false }
-      - { label: Chinese description (legacy), name: descriptionZh, widget: text, required: false, hint: 'Use the localized description fields above for new content.' }
+          - { label: Chinese, name: zh, widget: text, required: false }
       - { label: Variants, name: variants, widget: list, required: false, fields: [{ label: Name, name: name, widget: string }, { label: Options, name: options, widget: list, required: false }] }
       - { label: Reviews, name: reviews, widget: list, required: false, fields: [{ label: Author, name: author, widget: string }, { label: Email, name: email, widget: string, required: false }, { label: Rating, name: rating, widget: number, value_type: int, min: 1, max: 5 }, { label: Title, name: title, widget: string, required: false }, { label: Review, name: body, widget: text }, { label: Date, name: date, widget: string, required: false }, { label: Variant selection, name: variants, widget: string, required: false }] }
       - { label: Tags, name: tags, widget: list, required: false }

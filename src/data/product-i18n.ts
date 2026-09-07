@@ -14,9 +14,9 @@ export function localizedValue(value: LocalizedString, locale: string, fallback 
   return value[locale] || value[defaultLocale] || Object.values(value).find(Boolean) || fallback;
 }
 
-export function localizedProduct<T extends { title?: LocalizedString; description?: LocalizedString; category?: LocalizedString; titleZh?: string; descriptionZh?: string }>(product: T, locale: string) {
-  const title = localizedValue(product.title, locale, product.titleZh || '');
-  const description = localizedValue(product.description, locale, product.descriptionZh || title);
+export function localizedProduct<T extends { title?: LocalizedString; description?: LocalizedString; category?: LocalizedString }>(product: T, locale: string) {
+  const title = localizedValue(product.title, locale);
+  const description = localizedValue(product.description, locale, title);
   const category = localizedValue(product.category, locale);
   return { ...product, title, description, category };
 }
