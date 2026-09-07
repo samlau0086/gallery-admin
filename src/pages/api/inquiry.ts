@@ -52,7 +52,8 @@ export const POST: APIRoute = async ({ request, locals }) => {
     return json({ error: 'Invalid request.' }, 400);
   }
 
-  const country = String(payload.country || '').trim().slice(0, 100);
+  const countryCode = String(payload.country || '').trim().slice(0, 20);
+  const country = String(payload.countryName || countryCode).trim().slice(0, 100);
   const items = normalizeItems(payload.items);
   if (!country) return json({ error: 'Please select your country.' }, 400);
   if (!items.length) return json({ error: 'Please add at least one item.' }, 400);
@@ -71,6 +72,7 @@ export const POST: APIRoute = async ({ request, locals }) => {
         source: 'basket-inquiry',
         inquiryId,
         country,
+        countryCode,
         items,
         submittedAt,
       }),

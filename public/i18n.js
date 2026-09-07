@@ -2,6 +2,7 @@
   var config = window.__i18n || {};
   var dictionaries = config.translations || { en: {} };
   var localeMeta = config.localeMeta || {};
+  var countryOptions = Array.isArray(config.countryOptions) ? config.countryOptions : [];
   var supportedLocales = Array.isArray(config.supportedLocales) && config.supportedLocales.length ? config.supportedLocales : Object.keys(dictionaries);
   if (!supportedLocales.length) supportedLocales = ['en'];
   var params = new URLSearchParams(window.location.search);
@@ -20,6 +21,25 @@
     });
   }
   function setAttr(selector, attr, key) { var node = document.querySelector(selector); if (node) node.setAttribute(attr, text(key)); }
+  function fillTemplate(value, variables) { return String(value || '').replace(/\{(\w+)\}/g, function (_, key) { return variables && variables[key] !== undefined ? variables[key] : '{' + key + '}'; }); }
+  function countryEntry(value) {
+    var normalized = String(value || '').trim().toLowerCase();
+    return countryOptions.find(function (country) {
+      return country.code.toLowerCase() === normalized || Object.keys(country.names || {}).some(function (locale) { return String(country.names[locale] || '').toLowerCase() === normalized; });
+    });
+  }
+  function countryCode(value) { var entry = countryEntry(value); return entry ? entry.code : String(value || '').trim(); }
+  function countryName(value) { var entry = countryEntry(value); return entry ? (entry.names[lang] || entry.names.en || entry.code) : String(value || '').trim(); }
+  function renderCountryOptions() {
+    document.querySelectorAll('.country-options').forEach(function (container) {
+      container.innerHTML = countryOptions.map(function (country) { return '<button type="button" role="option" data-country-code="' + escapeHtml(country.code) + '">' + escapeHtml(country.names[lang] || country.names.en || country.code) + '</button>'; }).join('');
+    });
+    document.querySelectorAll('#inquiry-country, #basket-country').forEach(function (input) {
+      var storedCountry = localStorage.getItem('inquiry-country') || input.value;
+      if (storedCountry) input.value = countryName(storedCountry);
+    });
+  }
+  window.__fillTemplate = fillTemplate; window.__countryCode = countryCode; window.__countryName = countryName; window.__renderCountryOptions = renderCountryOptions;
   function getLocaleMeta(locale) { return localeMeta[locale] || { code: locale.toUpperCase(), flag: '🌐', name: locale }; }
   function escapeHtml(value) { return String(value).replace(/[&<>"']/g, function (character) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[character]; }); }
   function browserLocale() {
@@ -139,6 +159,7 @@
   function translatePage() {
     document.documentElement.lang = lang;
     document.documentElement.dataset.locale = lang;
+    renderCountryOptions();
     setText('.category-trigger span:last-child', 'category');
     setText('.search-trigger span:last-child', 'search');
     setAttr('.global-search', 'placeholder', 'searchCollection');

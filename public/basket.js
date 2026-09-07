@@ -7,28 +7,42 @@
   var clearButton = document.querySelector('[data-basket-clear]');
   var countryInput;
   var countryOptions;
-  var countries = ['United States', 'United Kingdom', 'Canada', 'Australia', 'Germany', 'France', 'Italy', 'Spain', 'Singapore', 'Malaysia', 'Japan', 'South Korea', 'China', 'Hong Kong', 'Taiwan', 'India', 'Other'];
+  var i18n = window.__i18n || {};
+  var locale = window.__locale || 'en';
+  var countries = Array.isArray(i18n.countryOptions) ? i18n.countryOptions : [
+    { code: 'US', names: { en: 'United States' } }, { code: 'GB', names: { en: 'United Kingdom' } }, { code: 'CA', names: { en: 'Canada' } },
+    { code: 'AU', names: { en: 'Australia' } }, { code: 'DE', names: { en: 'Germany' } }, { code: 'FR', names: { en: 'France' } },
+    { code: 'IT', names: { en: 'Italy' } }, { code: 'ES', names: { en: 'Spain' } }, { code: 'SG', names: { en: 'Singapore' } },
+    { code: 'MY', names: { en: 'Malaysia' } }, { code: 'JP', names: { en: 'Japan' } }, { code: 'KR', names: { en: 'South Korea' } },
+    { code: 'CN', names: { en: 'China' } }, { code: 'HK', names: { en: 'Hong Kong' } }, { code: 'TW', names: { en: 'Taiwan' } },
+    { code: 'IN', names: { en: 'India' } }, { code: 'OTHER', names: { en: 'Other' } },
+  ];
+
+  function translate(key, fallback) { return typeof window.__t === 'function' ? window.__t(key) : (i18n.translations?.[locale]?.[key] || fallback); }
+  function fillTemplate(value, variables) { return typeof window.__fillTemplate === 'function' ? window.__fillTemplate(value, variables) : String(value || '').replace(/\{(\w+)\}/g, function (_, key) { return variables && variables[key] !== undefined ? variables[key] : '{' + key + '}'; }); }
+  function countryName(value) { return typeof window.__countryName === 'function' ? window.__countryName(value) : (countries.find(function (country) { return country.code.toLowerCase() === String(value || '').trim().toLowerCase(); })?.names?.[locale] || countries.find(function (country) { return country.code.toLowerCase() === String(value || '').trim().toLowerCase(); })?.names?.en || String(value || '').trim()); }
+  function countryCode(value) { return typeof window.__countryCode === 'function' ? window.__countryCode(value) : String(value || '').trim(); }
 
   function updateInquiryCopy() {
     document.querySelectorAll('[data-add-to-basket]').forEach(function (button) {
-      if (button.lastChild && button.lastChild.nodeType === Node.TEXT_NODE && button.lastChild.textContent !== 'Add to inquiry list') {
-        button.lastChild.textContent = 'Add to inquiry list';
+      if (button.lastChild && button.lastChild.nodeType === Node.TEXT_NODE && button.lastChild.textContent !== translate('addToBasket', 'Add to inquiry list')) {
+        button.lastChild.textContent = translate('addToBasket', 'Add to inquiry list');
       }
     });
     document.querySelectorAll('[data-basket-open]').forEach(function (button) {
-      button.setAttribute('aria-label', 'View inquiry list');
-      button.setAttribute('title', 'View inquiry list');
+      button.setAttribute('aria-label', translate('basket', 'View inquiry list'));
+      button.setAttribute('title', translate('basket', 'View inquiry list'));
     });
     var title = document.querySelector('#basket-title');
     if (title) {
       title.id = 'inquiry-list-title';
-      if (title.textContent !== 'Inquiry list') title.textContent = 'Inquiry list';
+      if (title.textContent !== translate('basket', 'Inquiry list')) title.textContent = translate('basket', 'Inquiry list');
     }
     var panel = document.querySelector('.basket-panel');
     if (panel) panel.setAttribute('aria-labelledby', 'inquiry-list-title');
     var closeButton = document.querySelector('.basket-close');
-    if (closeButton) closeButton.setAttribute('aria-label', 'Close inquiry list');
-    if (empty) empty.textContent = 'Your inquiry list is empty.';
+    if (closeButton) closeButton.setAttribute('aria-label', translate('close', 'Close'));
+    if (empty) empty.textContent = translate('basketEmpty', 'Your inquiry list is empty.');
   }
 
   function read() {
@@ -77,22 +91,23 @@
 
   function selectCountry(country) {
     if (!countryInput) return;
-    countryInput.value = country;
-    localStorage.setItem('inquiry-country', country);
+    var code = countryCode(country);
+    countryInput.value = countryName(code);
+    localStorage.setItem('inquiry-country', code);
     closeCountryOptions();
   }
 
   function setupCountryPicker() {
     var footer = document.querySelector('.basket-footer');
     if (!footer || footer.querySelector('#basket-country')) return;
-    footer.insertAdjacentHTML('afterbegin', '<div class="country-combobox basket-country-combobox"><input id="basket-country" name="country" placeholder="Search country" required autocomplete="off" aria-label="Country" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="basket-countries"><div id="basket-countries" class="country-options" role="listbox" hidden>' + countries.map(function (country) { return '<button type="button" role="option">' + country + '</button>'; }).join('') + '</div></div>');
+    footer.insertAdjacentHTML('afterbegin', '<div class="country-combobox basket-country-combobox"><input id="basket-country" name="country" placeholder="' + translate('searchCountry', 'Search country') + '" required autocomplete="off" aria-label="' + translate('country', 'Country') + '" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="basket-countries"><div id="basket-countries" class="country-options" role="listbox" hidden>' + countries.map(function (country) { return '<button type="button" role="option" data-country-code="' + escapeHtml(country.code) + '">' + escapeHtml(country.names[locale] || country.names.en || country.code) + '</button>'; }).join('') + '</div></div>');
     countryInput = document.querySelector('#basket-country');
     countryOptions = document.querySelector('#basket-countries');
-    if (countryInput) countryInput.value = localStorage.getItem('inquiry-country') || '';
+    if (countryInput) countryInput.value = countryName(localStorage.getItem('inquiry-country') || '');
     countryInput?.addEventListener('focus', function () { filterCountryOptions(); showCountryOptions(); });
     countryInput?.addEventListener('input', function () {
       var country = countryInput.value.trim();
-      if (country) localStorage.setItem('inquiry-country', country); else localStorage.removeItem('inquiry-country');
+      if (country) localStorage.setItem('inquiry-country', countryCode(country)); else localStorage.removeItem('inquiry-country');
       filterCountryOptions();
       showCountryOptions();
     });
@@ -113,7 +128,7 @@
         '<img src="' + escapeHtml(item.image) + '" alt="' + escapeHtml(item.title) + '">' +
         '<div class="basket-item-copy"><strong><a class="basket-product-link" href="' + escapeHtml(productUrl) + '">' + escapeHtml(item.title) + '</a></strong>' +
         (item.sku ? '<span>SKU · ' + escapeHtml(item.sku) + (item.variants ? ' · ' + escapeHtml(item.variants) : '') + '</span>' : '') +
-        '<div class="basket-item-actions"><div class="basket-quantity" aria-label="Quantity"><button type="button" data-basket-quantity="-1" aria-label="Decrease quantity">−</button><span>' + item.quantity + '</span><button type="button" data-basket-quantity="1" aria-label="Increase quantity">+</button></div><button class="basket-remove" type="button" data-basket-remove>Remove</button></div></div></article>';
+        '<div class="basket-item-actions"><div class="basket-quantity" aria-label="' + escapeHtml(translate('quantity', 'Quantity')) + '"><button type="button" data-basket-quantity="-1" aria-label="' + escapeHtml(translate('decreaseQuantity', 'Decrease quantity')) + '">−</button><span>' + item.quantity + '</span><button type="button" data-basket-quantity="1" aria-label="' + escapeHtml(translate('increaseQuantity', 'Increase quantity')) + '">+</button></div><button class="basket-remove" type="button" data-basket-remove>' + escapeHtml(translate('remove', 'Remove')) + '</button></div></div></article>';
     }).join('');
   }
 
@@ -150,28 +165,30 @@
   async function inquiry(channel, button) {
     var items = read();
     if (!items.length) return;
-    var country = countryInput ? countryInput.value.trim() : '';
-    if (!country) {
+    var countryValue = countryInput ? countryInput.value.trim() : '';
+    if (!countryValue) {
       countryInput?.focus();
       showCountryOptions();
       return;
     }
-    localStorage.setItem('inquiry-country', country);
+    var country = countryName(countryValue);
+    var countryId = countryCode(countryValue);
+    localStorage.setItem('inquiry-country', countryId);
     var popup = channel === 'whatsapp' ? window.open('', '_blank') : null;
-    if (button) { button.disabled = true; button.dataset.originalText = button.textContent; button.textContent = 'Preparing enquiry…'; }
+    if (button) { button.disabled = true; button.dataset.originalText = button.textContent; button.textContent = translate('inquiryPreparing', 'Preparing enquiry…'); }
     try {
       var response = await fetch('/api/inquiry', {
         method: 'POST',
         headers: { 'content-type': 'application/json' },
-        body: JSON.stringify({ country: country, items: items.map(function (item) {
+        body: JSON.stringify({ country: countryId, countryName: country, items: items.map(function (item) {
           return { title: item.title, sku: item.sku || '', variants: item.variants || '', quantity: item.quantity, url: item.url || '' };
         }) })
       });
       var result = await response.json();
       if (!response.ok || !result.ok) throw new Error(result.error || 'Unable to create inquiry.');
-      var message = "I'm from " + country + ', hello, I would like to enquire about ' + result.itemCount + ' items.\n\nInquiry ID: ' + result.inquiryId + '\n\nPlease send me a quote and availability.';
+      var message = fillTemplate(translate('basketInquiryMessage', "I'm from {country}, hello, I would like to enquire about {count} items.\n\nInquiry ID: {id}\n\nPlease send me a quote and availability."), { country: country, count: result.itemCount, id: result.inquiryId });
       if (channel === 'email') {
-        window.location.href = 'mailto:info@maesvanti.online?subject=' + encodeURIComponent('Product inquiry ' + result.inquiryId) + '&body=' + encodeURIComponent(message);
+        window.location.href = 'mailto:info@maesvanti.online?subject=' + encodeURIComponent(fillTemplate(translate('quoteRequestSubject', 'Quote request: {subject}'), { subject: result.inquiryId })) + '&body=' + encodeURIComponent(message);
       } else if (popup) {
         popup.location = 'https://wa.me/85265426672?text=' + encodeURIComponent(message);
       } else {
@@ -194,7 +211,7 @@
     if (target.closest('[data-basket-close]')) { close(); return; }
     if (target.closest('[data-basket-clear]')) { write([]); return; }
     var countryOption = target.closest('#basket-countries button');
-    if (countryOption) { selectCountry(countryOption.textContent.trim()); return; }
+    if (countryOption) { selectCountry(countryOption.dataset.countryCode || countryOption.textContent.trim()); return; }
     var item = target.closest('.basket-item');
     if (item && target.closest('[data-basket-remove]')) { write(read().filter(function (entry) { return entry.id !== item.dataset.basketId; })); return; }
     var quantity = target.closest('[data-basket-quantity]');
