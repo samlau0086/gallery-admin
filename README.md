@@ -222,7 +222,7 @@ Decap CMS 需要 GitHub OAuth 才能把后台修改写回仓库。
 
 - Application name：Gallery Admin。
 - Homepage URL：Cloudflare Pages 网站地址。
-- Authorization callback URL：网站地址加上 /api/auth。
+- Authorization callback URL：`https://gallery.maesvanti.online/api/auth/callback`。
 
 创建后保存 Client ID 和 Client Secret。
 
@@ -232,14 +232,14 @@ Decap CMS 需要 GitHub OAuth 才能把后台修改写回仓库。
 - GITHUB_CLIENT_SECRET
 - GITHUB_REDIRECT_URI
 
-线上登录时，程序会自动根据当前访问域名生成回调地址，不再使用 Cloudflare 中旧的 GITHUB_REDIRECT_URI 覆盖它。访问 cf.maesvanti.online 时，GitHub OAuth App 必须登记 https://cf.maesvanti.online/api/auth/callback；访问 pages.dev 时则必须登记对应的 pages.dev 回调地址。Client Secret 不要写入代码，也不要提交到 GitHub。
+线上登录时，程序会根据当前访问后台的域名生成回调地址。正式环境请使用 `https://gallery.maesvanti.online/api/auth/callback`；如果通过其他域名或 Pages 预览地址访问后台，GitHub OAuth App 也必须登记对应的回调地址。Client Secret 不要写入代码，也不要提交到 GitHub。
 
 ### 本地测试登录
 
 本地测试需要单独配置 GitHub OAuth。请先在 GitHub 的 Settings → Developer settings → OAuth Apps → New OAuth App 创建一个 OAuth App：
 
 1. Homepage URL 填写 http://localhost:4321。
-2. Authorization callback URL 填写 http://localhost:4321/api/auth。
+2. Authorization callback URL 填写 http://localhost:4321/api/auth/callback。
 3. 创建后复制 Client ID，并生成一个 Client Secret。
 
 然后在项目根目录复制 .env.example 为 .env。Windows PowerShell 可以执行：
@@ -253,7 +253,7 @@ Copy-Item .env.example .env
 ~~~env
 GITHUB_CLIENT_ID=你的Client_ID
 GITHUB_CLIENT_SECRET=你的Client_Secret
-GITHUB_REDIRECT_URI=http://localhost:4321/api/auth
+GITHUB_REDIRECT_URI=http://localhost:4321/api/auth/callback
 ~~~
 
 保存后重启开发服务器：

@@ -1,8 +1,10 @@
-const config = String.raw`backend:
+export function GET({ request }: { request: Request }) {
+  const authBaseUrl = new URL(request.url).origin;
+  const config = String.raw`backend:
   name: github
   repo: samlau0086/gallery-admin
   branch: main
-  base_url: https://cf.maesvanti.online
+  base_url: ${authBaseUrl}
   auth_endpoint: api/auth
 media_folder: "public/uploads"
 public_folder: "/uploads"
@@ -93,10 +95,6 @@ collections:
       - { label: Variants, name: variants, widget: string, required: false }
       - { label: Status, name: status, widget: select, options: [pending, approved, published, rejected], default: pending }
 `;
-
-export const prerender = false;
-
-export function GET() {
   return new Response(config, {
     headers: {
       'content-type': 'text/yaml; charset=utf-8',
@@ -104,3 +102,5 @@ export function GET() {
     },
   });
 }
+
+export const prerender = false;

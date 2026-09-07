@@ -1,7 +1,8 @@
 ---
 const title = 'Gallery Admin';
+const authBaseUrl = new URL(Astro.request.url).origin;
 const cmsConfig = {
-  backend: { name: 'github', repo: 'samlau0086/gallery-admin', branch: 'main', base_url: 'https://cf.maesvanti.online', auth_endpoint: 'api/auth' },
+  backend: { name: 'github', repo: 'samlau0086/gallery-admin', branch: 'main', base_url: authBaseUrl, auth_endpoint: 'api/auth' },
   media_folder: 'public/uploads',
   public_folder: '/uploads',
   collections: [{
