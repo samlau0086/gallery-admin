@@ -1,6 +1,11 @@
 export const supportedLocales = ['en', 'es'] as const;
 export type Locale = (typeof supportedLocales)[number];
 
+export const localeMeta = {
+  en: { code: 'EN', flag: '🇺🇸', name: 'English' },
+  es: { code: 'ES', flag: '🇪🇸', name: 'Español' },
+} as const;
+
 export const translations = {
   en: {
     languageName: 'English',

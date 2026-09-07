@@ -1,6 +1,7 @@
 (function () {
   var config = window.__i18n || {};
   var dictionaries = config.translations || { en: {} };
+  var localeMeta = config.localeMeta || {};
   var supportedLocales = Array.isArray(config.supportedLocales) && config.supportedLocales.length ? config.supportedLocales : Object.keys(dictionaries);
   if (!supportedLocales.length) supportedLocales = ['en'];
   var params = new URLSearchParams(window.location.search);
@@ -12,6 +13,7 @@
   window.__locale = lang; window.__t = text; window.__localizedUrl = localizedUrl;
   function setText(selector, key) { var node = document.querySelector(selector); if (node) node.textContent = text(key); }
   function setAttr(selector, attr, key) { var node = document.querySelector(selector); if (node) node.setAttribute(attr, text(key)); }
+  function getLocaleMeta(locale) { return localeMeta[locale] || { code: locale.toUpperCase(), flag: '🌐', name: locale }; }
   function rewriteInternalLinks() {
     document.querySelectorAll('a[href^="/"]').forEach(function (link) {
       if (link.hasAttribute('data-language-link') || link.hasAttribute('data-no-lang')) return;
@@ -25,21 +27,58 @@
     });
   }
   function addLanguageSwitcher() {
-    var header = document.querySelector('.header-right');
-    if (!header || header.querySelector('.language-switcher')) return;
+    document.querySelectorAll('.language-switcher').forEach(function (node) { node.remove(); });
+    var basket = document.querySelector('.basket-fab');
+    if (!basket) return;
     var wrap = document.createElement('div');
     wrap.className = 'language-switcher';
     wrap.setAttribute('aria-label', text('switchLanguage'));
-    wrap.innerHTML = supportedLocales.map(function (locale) { return '<a href="#" data-language="' + locale + '">' + locale.toUpperCase() + '</a>'; }).join('<span>/</span>');
+    var current = getLocaleMeta(lang);
+    wrap.innerHTML = '<button class="language-current" type="button" aria-expanded="false" aria-haspopup="listbox" aria-label="' + text('switchLanguage') + '"><span class="language-flag" aria-hidden="true">' + current.flag + '</span><span class="language-code">' + current.code + '</span><span class="language-chevron" aria-hidden="true">⌄</span></button><div class="language-menu" role="listbox" hidden>' + supportedLocales.map(function (locale) { var meta = getLocaleMeta(locale); return '<button type="button" role="option" data-language="' + locale + '" aria-label="' + meta.name + '"><span class="language-flag" aria-hidden="true">' + meta.flag + '</span><span class="language-code">' + meta.code + '</span></button>'; }).join('') + '</div>';
     wrap.addEventListener('click', function (event) {
-      var link = event.target.closest('a[data-language]');
-      if (!link) return;
-      event.preventDefault();
-      var next = link.dataset.language || 'en';
-      localStorage.setItem('site-language', next);
-      window.location.href = localizedUrl(window.location.href, next);
+      var currentButton = event.target.closest('.language-current');
+      if (currentButton) {
+        var expanded = currentButton.getAttribute('aria-expanded') === 'true';
+        currentButton.setAttribute('aria-expanded', String(!expanded));
+        wrap.querySelector('.language-menu').hidden = expanded;
+        wrap.classList.toggle('is-open', !expanded);
+        return;
+      }
+      var option = event.target.closest('button[data-language]');
+      if (option) {
+        var next = option.dataset.language || 'en';
+        localStorage.setItem('site-language', next);
+        window.location.href = localizedUrl(window.location.href, next);
+      }
     });
-    header.insertBefore(wrap, header.firstChild);
+    if (!window.__languageSwitcherEventsBound) {
+      document.addEventListener('click', function (event) {
+        document.querySelectorAll('.language-switcher').forEach(function (switcher) {
+          if (switcher.contains(event.target)) return;
+          var currentButton = switcher.querySelector('.language-current');
+          var menu = switcher.querySelector('.language-menu');
+          if (currentButton && menu) {
+            currentButton.setAttribute('aria-expanded', 'false');
+            menu.hidden = true;
+            switcher.classList.remove('is-open');
+          }
+        });
+      });
+      document.addEventListener('keydown', function (event) {
+        if (event.key !== 'Escape') return;
+        document.querySelectorAll('.language-switcher').forEach(function (switcher) {
+          var currentButton = switcher.querySelector('.language-current');
+          var menu = switcher.querySelector('.language-menu');
+          if (currentButton && menu) {
+            currentButton.setAttribute('aria-expanded', 'false');
+            menu.hidden = true;
+            switcher.classList.remove('is-open');
+          }
+        });
+      });
+      window.__languageSwitcherEventsBound = true;
+    }
+    basket.parentNode.insertBefore(wrap, basket);
   }
   function translatePage() {
     document.documentElement.lang = lang;
@@ -113,10 +152,9 @@
       if (link.tagName === 'A') link.href = localizedUrl(link.getAttribute('href') || '', lang);
     });
     rewriteInternalLinks();
-    document.querySelectorAll('.language-switcher a').forEach(function (link) {
-      var next = link.dataset.language || 'en';
-      link.href = localizedUrl(window.location.href, next);
-      link.classList.toggle('active', next === lang);
+    document.querySelectorAll('.language-switcher button[data-language]').forEach(function (button) {
+      var next = button.dataset.language || 'en';
+      button.classList.toggle('active', next === lang);
     });
     document.querySelectorAll('.product-grid .basket-card-button').forEach(function (node) {
       var image = node.querySelector('img');
