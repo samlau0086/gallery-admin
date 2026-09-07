@@ -15,7 +15,7 @@ export const GET: APIRoute = async ({ url, locals }) => {
   if (!query) return new Response(JSON.stringify({ results: [] }), { headers: { 'content-type': 'application/json' } });
   try {
     const searchIndex = await loadSearchIndex(url, locals);
-    const results = searchIndex.filter((product) => product.searchable.includes(query)).slice(0, 6).map(({ slug, title, title, category, cover, sku, i18n }) => ({ slug, title, title, category, cover, sku, i18n }));
+    const results = searchIndex.filter((product) => product.searchable.includes(query)).slice(0, 6).map(({ slug, title, category, cover, sku, i18n }) => ({ slug, title, category, cover, sku, i18n }));
     return new Response(JSON.stringify({ results }), { headers: { 'content-type': 'application/json', 'cache-control': 'public, max-age=30' } });
   } catch {
     return new Response(JSON.stringify({ error: 'Search is temporarily unavailable.' }), { status: 503, headers: { 'content-type': 'application/json' } });
