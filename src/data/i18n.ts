@@ -1,9 +1,10 @@
-export const supportedLocales = ['en', 'es'] as const;
+export const supportedLocales = ['en', 'es', 'zh'] as const;
 export type Locale = (typeof supportedLocales)[number];
 
 export const localeMeta = {
   en: { code: 'EN', flag: '🇺🇸', name: 'English' },
   es: { code: 'ES', flag: '🇪🇸', name: 'Español' },
+  zh: { code: 'ZH', flag: '🇨🇳', name: '简体中文' },
 } as const;
 
 export const translations = {
@@ -67,6 +68,10 @@ export const translations = {
     sendViaWhatsApp: 'Send via WhatsApp',
     spanish: 'Español',
     switchLanguage: 'Language',
+    languageSuggestionTitle: 'Switch language?',
+    languageSuggestionMessage: 'We detected {language} as your browser language. Would you like to switch this site to {language}?',
+    languageSuggestionAccept: 'Switch language',
+    languageSuggestionDismiss: 'Not now',
   },
   es: {
     languageName: 'Español',
@@ -128,11 +133,81 @@ export const translations = {
     sendViaWhatsApp: 'Enviar por WhatsApp',
     spanish: 'Español',
     switchLanguage: 'Idioma',
+    languageSuggestionTitle: '¿Cambiar de idioma?',
+    languageSuggestionMessage: 'Hemos detectado {language} como el idioma de tu navegador. ¿Quieres cambiar este sitio a {language}?',
+    languageSuggestionAccept: 'Cambiar idioma',
+    languageSuggestionDismiss: 'Ahora no',
+  },
+  zh: {
+    languageName: '简体中文',
+    category: '分类',
+    search: '搜索',
+    searchCollection: '搜索系列',
+    allProducts: '所有产品',
+    tags: '标签',
+    brands: '品牌',
+    loading: '加载中…',
+    noTerms: '暂无可用术语',
+    termsUnavailable: '术语不可用',
+    basket: '询价清单',
+    basketEmpty: '您的询价清单为空。',
+    clear: '清空',
+    close: '关闭',
+    whatsappInquiry: 'WhatsApp 询价',
+    emailInquiry: '邮件询价',
+    quantity: '数量',
+    country: '国家/地区',
+    searchCountry: '搜索国家/地区',
+    contact: '联系我们',
+    all: '全部',
+    new: '新品',
+    video: '视频',
+    photos: '图片',
+    loadingCollection: '正在加载系列',
+    gallery: '网格视图',
+    largeImage: '大图视图',
+    listView: '列表视图',
+    addToBasket: '加入询价清单',
+    searchButton: '搜索',
+    noMatchingWorks: '没有匹配的产品。',
+    searchUnavailable: '搜索不可用',
+    result: '个结果',
+    results: '个结果',
+    for: '搜索',
+    backToCollection: '返回系列',
+    reviews: '评价',
+    viewMore: '查看更多',
+    viewLess: '收起',
+    sendReview: '提交评价',
+    sendingReview: '正在提交评价…',
+    reviewThanks: '谢谢 — 您的评价已提交审核。',
+    pdfExport: '导出 PDF',
+    preparingPdf: '正在准备 PDF',
+    starting: '开始…',
+    cancel: '取消',
+    savePdf: '保存 PDF',
+    getInTouch: '联系我们',
+    contactUs: '联系我们',
+    contactIntro: '我们很乐意为您提供产品详情、采购和预约方面的帮助。',
+    name: '姓名',
+    email: '电子邮箱',
+    whatsappOptional: 'WhatsApp（可选）',
+    message: '留言',
+    sendMessage: '发送留言',
+    sendViaEmail: '通过电子邮件发送',
+    sendViaWhatsApp: '通过 WhatsApp 发送',
+    spanish: '西班牙语',
+    switchLanguage: '语言',
+    languageSuggestionTitle: '切换语言？',
+    languageSuggestionMessage: '检测到您的浏览器语言为{language}。是否将网站切换为{language}？',
+    languageSuggestionAccept: '切换语言',
+    languageSuggestionDismiss: '暂不切换',
   },
 } as const;
 
 export function getLocale(url: URL): Locale {
-  return url.searchParams.get('lang') === 'es' ? 'es' : 'en';
+  const requested = url.searchParams.get('lang') as Locale;
+  return supportedLocales.includes(requested) ? requested : 'en';
 }
 
 export function t(locale: Locale, key: keyof typeof translations.en): string {

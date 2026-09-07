@@ -1,7 +1,7 @@
 export type LocalizedString = string | Record<string, string | undefined> | undefined;
 
 export const defaultLocale = 'en';
-export const supportedProductLocales = ['en', 'es'] as const;
+export const supportedProductLocales = ['en', 'es', 'zh'] as const;
 export type ProductLocale = (typeof supportedProductLocales)[number];
 
 export function productLocaleFromUrl(url: URL): ProductLocale {

@@ -81,3 +81,16 @@
 .language-flag{font-size:16px;line-height:1}
 .language-code{font-weight:600;letter-spacing:.04em}
 @media(max-width:620px){.language-switcher{right:16px;bottom:82px}}
+.language-suggestion-open{overflow:hidden}
+.language-suggestion-modal{position:fixed;inset:0;z-index:90;display:grid;place-items:center;padding:20px;background:#1118;backdrop-filter:blur(3px)}
+.language-suggestion-card{width:min(100%,420px);padding:32px;background:#fff;box-shadow:0 18px 60px #1115}
+.language-suggestion-locale{display:inline-flex;align-items:center;gap:7px;margin-bottom:18px;padding:7px 10px;border-radius:999px;background:#f1fbf5;color:#159653;font-size:13px}
+.language-suggestion-locale span{font-size:18px;line-height:1}
+.language-suggestion-card h2{margin:0;color:#202126;font-size:24px;font-weight:500;letter-spacing:-.02em}
+.language-suggestion-card p{margin:12px 0 26px;color:#62636b;font-size:14px;line-height:1.65}
+.language-suggestion-actions{display:flex;justify-content:flex-end;gap:10px}
+.language-suggestion-actions button{border:1px solid #dedee4;border-radius:4px;background:#fff;color:#202126;padding:11px 14px;font-size:13px;cursor:pointer}
+.language-suggestion-actions button:last-child{border-color:#202126;background:#202126;color:#fff}
+.language-suggestion-actions button:hover,.language-suggestion-actions button:focus-visible{border-color:#20b96c;outline:none}
+.language-suggestion-actions button:last-child:hover,.language-suggestion-actions button:last-child:focus-visible{background:#20b96c}
+@media(max-width:620px){.language-suggestion-modal{padding:12px}.language-suggestion-card{padding:26px 20px}.language-suggestion-card h2{font-size:22px}.language-suggestion-actions{display:grid;grid-template-columns:1fr 1fr}.language-suggestion-actions button{width:100%}}

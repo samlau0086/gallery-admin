@@ -14,6 +14,55 @@
   function setText(selector, key) { var node = document.querySelector(selector); if (node) node.textContent = text(key); }
   function setAttr(selector, attr, key) { var node = document.querySelector(selector); if (node) node.setAttribute(attr, text(key)); }
   function getLocaleMeta(locale) { return localeMeta[locale] || { code: locale.toUpperCase(), flag: '🌐', name: locale }; }
+  function escapeHtml(value) { return String(value).replace(/[&<>"']/g, function (character) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[character]; }); }
+  function browserLocale() {
+    if (typeof navigator === 'undefined') return '';
+    var languages = Array.isArray(navigator.languages) && navigator.languages.length ? navigator.languages : [navigator.language];
+    for (var index = 0; index < languages.length; index += 1) {
+      var candidate = String(languages[index] || '').toLowerCase().split(/[-_]/)[0];
+      if (supportedLocales.indexOf(candidate) >= 0) return candidate;
+    }
+    return '';
+  }
+  function suggestionText(dictionary, key, language) {
+    return String(dictionary[key] || (dictionaries.en && dictionaries.en[key]) || key).replace(/\{language\}/g, language);
+  }
+  function closeLanguageSuggestion(modal) {
+    localStorage.setItem('site-language-prompted', '1');
+    document.documentElement.classList.remove('language-suggestion-open');
+    modal.remove();
+  }
+  function showLanguageSuggestion() {
+    if (params.has('lang') || stored || localStorage.getItem('site-language-prompted')) return;
+    if (document.querySelector('.language-suggestion-modal')) return;
+    var suggested = browserLocale();
+    if (!suggested || suggested === lang || !dictionaries[suggested]) return;
+    var meta = getLocaleMeta(suggested);
+    var dictionary = dictionaries[suggested];
+    var modal = document.createElement('div');
+    modal.className = 'language-suggestion-modal';
+    modal.setAttribute('role', 'dialog');
+    modal.setAttribute('aria-modal', 'true');
+    modal.setAttribute('aria-labelledby', 'language-suggestion-title');
+    document.documentElement.classList.add('language-suggestion-open');
+    modal.innerHTML = '<section class="language-suggestion-card"><div class="language-suggestion-locale"><span aria-hidden="true">' + escapeHtml(meta.flag) + '</span><strong>' + escapeHtml(meta.code) + '</strong></div><h2 id="language-suggestion-title">' + escapeHtml(suggestionText(dictionary, 'languageSuggestionTitle', meta.name)) + '</h2><p>' + escapeHtml(suggestionText(dictionary, 'languageSuggestionMessage', meta.name)) + '</p><div class="language-suggestion-actions"><button type="button" data-language-suggestion="dismiss">' + escapeHtml(suggestionText(dictionary, 'languageSuggestionDismiss', meta.name)) + '</button><button type="button" data-language-suggestion="accept">' + escapeHtml(suggestionText(dictionary, 'languageSuggestionAccept', meta.name)) + '</button></div></section>';
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        closeLanguageSuggestion(modal);
+        return;
+      }
+      var action = event.target.closest('[data-language-suggestion]');
+      if (!action) return;
+      if (action.dataset.languageSuggestion === 'dismiss') {
+        closeLanguageSuggestion(modal);
+        return;
+      }
+      localStorage.setItem('site-language-prompted', '1');
+      localStorage.setItem('site-language', suggested);
+      window.location.href = localizedUrl(window.location.href, suggested);
+    });
+    document.body.appendChild(modal);
+  }
   function rewriteInternalLinks() {
     document.querySelectorAll('a[href^="/"]').forEach(function (link) {
       if (link.hasAttribute('data-language-link') || link.hasAttribute('data-no-lang')) return;
@@ -167,7 +216,7 @@
       if (node.textContent?.includes('Email')) node.textContent = text('emailInquiry');
     });
   }
-  window.__applyLocale = function () { addLanguageSwitcher(); translatePage(); };
+  window.__applyLocale = function () { addLanguageSwitcher(); translatePage(); showLanguageSuggestion(); };
   document.addEventListener('astro:page-load', window.__applyLocale);
   localStorage.setItem('site-language', lang);
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', window.__applyLocale); else window.__applyLocale();
