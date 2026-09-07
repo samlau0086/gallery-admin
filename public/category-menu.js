@@ -46,15 +46,15 @@
           terms.innerHTML = '';
           (facets[mode] || []).forEach(function (term) {
             var link = document.createElement('a');
-            link.href = '/?filter=' + mode + '&term=' + encodeURIComponent(term);
+            link.href = '/?filter=' + mode + '&term=' + encodeURIComponent(term) + '&lang=' + encodeURIComponent(window.__locale || 'en');
             link.textContent = term;
             terms.appendChild(link);
           });
-          if (!terms.children.length) terms.innerHTML = '<span class="category-terms-empty">No terms available</span>';
+          if (!terms.children.length) terms.innerHTML = '<span class="category-terms-empty">' + window.__t('noTerms') + '</span>';
         });
       })
       .catch(function () {
-        panel.querySelectorAll('.category-terms').forEach(function (terms) { terms.innerHTML = '<span class="category-terms-empty">Terms unavailable</span>'; });
+        panel.querySelectorAll('.category-terms').forEach(function (terms) { terms.innerHTML = '<span class="category-terms-empty">' + window.__t('termsUnavailable') + '</span>'; });
       });
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();

@@ -180,7 +180,23 @@ repo: 你的GitHub用户名/你的仓库名
 repo: samla/gallery-admin
 ~~~
 
-商品文件保存在 src/content/products/。后台字段说明：
+商品文件保存在 src/content/products/。产品标题、描述和分类支持可扩展的多语言对象格式：
+
+~~~yaml
+title:
+  en: English product title
+  es: Título del producto en español
+description:
+  en: English product description
+  es: Descripción del producto en español
+category:
+  en: Bags
+  es: Bolsos
+~~~
+
+页面通过 URL 的 `?lang=en` 或 `?lang=es` 切换语言；缺少当前语言时依次回退到英文、其他可用语言和空值。已有的纯文本字段以及 `titleZh`、`descriptionZh` 中文旧字段仍可继续使用，不需要一次性修改现有产品。新增语言时，先在 `src/data/i18n.ts` 增加界面文案和语言代码，再在 `src/pages/admin/config.yml.ts` 增加 CMS 字段，产品文件即可添加对应语言键值。
+
+后台字段说明：
 
 - Title：英文商品名。
 - Chinese title：中文商品名，可选。

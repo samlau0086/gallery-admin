@@ -50,8 +50,40 @@
       var panel = input.closest(".search-panel"), results = panel && panel.querySelector(".search-results"), timer = 0;
       if (panel && !results) { results = document.createElement("div"); results.className = "search-results"; results.setAttribute("role", "listbox"); results.hidden = true; panel.appendChild(results); }
       if (!results) return;
-      input.addEventListener("input", function () { clearTimeout(timer); var q = input.value.trim(); if (!q) { results.hidden = true; results.innerHTML = ""; return; } timer = window.setTimeout(function () { fetch("/api/search?q=" + encodeURIComponent(q), { headers: { Accept: "application/json" } }).then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); }).then(function (payload) { var items = payload.results || []; results.innerHTML = items.map(function (item) { return "<a class=\"search-result\" href=\"/products/" + item.slug + "/\"><img src=\"" + item.cover + "\" alt=\"\"><span><strong>" + (item.titleZh || item.title) + "</strong><em>" + item.category + " · " + item.title + "</em></span></a>"; }).join("") || "<div class=\"search-empty\">No matching works</div>"; results.hidden = false; }).catch(function (error) { results.innerHTML = "<div class=\"search-empty\">Search unavailable (" + error.message + ")</div>"; results.hidden = false; }); }, 180); });
-      input.addEventListener("keydown", function (event) { if (event.key === "Enter" && input.value.trim()) { event.preventDefault(); window.location.href = "/search?q=" + encodeURIComponent(input.value.trim()); } });
+      input.addEventListener("input", function () {
+        clearTimeout(timer);
+        var q = input.value.trim();
+        if (!q) { results.hidden = true; results.innerHTML = ""; return; }
+        timer = window.setTimeout(function () {
+          fetch("/api/search?q=" + encodeURIComponent(q), { headers: { Accept: "application/json" } })
+            .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+            .then(function (payload) {
+              var locale = window.__locale || "en";
+              var localized = function (value, fallback) {
+                if (!value) return fallback || "";
+                if (typeof value === "string") return value;
+                return value[locale] || value.en || Object.values(value).find(Boolean) || fallback || "";
+              };
+              var escapeHtml = function (value) {
+                return String(value || "").replace(/[&<>\"']/g, function (character) {
+                  return ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "\"": "&quot;", "'": "&#39;" })[character];
+                });
+              };
+              var items = payload.results || [];
+              results.innerHTML = items.map(function (item) {
+                var title = localized(item.i18n && item.i18n.title, item.title || item.titleZh);
+                var category = localized(item.i18n && item.i18n.category, item.category);
+                return "<a class=\"search-result\" href=\"/products/" + encodeURIComponent(item.slug) + "/?lang=" + encodeURIComponent(locale) + "\"><img src=\"" + escapeHtml(item.cover) + "\" alt=\"\"><span><strong>" + escapeHtml(title) + "</strong><em>" + escapeHtml(category) + " · " + escapeHtml(title) + "</em></span></a>";
+              }).join("") || "<div class=\"search-empty\">" + (window.__t ? window.__t("noMatchingWorks") : "No matching works") + "</div>";
+              results.hidden = false;
+            })
+            .catch(function (error) {
+              results.innerHTML = "<div class=\"search-empty\">" + (window.__t ? window.__t("searchUnavailable") : "Search unavailable") + " (" + error.message + ")</div>";
+              results.hidden = false;
+            });
+        }, 180);
+      });
+      input.addEventListener("keydown", function (event) { if (event.key === "Enter" && input.value.trim()) { event.preventDefault(); window.location.href = "/search?q=" + encodeURIComponent(input.value.trim()) + "&lang=" + encodeURIComponent(window.__locale || "en"); } });
     });
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init); else init();

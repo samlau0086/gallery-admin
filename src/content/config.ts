@@ -1,8 +1,9 @@
 import { defineCollection, z } from 'astro:content';
+const localizedString = z.union([z.string(), z.record(z.string())]);
 const products = defineCollection({ type: 'content', schema: z.object({
-  title:z.string(), titleZh:z.string().optional(), category:z.string(), brand:z.string().optional(), sku:z.string().optional(), cover:z.string().min(1),
+  title: localizedString, titleZh:z.string().optional(), category: localizedString, brand:z.string().optional(), sku:z.string().optional(), cover:z.string().min(1),
   media:z.array(z.object({url:z.string().min(1),type:z.enum(['image','video']).default('image'),alt:z.string().optional()})).default([]),
-  price:z.string().optional(), description:z.string().optional(), descriptionZh:z.string().optional(), tags:z.array(z.string()).default([]),
+  price:z.string().optional(), description: localizedString.optional(), descriptionZh:z.string().optional(), tags:z.array(z.string()).default([]),
   variants:z.array(z.object({name:z.string(),options:z.array(z.string()).default([])})).default([]),
   reviews:z.array(z.object({author:z.string(),email:z.string().email().optional(),rating:z.number().min(1).max(5),title:z.string().optional(),body:z.string(),images:z.array(z.string()).default([]),date:z.string().optional(),variants:z.string().optional()})).default([]),
   featured:z.boolean().default(false), published:z.boolean().default(true), sortOrder:z.number().default(0)
