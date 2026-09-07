@@ -12,6 +12,13 @@
   function localizedUrl(url, next) { var target = new URL(url || window.location.href, window.location.origin); target.searchParams.set('lang', next); return target.pathname + (target.searchParams.toString() ? '?' + target.searchParams.toString() : ''); }
   window.__locale = lang; window.__t = text; window.__localizedUrl = localizedUrl;
   function setText(selector, key) { var node = document.querySelector(selector); if (node) node.textContent = text(key); }
+  function setLabelText(selector, key) {
+    document.querySelectorAll(selector).forEach(function (node) {
+      var labelText = Array.prototype.slice.call(node.childNodes).find(function (child) { return child.nodeType === 3 && child.textContent.trim(); });
+      if (labelText) labelText.textContent = text(key);
+      else node.insertBefore(document.createTextNode(text(key)), node.firstChild);
+    });
+  }
   function setAttr(selector, attr, key) { var node = document.querySelector(selector); if (node) node.setAttribute(attr, text(key)); }
   function getLocaleMeta(locale) { return localeMeta[locale] || { code: locale.toUpperCase(), flag: '🌐', name: locale }; }
   function escapeHtml(value) { return String(value).replace(/[&<>"']/g, function (character) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[character]; }); }
@@ -158,15 +165,15 @@
     setText('#contact-modal .eyebrow', 'getInTouch');
     setText('#contact-modal h2', 'contactUs');
     setText('#contact-modal .modal-card > p', 'contactIntro');
-    setText('#contact-modal label:nth-of-type(1)', 'name');
-    setText('#contact-modal label:nth-of-type(2)', 'email');
-    setText('#contact-modal label:nth-of-type(3)', 'whatsappOptional');
-    setText('#contact-modal label:nth-of-type(4)', 'message');
+    setLabelText('#contact-modal label:nth-of-type(1)', 'name');
+    setLabelText('#contact-modal label:nth-of-type(2)', 'email');
+    setLabelText('#contact-modal label:nth-of-type(3)', 'whatsappOptional');
+    setLabelText('#contact-modal label:nth-of-type(4)', 'message');
     setText('#contact-modal .contact-submit', 'sendMessage');
-    setText('#inquiry-form label:nth-of-type(1)', 'quantity');
-    setText('#inquiry-form label:nth-of-type(2)', 'country');
+    setLabelText('#inquiry-form label:nth-of-type(1)', 'quantity');
+    setLabelText('#inquiry-form label:nth-of-type(2)', 'country');
     setAttr('#inquiry-country', 'placeholder', 'searchCountry');
-    setText('#inquiry-form label:nth-of-type(3)', 'message');
+    setLabelText('#inquiry-form label:nth-of-type(3)', 'message');
     setText('#inquiry-submit', 'sendViaWhatsApp');
     setAttr('.basket-fab', 'aria-label', 'basket');
     setAttr('.basket-fab', 'title', 'basket');
