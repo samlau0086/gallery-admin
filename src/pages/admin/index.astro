@@ -16,21 +16,24 @@ const cmsConfig = {
         { label: 'Email address', name: 'email', widget: 'string' },
       ],
     }]}, {
-    name: 'products', label: 'Products', folder: 'src/content/products', create: true, slug: '{{slug}}', format: 'frontmatter',
-    fields: [      { label: 'Title', name: 'title', widget: 'object', fields: [
+    name: 'products', label: 'Products', folder: 'src/content/products', create: true, slug: '{{slug}}', format: 'frontmatter', summary: '{{title.en}}',
+    fields: [
+      { label: 'Product title', name: 'title', widget: 'object', fields: [
         { label: 'English', name: 'en', widget: 'string' },
         { label: 'Spanish', name: 'es', widget: 'string', required: false },
         { label: 'Chinese', name: 'zh', widget: 'string', required: false },
-      ] },      { label: 'Category', name: 'category', widget: 'object', fields: [
+      ] },
+      { label: 'Category', name: 'category', widget: 'object', fields: [
         { label: 'English', name: 'en', widget: 'string' },
         { label: 'Spanish', name: 'es', widget: 'string', required: false },
         { label: 'Chinese', name: 'zh', widget: 'string', required: false },
       ] },
       { label: 'Brand', name: 'brand', widget: 'string', required: false },
       { label: 'SKU', name: 'sku', widget: 'string', required: false },
-      { label: 'Cover image', name: 'cover', widget: 'r2-image' },
+      { label: 'Cover image', name: 'cover', widget: 'image' },
       { label: 'Product images', name: 'media', widget: 'r2-media', required: false },
-      { label: 'Price', name: 'price', widget: 'string', required: false },      { label: 'Description', name: 'description', widget: 'object', required: false, fields: [
+      { label: 'Price', name: 'price', widget: 'string', required: false },
+      { label: 'Description', name: 'description', widget: 'object', required: false, fields: [
         { label: 'English', name: 'en', widget: 'text', required: false },
         { label: 'Spanish', name: 'es', widget: 'text', required: false },
         { label: 'Chinese', name: 'zh', widget: 'text', required: false },

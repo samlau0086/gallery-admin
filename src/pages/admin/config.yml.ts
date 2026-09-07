@@ -44,7 +44,7 @@ collections:
           - { label: Spanish, name: es, widget: string, required: false }
       - { label: Brand, name: brand, widget: string, required: false }
       - { label: SKU, name: sku, widget: string, required: false }
-      - { label: Cover image, name: cover, widget: r2-image }
+      - { label: Cover image, name: cover, widget: image }
       - { label: Product images, name: media, widget: r2-media, required: false }
       - { label: Price, name: price, widget: string, required: false }
       - label: Description
