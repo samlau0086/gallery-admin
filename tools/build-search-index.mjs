@@ -27,7 +27,7 @@ const localizedMap = (legacyValue, localizedValueObject = undefined, extraValues
 const parseFrontmatter = (source) => {
   const frontmatter = source.match(/^---\s*\n([\s\S]*?)\n---/m)?.[1] ?? '';
   const get = (key) => {
-    const scalarMatch = frontmatter.match(new RegExp('^' + key + ':\\s*(.*)$', 'm'));
+    const scalarMatch = frontmatter.match(new RegExp('^' + key + ':[ \\t]*(.*)$', 'm'));
     if (scalarMatch?.[1]?.trim()) return parseScalar(scalarMatch[1]);
     const lines = frontmatter.split(/\r?\n/);
     const start = lines.findIndex((line) => new RegExp('^' + key + ':\\s*$').test(line));
