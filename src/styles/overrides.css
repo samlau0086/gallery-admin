@@ -73,7 +73,8 @@
 .language-current,.language-menu button{display:flex;align-items:center;gap:7px;border:1px solid #dedee4;background:#fff;color:#202126;cursor:pointer;font-size:12px;line-height:1}
 .language-current{justify-content:center;min-width:88px;height:44px;padding:0 12px;border-radius:22px;box-shadow:0 6px 18px #1112;font-size:13px}
 .language-current:hover,.language-current:focus-visible,.language-menu button:hover,.language-menu button:focus-visible{border-color:#20b96c;outline:none}
-.language-chevron{font-size:15px;line-height:10px;transition:transform .15s ease}
+.language-chevron{display:inline-flex;align-items:center;justify-content:center;width:12px;height:12px;font-size:0;line-height:1;transition:transform .15s ease}
+.language-chevron::before{content:"";width:5px;height:5px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:rotate(45deg) translate(-1px,-1px)}
 .language-switcher.is-open .language-chevron{transform:rotate(180deg)}
 .language-menu{display:flex;flex-direction:column;gap:4px;position:absolute;right:0;bottom:calc(100% + 9px);min-width:88px;padding:5px;border:1px solid #dedee4;border-radius:8px;background:#fff;box-shadow:0 8px 24px #1113}
 .language-menu button{justify-content:flex-start;width:100%;padding:9px 8px;border-color:transparent;border-radius:4px}
