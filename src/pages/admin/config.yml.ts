@@ -28,6 +28,7 @@ collections:
     create: true
     slug: "{{slug}}"
     format: frontmatter
+    summary: "{{title.en}}"
     fields:
       - label: Product title
         name: title
