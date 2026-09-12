@@ -1,0 +1,25 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://gallery.maesvanti.online/.well-known/api-catalog",
+      "item": [
+        {
+          "href": "https://gallery.maesvanti.online/api/products",
+          "title": "Product catalog",
+          "type": "application/json"
+        },
+        {
+          "href": "https://gallery.maesvanti.online/api/search",
+          "title": "Product search",
+          "type": "application/json"
+        }
+      ],
+      "describedby": [
+        {
+          "href": "https://gallery.maesvanti.online/llms.txt",
+          "type": "text/plain"
+        }
+      ]
+    }
+  ]
+}
