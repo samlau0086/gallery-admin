@@ -6,5 +6,9 @@
   Link: </.well-known/api-catalog>; rel="api-catalog"
   Link: </llms.txt>; rel="describedby"
 
+/products/*
+  Link: </.well-known/api-catalog>; rel="api-catalog"
+  Link: </llms.txt>; rel="describedby"
+
 /.well-known/api-catalog
   Content-Type: application/linkset+json; profile="https://www.rfc-editor.org/info/rfc9727"
