@@ -1,14 +1,21 @@
 /
+  Link: </.well-known/ai-catalog.json>; rel="ai-catalog"
   Link: </.well-known/api-catalog>; rel="api-catalog"
   Link: </llms.txt>; rel="describedby"
 
 /index.html
+  Link: </.well-known/ai-catalog.json>; rel="ai-catalog"
   Link: </.well-known/api-catalog>; rel="api-catalog"
   Link: </llms.txt>; rel="describedby"
 
 /products/*
+  Link: </.well-known/ai-catalog.json>; rel="ai-catalog"
   Link: </.well-known/api-catalog>; rel="api-catalog"
   Link: </llms.txt>; rel="describedby"
+
+/.well-known/ai-catalog.json
+  Content-Type: application/json
+  Access-Control-Allow-Origin: *
 
 /.well-known/api-catalog
   Content-Type: application/linkset+json; profile="https://www.rfc-editor.org/info/rfc9727"

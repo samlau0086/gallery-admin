@@ -1,0 +1,63 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "Maesvanti Gallery",
+    "identifier": "did:web:gallery.maesvanti.online"
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:gallery.maesvanti.online:api:products",
+      "displayName": "Maesvanti Product Catalog API",
+      "type": "application/json",
+      "url": "https://gallery.maesvanti.online/api/products",
+      "representativeQueries": [
+        "browse the complete Maesvanti product catalog",
+        "list fashion and lifestyle products with pagination",
+        "filter products by brand, category, or tag"
+      ]
+    },
+    {
+      "identifier": "urn:air:gallery.maesvanti.online:api:search",
+      "displayName": "Maesvanti Product Search API",
+      "type": "application/json",
+      "url": "https://gallery.maesvanti.online/api/search",
+      "representativeQueries": [
+        "search the Maesvanti gallery for a product",
+        "find products by name or SKU",
+        "find Balenciaga bags in the gallery"
+      ]
+    },
+    {
+      "identifier": "urn:air:gallery.maesvanti.online:site:collection",
+      "displayName": "Maesvanti Gallery Collection",
+      "type": "text/html",
+      "url": "https://gallery.maesvanti.online/",
+      "representativeQueries": [
+        "browse the Maesvanti fashion gallery",
+        "view products tagged Bags",
+        "browse the BALENCIAGA collection"
+      ]
+    },
+    {
+      "identifier": "urn:air:gallery.maesvanti.online:site:product-pages",
+      "displayName": "Maesvanti Product Detail Pages",
+      "type": "text/html",
+      "url": "https://gallery.maesvanti.online/products/bv-169382/?lang=en",
+      "representativeQueries": [
+        "view detailed information for a Maesvanti product",
+        "inspect product photos and description",
+        "request more information or a quotation for a product"
+      ]
+    },
+    {
+      "identifier": "urn:air:gallery.maesvanti.online:docs:llms",
+      "displayName": "Maesvanti AI Usage Guide",
+      "type": "text/plain",
+      "url": "https://gallery.maesvanti.online/llms.txt",
+      "representativeQueries": [
+        "learn how an AI agent can use the Maesvanti gallery",
+        "find machine-readable Maesvanti catalog resources"
+      ]
+    }
+  ]
+}

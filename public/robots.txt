@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://gallery.maesvanti.online/sitemap.xml
+Agentmap: https://gallery.maesvanti.online/.well-known/ai-catalog.json
