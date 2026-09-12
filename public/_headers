@@ -1,20 +1,35 @@
 /
   Link: </.well-known/ai-catalog.json>; rel="ai-catalog"
   Link: </.well-known/api-catalog>; rel="api-catalog"
+  Link: </.well-known/oauth-protected-resource>; rel="oauth-protected-resource"
   Link: </.well-known/oauth-authorization-server>; rel="oauth-authorization-server"
   Link: </llms.txt>; rel="describedby"
 
 /index.html
   Link: </.well-known/ai-catalog.json>; rel="ai-catalog"
   Link: </.well-known/api-catalog>; rel="api-catalog"
+  Link: </.well-known/oauth-protected-resource>; rel="oauth-protected-resource"
   Link: </llms.txt>; rel="describedby"
 
 /products/*
   Link: </.well-known/ai-catalog.json>; rel="ai-catalog"
   Link: </.well-known/api-catalog>; rel="api-catalog"
+  Link: </.well-known/oauth-protected-resource>; rel="oauth-protected-resource"
   Link: </llms.txt>; rel="describedby"
 
+/auth.md
+  Content-Type: text/markdown; charset=UTF-8
+  Link: </.well-known/oauth-protected-resource>; rel="oauth-protected-resource"
+
 /.well-known/ai-catalog.json
+  Content-Type: application/json
+  Access-Control-Allow-Origin: *
+
+/.well-known/oauth-protected-resource
+  Content-Type: application/json
+  Access-Control-Allow-Origin: *
+
+/.well-known/oauth-authorization-server
   Content-Type: application/json
   Access-Control-Allow-Origin: *
 
@@ -22,4 +37,5 @@
   Content-Type: application/linkset+json; profile="https://www.rfc-editor.org/info/rfc9727"
 
 /*
+  Link: </.well-known/oauth-protected-resource>; rel="oauth-protected-resource"
   Link: </.well-known/oauth-authorization-server>; rel="oauth-authorization-server"
