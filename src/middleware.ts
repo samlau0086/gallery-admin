@@ -3,6 +3,7 @@ import { defineMiddleware } from 'astro:middleware';
 const discoveryLinks = [
   '</.well-known/ai-catalog.json>; rel="ai-catalog"',
   '</.well-known/api-catalog>; rel="api-catalog"',
+  '</.well-known/oauth-authorization-server>; rel="oauth-authorization-server"',
   '</llms.txt>; rel="describedby"',
 ].join(', ');
 

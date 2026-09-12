@@ -1,6 +1,7 @@
 /
   Link: </.well-known/ai-catalog.json>; rel="ai-catalog"
   Link: </.well-known/api-catalog>; rel="api-catalog"
+  Link: </.well-known/oauth-authorization-server>; rel="oauth-authorization-server"
   Link: </llms.txt>; rel="describedby"
 
 /index.html
@@ -19,3 +20,6 @@
 
 /.well-known/api-catalog
   Content-Type: application/linkset+json; profile="https://www.rfc-editor.org/info/rfc9727"
+
+/*
+  Link: </.well-known/oauth-authorization-server>; rel="oauth-authorization-server"
