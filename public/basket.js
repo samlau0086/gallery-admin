@@ -1,4 +1,5 @@
 (function () {
+  var whatsappUrl = window.__whatsappUrl || 'https://wa.me/447522538687';
   var storageKey = 'maesvanti-basket';
   var drawer = document.querySelector('#basket-drawer');
   var list = document.querySelector('#basket-items');
@@ -190,9 +191,9 @@
       if (channel === 'email') {
         window.location.href = 'mailto:info@maesvanti.online?subject=' + encodeURIComponent(fillTemplate(translate('quoteRequestSubject', 'Quote request: {subject}'), { subject: result.inquiryId })) + '&body=' + encodeURIComponent(message);
       } else if (popup) {
-        popup.location = 'https://wa.me/85265426672?text=' + encodeURIComponent(message);
+        popup.location = whatsappUrl + '?text=' + encodeURIComponent(message);
       } else {
-        window.open('https://wa.me/85265426672?text=' + encodeURIComponent(message), '_blank', 'noopener');
+        window.open(whatsappUrl + '?text=' + encodeURIComponent(message), '_blank', 'noopener');
       }
     } catch (error) {
       if (popup) popup.close();

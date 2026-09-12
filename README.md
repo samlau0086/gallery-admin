@@ -280,9 +280,14 @@ npm run dev
 ~~~env
 # Contact Form、Review 和购物篮批量询盘共用
 GOOGLE_APPS_SCRIPT_URL=https://script.google.com/macros/s/your_deployment_id/exec
+
+# 前台 WhatsApp 联系账号（完整国际格式，不含 + 和空格）
+PUBLIC_WHATSAPP_URL=https://wa.me/447522538687
 ~~~
 
 这个 Apps Script 部署统一处理 Contact Form、Review 和购物篮批量询盘。购物篮询盘会写入 `Inquiries` 工作表，并向 `NOTIFY_EMAIL` 发送包含完整产品清单的通知；WhatsApp 和 Email 只发送询盘编号，因此不会因产品数量过多而超出消息长度限制。修改环境变量后需要重新部署 Cloudflare Pages。
+
+部署到 Cloudflare Pages 时，请在 **Settings → Environment variables** 中配置 `PUBLIC_WHATSAPP_URL`，然后重新部署。该变量以 `PUBLIC_` 开头，会在构建时注入前台页面；未配置时使用 `src/data/site.json` 中的默认值。
 ## 10. 配置前台 Review 持久化
 
 前台 Review 不会只停留在浏览器或邮件通知中。提交后，服务端会通过 GitHub Contents API 在仓库中创建一个待审核文件：
