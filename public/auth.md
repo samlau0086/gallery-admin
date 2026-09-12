@@ -24,8 +24,9 @@ After authorization, the callback at `https://gallery.maesvanti.online/api/auth/
 - User consent is required through GitHub OAuth.
 - Anonymous registration and ID-JAG identity assertions are not supported.
 
-Use the credential only for the administration workflow and only within the scopes granted by the user. If access is no longer needed, the user should revoke the GitHub OAuth authorization from GitHub account settings.
+Use the credential only for the administration workflow and only within the scopes granted by the user. If access is no longer needed, the user should revoke the GitHub OAuth authorization from [GitHub application settings](https://github.com/settings/applications). The authorization server does not expose a separate claims endpoint or token revocation API; GitHub account settings are the revocation control for this integration.
 
 ## Public catalog access
 
 The catalog and product pages do not require registration. Agents may read the public site and its published discovery documents without credentials. The registration flow is only for authenticated administration access.
+

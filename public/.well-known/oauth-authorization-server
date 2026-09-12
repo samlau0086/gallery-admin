@@ -1,0 +1,38 @@
+{
+  "issuer": "https://gallery.maesvanti.online/",
+  "resource": "https://gallery.maesvanti.online/",
+  "authorization_endpoint": "https://gallery.maesvanti.online/api/auth",
+  "registration_endpoint": "https://gallery.maesvanti.online/api/auth",
+  "token_endpoint": "https://gallery.maesvanti.online/api/auth/callback",
+  "response_types_supported": [
+    "code"
+  ],
+  "grant_types_supported": [
+    "authorization_code"
+  ],
+  "scopes_supported": [
+    "repo"
+  ],
+  "agent_auth": {
+    "skill": "https://gallery.maesvanti.online/auth.md",
+    "register_uri": "https://gallery.maesvanti.online/api/auth",
+    "registration_methods_supported": [
+      "oauth_authorization_code"
+    ],
+    "identity_types_supported": [
+      "service_auth"
+    ],
+    "service_auth": {
+      "credential_types_supported": [
+        "oauth_access_token"
+      ]
+    },
+    "identity_endpoint": "https://gallery.maesvanti.online/api/auth",
+    "claims_supported": [
+      "sub",
+      "scope"
+    ],
+    "claim_endpoint": null,
+    "revocation_endpoint": null
+  }
+}
