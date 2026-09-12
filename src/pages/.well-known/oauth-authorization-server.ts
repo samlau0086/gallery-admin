@@ -5,7 +5,6 @@ export const prerender = false;
 const metadata = {
   issuer: 'https://gallery.maesvanti.online/',
   resource: 'https://gallery.maesvanti.online/',
-  authorization_servers: ['https://gallery.maesvanti.online/'],
   authorization_endpoint: 'https://gallery.maesvanti.online/api/auth',
   registration_endpoint: 'https://gallery.maesvanti.online/api/auth',
   response_types_supported: ['code'],
@@ -16,18 +15,15 @@ const metadata = {
     register_uri: 'https://gallery.maesvanti.online/api/auth',
     registration_methods_supported: ['oauth_authorization_code'],
     identity_types_supported: ['service_auth'],
-    service_auth: {
-      credential_types_supported: ['oauth_access_token'],
-    },
+    service_auth: { credential_types_supported: ['oauth_access_token'] },
+    claims_supported: ['sub', 'scope'],
   },
 };
 
-export const GET: APIRoute = async () => {
-  return new Response(JSON.stringify(metadata), {
-    headers: {
-      'content-type': 'application/json; charset=utf-8',
-      'access-control-allow-origin': '*',
-      'cache-control': 'public, max-age=3600',
-    },
-  });
-};
+export const GET: APIRoute = () => new Response(JSON.stringify(metadata), {
+  headers: {
+    'content-type': 'application/json; charset=utf-8',
+    'access-control-allow-origin': '*',
+    'cache-control': 'public, max-age=3600',
+  },
+});

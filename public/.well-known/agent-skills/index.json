@@ -1,0 +1,40 @@
+{
+  "$schema": "https://agentskills.io/schemas/agent-skills-discovery-v0.2.0.json",
+  "skills": [
+    {
+      "name": "oauth-protected-resource",
+      "type": "discovery",
+      "description": "Discover the resource identifier, authorization server, supported bearer method, and scopes for Maesvanti Gallery APIs.",
+      "url": "https://gallery.maesvanti.online/.well-known/agent-skills/oauth-protected-resource/SKILL.md",
+      "sha256": "881f33292c0be586173e5d502d80d8caf1ae82475f01076006f7e794d5d2e28f"
+    },
+    {
+      "name": "auth-md",
+      "type": "authentication",
+      "description": "Use the site-root auth.md and OAuth authorization-server metadata to register an agent with user consent.",
+      "url": "https://gallery.maesvanti.online/.well-known/agent-skills/auth-md/SKILL.md",
+      "sha256": "9837ab4ce4f83098092a8d1367d1aacd6076e9818e3d5d943bca0ef5f7c197bc"
+    },
+    {
+      "name": "mcp-server-card",
+      "type": "discovery",
+      "description": "Discover the Maesvanti Gallery MCP server transport and capabilities.",
+      "url": "https://gallery.maesvanti.online/.well-known/agent-skills/mcp-server-card/SKILL.md",
+      "sha256": "f2e990a6a4921a45bad1510157dbcf065a5304e99153d2a989f9ca0c5e94d9e1"
+    },
+    {
+      "name": "webmcp",
+      "type": "tool",
+      "description": "Use navigator.modelContext.provideContext() to discover catalog search, filtering, product details, and enquiry actions in the browser.",
+      "url": "https://gallery.maesvanti.online/.well-known/agent-skills/webmcp/SKILL.md",
+      "sha256": "992d9cdff91ceaab17e02d41206fc8b0ec4c76b069b1296da60803b3c4c9b5ec"
+    },
+    {
+      "name": "agent-skills",
+      "type": "discovery",
+      "description": "This directory publishes the Maesvanti Gallery agent skill discovery index.",
+      "url": "https://gallery.maesvanti.online/.well-known/agent-skills/agent-skills/SKILL.md",
+      "sha256": "55ab67874c2d032dd29b111d5fb50808eb9f02d208057465220841d3b1532cc2"
+    }
+  ]
+}
