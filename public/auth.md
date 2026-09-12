@@ -29,4 +29,21 @@ Use the credential only for the administration workflow and only within the scop
 ## Public catalog access
 
 The catalog and product pages do not require registration. Agents may read the public site and its published discovery documents without credentials. The registration flow is only for authenticated administration access.
+## Machine-readable registration metadata
 
+```json
+{
+  "agent_auth": {
+    "skill": "https://gallery.maesvanti.online/auth.md",
+    "register_uri": "https://gallery.maesvanti.online/api/auth",
+    "identity_endpoint": "https://gallery.maesvanti.online/api/auth",
+    "identity_types_supported": ["service_auth"],
+    "service_auth": {
+      "registration_endpoint": "https://gallery.maesvanti.online/api/auth",
+      "credential_types_supported": ["oauth_access_token"]
+    },
+    "claim_endpoint": null,
+    "revocation_endpoint": "https://github.com/settings/applications"
+  }
+}
+```

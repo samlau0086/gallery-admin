@@ -25,7 +25,10 @@
     "service_auth": {
       "credential_types_supported": [
         "oauth_access_token"
-      ]
+      ],
+      "registration_endpoint": "https://gallery.maesvanti.online/api/auth",
+      "register_uri": "https://gallery.maesvanti.online/api/auth",
+      "identity_endpoint": "https://gallery.maesvanti.online/api/auth"
     },
     "identity_endpoint": "https://gallery.maesvanti.online/api/auth",
     "claims_supported": [
@@ -33,6 +36,26 @@
       "scope"
     ],
     "claim_endpoint": null,
-    "revocation_endpoint": null
-  }
+    "revocation_endpoint": null,
+    "registration_methods": [
+      {
+        "type": "oauth_authorization_code",
+        "register_uri": "https://gallery.maesvanti.online/api/auth",
+        "identity_types_supported": [
+          "service_auth"
+        ],
+        "credential_types_supported": [
+          "oauth_access_token"
+        ]
+      }
+    ],
+    "oauth_authorization_code": {
+      "register_uri": "https://gallery.maesvanti.online/api/auth",
+      "authorization_endpoint": "https://gallery.maesvanti.online/api/auth",
+      "credential_types_supported": [
+        "oauth_access_token"
+      ]
+    }
+  },
+  "revocation_endpoint": "https://github.com/settings/applications"
 }
