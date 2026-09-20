@@ -26,8 +26,8 @@
 
   function updateInquiryCopy() {
     document.querySelectorAll('[data-add-to-basket]').forEach(function (button) {
-      if (button.lastChild && button.lastChild.nodeType === Node.TEXT_NODE && button.lastChild.textContent !== translate('addToBasket', 'Add to inquiry list')) {
-        button.lastChild.textContent = translate('addToBasket', 'Add to inquiry list');
+      if (button.lastChild && button.lastChild.nodeType === Node.TEXT_NODE && button.lastChild.textContent !== translate('addToBasket', 'Add to Inquiry List')) {
+        button.lastChild.textContent = translate('addToBasket', 'Add to Inquiry List');
       }
     });
     document.querySelectorAll('[data-basket-open]').forEach(function (button) {
