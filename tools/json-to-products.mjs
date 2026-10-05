@@ -46,6 +46,7 @@ let created = 0;
 let skipped = 0;
 
 for (const [index, record] of records.entries()) {
+  const recordBrand = String(record.brand ?? '').trim() || brand;
   const sku = String(record['货号'] ?? '').trim();
   const sourceId = String(record.ID ?? '').trim();
   const title = String(record['标题'] ?? '').trim() || sku || sourceId || `Product ${index + 1}`;
@@ -57,7 +58,7 @@ for (const [index, record] of records.entries()) {
     continue;
   }
 
-  const filename = `${brand.toLowerCase()}-${safeFilename(sku || sourceId || `record-${index + 1}`)}.md`;
+  const filename = `${recordBrand.toLowerCase()}-${safeFilename(sku || sourceId || `record-${index + 1}`)}.md`;
   const destination = path.join(outputDir, filename);
   const exists = await access(destination).then(() => true).catch(() => false);
 
@@ -67,7 +68,7 @@ for (const [index, record] of records.entries()) {
     continue;
   }
 
-  const tags = Array.isArray(record['标签']) && record['标签'].length > 0 ? record['标签'] : [brand, category];
+  const tags = Array.isArray(record['标签']) && record['标签'].length > 0 ? record['标签'] : [recordBrand, category];
   const cover = images[0] ?? '/product-placeholder.svg';
   const media = images.map((url, imageIndex) => ({
     url,
@@ -77,7 +78,7 @@ for (const [index, record] of records.entries()) {
   const content = `---\n`
     + `title: ${stringify(title)}\n`
     + `category: ${stringify(category)}\n`
-    + `brand: ${stringify(brand)}\n`
+    + `brand: ${stringify(recordBrand)}\n`
     + (sku ? `sku: ${stringify(sku)}\n` : '')
     + `cover: ${stringify(cover)}\n`
     + `media: ${stringify(media)}\n`

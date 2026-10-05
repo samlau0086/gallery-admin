@@ -346,13 +346,13 @@ git push
 
 ### 从 JSON 批量导入商品
 
-JSON 文件包含 `ID`、`标签`、`货号`、`标题`、`图片`、`时间` 字段时，可执行：
+JSON 文件包含 `ID`、`标签`、`货号`、`标题`、`图片`、`时间` 字段时，可执行；如果记录包含 `brand` 字段，也会按记录使用对应品牌：
 
 ~~~bash
 npm run convert:products -- src/gucci_handbag.json
 ~~~
 
-脚本会在 `src/content/products/` 中生成 Astro 商品文件，自动使用首张图片作为封面，并按 JSON 的顺序设置排序。文件名会根据 JSON 文件名推断品牌；也可以显式指定：
+脚本会在 `src/content/products/` 中生成 Astro 商品文件，自动使用首张图片作为封面，并按 JSON 的顺序设置排序。品牌按以下优先级确定：单条记录的 `brand` 字段、命令行 `--brand` 参数、根据 JSON 文件名推断的品牌。记录中的 `brand` 也会用于生成文件名和默认标签。也可以显式指定：
 
 ~~~bash
 npm run convert:products -- path/to/products.json --brand Gucci --category Bags
