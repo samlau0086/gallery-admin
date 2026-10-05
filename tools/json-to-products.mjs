@@ -21,11 +21,7 @@ const optionValue = (name) => {
   return index >= 0 ? args[index + 1] : undefined;
 };
 
-const defaultBrand = path.basename(inputPath, path.extname(inputPath))
-  .replace(/^_+/, '')
-  .split(/[_-]/)[0]
-  .toUpperCase();
-const brand = optionValue('--brand') ?? defaultBrand;
+const brand = optionValue('--brand') ?? '';
 const category = optionValue('--category') ?? 'Bags';
 const overwrite = args.includes('--overwrite');
 const outputDir = path.resolve('src/content/products');
