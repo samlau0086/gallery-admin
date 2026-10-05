@@ -35,6 +35,20 @@ if (!Array.isArray(records)) {
 
 const stringify = (value) => JSON.stringify(value);
 const safeFilename = (value) => String(value).trim().replace(/[^a-zA-Z0-9_-]+/g, '-');
+const localizedField = (record, keys, fallback = '') => {
+  for (const key of keys) {
+    const value = record[key];
+    if (value && typeof value === 'object' && !Array.isArray(value)) return value;
+    if (typeof value === 'string' && value.trim()) return value.trim();
+  }
+  return fallback;
+};
+const localizedObject = (value, fallback = '') => {
+  if (value && typeof value === 'object' && !Array.isArray(value)) return value;
+  const text = String(value ?? fallback).trim();
+  return { en: text };
+};
+const localizedFallback = (value) => value?.en || Object.values(value ?? {}).find(Boolean) || '';
 
 await mkdir(outputDir, { recursive: true });
 
@@ -45,7 +59,10 @@ for (const [index, record] of records.entries()) {
   const recordBrand = String(record.brand ?? '').trim() || brand;
   const sku = String(record['货号'] ?? '').trim();
   const sourceId = String(record.ID ?? '').trim();
-  const title = String(record['标题'] ?? '').trim() || sku || sourceId || `Product ${index + 1}`;
+  const titleSource = localizedObject(localizedField(record, ['title', '标题'], sku || sourceId || `Product ${index + 1}`));
+  const title = localizedFallback(titleSource) || sku || sourceId || `Product ${index + 1}`;
+  const descriptionSource = localizedObject(localizedField(record, ['description', '描述', '详情'], titleSource), title);
+  const categorySource = localizedObject(localizedField(record, ['category', '分类'], category), category);
   const images = Array.isArray(record['图片']) ? record['图片'].filter(Boolean) : [];
 
   if (!sku && images.length === 0) {
@@ -72,13 +89,13 @@ for (const [index, record] of records.entries()) {
     alt: `${title} image ${imageIndex + 1}`,
   }));
   const content = `---\n`
-    + `title: ${stringify(title)}\n`
-    + `category: ${stringify(category)}\n`
+    + `title: ${stringify(titleSource)}\n`
+    + `category: ${stringify(categorySource)}\n`
     + `brand: ${stringify(recordBrand)}\n`
     + (sku ? `sku: ${stringify(sku)}\n` : '')
     + `cover: ${stringify(cover)}\n`
     + `media: ${stringify(media)}\n`
-    + `description: ${stringify(title)}\n`
+    + `description: ${stringify(descriptionSource)}\n`
     + `tags: ${stringify(tags)}\n`
     + `featured: false\n`
     + `published: true\n`
