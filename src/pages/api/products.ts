@@ -5,17 +5,31 @@ type Product = { slug: string; title: string; category: string; brand?: string; 
 
 const SUCCESS_CACHE_CONTROL = 'public, max-age=2592000, s-maxage=2592000, stale-while-revalidate=86400';
 const ERROR_CACHE_CONTROL = 'no-store';
+const CACHE_QUERY_KEYS = ['page', 'pageSize', 'category', 'kind', 'brand', 'tag', 'q', 'facets'];
+const normalizeProductsUrl = (url: URL) => {
+  const normalized = new URL(url);
+  const params = new URLSearchParams();
+  for (const key of CACHE_QUERY_KEYS) {
+    const values = normalized.searchParams.getAll(key).map((value) => value.trim()).filter(Boolean);
+    if (!values.length) continue;
+    const value = key === 'category' || key === 'kind' || key === 'brand' || key === 'tag' ? values[0] : key === 'q' ? values[0].toLowerCase() : values[0];
+    params.set(key, value);
+  }
+  normalized.search = params.toString();
+  return normalized;
+};
 
 export const prerender = false;
 export const GET: APIRoute = async ({ url, locals }) => {
-  const page = Math.max(Number(url.searchParams.get('page')) || 1, 1);
-  const pageSize = Math.min(Math.max(Number(url.searchParams.get('pageSize')) || 24, 1), 48);
-  const query = (url.searchParams.get('q') || '').trim().toLowerCase();
-  const category = (url.searchParams.get('category') || '').trim();
-  const kind = (url.searchParams.get('kind') || '').trim();
-  const brand = (url.searchParams.get('brand') || '').trim();
-  const tag = (url.searchParams.get('tag') || '').trim();
-  const facetsOnly = url.searchParams.get('facets') === '1';
+  const normalizedUrl = normalizeProductsUrl(url);
+  const page = Math.max(Number(normalizedUrl.searchParams.get('page')) || 1, 1);
+  const pageSize = Math.min(Math.max(Number(normalizedUrl.searchParams.get('pageSize')) || 24, 1), 48);
+  const query = (normalizedUrl.searchParams.get('q') || '').trim().toLowerCase();
+  const category = (normalizedUrl.searchParams.get('category') || '').trim();
+  const kind = (normalizedUrl.searchParams.get('kind') || '').trim();
+  const brand = (normalizedUrl.searchParams.get('brand') || '').trim();
+  const tag = (normalizedUrl.searchParams.get('tag') || '').trim();
+  const facetsOnly = normalizedUrl.searchParams.get('facets') === '1';
   try {
     const allProducts = await loadSearchIndex(url, locals) as Product[];
     if (facetsOnly) {

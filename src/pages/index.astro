@@ -60,6 +60,7 @@ const localized=(value:any,fallback='')=>{if(!value)return fallback;if(typeof va
 const productTitle=(product:CatalogProduct)=>localized(product.i18n?.title,product.title||"");
 const productCategory=(product:CatalogProduct)=>{const category=localized(product.i18n?.category,product.category||'');return category==='Bags'?uiText('bags','Bags'):category};
 const productDescription=(product:CatalogProduct)=>localized(product.i18n?.description,product.description||'');
+const productsUrl=(values:Record<string,string|undefined>)=>{const params=new URLSearchParams();for(const key of ['page','pageSize','category','kind','brand','tag','q']){const value=values[key];if(value)params.set(key,value)}return `/api/products?${params.toString()}`};
 const filterOptions=document.createElement('div');
 filterOptions.className='filter-options';
 filterOptions.setAttribute('aria-label','Product filters');
