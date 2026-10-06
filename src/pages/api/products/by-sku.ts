@@ -1,5 +1,6 @@
 import type { APIRoute } from 'astro';
 import { loadSearchIndex } from '../../../data/search-index';
+import { loadProduct } from '../../../data/product-data';
 
 type ProductIndexRecord = { slug: string; sku?: string };
 
@@ -15,13 +16,6 @@ const json = (body: unknown, status: number, cacheControl: string) => new Respon
   },
 });
 
-const fetchAsset = async (url: URL, locals: App.Locals, pathname: string) => {
-  const assets = (locals as RuntimeLocals).runtime?.env?.ASSETS;
-  return assets
-    ? assets.fetch(new Request(new URL(pathname, url)))
-    : fetch(new URL(pathname, url));
-};
-
 export const prerender = false;
 
 export const GET: APIRoute = async ({ url, locals }) => {
@@ -36,9 +30,9 @@ export const GET: APIRoute = async ({ url, locals }) => {
     if (!matches.length) return json({ error: 'Product not found.' }, 404, ERROR_CACHE_CONTROL);
     if (matches.length > 1) return json({ error: 'Multiple products match this sku.' }, 409, ERROR_CACHE_CONTROL);
 
-    const productResponse = await fetchAsset(url, locals, `/product-data/${encodeURIComponent(matches[0].slug)}.json`);
-    if (!productResponse.ok) throw new Error('Product data unavailable');
-    return new Response(await productResponse.text(), {
+    const product = await loadProduct(url, locals, matches[0].slug);
+    if (!product) throw new Error('Product data unavailable');
+    return new Response(JSON.stringify(product), {
       headers: {
         'content-type': 'application/json; charset=utf-8',
         'cache-control': SUCCESS_CACHE_CONTROL,
