@@ -1,0 +1,15 @@
+---
+title: {"en":"️ Adidas HANDBALL SPEZIAL 低帮三叶草学院风复古休闲板鞋 德训鞋 橡胶底柔软织物鞋面经典运动鞋板鞋。 货号：JR5007 SIZE:36 36⅔ 37⅓ 38 38⅔ 39⅓ 40 40⅔ 41⅓ 42 42⅔ 43⅓ 44 45 06NY296A16"}
+category: {"en":"Shoes"}
+brand: "Adidas"
+sku: "JR5007"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260617/cmp_i1781639421842_5733_0_0.jpg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260617/cmp_i1781639421842_5733_0_0.jpg","type":"image","alt":"️ Adidas HANDBALL SPEZIAL 低帮三叶草学院风复古休闲板鞋 德训鞋 橡胶底柔软织物鞋面经典运动鞋板鞋。 货号：JR5007 SIZE:36 36⅔ 37⅓ 38 38⅔ 39⅓ 40 40⅔ 41⅓ 42 42⅔ 43⅓ 44 45 06NY296A16 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260617/cmp_i1781639424293_2517_0_1.jpg","type":"image","alt":"️ Adidas HANDBALL SPEZIAL 低帮三叶草学院风复古休闲板鞋 德训鞋 橡胶底柔软织物鞋面经典运动鞋板鞋。 货号：JR5007 SIZE:36 36⅔ 37⅓ 38 38⅔ 39⅓ 40 40⅔ 41⅓ 42 42⅔ 43⅓ 44 45 06NY296A16 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260617/cmp_i1781639421831_8557_0_2.jpg","type":"image","alt":"️ Adidas HANDBALL SPEZIAL 低帮三叶草学院风复古休闲板鞋 德训鞋 橡胶底柔软织物鞋面经典运动鞋板鞋。 货号：JR5007 SIZE:36 36⅔ 37⅓ 38 38⅔ 39⅓ 40 40⅔ 41⅓ 42 42⅔ 43⅓ 44 45 06NY296A16 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260617/cmp_i1781639421829_7256_0_3.jpg","type":"image","alt":"️ Adidas HANDBALL SPEZIAL 低帮三叶草学院风复古休闲板鞋 德训鞋 橡胶底柔软织物鞋面经典运动鞋板鞋。 货号：JR5007 SIZE:36 36⅔ 37⅓ 38 38⅔ 39⅓ 40 40⅔ 41⅓ 42 42⅔ 43⅓ 44 45 06NY296A16 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260617/cmp_i1781639421842_3718_0_4.jpg","type":"image","alt":"️ Adidas HANDBALL SPEZIAL 低帮三叶草学院风复古休闲板鞋 德训鞋 橡胶底柔软织物鞋面经典运动鞋板鞋。 货号：JR5007 SIZE:36 36⅔ 37⅓ 38 38⅔ 39⅓ 40 40⅔ 41⅓ 42 42⅔ 43⅓ 44 45 06NY296A16 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260617/cmp_i1781639424293_7172_0_5.jpg","type":"image","alt":"️ Adidas HANDBALL SPEZIAL 低帮三叶草学院风复古休闲板鞋 德训鞋 橡胶底柔软织物鞋面经典运动鞋板鞋。 货号：JR5007 SIZE:36 36⅔ 37⅓ 38 38⅔ 39⅓ 40 40⅔ 41⅓ 42 42⅔ 43⅓ 44 45 06NY296A16 image 6"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260617/cmp_i1781639424288_1865_0_6.jpg","type":"image","alt":"️ Adidas HANDBALL SPEZIAL 低帮三叶草学院风复古休闲板鞋 德训鞋 橡胶底柔软织物鞋面经典运动鞋板鞋。 货号：JR5007 SIZE:36 36⅔ 37⅓ 38 38⅔ 39⅓ 40 40⅔ 41⅓ 42 42⅔ 43⅓ 44 45 06NY296A16 image 7"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260617/cmp_i1781639421842_1694_0_7.jpg","type":"image","alt":"️ Adidas HANDBALL SPEZIAL 低帮三叶草学院风复古休闲板鞋 德训鞋 橡胶底柔软织物鞋面经典运动鞋板鞋。 货号：JR5007 SIZE:36 36⅔ 37⅓ 38 38⅔ 39⅓ 40 40⅔ 41⅓ 42 42⅔ 43⅓ 44 45 06NY296A16 image 8"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260617/cmp_i1781639424291_3086_0_8.jpg","type":"image","alt":"️ Adidas HANDBALL SPEZIAL 低帮三叶草学院风复古休闲板鞋 德训鞋 橡胶底柔软织物鞋面经典运动鞋板鞋。 货号：JR5007 SIZE:36 36⅔ 37⅓ 38 38⅔ 39⅓ 40 40⅔ 41⅓ 42 42⅔ 43⅓ 44 45 06NY296A16 image 9"}]
+description: {"en":"️ Adidas HANDBALL SPEZIAL 低帮三叶草学院风复古休闲板鞋 德训鞋 橡胶底柔软织物鞋面经典运动鞋板鞋。 货号：JR5007 SIZE:36 36⅔ 37⅓ 38 38⅔ 39⅓ 40 40⅔ 41⅓ 42 42⅔ 43⅓ 44 45 06NY296A16"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 2204
+---
+
+️ Adidas HANDBALL SPEZIAL 低帮三叶草学院风复古休闲板鞋 德训鞋 橡胶底柔软织物鞋面经典运动鞋板鞋。 货号：JR5007 SIZE:36 36⅔ 37⅓ 38 38⅔ 39⅓ 40 40⅔ 41⅓ 42 42⅔ 43⅓ 44 45 06NY296A16

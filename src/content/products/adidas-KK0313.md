@@ -1,0 +1,15 @@
+---
+title: {"en":"️Adidas Adizero Pro Evo SL ATR 舒适百搭防滑耐磨 低帮 休闲跑步鞋 中底配置方面搭载全掌Lightstrike Pro 鞋面采用透气网面 契合日常训练鞋的定位 外底给到了橡胶 更加防滑耐磨 货号:KK0313 尺码:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:329JGD0614 06JGD113A13"}
+category: {"en":"Shoes"}
+brand: "Adidas"
+sku: "KK0313"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260614/cmp_i1781439286949_5306_0_0.jpg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260614/cmp_i1781439286949_5306_0_0.jpg","type":"image","alt":"️Adidas Adizero Pro Evo SL ATR 舒适百搭防滑耐磨 低帮 休闲跑步鞋 中底配置方面搭载全掌Lightstrike Pro 鞋面采用透气网面 契合日常训练鞋的定位 外底给到了橡胶 更加防滑耐磨 货号:KK0313 尺码:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:329JGD0614 06JGD113A13 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260614/cmp_i1781439307327_8107_0_1.jpg","type":"image","alt":"️Adidas Adizero Pro Evo SL ATR 舒适百搭防滑耐磨 低帮 休闲跑步鞋 中底配置方面搭载全掌Lightstrike Pro 鞋面采用透气网面 契合日常训练鞋的定位 外底给到了橡胶 更加防滑耐磨 货号:KK0313 尺码:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:329JGD0614 06JGD113A13 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260614/cmp_i1781439307331_7758_0_2.jpg","type":"image","alt":"️Adidas Adizero Pro Evo SL ATR 舒适百搭防滑耐磨 低帮 休闲跑步鞋 中底配置方面搭载全掌Lightstrike Pro 鞋面采用透气网面 契合日常训练鞋的定位 外底给到了橡胶 更加防滑耐磨 货号:KK0313 尺码:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:329JGD0614 06JGD113A13 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260614/cmp_i1781439286946_7613_0_3.jpg","type":"image","alt":"️Adidas Adizero Pro Evo SL ATR 舒适百搭防滑耐磨 低帮 休闲跑步鞋 中底配置方面搭载全掌Lightstrike Pro 鞋面采用透气网面 契合日常训练鞋的定位 外底给到了橡胶 更加防滑耐磨 货号:KK0313 尺码:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:329JGD0614 06JGD113A13 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260614/cmp_i1781439286952_6412_0_4.jpg","type":"image","alt":"️Adidas Adizero Pro Evo SL ATR 舒适百搭防滑耐磨 低帮 休闲跑步鞋 中底配置方面搭载全掌Lightstrike Pro 鞋面采用透气网面 契合日常训练鞋的定位 外底给到了橡胶 更加防滑耐磨 货号:KK0313 尺码:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:329JGD0614 06JGD113A13 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260614/cmp_i1781439286917_43_0_5.jpg","type":"image","alt":"️Adidas Adizero Pro Evo SL ATR 舒适百搭防滑耐磨 低帮 休闲跑步鞋 中底配置方面搭载全掌Lightstrike Pro 鞋面采用透气网面 契合日常训练鞋的定位 外底给到了橡胶 更加防滑耐磨 货号:KK0313 尺码:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:329JGD0614 06JGD113A13 image 6"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260614/cmp_i1781439286952_2103_0_6.jpg","type":"image","alt":"️Adidas Adizero Pro Evo SL ATR 舒适百搭防滑耐磨 低帮 休闲跑步鞋 中底配置方面搭载全掌Lightstrike Pro 鞋面采用透气网面 契合日常训练鞋的定位 外底给到了橡胶 更加防滑耐磨 货号:KK0313 尺码:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:329JGD0614 06JGD113A13 image 7"}]
+description: {"en":"️Adidas Adizero Pro Evo SL ATR 舒适百搭防滑耐磨 低帮 休闲跑步鞋 中底配置方面搭载全掌Lightstrike Pro 鞋面采用透气网面 契合日常训练鞋的定位 外底给到了橡胶 更加防滑耐磨 货号:KK0313 尺码:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:329JGD0614 06JGD113A13"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 15736
+---
+
+️Adidas Adizero Pro Evo SL ATR 舒适百搭防滑耐磨 低帮 休闲跑步鞋 中底配置方面搭载全掌Lightstrike Pro 鞋面采用透气网面 契合日常训练鞋的定位 外底给到了橡胶 更加防滑耐磨 货号:KK0313 尺码:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:329JGD0614 06JGD113A13

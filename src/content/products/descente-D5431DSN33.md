@@ -1,0 +1,15 @@
+---
+title: {"en":"DESCENTE Dualis 都市通勤PRIMER WIRE BOA旋钮 低帮休闲鞋 鞋面采用KPU材质 耐用的同时提升防护性与整体质感 厚中底兼具缓震与轻质特性 带来舒适脚感的同时实现适度增高级 米其林外底增强抓地力 应对冬季复杂路况 BOA系带系统一键锁定 贴合脚型 轻松搭配不同穿搭风格 平衡实用功能与穿搭需求 适配日常通勤场景 货号:D5431DSN33 尺码:39 40 40.5 41 42 42.5 43 44 45 05GYD1544A14"}
+category: {"en":"Shoes"}
+brand: "DESCENTE"
+sku: "D5431DSN33"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260518/cmp_o_1jotsmcifv31j8gi551lve1nke0.jpeg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260518/cmp_o_1jotsmcifv31j8gi551lve1nke0.jpeg","type":"image","alt":"DESCENTE Dualis 都市通勤PRIMER WIRE BOA旋钮 低帮休闲鞋 鞋面采用KPU材质 耐用的同时提升防护性与整体质感 厚中底兼具缓震与轻质特性 带来舒适脚感的同时实现适度增高级 米其林外底增强抓地力 应对冬季复杂路况 BOA系带系统一键锁定 贴合脚型 轻松搭配不同穿搭风格 平衡实用功能与穿搭需求 适配日常通勤场景 货号:D5431DSN33 尺码:39 40 40.5 41 42 42.5 43 44 45 05GYD1544A14 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260518/cmp_o_1jotsmcig7421f95tqmu5ne8u1.jpeg","type":"image","alt":"DESCENTE Dualis 都市通勤PRIMER WIRE BOA旋钮 低帮休闲鞋 鞋面采用KPU材质 耐用的同时提升防护性与整体质感 厚中底兼具缓震与轻质特性 带来舒适脚感的同时实现适度增高级 米其林外底增强抓地力 应对冬季复杂路况 BOA系带系统一键锁定 贴合脚型 轻松搭配不同穿搭风格 平衡实用功能与穿搭需求 适配日常通勤场景 货号:D5431DSN33 尺码:39 40 40.5 41 42 42.5 43 44 45 05GYD1544A14 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260518/cmp_o_1jotsmcigdb61jee9nm1s921b4v2.jpeg","type":"image","alt":"DESCENTE Dualis 都市通勤PRIMER WIRE BOA旋钮 低帮休闲鞋 鞋面采用KPU材质 耐用的同时提升防护性与整体质感 厚中底兼具缓震与轻质特性 带来舒适脚感的同时实现适度增高级 米其林外底增强抓地力 应对冬季复杂路况 BOA系带系统一键锁定 贴合脚型 轻松搭配不同穿搭风格 平衡实用功能与穿搭需求 适配日常通勤场景 货号:D5431DSN33 尺码:39 40 40.5 41 42 42.5 43 44 45 05GYD1544A14 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260518/cmp_o_1jotsmcigl271oe51v7fnv51t5t3.jpeg","type":"image","alt":"DESCENTE Dualis 都市通勤PRIMER WIRE BOA旋钮 低帮休闲鞋 鞋面采用KPU材质 耐用的同时提升防护性与整体质感 厚中底兼具缓震与轻质特性 带来舒适脚感的同时实现适度增高级 米其林外底增强抓地力 应对冬季复杂路况 BOA系带系统一键锁定 贴合脚型 轻松搭配不同穿搭风格 平衡实用功能与穿搭需求 适配日常通勤场景 货号:D5431DSN33 尺码:39 40 40.5 41 42 42.5 43 44 45 05GYD1544A14 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260518/cmp_o_1jotsmcih7qg1t90b3n1pd414fp4.jpeg","type":"image","alt":"DESCENTE Dualis 都市通勤PRIMER WIRE BOA旋钮 低帮休闲鞋 鞋面采用KPU材质 耐用的同时提升防护性与整体质感 厚中底兼具缓震与轻质特性 带来舒适脚感的同时实现适度增高级 米其林外底增强抓地力 应对冬季复杂路况 BOA系带系统一键锁定 贴合脚型 轻松搭配不同穿搭风格 平衡实用功能与穿搭需求 适配日常通勤场景 货号:D5431DSN33 尺码:39 40 40.5 41 42 42.5 43 44 45 05GYD1544A14 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260518/cmp_o_1jotsmcih1umbf4kmtbf5t1b4k5.jpeg","type":"image","alt":"DESCENTE Dualis 都市通勤PRIMER WIRE BOA旋钮 低帮休闲鞋 鞋面采用KPU材质 耐用的同时提升防护性与整体质感 厚中底兼具缓震与轻质特性 带来舒适脚感的同时实现适度增高级 米其林外底增强抓地力 应对冬季复杂路况 BOA系带系统一键锁定 贴合脚型 轻松搭配不同穿搭风格 平衡实用功能与穿搭需求 适配日常通勤场景 货号:D5431DSN33 尺码:39 40 40.5 41 42 42.5 43 44 45 05GYD1544A14 image 6"}]
+description: {"en":"DESCENTE Dualis 都市通勤PRIMER WIRE BOA旋钮 低帮休闲鞋 鞋面采用KPU材质 耐用的同时提升防护性与整体质感 厚中底兼具缓震与轻质特性 带来舒适脚感的同时实现适度增高级 米其林外底增强抓地力 应对冬季复杂路况 BOA系带系统一键锁定 贴合脚型 轻松搭配不同穿搭风格 平衡实用功能与穿搭需求 适配日常通勤场景 货号:D5431DSN33 尺码:39 40 40.5 41 42 42.5 43 44 45 05GYD1544A14"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 28638
+---
+
+DESCENTE Dualis 都市通勤PRIMER WIRE BOA旋钮 低帮休闲鞋 鞋面采用KPU材质 耐用的同时提升防护性与整体质感 厚中底兼具缓震与轻质特性 带来舒适脚感的同时实现适度增高级 米其林外底增强抓地力 应对冬季复杂路况 BOA系带系统一键锁定 贴合脚型 轻松搭配不同穿搭风格 平衡实用功能与穿搭需求 适配日常通勤场景 货号:D5431DSN33 尺码:39 40 40.5 41 42 42.5 43 44 45 05GYD1544A14

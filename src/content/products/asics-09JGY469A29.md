@@ -1,0 +1,15 @@
+---
+title: {"en":"Asics 竞速跑鞋 专业跑鞋天花板黑银渐变飞织网面，轻薄透气不闷脚，大幅度减轻鞋身重量。标志性银色大虎爪 logo，视觉冲击力强。 高弹厚底中底，回弹缓震效果优秀，长距离跑步、日常健身都能 hold 住。防滑耐磨大底，抓地稳定，。 上脚利落显瘦，跑步健身、日常通勤都适配。尺码 36-45，多色可选！ 09JGY469A29"}
+category: {"en":"Shoes"}
+brand: "Asics"
+sku: "09JGY469A29"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260930/cmp_o_1k3n70d0qits1a4j1ai6bbhna10.jpeg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260930/cmp_o_1k3n70d0qits1a4j1ai6bbhna10.jpeg","type":"image","alt":"Asics 竞速跑鞋 专业跑鞋天花板黑银渐变飞织网面，轻薄透气不闷脚，大幅度减轻鞋身重量。标志性银色大虎爪 logo，视觉冲击力强。 高弹厚底中底，回弹缓震效果优秀，长距离跑步、日常健身都能 hold 住。防滑耐磨大底，抓地稳定，。 上脚利落显瘦，跑步健身、日常通勤都适配。尺码 36-45，多色可选！ 09JGY469A29 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260930/cmp_o_1k3n70d0q1f933gshna1il64od1.jpeg","type":"image","alt":"Asics 竞速跑鞋 专业跑鞋天花板黑银渐变飞织网面，轻薄透气不闷脚，大幅度减轻鞋身重量。标志性银色大虎爪 logo，视觉冲击力强。 高弹厚底中底，回弹缓震效果优秀，长距离跑步、日常健身都能 hold 住。防滑耐磨大底，抓地稳定，。 上脚利落显瘦，跑步健身、日常通勤都适配。尺码 36-45，多色可选！ 09JGY469A29 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260930/cmp_o_1k3n70d0r1qbtqh97031nrh13c42.jpeg","type":"image","alt":"Asics 竞速跑鞋 专业跑鞋天花板黑银渐变飞织网面，轻薄透气不闷脚，大幅度减轻鞋身重量。标志性银色大虎爪 logo，视觉冲击力强。 高弹厚底中底，回弹缓震效果优秀，长距离跑步、日常健身都能 hold 住。防滑耐磨大底，抓地稳定，。 上脚利落显瘦，跑步健身、日常通勤都适配。尺码 36-45，多色可选！ 09JGY469A29 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260930/cmp_o_1k3n70d0r14tu1tqvom3nmh2ak3.jpeg","type":"image","alt":"Asics 竞速跑鞋 专业跑鞋天花板黑银渐变飞织网面，轻薄透气不闷脚，大幅度减轻鞋身重量。标志性银色大虎爪 logo，视觉冲击力强。 高弹厚底中底，回弹缓震效果优秀，长距离跑步、日常健身都能 hold 住。防滑耐磨大底，抓地稳定，。 上脚利落显瘦，跑步健身、日常通勤都适配。尺码 36-45，多色可选！ 09JGY469A29 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260930/cmp_o_1k3n70d0rbe1jm815de1cck3104.jpeg","type":"image","alt":"Asics 竞速跑鞋 专业跑鞋天花板黑银渐变飞织网面，轻薄透气不闷脚，大幅度减轻鞋身重量。标志性银色大虎爪 logo，视觉冲击力强。 高弹厚底中底，回弹缓震效果优秀，长距离跑步、日常健身都能 hold 住。防滑耐磨大底，抓地稳定，。 上脚利落显瘦，跑步健身、日常通勤都适配。尺码 36-45，多色可选！ 09JGY469A29 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260930/cmp_o_1k3n70d0s1gh81f7o1pmb1oko1vnl5.jpeg","type":"image","alt":"Asics 竞速跑鞋 专业跑鞋天花板黑银渐变飞织网面，轻薄透气不闷脚，大幅度减轻鞋身重量。标志性银色大虎爪 logo，视觉冲击力强。 高弹厚底中底，回弹缓震效果优秀，长距离跑步、日常健身都能 hold 住。防滑耐磨大底，抓地稳定，。 上脚利落显瘦，跑步健身、日常通勤都适配。尺码 36-45，多色可选！ 09JGY469A29 image 6"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260930/cmp_o_1k3n70d0s1p8c1bcg1hdt1v9tah6.jpeg","type":"image","alt":"Asics 竞速跑鞋 专业跑鞋天花板黑银渐变飞织网面，轻薄透气不闷脚，大幅度减轻鞋身重量。标志性银色大虎爪 logo，视觉冲击力强。 高弹厚底中底，回弹缓震效果优秀，长距离跑步、日常健身都能 hold 住。防滑耐磨大底，抓地稳定，。 上脚利落显瘦，跑步健身、日常通勤都适配。尺码 36-45，多色可选！ 09JGY469A29 image 7"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260930/cmp_o_1k3n70d0si5i5pv1hghc4o14l87.jpeg","type":"image","alt":"Asics 竞速跑鞋 专业跑鞋天花板黑银渐变飞织网面，轻薄透气不闷脚，大幅度减轻鞋身重量。标志性银色大虎爪 logo，视觉冲击力强。 高弹厚底中底，回弹缓震效果优秀，长距离跑步、日常健身都能 hold 住。防滑耐磨大底，抓地稳定，。 上脚利落显瘦，跑步健身、日常通勤都适配。尺码 36-45，多色可选！ 09JGY469A29 image 8"}]
+description: {"en":"Asics 竞速跑鞋 专业跑鞋天花板黑银渐变飞织网面，轻薄透气不闷脚，大幅度减轻鞋身重量。标志性银色大虎爪 logo，视觉冲击力强。 高弹厚底中底，回弹缓震效果优秀，长距离跑步、日常健身都能 hold 住。防滑耐磨大底，抓地稳定，。 上脚利落显瘦，跑步健身、日常通勤都适配。尺码 36-45，多色可选！ 09JGY469A29"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 1127
+---
+
+Asics 竞速跑鞋 专业跑鞋天花板黑银渐变飞织网面，轻薄透气不闷脚，大幅度减轻鞋身重量。标志性银色大虎爪 logo，视觉冲击力强。 高弹厚底中底，回弹缓震效果优秀，长距离跑步、日常健身都能 hold 住。防滑耐磨大底，抓地稳定，。 上脚利落显瘦，跑步健身、日常通勤都适配。尺码 36-45，多色可选！ 09JGY469A29

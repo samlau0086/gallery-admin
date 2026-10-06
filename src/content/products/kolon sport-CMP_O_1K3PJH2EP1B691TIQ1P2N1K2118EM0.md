@@ -1,0 +1,15 @@
+---
+title: {"en":"CMP_O_1K3PJH2EP1B691TIQ1P2N1K2118EM0"}
+category: {"en":"Shoes"}
+brand: "KOLON Sport"
+sku: "CMP_O_1K3PJH2EP1B691TIQ1P2N1K2118EM0"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20261001/cmp_o_1k3pjh2ep1b691tiq1p2n1k2118em0.jpeg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20261001/cmp_o_1k3pjh2ep1b691tiq1p2n1k2118em0.jpeg","type":"image","alt":"CMP_O_1K3PJH2EP1B691TIQ1P2N1K2118EM0 image 1"}]
+description: {"en":"CMP_O_1K3PJH2EP1B691TIQ1P2N1K2118EM0"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 1
+---
+
+CMP_O_1K3PJH2EP1B691TIQ1P2N1K2118EM0

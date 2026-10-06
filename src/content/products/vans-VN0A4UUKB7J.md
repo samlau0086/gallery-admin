@@ -1,0 +1,15 @@
+---
+title: {"en":"余文乐同款 Vans Sk8-Low 棕绿拼接来了！ VANSSk8-Low 夏季复古棕绿拼接低帮运动休闲帆布鞋滑板鞋 余文乐同款Vans Sk8-Low棕绿拼接，小红书+得物推荐！💥 复古配色超百搭，低帮设计显腿长，出街必备！👫 1:1工艺，脚感舒适不磨脚，滑板逛街都OK~🛹 1:1硫化工艺💯 官方货号：VN0A4UUKB7J Size：35 36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 06JDD438A28"}
+category: {"en":"Shoes"}
+brand: "Vans"
+sku: "VN0A4UUKB7J"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260629/cmp_o_1js7kf7ae11lk1v3h1ouuqkn1e4c0.jpeg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260629/cmp_o_1js7kf7ae11lk1v3h1ouuqkn1e4c0.jpeg","type":"image","alt":"余文乐同款 Vans Sk8-Low 棕绿拼接来了！ VANSSk8-Low 夏季复古棕绿拼接低帮运动休闲帆布鞋滑板鞋 余文乐同款Vans Sk8-Low棕绿拼接，小红书+得物推荐！💥 复古配色超百搭，低帮设计显腿长，出街必备！👫 1:1工艺，脚感舒适不磨脚，滑板逛街都OK~🛹 1:1硫化工艺💯 官方货号：VN0A4UUKB7J Size：35 36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 06JDD438A28 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260629/cmp_o_1js7kf7ae1vhb1a7p19eqkid1alp1.jpeg","type":"image","alt":"余文乐同款 Vans Sk8-Low 棕绿拼接来了！ VANSSk8-Low 夏季复古棕绿拼接低帮运动休闲帆布鞋滑板鞋 余文乐同款Vans Sk8-Low棕绿拼接，小红书+得物推荐！💥 复古配色超百搭，低帮设计显腿长，出街必备！👫 1:1工艺，脚感舒适不磨脚，滑板逛街都OK~🛹 1:1硫化工艺💯 官方货号：VN0A4UUKB7J Size：35 36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 06JDD438A28 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260629/cmp_o_1js7kf7ae13qej421kja88282i2.jpeg","type":"image","alt":"余文乐同款 Vans Sk8-Low 棕绿拼接来了！ VANSSk8-Low 夏季复古棕绿拼接低帮运动休闲帆布鞋滑板鞋 余文乐同款Vans Sk8-Low棕绿拼接，小红书+得物推荐！💥 复古配色超百搭，低帮设计显腿长，出街必备！👫 1:1工艺，脚感舒适不磨脚，滑板逛街都OK~🛹 1:1硫化工艺💯 官方货号：VN0A4UUKB7J Size：35 36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 06JDD438A28 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260629/cmp_o_1js7kf7aejfi1tbr1ggb1bqj19j33.jpeg","type":"image","alt":"余文乐同款 Vans Sk8-Low 棕绿拼接来了！ VANSSk8-Low 夏季复古棕绿拼接低帮运动休闲帆布鞋滑板鞋 余文乐同款Vans Sk8-Low棕绿拼接，小红书+得物推荐！💥 复古配色超百搭，低帮设计显腿长，出街必备！👫 1:1工艺，脚感舒适不磨脚，滑板逛街都OK~🛹 1:1硫化工艺💯 官方货号：VN0A4UUKB7J Size：35 36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 06JDD438A28 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260629/cmp_o_1js7kf7afhki2lql30e0fgcp4.jpeg","type":"image","alt":"余文乐同款 Vans Sk8-Low 棕绿拼接来了！ VANSSk8-Low 夏季复古棕绿拼接低帮运动休闲帆布鞋滑板鞋 余文乐同款Vans Sk8-Low棕绿拼接，小红书+得物推荐！💥 复古配色超百搭，低帮设计显腿长，出街必备！👫 1:1工艺，脚感舒适不磨脚，滑板逛街都OK~🛹 1:1硫化工艺💯 官方货号：VN0A4UUKB7J Size：35 36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 06JDD438A28 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260629/cmp_o_1js7kf7af1kgb1j9l16g218af1b915.jpeg","type":"image","alt":"余文乐同款 Vans Sk8-Low 棕绿拼接来了！ VANSSk8-Low 夏季复古棕绿拼接低帮运动休闲帆布鞋滑板鞋 余文乐同款Vans Sk8-Low棕绿拼接，小红书+得物推荐！💥 复古配色超百搭，低帮设计显腿长，出街必备！👫 1:1工艺，脚感舒适不磨脚，滑板逛街都OK~🛹 1:1硫化工艺💯 官方货号：VN0A4UUKB7J Size：35 36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 06JDD438A28 image 6"}]
+description: {"en":"余文乐同款 Vans Sk8-Low 棕绿拼接来了！ VANSSk8-Low 夏季复古棕绿拼接低帮运动休闲帆布鞋滑板鞋 余文乐同款Vans Sk8-Low棕绿拼接，小红书+得物推荐！💥 复古配色超百搭，低帮设计显腿长，出街必备！👫 1:1工艺，脚感舒适不磨脚，滑板逛街都OK~🛹 1:1硫化工艺💯 官方货号：VN0A4UUKB7J Size：35 36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 06JDD438A28"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 10514
+---
+
+余文乐同款 Vans Sk8-Low 棕绿拼接来了！ VANSSk8-Low 夏季复古棕绿拼接低帮运动休闲帆布鞋滑板鞋 余文乐同款Vans Sk8-Low棕绿拼接，小红书+得物推荐！💥 复古配色超百搭，低帮设计显腿长，出街必备！👫 1:1工艺，脚感舒适不磨脚，滑板逛街都OK~🛹 1:1硫化工艺💯 官方货号：VN0A4UUKB7J Size：35 36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 06JDD438A28

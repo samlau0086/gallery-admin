@@ -1,0 +1,15 @@
+---
+title: {"en":"博肯 Birkenstock 拖鞋 广东原产#德国百年知名鞋履品牌·博肯Birkenstock 勃肯#采用质地柔软牛皮绒面材质#中底搭载缓震软木橡胶 其特有的鞋床设计，贴合脚面穿着舒适 Birkenstock Milano中性软木鞋底经典款式，非常好搭，鞋底结实耐磨，适合夏天。 尺码：35-45(偏大一码) 编码：06JXD320A06"}
+category: {"en":"Shoes"}
+brand: "Birkenstock"
+sku: "06JXD320A06"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20250607/cmp_i1749238832986_7845_0_0.jpg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20250607/cmp_i1749238832986_7845_0_0.jpg","type":"image","alt":"博肯 Birkenstock 拖鞋 广东原产#德国百年知名鞋履品牌·博肯Birkenstock 勃肯#采用质地柔软牛皮绒面材质#中底搭载缓震软木橡胶 其特有的鞋床设计，贴合脚面穿着舒适 Birkenstock Milano中性软木鞋底经典款式，非常好搭，鞋底结实耐磨，适合夏天。 尺码：35-45(偏大一码) 编码：06JXD320A06 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20250607/cmp_i1749238832986_4817_0_1.jpg","type":"image","alt":"博肯 Birkenstock 拖鞋 广东原产#德国百年知名鞋履品牌·博肯Birkenstock 勃肯#采用质地柔软牛皮绒面材质#中底搭载缓震软木橡胶 其特有的鞋床设计，贴合脚面穿着舒适 Birkenstock Milano中性软木鞋底经典款式，非常好搭，鞋底结实耐磨，适合夏天。 尺码：35-45(偏大一码) 编码：06JXD320A06 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20250607/cmp_i1749238834458_5154_0_2.jpg","type":"image","alt":"博肯 Birkenstock 拖鞋 广东原产#德国百年知名鞋履品牌·博肯Birkenstock 勃肯#采用质地柔软牛皮绒面材质#中底搭载缓震软木橡胶 其特有的鞋床设计，贴合脚面穿着舒适 Birkenstock Milano中性软木鞋底经典款式，非常好搭，鞋底结实耐磨，适合夏天。 尺码：35-45(偏大一码) 编码：06JXD320A06 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20250607/cmp_i1749238720528_3593_0_0.jpg","type":"image","alt":"博肯 Birkenstock 拖鞋 广东原产#德国百年知名鞋履品牌·博肯Birkenstock 勃肯#采用质地柔软牛皮绒面材质#中底搭载缓震软木橡胶 其特有的鞋床设计，贴合脚面穿着舒适 Birkenstock Milano中性软木鞋底经典款式，非常好搭，鞋底结实耐磨，适合夏天。 尺码：35-45(偏大一码) 编码：06JXD320A06 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20250607/cmp_i1749238753717_5121_0_0.jpg","type":"image","alt":"博肯 Birkenstock 拖鞋 广东原产#德国百年知名鞋履品牌·博肯Birkenstock 勃肯#采用质地柔软牛皮绒面材质#中底搭载缓震软木橡胶 其特有的鞋床设计，贴合脚面穿着舒适 Birkenstock Milano中性软木鞋底经典款式，非常好搭，鞋底结实耐磨，适合夏天。 尺码：35-45(偏大一码) 编码：06JXD320A06 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20250607/cmp_i1749238771848_3025_0_0.jpg","type":"image","alt":"博肯 Birkenstock 拖鞋 广东原产#德国百年知名鞋履品牌·博肯Birkenstock 勃肯#采用质地柔软牛皮绒面材质#中底搭载缓震软木橡胶 其特有的鞋床设计，贴合脚面穿着舒适 Birkenstock Milano中性软木鞋底经典款式，非常好搭，鞋底结实耐磨，适合夏天。 尺码：35-45(偏大一码) 编码：06JXD320A06 image 6"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20250607/cmp_i1749238834462_8908_0_6.jpg","type":"image","alt":"博肯 Birkenstock 拖鞋 广东原产#德国百年知名鞋履品牌·博肯Birkenstock 勃肯#采用质地柔软牛皮绒面材质#中底搭载缓震软木橡胶 其特有的鞋床设计，贴合脚面穿着舒适 Birkenstock Milano中性软木鞋底经典款式，非常好搭，鞋底结实耐磨，适合夏天。 尺码：35-45(偏大一码) 编码：06JXD320A06 image 7"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20250607/cmp_i1749238832986_8741_0_7.jpg","type":"image","alt":"博肯 Birkenstock 拖鞋 广东原产#德国百年知名鞋履品牌·博肯Birkenstock 勃肯#采用质地柔软牛皮绒面材质#中底搭载缓震软木橡胶 其特有的鞋床设计，贴合脚面穿着舒适 Birkenstock Milano中性软木鞋底经典款式，非常好搭，鞋底结实耐磨，适合夏天。 尺码：35-45(偏大一码) 编码：06JXD320A06 image 8"}]
+description: {"en":"博肯 Birkenstock 拖鞋 广东原产#德国百年知名鞋履品牌·博肯Birkenstock 勃肯#采用质地柔软牛皮绒面材质#中底搭载缓震软木橡胶 其特有的鞋床设计，贴合脚面穿着舒适 Birkenstock Milano中性软木鞋底经典款式，非常好搭，鞋底结实耐磨，适合夏天。 尺码：35-45(偏大一码) 编码：06JXD320A06"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 6377
+---
+
+博肯 Birkenstock 拖鞋 广东原产#德国百年知名鞋履品牌·博肯Birkenstock 勃肯#采用质地柔软牛皮绒面材质#中底搭载缓震软木橡胶 其特有的鞋床设计，贴合脚面穿着舒适 Birkenstock Milano中性软木鞋底经典款式，非常好搭，鞋底结实耐磨，适合夏天。 尺码：35-45(偏大一码) 编码：06JXD320A06

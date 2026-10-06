@@ -1,0 +1,15 @@
+---
+title: {"en":"向复古情怀豪华轿车致敬，再度携手纽约时装品牌ALD/Aimé Leon Dore x New Balance 860V2系列低帮经典复古老爹风休闲运动慢跑鞋 货号:ML860XD 尺码:36 37 37.5 38 38.5 39.5 40 40.5 41.5 42 42.5 43 44 45 ID:HL141000414 Size:36～45B 05JDD1096A16"}
+category: {"en":"Shoes"}
+brand: "New Balance"
+sku: "ML860XD"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260520/cmp_o_1jp0gk9tf16nh19tcvet1onuc3n0.jpeg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260520/cmp_o_1jp0gk9tf16nh19tcvet1onuc3n0.jpeg","type":"image","alt":"向复古情怀豪华轿车致敬，再度携手纽约时装品牌ALD/Aimé Leon Dore x New Balance 860V2系列低帮经典复古老爹风休闲运动慢跑鞋 货号:ML860XD 尺码:36 37 37.5 38 38.5 39.5 40 40.5 41.5 42 42.5 43 44 45 ID:HL141000414 Size:36～45B 05JDD1096A16 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260520/cmp_o_1jp0gk9tgv56uj1t8i1h6r14dh1.jpeg","type":"image","alt":"向复古情怀豪华轿车致敬，再度携手纽约时装品牌ALD/Aimé Leon Dore x New Balance 860V2系列低帮经典复古老爹风休闲运动慢跑鞋 货号:ML860XD 尺码:36 37 37.5 38 38.5 39.5 40 40.5 41.5 42 42.5 43 44 45 ID:HL141000414 Size:36～45B 05JDD1096A16 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260520/cmp_o_1jp0gk9tgqhd1me41uvl2mt1rm22.jpeg","type":"image","alt":"向复古情怀豪华轿车致敬，再度携手纽约时装品牌ALD/Aimé Leon Dore x New Balance 860V2系列低帮经典复古老爹风休闲运动慢跑鞋 货号:ML860XD 尺码:36 37 37.5 38 38.5 39.5 40 40.5 41.5 42 42.5 43 44 45 ID:HL141000414 Size:36～45B 05JDD1096A16 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260520/cmp_o_1jp0gk9th1kt71ggkhmt4eiaa43.jpeg","type":"image","alt":"向复古情怀豪华轿车致敬，再度携手纽约时装品牌ALD/Aimé Leon Dore x New Balance 860V2系列低帮经典复古老爹风休闲运动慢跑鞋 货号:ML860XD 尺码:36 37 37.5 38 38.5 39.5 40 40.5 41.5 42 42.5 43 44 45 ID:HL141000414 Size:36～45B 05JDD1096A16 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260520/cmp_o_1jp0gk9th1svd19me1mo26c65cr4.jpeg","type":"image","alt":"向复古情怀豪华轿车致敬，再度携手纽约时装品牌ALD/Aimé Leon Dore x New Balance 860V2系列低帮经典复古老爹风休闲运动慢跑鞋 货号:ML860XD 尺码:36 37 37.5 38 38.5 39.5 40 40.5 41.5 42 42.5 43 44 45 ID:HL141000414 Size:36～45B 05JDD1096A16 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260520/cmp_o_1jp0gk9thh5u29h1pedn16vi35.jpeg","type":"image","alt":"向复古情怀豪华轿车致敬，再度携手纽约时装品牌ALD/Aimé Leon Dore x New Balance 860V2系列低帮经典复古老爹风休闲运动慢跑鞋 货号:ML860XD 尺码:36 37 37.5 38 38.5 39.5 40 40.5 41.5 42 42.5 43 44 45 ID:HL141000414 Size:36～45B 05JDD1096A16 image 6"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260520/cmp_o_1jp0gk9tidvk1bda7oh1aub1acv6.jpeg","type":"image","alt":"向复古情怀豪华轿车致敬，再度携手纽约时装品牌ALD/Aimé Leon Dore x New Balance 860V2系列低帮经典复古老爹风休闲运动慢跑鞋 货号:ML860XD 尺码:36 37 37.5 38 38.5 39.5 40 40.5 41.5 42 42.5 43 44 45 ID:HL141000414 Size:36～45B 05JDD1096A16 image 7"}]
+description: {"en":"向复古情怀豪华轿车致敬，再度携手纽约时装品牌ALD/Aimé Leon Dore x New Balance 860V2系列低帮经典复古老爹风休闲运动慢跑鞋 货号:ML860XD 尺码:36 37 37.5 38 38.5 39.5 40 40.5 41.5 42 42.5 43 44 45 ID:HL141000414 Size:36～45B 05JDD1096A16"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 28223
+---
+
+向复古情怀豪华轿车致敬，再度携手纽约时装品牌ALD/Aimé Leon Dore x New Balance 860V2系列低帮经典复古老爹风休闲运动慢跑鞋 货号:ML860XD 尺码:36 37 37.5 38 38.5 39.5 40 40.5 41.5 42 42.5 43 44 45 ID:HL141000414 Size:36～45B 05JDD1096A16

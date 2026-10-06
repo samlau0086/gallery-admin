@@ -1,0 +1,15 @@
+---
+title: {"en":"Nike Air Zoom NIKE PEGASUS PREMIUM 气垫缓震休闲跑步鞋 Pegasus Premium 搭载了 Nike 最先进的三重技术 为跑者提供超强的响应缓冲 这款鞋被誉为有史以来响应最快的跑鞋 为跑者提供最大能量反馈 鞋面采用多层覆盖和加固设计 确保足够的支撑和结构 而鞋舌设计则增加了透气性 让跑者能够更轻松地奔跑 货号： 尺码： 39 40 40.5 41 42 42.5 43 44 45 46 05GHD300A30"}
+category: {"en":"Shoes"}
+brand: "Nike"
+sku: "05GHD300A30"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260608/cmp_o_1jqjkoig11f1l31jelq1bbchm20.jpeg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260608/cmp_o_1jqjkoig11f1l31jelq1bbchm20.jpeg","type":"image","alt":"Nike Air Zoom NIKE PEGASUS PREMIUM 气垫缓震休闲跑步鞋 Pegasus Premium 搭载了 Nike 最先进的三重技术 为跑者提供超强的响应缓冲 这款鞋被誉为有史以来响应最快的跑鞋 为跑者提供最大能量反馈 鞋面采用多层覆盖和加固设计 确保足够的支撑和结构 而鞋舌设计则增加了透气性 让跑者能够更轻松地奔跑 货号： 尺码： 39 40 40.5 41 42 42.5 43 44 45 46 05GHD300A30 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260608/cmp_o_1jqjkoigo1q4erskh691bh01i1u1.jpeg","type":"image","alt":"Nike Air Zoom NIKE PEGASUS PREMIUM 气垫缓震休闲跑步鞋 Pegasus Premium 搭载了 Nike 最先进的三重技术 为跑者提供超强的响应缓冲 这款鞋被誉为有史以来响应最快的跑鞋 为跑者提供最大能量反馈 鞋面采用多层覆盖和加固设计 确保足够的支撑和结构 而鞋舌设计则增加了透气性 让跑者能够更轻松地奔跑 货号： 尺码： 39 40 40.5 41 42 42.5 43 44 45 46 05GHD300A30 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260608/cmp_o_1jqjkoigo15rf19j2h6qnthdd32.jpeg","type":"image","alt":"Nike Air Zoom NIKE PEGASUS PREMIUM 气垫缓震休闲跑步鞋 Pegasus Premium 搭载了 Nike 最先进的三重技术 为跑者提供超强的响应缓冲 这款鞋被誉为有史以来响应最快的跑鞋 为跑者提供最大能量反馈 鞋面采用多层覆盖和加固设计 确保足够的支撑和结构 而鞋舌设计则增加了透气性 让跑者能够更轻松地奔跑 货号： 尺码： 39 40 40.5 41 42 42.5 43 44 45 46 05GHD300A30 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260608/cmp_o_1jqjkoigp12tr1rku1v3d1vt3iq3.jpeg","type":"image","alt":"Nike Air Zoom NIKE PEGASUS PREMIUM 气垫缓震休闲跑步鞋 Pegasus Premium 搭载了 Nike 最先进的三重技术 为跑者提供超强的响应缓冲 这款鞋被誉为有史以来响应最快的跑鞋 为跑者提供最大能量反馈 鞋面采用多层覆盖和加固设计 确保足够的支撑和结构 而鞋舌设计则增加了透气性 让跑者能够更轻松地奔跑 货号： 尺码： 39 40 40.5 41 42 42.5 43 44 45 46 05GHD300A30 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260608/cmp_o_1jqjkoigp74i11da18rfqbc192r4.jpeg","type":"image","alt":"Nike Air Zoom NIKE PEGASUS PREMIUM 气垫缓震休闲跑步鞋 Pegasus Premium 搭载了 Nike 最先进的三重技术 为跑者提供超强的响应缓冲 这款鞋被誉为有史以来响应最快的跑鞋 为跑者提供最大能量反馈 鞋面采用多层覆盖和加固设计 确保足够的支撑和结构 而鞋舌设计则增加了透气性 让跑者能够更轻松地奔跑 货号： 尺码： 39 40 40.5 41 42 42.5 43 44 45 46 05GHD300A30 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260608/cmp_o_1jqjkoigpsv91jke3qa29l16ls5.jpeg","type":"image","alt":"Nike Air Zoom NIKE PEGASUS PREMIUM 气垫缓震休闲跑步鞋 Pegasus Premium 搭载了 Nike 最先进的三重技术 为跑者提供超强的响应缓冲 这款鞋被誉为有史以来响应最快的跑鞋 为跑者提供最大能量反馈 鞋面采用多层覆盖和加固设计 确保足够的支撑和结构 而鞋舌设计则增加了透气性 让跑者能够更轻松地奔跑 货号： 尺码： 39 40 40.5 41 42 42.5 43 44 45 46 05GHD300A30 image 6"}]
+description: {"en":"Nike Air Zoom NIKE PEGASUS PREMIUM 气垫缓震休闲跑步鞋 Pegasus Premium 搭载了 Nike 最先进的三重技术 为跑者提供超强的响应缓冲 这款鞋被誉为有史以来响应最快的跑鞋 为跑者提供最大能量反馈 鞋面采用多层覆盖和加固设计 确保足够的支撑和结构 而鞋舌设计则增加了透气性 让跑者能够更轻松地奔跑 货号： 尺码： 39 40 40.5 41 42 42.5 43 44 45 46 05GHD300A30"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 18813
+---
+
+Nike Air Zoom NIKE PEGASUS PREMIUM 气垫缓震休闲跑步鞋 Pegasus Premium 搭载了 Nike 最先进的三重技术 为跑者提供超强的响应缓冲 这款鞋被誉为有史以来响应最快的跑鞋 为跑者提供最大能量反馈 鞋面采用多层覆盖和加固设计 确保足够的支撑和结构 而鞋舌设计则增加了透气性 让跑者能够更轻松地奔跑 货号： 尺码： 39 40 40.5 41 42 42.5 43 44 45 46 05GHD300A30

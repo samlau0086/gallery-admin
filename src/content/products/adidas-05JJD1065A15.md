@@ -1,0 +1,15 @@
+---
+title: {"en":"Adidas/ 升原楦原纸版开发，采用透气革组合印布鞋面材质，内环保可再生海玻璃鞋垫，外置RB耐磨防滑橡胶大底❗️联名英国伦敦百年奢侈品百货公司Liberty London x Adidas Originals Samba OG\"Floral Embroidery\"桑巴舞系列绅士德训足球风百搭低帮休闲运动板鞋“联名浅粉彩色花卉 JQ2008 类型：男女鞋 码数：36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 编码：260516325.903 05JJD1065A15"}
+category: {"en":"Shoes"}
+brand: "Adidas"
+sku: "05JJD1065A15"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260520/cmp_o_1jp2rsvnguv21rsu1kgs3v81kdg0.jpeg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260520/cmp_o_1jp2rsvnguv21rsu1kgs3v81kdg0.jpeg","type":"image","alt":"Adidas/ 升原楦原纸版开发，采用透气革组合印布鞋面材质，内环保可再生海玻璃鞋垫，外置RB耐磨防滑橡胶大底❗️联名英国伦敦百年奢侈品百货公司Liberty London x Adidas Originals Samba OG\"Floral Embroidery\"桑巴舞系列绅士德训足球风百搭低帮休闲运动板鞋“联名浅粉彩色花卉 JQ2008 类型：男女鞋 码数：36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 编码：260516325.903 05JJD1065A15 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260520/cmp_o_1jp2rsvnh1ic6pljnc21hmc16t11.jpeg","type":"image","alt":"Adidas/ 升原楦原纸版开发，采用透气革组合印布鞋面材质，内环保可再生海玻璃鞋垫，外置RB耐磨防滑橡胶大底❗️联名英国伦敦百年奢侈品百货公司Liberty London x Adidas Originals Samba OG\"Floral Embroidery\"桑巴舞系列绅士德训足球风百搭低帮休闲运动板鞋“联名浅粉彩色花卉 JQ2008 类型：男女鞋 码数：36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 编码：260516325.903 05JJD1065A15 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260520/cmp_o_1jp2rsvni61u1uim77i3o8ue82.jpeg","type":"image","alt":"Adidas/ 升原楦原纸版开发，采用透气革组合印布鞋面材质，内环保可再生海玻璃鞋垫，外置RB耐磨防滑橡胶大底❗️联名英国伦敦百年奢侈品百货公司Liberty London x Adidas Originals Samba OG\"Floral Embroidery\"桑巴舞系列绅士德训足球风百搭低帮休闲运动板鞋“联名浅粉彩色花卉 JQ2008 类型：男女鞋 码数：36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 编码：260516325.903 05JJD1065A15 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260520/cmp_o_1jp2rsvnj1tk51653mdu1o50dsn3.jpeg","type":"image","alt":"Adidas/ 升原楦原纸版开发，采用透气革组合印布鞋面材质，内环保可再生海玻璃鞋垫，外置RB耐磨防滑橡胶大底❗️联名英国伦敦百年奢侈品百货公司Liberty London x Adidas Originals Samba OG\"Floral Embroidery\"桑巴舞系列绅士德训足球风百搭低帮休闲运动板鞋“联名浅粉彩色花卉 JQ2008 类型：男女鞋 码数：36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 编码：260516325.903 05JJD1065A15 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260520/cmp_o_1jp2rsvnk1t3cnrkfmd1ivfhe04.jpeg","type":"image","alt":"Adidas/ 升原楦原纸版开发，采用透气革组合印布鞋面材质，内环保可再生海玻璃鞋垫，外置RB耐磨防滑橡胶大底❗️联名英国伦敦百年奢侈品百货公司Liberty London x Adidas Originals Samba OG\"Floral Embroidery\"桑巴舞系列绅士德训足球风百搭低帮休闲运动板鞋“联名浅粉彩色花卉 JQ2008 类型：男女鞋 码数：36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 编码：260516325.903 05JJD1065A15 image 5"}]
+description: {"en":"Adidas/ 升原楦原纸版开发，采用透气革组合印布鞋面材质，内环保可再生海玻璃鞋垫，外置RB耐磨防滑橡胶大底❗️联名英国伦敦百年奢侈品百货公司Liberty London x Adidas Originals Samba OG\"Floral Embroidery\"桑巴舞系列绅士德训足球风百搭低帮休闲运动板鞋“联名浅粉彩色花卉 JQ2008 类型：男女鞋 码数：36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 编码：260516325.903 05JJD1065A15"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 27831
+---
+
+Adidas/ 升原楦原纸版开发，采用透气革组合印布鞋面材质，内环保可再生海玻璃鞋垫，外置RB耐磨防滑橡胶大底❗️联名英国伦敦百年奢侈品百货公司Liberty London x Adidas Originals Samba OG"Floral Embroidery"桑巴舞系列绅士德训足球风百搭低帮休闲运动板鞋“联名浅粉彩色花卉 JQ2008 类型：男女鞋 码数：36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 编码：260516325.903 05JJD1065A15

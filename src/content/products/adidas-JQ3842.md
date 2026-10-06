@@ -1,0 +1,15 @@
+---
+title: {"en":"️Adidas Adizero Adios Pro Evo2 马拉松飞线贾卡轻质透气休闲运动跑步鞋 采用双层透气网纱 Flywire动态飞线绑缚鞋面材质 内置Zoom小气垫装置 货号:JQ3842 尺码:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 编码:HL111601028 Size:36～45B 06JYD290A10"}
+category: {"en":"Shoes"}
+brand: "Adidas"
+sku: "JQ3842"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260711/cmp_i1783771767464_6494_0_0.jpg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260711/cmp_i1783771767464_6494_0_0.jpg","type":"image","alt":"️Adidas Adizero Adios Pro Evo2 马拉松飞线贾卡轻质透气休闲运动跑步鞋 采用双层透气网纱 Flywire动态飞线绑缚鞋面材质 内置Zoom小气垫装置 货号:JQ3842 尺码:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 编码:HL111601028 Size:36～45B 06JYD290A10 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260711/cmp_i1783771673394_7698_0_0.jpg","type":"image","alt":"️Adidas Adizero Adios Pro Evo2 马拉松飞线贾卡轻质透气休闲运动跑步鞋 采用双层透气网纱 Flywire动态飞线绑缚鞋面材质 内置Zoom小气垫装置 货号:JQ3842 尺码:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 编码:HL111601028 Size:36～45B 06JYD290A10 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260711/cmp_i1783771673452_3183_0_5.jpg","type":"image","alt":"️Adidas Adizero Adios Pro Evo2 马拉松飞线贾卡轻质透气休闲运动跑步鞋 采用双层透气网纱 Flywire动态飞线绑缚鞋面材质 内置Zoom小气垫装置 货号:JQ3842 尺码:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 编码:HL111601028 Size:36～45B 06JYD290A10 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260711/cmp_i1783771731087_8544_0_0.jpg","type":"image","alt":"️Adidas Adizero Adios Pro Evo2 马拉松飞线贾卡轻质透气休闲运动跑步鞋 采用双层透气网纱 Flywire动态飞线绑缚鞋面材质 内置Zoom小气垫装置 货号:JQ3842 尺码:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 编码:HL111601028 Size:36～45B 06JYD290A10 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260711/cmp_i1783771731087_6740_0_5.jpg","type":"image","alt":"️Adidas Adizero Adios Pro Evo2 马拉松飞线贾卡轻质透气休闲运动跑步鞋 采用双层透气网纱 Flywire动态飞线绑缚鞋面材质 内置Zoom小气垫装置 货号:JQ3842 尺码:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 编码:HL111601028 Size:36～45B 06JYD290A10 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260711/cmp_i1783771748268_6134_0_0.jpg","type":"image","alt":"️Adidas Adizero Adios Pro Evo2 马拉松飞线贾卡轻质透气休闲运动跑步鞋 采用双层透气网纱 Flywire动态飞线绑缚鞋面材质 内置Zoom小气垫装置 货号:JQ3842 尺码:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 编码:HL111601028 Size:36～45B 06JYD290A10 image 6"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260711/cmp_i1783771748264_9097_0_5.jpg","type":"image","alt":"️Adidas Adizero Adios Pro Evo2 马拉松飞线贾卡轻质透气休闲运动跑步鞋 采用双层透气网纱 Flywire动态飞线绑缚鞋面材质 内置Zoom小气垫装置 货号:JQ3842 尺码:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 编码:HL111601028 Size:36～45B 06JYD290A10 image 7"}]
+description: {"en":"️Adidas Adizero Adios Pro Evo2 马拉松飞线贾卡轻质透气休闲运动跑步鞋 采用双层透气网纱 Flywire动态飞线绑缚鞋面材质 内置Zoom小气垫装置 货号:JQ3842 尺码:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 编码:HL111601028 Size:36～45B 06JYD290A10"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 8275
+---
+
+️Adidas Adizero Adios Pro Evo2 马拉松飞线贾卡轻质透气休闲运动跑步鞋 采用双层透气网纱 Flywire动态飞线绑缚鞋面材质 内置Zoom小气垫装置 货号:JQ3842 尺码:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 编码:HL111601028 Size:36～45B 06JYD290A10

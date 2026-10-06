@@ -1,0 +1,15 @@
+---
+title: {"en":"Song For The Mute x Adidas Tokyo W SFTM联名 舒适百搭经典休闲运动鞋 鞋面设计舒适贴合脚面 同时采用柔软材质 穿着轻便舒适 侧面刻有金色的标志 增添辨识度 超薄橡胶外底提供灵活的牵引力 加强抓地力的纹路 具有良好的稳定性和灵活性 日常穿搭舒适且防滑 货号:KI4737 尺码:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 lD:JKD372-SDK 08JXD1183A03"}
+category: {"en":"Shoes"}
+brand: "Adidas"
+sku: "KI4737"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260803/cmp_o_1jv45bm3i14ejmvo1an15nolgu0.jpeg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260803/cmp_o_1jv45bm3i14ejmvo1an15nolgu0.jpeg","type":"image","alt":"Song For The Mute x Adidas Tokyo W SFTM联名 舒适百搭经典休闲运动鞋 鞋面设计舒适贴合脚面 同时采用柔软材质 穿着轻便舒适 侧面刻有金色的标志 增添辨识度 超薄橡胶外底提供灵活的牵引力 加强抓地力的纹路 具有良好的稳定性和灵活性 日常穿搭舒适且防滑 货号:KI4737 尺码:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 lD:JKD372-SDK 08JXD1183A03 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260803/cmp_o_1jv45bm3j1npf11in1glf15ej1nol1.jpeg","type":"image","alt":"Song For The Mute x Adidas Tokyo W SFTM联名 舒适百搭经典休闲运动鞋 鞋面设计舒适贴合脚面 同时采用柔软材质 穿着轻便舒适 侧面刻有金色的标志 增添辨识度 超薄橡胶外底提供灵活的牵引力 加强抓地力的纹路 具有良好的稳定性和灵活性 日常穿搭舒适且防滑 货号:KI4737 尺码:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 lD:JKD372-SDK 08JXD1183A03 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260803/cmp_o_1jv45bm3j1m1i69fpfe1tvi732.jpeg","type":"image","alt":"Song For The Mute x Adidas Tokyo W SFTM联名 舒适百搭经典休闲运动鞋 鞋面设计舒适贴合脚面 同时采用柔软材质 穿着轻便舒适 侧面刻有金色的标志 增添辨识度 超薄橡胶外底提供灵活的牵引力 加强抓地力的纹路 具有良好的稳定性和灵活性 日常穿搭舒适且防滑 货号:KI4737 尺码:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 lD:JKD372-SDK 08JXD1183A03 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260803/cmp_o_1jv45bm3k18cl5vg1pjf1ltl1ahu3.jpeg","type":"image","alt":"Song For The Mute x Adidas Tokyo W SFTM联名 舒适百搭经典休闲运动鞋 鞋面设计舒适贴合脚面 同时采用柔软材质 穿着轻便舒适 侧面刻有金色的标志 增添辨识度 超薄橡胶外底提供灵活的牵引力 加强抓地力的纹路 具有良好的稳定性和灵活性 日常穿搭舒适且防滑 货号:KI4737 尺码:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 lD:JKD372-SDK 08JXD1183A03 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260803/cmp_o_1jv45bm3k15191ohg19vc174umn14.jpeg","type":"image","alt":"Song For The Mute x Adidas Tokyo W SFTM联名 舒适百搭经典休闲运动鞋 鞋面设计舒适贴合脚面 同时采用柔软材质 穿着轻便舒适 侧面刻有金色的标志 增添辨识度 超薄橡胶外底提供灵活的牵引力 加强抓地力的纹路 具有良好的稳定性和灵活性 日常穿搭舒适且防滑 货号:KI4737 尺码:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 lD:JKD372-SDK 08JXD1183A03 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260803/cmp_o_1jv45bm3k3nnt113f21tov1ugq5.jpeg","type":"image","alt":"Song For The Mute x Adidas Tokyo W SFTM联名 舒适百搭经典休闲运动鞋 鞋面设计舒适贴合脚面 同时采用柔软材质 穿着轻便舒适 侧面刻有金色的标志 增添辨识度 超薄橡胶外底提供灵活的牵引力 加强抓地力的纹路 具有良好的稳定性和灵活性 日常穿搭舒适且防滑 货号:KI4737 尺码:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 lD:JKD372-SDK 08JXD1183A03 image 6"}]
+description: {"en":"Song For The Mute x Adidas Tokyo W SFTM联名 舒适百搭经典休闲运动鞋 鞋面设计舒适贴合脚面 同时采用柔软材质 穿着轻便舒适 侧面刻有金色的标志 增添辨识度 超薄橡胶外底提供灵活的牵引力 加强抓地力的纹路 具有良好的稳定性和灵活性 日常穿搭舒适且防滑 货号:KI4737 尺码:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 lD:JKD372-SDK 08JXD1183A03"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 3476
+---
+
+Song For The Mute x Adidas Tokyo W SFTM联名 舒适百搭经典休闲运动鞋 鞋面设计舒适贴合脚面 同时采用柔软材质 穿着轻便舒适 侧面刻有金色的标志 增添辨识度 超薄橡胶外底提供灵活的牵引力 加强抓地力的纹路 具有良好的稳定性和灵活性 日常穿搭舒适且防滑 货号:KI4737 尺码:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 lD:JKD372-SDK 08JXD1183A03

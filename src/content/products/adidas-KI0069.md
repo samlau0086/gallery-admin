@@ -1,0 +1,15 @@
+---
+title: {"en":"跑者的“踩屎感”救星！Adidas恢复鞋来了！（adidas）男女鞋 26Pur echill夏季轻便透气舒适支撑防滑一脚蹬运动休闲鞋 荧光KH66734。adidas Purechill凉拖鞋作为品牌推出的恢复型一脚蹬鞋款，以“舒适为先”的设计理念打造，提供类似踩在云朵上的舒适感，采用一体式EVA材质，提供极致柔软的脚感。鞋身外侧有弧形模制TPU三条纹设计，内侧简洁并设有透气孔，外底搭载全掌橡胶抓地材质，耐用性佳。 货号: KI0069 SIZE：36-45 ID：ASCLMB"}
+category: {"en":"Shoes"}
+brand: "Adidas"
+sku: "KI0069"
+cover: "https://xcimg.szwego.com/img/3c7e08e9/20260529/a1780061740701_4221.jpg"
+media: [{"url":"https://xcimg.szwego.com/img/3c7e08e9/20260529/a1780061740701_4221.jpg","type":"image","alt":"跑者的“踩屎感”救星！Adidas恢复鞋来了！（adidas）男女鞋 26Pur echill夏季轻便透气舒适支撑防滑一脚蹬运动休闲鞋 荧光KH66734。adidas Purechill凉拖鞋作为品牌推出的恢复型一脚蹬鞋款，以“舒适为先”的设计理念打造，提供类似踩在云朵上的舒适感，采用一体式EVA材质，提供极致柔软的脚感。鞋身外侧有弧形模制TPU三条纹设计，内侧简洁并设有透气孔，外底搭载全掌橡胶抓地材质，耐用性佳。 货号: KI0069 SIZE：36-45 ID：ASCLMB image 1"},{"url":"https://xcimg.szwego.com/img/3c7e08e9/20260529/a1780061777158_4124.jpg","type":"image","alt":"跑者的“踩屎感”救星！Adidas恢复鞋来了！（adidas）男女鞋 26Pur echill夏季轻便透气舒适支撑防滑一脚蹬运动休闲鞋 荧光KH66734。adidas Purechill凉拖鞋作为品牌推出的恢复型一脚蹬鞋款，以“舒适为先”的设计理念打造，提供类似踩在云朵上的舒适感，采用一体式EVA材质，提供极致柔软的脚感。鞋身外侧有弧形模制TPU三条纹设计，内侧简洁并设有透气孔，外底搭载全掌橡胶抓地材质，耐用性佳。 货号: KI0069 SIZE：36-45 ID：ASCLMB image 2"},{"url":"https://xcimg.szwego.com/img/3c7e08e9/20260529/a1780061795312_7658.jpg","type":"image","alt":"跑者的“踩屎感”救星！Adidas恢复鞋来了！（adidas）男女鞋 26Pur echill夏季轻便透气舒适支撑防滑一脚蹬运动休闲鞋 荧光KH66734。adidas Purechill凉拖鞋作为品牌推出的恢复型一脚蹬鞋款，以“舒适为先”的设计理念打造，提供类似踩在云朵上的舒适感，采用一体式EVA材质，提供极致柔软的脚感。鞋身外侧有弧形模制TPU三条纹设计，内侧简洁并设有透气孔，外底搭载全掌橡胶抓地材质，耐用性佳。 货号: KI0069 SIZE：36-45 ID：ASCLMB image 3"},{"url":"https://xcimg.szwego.com/img/3c7e08e9/20260529/a1780061820243_3771.jpg","type":"image","alt":"跑者的“踩屎感”救星！Adidas恢复鞋来了！（adidas）男女鞋 26Pur echill夏季轻便透气舒适支撑防滑一脚蹬运动休闲鞋 荧光KH66734。adidas Purechill凉拖鞋作为品牌推出的恢复型一脚蹬鞋款，以“舒适为先”的设计理念打造，提供类似踩在云朵上的舒适感，采用一体式EVA材质，提供极致柔软的脚感。鞋身外侧有弧形模制TPU三条纹设计，内侧简洁并设有透气孔，外底搭载全掌橡胶抓地材质，耐用性佳。 货号: KI0069 SIZE：36-45 ID：ASCLMB image 4"},{"url":"https://xcimg.szwego.com/img/3c7e08e9/20260529/a1780061820222_0068.jpg","type":"image","alt":"跑者的“踩屎感”救星！Adidas恢复鞋来了！（adidas）男女鞋 26Pur echill夏季轻便透气舒适支撑防滑一脚蹬运动休闲鞋 荧光KH66734。adidas Purechill凉拖鞋作为品牌推出的恢复型一脚蹬鞋款，以“舒适为先”的设计理念打造，提供类似踩在云朵上的舒适感，采用一体式EVA材质，提供极致柔软的脚感。鞋身外侧有弧形模制TPU三条纹设计，内侧简洁并设有透气孔，外底搭载全掌橡胶抓地材质，耐用性佳。 货号: KI0069 SIZE：36-45 ID：ASCLMB image 5"},{"url":"https://xcimg.szwego.com/img/3c7e08e9/20260529/a1780061820265_3268.jpg","type":"image","alt":"跑者的“踩屎感”救星！Adidas恢复鞋来了！（adidas）男女鞋 26Pur echill夏季轻便透气舒适支撑防滑一脚蹬运动休闲鞋 荧光KH66734。adidas Purechill凉拖鞋作为品牌推出的恢复型一脚蹬鞋款，以“舒适为先”的设计理念打造，提供类似踩在云朵上的舒适感，采用一体式EVA材质，提供极致柔软的脚感。鞋身外侧有弧形模制TPU三条纹设计，内侧简洁并设有透气孔，外底搭载全掌橡胶抓地材质，耐用性佳。 货号: KI0069 SIZE：36-45 ID：ASCLMB image 6"}]
+description: {"en":"跑者的“踩屎感”救星！Adidas恢复鞋来了！（adidas）男女鞋 26Pur echill夏季轻便透气舒适支撑防滑一脚蹬运动休闲鞋 荧光KH66734。adidas Purechill凉拖鞋作为品牌推出的恢复型一脚蹬鞋款，以“舒适为先”的设计理念打造，提供类似踩在云朵上的舒适感，采用一体式EVA材质，提供极致柔软的脚感。鞋身外侧有弧形模制TPU三条纹设计，内侧简洁并设有透气孔，外底搭载全掌橡胶抓地材质，耐用性佳。 货号: KI0069 SIZE：36-45 ID：ASCLMB"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 21376
+---
+
+跑者的“踩屎感”救星！Adidas恢复鞋来了！（adidas）男女鞋 26Pur echill夏季轻便透气舒适支撑防滑一脚蹬运动休闲鞋 荧光KH66734。adidas Purechill凉拖鞋作为品牌推出的恢复型一脚蹬鞋款，以“舒适为先”的设计理念打造，提供类似踩在云朵上的舒适感，采用一体式EVA材质，提供极致柔软的脚感。鞋身外侧有弧形模制TPU三条纹设计，内侧简洁并设有透气孔，外底搭载全掌橡胶抓地材质，耐用性佳。 货号: KI0069 SIZE：36-45 ID：ASCLMB

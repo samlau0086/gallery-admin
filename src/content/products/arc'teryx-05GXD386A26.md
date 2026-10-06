@@ -1,0 +1,15 @@
+---
+title: {"en":"【】男款低帮板鞋 Arcteryx Konseal 户外高性能超轻舒适透气 休闲运动徒步登山鞋 这款KONSEAL 户外鞋的设计可应对多数技术路线和长途徒步。灵感来自野外跑步鞋，在支撑和保护的基础上更添灵活轻快。Vibram®Megagrip外底在干湿地面上均具有强大的抓地力，TPU鞋底和鞋底凸耳提高了稳定性。极简的设计可减少碎屑进入，并能轻松融入都市环境。 类型：男鞋 SIZE：39 40 40.5 41 42 42.5 43 44 05GXD386A26"}
+category: {"en":"Shoes"}
+brand: "Arc'teryx"
+sku: "05GXD386A26"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260527/cmp_o_1jpkv27l11vkr1otc207ooh1fs0.jpeg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260527/cmp_o_1jpkv27l11vkr1otc207ooh1fs0.jpeg","type":"image","alt":"【】男款低帮板鞋 Arcteryx Konseal 户外高性能超轻舒适透气 休闲运动徒步登山鞋 这款KONSEAL 户外鞋的设计可应对多数技术路线和长途徒步。灵感来自野外跑步鞋，在支撑和保护的基础上更添灵活轻快。Vibram®Megagrip外底在干湿地面上均具有强大的抓地力，TPU鞋底和鞋底凸耳提高了稳定性。极简的设计可减少碎屑进入，并能轻松融入都市环境。 类型：男鞋 SIZE：39 40 40.5 41 42 42.5 43 44 05GXD386A26 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260527/cmp_o_1jpkv27l2ksj1c221v01dq4ifb1.jpeg","type":"image","alt":"【】男款低帮板鞋 Arcteryx Konseal 户外高性能超轻舒适透气 休闲运动徒步登山鞋 这款KONSEAL 户外鞋的设计可应对多数技术路线和长途徒步。灵感来自野外跑步鞋，在支撑和保护的基础上更添灵活轻快。Vibram®Megagrip外底在干湿地面上均具有强大的抓地力，TPU鞋底和鞋底凸耳提高了稳定性。极简的设计可减少碎屑进入，并能轻松融入都市环境。 类型：男鞋 SIZE：39 40 40.5 41 42 42.5 43 44 05GXD386A26 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260527/cmp_o_1jpkv27l21v5214vi1f581sn6q6t2.jpeg","type":"image","alt":"【】男款低帮板鞋 Arcteryx Konseal 户外高性能超轻舒适透气 休闲运动徒步登山鞋 这款KONSEAL 户外鞋的设计可应对多数技术路线和长途徒步。灵感来自野外跑步鞋，在支撑和保护的基础上更添灵活轻快。Vibram®Megagrip外底在干湿地面上均具有强大的抓地力，TPU鞋底和鞋底凸耳提高了稳定性。极简的设计可减少碎屑进入，并能轻松融入都市环境。 类型：男鞋 SIZE：39 40 40.5 41 42 42.5 43 44 05GXD386A26 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260527/cmp_o_1jpkv27l2ju91r6hvud1k8bvoh3.jpeg","type":"image","alt":"【】男款低帮板鞋 Arcteryx Konseal 户外高性能超轻舒适透气 休闲运动徒步登山鞋 这款KONSEAL 户外鞋的设计可应对多数技术路线和长途徒步。灵感来自野外跑步鞋，在支撑和保护的基础上更添灵活轻快。Vibram®Megagrip外底在干湿地面上均具有强大的抓地力，TPU鞋底和鞋底凸耳提高了稳定性。极简的设计可减少碎屑进入，并能轻松融入都市环境。 类型：男鞋 SIZE：39 40 40.5 41 42 42.5 43 44 05GXD386A26 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260527/cmp_o_1jpkv27l31dvdvke13cg1ic1uov4.jpeg","type":"image","alt":"【】男款低帮板鞋 Arcteryx Konseal 户外高性能超轻舒适透气 休闲运动徒步登山鞋 这款KONSEAL 户外鞋的设计可应对多数技术路线和长途徒步。灵感来自野外跑步鞋，在支撑和保护的基础上更添灵活轻快。Vibram®Megagrip外底在干湿地面上均具有强大的抓地力，TPU鞋底和鞋底凸耳提高了稳定性。极简的设计可减少碎屑进入，并能轻松融入都市环境。 类型：男鞋 SIZE：39 40 40.5 41 42 42.5 43 44 05GXD386A26 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260527/cmp_o_1jpkv27l319bcn0n6ka17f88sl5.jpeg","type":"image","alt":"【】男款低帮板鞋 Arcteryx Konseal 户外高性能超轻舒适透气 休闲运动徒步登山鞋 这款KONSEAL 户外鞋的设计可应对多数技术路线和长途徒步。灵感来自野外跑步鞋，在支撑和保护的基础上更添灵活轻快。Vibram®Megagrip外底在干湿地面上均具有强大的抓地力，TPU鞋底和鞋底凸耳提高了稳定性。极简的设计可减少碎屑进入，并能轻松融入都市环境。 类型：男鞋 SIZE：39 40 40.5 41 42 42.5 43 44 05GXD386A26 image 6"}]
+description: {"en":"【】男款低帮板鞋 Arcteryx Konseal 户外高性能超轻舒适透气 休闲运动徒步登山鞋 这款KONSEAL 户外鞋的设计可应对多数技术路线和长途徒步。灵感来自野外跑步鞋，在支撑和保护的基础上更添灵活轻快。Vibram®Megagrip外底在干湿地面上均具有强大的抓地力，TPU鞋底和鞋底凸耳提高了稳定性。极简的设计可减少碎屑进入，并能轻松融入都市环境。 类型：男鞋 SIZE：39 40 40.5 41 42 42.5 43 44 05GXD386A26"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 25303
+---
+
+【】男款低帮板鞋 Arcteryx Konseal 户外高性能超轻舒适透气 休闲运动徒步登山鞋 这款KONSEAL 户外鞋的设计可应对多数技术路线和长途徒步。灵感来自野外跑步鞋，在支撑和保护的基础上更添灵活轻快。Vibram®Megagrip外底在干湿地面上均具有强大的抓地力，TPU鞋底和鞋底凸耳提高了稳定性。极简的设计可减少碎屑进入，并能轻松融入都市环境。 类型：男鞋 SIZE：39 40 40.5 41 42 42.5 43 44 05GXD386A26

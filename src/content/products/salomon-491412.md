@@ -1,0 +1,15 @@
+---
+title: {"en":"SALOMON ULTRA GLIDE 4柔软舒适防滑耐磨 低帮公路跑步鞋 潮流越野机能户外休闲运动跑步鞋 采用透气网布与防护皮革组合鞋面材质 牛角扣系带开合 欧索莱环保去臭环型组合鞋垫 外置4D先进科技以及Contagrip大底 货号:491412 QD7020122#39-44"}
+category: {"en":"Shoes"}
+brand: "Salomon"
+sku: "491412"
+cover: "https://xcimg.szwego.com/imgHD/83373fc7/20260701/cmp_i1782921688781_6453_0_0.jpg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/83373fc7/20260701/cmp_i1782921688781_6453_0_0.jpg","type":"image","alt":"SALOMON ULTRA GLIDE 4柔软舒适防滑耐磨 低帮公路跑步鞋 潮流越野机能户外休闲运动跑步鞋 采用透气网布与防护皮革组合鞋面材质 牛角扣系带开合 欧索莱环保去臭环型组合鞋垫 外置4D先进科技以及Contagrip大底 货号:491412 QD7020122#39-44 image 1"},{"url":"https://xcimg.szwego.com/imgHD/83373fc7/20260701/cmp_i1782921667841_8065_0_1.jpg","type":"image","alt":"SALOMON ULTRA GLIDE 4柔软舒适防滑耐磨 低帮公路跑步鞋 潮流越野机能户外休闲运动跑步鞋 采用透气网布与防护皮革组合鞋面材质 牛角扣系带开合 欧索莱环保去臭环型组合鞋垫 外置4D先进科技以及Contagrip大底 货号:491412 QD7020122#39-44 image 2"},{"url":"https://xcimg.szwego.com/imgHD/83373fc7/20260701/cmp_i1782921711239_9986_0_2.jpg","type":"image","alt":"SALOMON ULTRA GLIDE 4柔软舒适防滑耐磨 低帮公路跑步鞋 潮流越野机能户外休闲运动跑步鞋 采用透气网布与防护皮革组合鞋面材质 牛角扣系带开合 欧索莱环保去臭环型组合鞋垫 外置4D先进科技以及Contagrip大底 货号:491412 QD7020122#39-44 image 3"},{"url":"https://xcimg.szwego.com/imgHD/83373fc7/20260701/cmp_i1782921667838_789_0_3.jpg","type":"image","alt":"SALOMON ULTRA GLIDE 4柔软舒适防滑耐磨 低帮公路跑步鞋 潮流越野机能户外休闲运动跑步鞋 采用透气网布与防护皮革组合鞋面材质 牛角扣系带开合 欧索莱环保去臭环型组合鞋垫 外置4D先进科技以及Contagrip大底 货号:491412 QD7020122#39-44 image 4"},{"url":"https://xcimg.szwego.com/imgHD/83373fc7/20260701/cmp_i1782921688781_5805_0_4.jpg","type":"image","alt":"SALOMON ULTRA GLIDE 4柔软舒适防滑耐磨 低帮公路跑步鞋 潮流越野机能户外休闲运动跑步鞋 采用透气网布与防护皮革组合鞋面材质 牛角扣系带开合 欧索莱环保去臭环型组合鞋垫 外置4D先进科技以及Contagrip大底 货号:491412 QD7020122#39-44 image 5"},{"url":"https://xcimg.szwego.com/imgHD/83373fc7/20260701/cmp_i1782921711239_3287_0_5.jpg","type":"image","alt":"SALOMON ULTRA GLIDE 4柔软舒适防滑耐磨 低帮公路跑步鞋 潮流越野机能户外休闲运动跑步鞋 采用透气网布与防护皮革组合鞋面材质 牛角扣系带开合 欧索莱环保去臭环型组合鞋垫 外置4D先进科技以及Contagrip大底 货号:491412 QD7020122#39-44 image 6"},{"url":"https://xcimg.szwego.com/imgHD/83373fc7/20260701/cmp_i1782921662884_9398_0_6.jpg","type":"image","alt":"SALOMON ULTRA GLIDE 4柔软舒适防滑耐磨 低帮公路跑步鞋 潮流越野机能户外休闲运动跑步鞋 采用透气网布与防护皮革组合鞋面材质 牛角扣系带开合 欧索莱环保去臭环型组合鞋垫 外置4D先进科技以及Contagrip大底 货号:491412 QD7020122#39-44 image 7"},{"url":"https://xcimg.szwego.com/imgHD/83373fc7/20260701/cmp_i1782921688782_4328_0_7.jpg","type":"image","alt":"SALOMON ULTRA GLIDE 4柔软舒适防滑耐磨 低帮公路跑步鞋 潮流越野机能户外休闲运动跑步鞋 采用透气网布与防护皮革组合鞋面材质 牛角扣系带开合 欧索莱环保去臭环型组合鞋垫 外置4D先进科技以及Contagrip大底 货号:491412 QD7020122#39-44 image 8"},{"url":"https://xcimg.szwego.com/imgHD/83373fc7/20260701/cmp_i1782921711243_3741_0_8.jpg","type":"image","alt":"SALOMON ULTRA GLIDE 4柔软舒适防滑耐磨 低帮公路跑步鞋 潮流越野机能户外休闲运动跑步鞋 采用透气网布与防护皮革组合鞋面材质 牛角扣系带开合 欧索莱环保去臭环型组合鞋垫 外置4D先进科技以及Contagrip大底 货号:491412 QD7020122#39-44 image 9"}]
+description: {"en":"SALOMON ULTRA GLIDE 4柔软舒适防滑耐磨 低帮公路跑步鞋 潮流越野机能户外休闲运动跑步鞋 采用透气网布与防护皮革组合鞋面材质 牛角扣系带开合 欧索莱环保去臭环型组合鞋垫 外置4D先进科技以及Contagrip大底 货号:491412 QD7020122#39-44"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 9510
+---
+
+SALOMON ULTRA GLIDE 4柔软舒适防滑耐磨 低帮公路跑步鞋 潮流越野机能户外休闲运动跑步鞋 采用透气网布与防护皮革组合鞋面材质 牛角扣系带开合 欧索莱环保去臭环型组合鞋垫 外置4D先进科技以及Contagrip大底 货号:491412 QD7020122#39-44

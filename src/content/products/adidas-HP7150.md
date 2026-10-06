@@ -1,0 +1,15 @@
+---
+title: {"en":"adidas SAMBA JANE W 玛丽珍 超高清洁度 细节完美 舒适百搭 低帮休闲板鞋 货号：HP7150 码数：35 36 36.5 37 38 38.5 39 40 40.5 41 编码：329JDD0517 06ND294A24"}
+category: {"en":"Shoes"}
+brand: "Adidas"
+sku: "HP7150"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260624/cmp_o_1jrt1fk5r1ii91rt9j63891b1b0.jpeg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260624/cmp_o_1jrt1fk5r1ii91rt9j63891b1b0.jpeg","type":"image","alt":"adidas SAMBA JANE W 玛丽珍 超高清洁度 细节完美 舒适百搭 低帮休闲板鞋 货号：HP7150 码数：35 36 36.5 37 38 38.5 39 40 40.5 41 编码：329JDD0517 06ND294A24 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260624/cmp_o_1jrt1fk5r17jc1clj1nup1ko4fkv1.jpeg","type":"image","alt":"adidas SAMBA JANE W 玛丽珍 超高清洁度 细节完美 舒适百搭 低帮休闲板鞋 货号：HP7150 码数：35 36 36.5 37 38 38.5 39 40 40.5 41 编码：329JDD0517 06ND294A24 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260624/cmp_o_1jrt1fk5s16gu121eovucd39312.jpeg","type":"image","alt":"adidas SAMBA JANE W 玛丽珍 超高清洁度 细节完美 舒适百搭 低帮休闲板鞋 货号：HP7150 码数：35 36 36.5 37 38 38.5 39 40 40.5 41 编码：329JDD0517 06ND294A24 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260624/cmp_o_1jrt1fk5so0b56lhq3dbf6i3.jpeg","type":"image","alt":"adidas SAMBA JANE W 玛丽珍 超高清洁度 细节完美 舒适百搭 低帮休闲板鞋 货号：HP7150 码数：35 36 36.5 37 38 38.5 39 40 40.5 41 编码：329JDD0517 06ND294A24 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260624/cmp_o_1jrt1fk5s1cc610a8php19oj2m84.jpeg","type":"image","alt":"adidas SAMBA JANE W 玛丽珍 超高清洁度 细节完美 舒适百搭 低帮休闲板鞋 货号：HP7150 码数：35 36 36.5 37 38 38.5 39 40 40.5 41 编码：329JDD0517 06ND294A24 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260624/cmp_o_1jrt1fk5s15lcgnnltl1v8t1g3d5.jpeg","type":"image","alt":"adidas SAMBA JANE W 玛丽珍 超高清洁度 细节完美 舒适百搭 低帮休闲板鞋 货号：HP7150 码数：35 36 36.5 37 38 38.5 39 40 40.5 41 编码：329JDD0517 06ND294A24 image 6"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260624/cmp_o_1jrt1fk5s5sc1ui31fknt6uool6.jpeg","type":"image","alt":"adidas SAMBA JANE W 玛丽珍 超高清洁度 细节完美 舒适百搭 低帮休闲板鞋 货号：HP7150 码数：35 36 36.5 37 38 38.5 39 40 40.5 41 编码：329JDD0517 06ND294A24 image 7"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260624/cmp_o_1jrt1fk5t17if55l1nhtgfp14kq7.jpeg","type":"image","alt":"adidas SAMBA JANE W 玛丽珍 超高清洁度 细节完美 舒适百搭 低帮休闲板鞋 货号：HP7150 码数：35 36 36.5 37 38 38.5 39 40 40.5 41 编码：329JDD0517 06ND294A24 image 8"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260624/cmp_o_1jrt1fk5t1m6qqhnl6d2dn1ked8.jpeg","type":"image","alt":"adidas SAMBA JANE W 玛丽珍 超高清洁度 细节完美 舒适百搭 低帮休闲板鞋 货号：HP7150 码数：35 36 36.5 37 38 38.5 39 40 40.5 41 编码：329JDD0517 06ND294A24 image 9"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260624/cmp_o_1jrt1fk5tlfv14901a2iusc1cpi9.jpeg","type":"image","alt":"adidas SAMBA JANE W 玛丽珍 超高清洁度 细节完美 舒适百搭 低帮休闲板鞋 货号：HP7150 码数：35 36 36.5 37 38 38.5 39 40 40.5 41 编码：329JDD0517 06ND294A24 image 10"}]
+description: {"en":"adidas SAMBA JANE W 玛丽珍 超高清洁度 细节完美 舒适百搭 低帮休闲板鞋 货号：HP7150 码数：35 36 36.5 37 38 38.5 39 40 40.5 41 编码：329JDD0517 06ND294A24"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 12245
+---
+
+adidas SAMBA JANE W 玛丽珍 超高清洁度 细节完美 舒适百搭 低帮休闲板鞋 货号：HP7150 码数：35 36 36.5 37 38 38.5 39 40 40.5 41 编码：329JDD0517 06ND294A24

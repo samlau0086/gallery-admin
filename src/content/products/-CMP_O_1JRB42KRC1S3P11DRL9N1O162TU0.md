@@ -1,0 +1,15 @@
+---
+title: {"en":"CMP_O_1JRB42KRC1S3P11DRL9N1O162TU0"}
+category: {"en":"Shoes"}
+brand: ""
+sku: "CMP_O_1JRB42KRC1S3P11DRL9N1O162TU0"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260617/cmp_o_1jrb42krc1s3p11drl9n1o162tu0.jpeg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260617/cmp_o_1jrb42krc1s3p11drl9n1o162tu0.jpeg","type":"image","alt":"CMP_O_1JRB42KRC1S3P11DRL9N1O162TU0 image 1"}]
+description: {"en":"CMP_O_1JRB42KRC1S3P11DRL9N1O162TU0"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 14016
+---
+
+CMP_O_1JRB42KRC1S3P11DRL9N1O162TU0

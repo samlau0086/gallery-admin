@@ -1,0 +1,15 @@
+---
+title: {"en":"ECCO BIOM 灰色户外徒步鞋，城市山野两用！ ▫️优质光面皮革，搭载 GORE‑TEX 防水膜，雨天出行不怕湿脚 ▫️BIOM 自然律动鞋型，贴合足弓，长时间行走不累脚 ▫️分段防滑耐磨大底，凹凸纹路，山路湿滑地面抓地力强 ▫️简约高灰调，做工扎实，缝线精致 户外登山、短途旅行、日常通勤都合适，兼顾实用性与颜值 男士防水运动鞋， 39-45👍 09JWD244A24"}
+category: {"en":"Shoes"}
+brand: "ECCO"
+sku: "09JWD244A24"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260924/cmp_o_1k39uq2qu95k1e0gdo01plm1a9t0.jpeg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260924/cmp_o_1k39uq2qu95k1e0gdo01plm1a9t0.jpeg","type":"image","alt":"ECCO BIOM 灰色户外徒步鞋，城市山野两用！ ▫️优质光面皮革，搭载 GORE‑TEX 防水膜，雨天出行不怕湿脚 ▫️BIOM 自然律动鞋型，贴合足弓，长时间行走不累脚 ▫️分段防滑耐磨大底，凹凸纹路，山路湿滑地面抓地力强 ▫️简约高灰调，做工扎实，缝线精致 户外登山、短途旅行、日常通勤都合适，兼顾实用性与颜值 男士防水运动鞋， 39-45👍 09JWD244A24 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260924/cmp_o_1k39uq2qu163n801rq95jf1ive1.jpeg","type":"image","alt":"ECCO BIOM 灰色户外徒步鞋，城市山野两用！ ▫️优质光面皮革，搭载 GORE‑TEX 防水膜，雨天出行不怕湿脚 ▫️BIOM 自然律动鞋型，贴合足弓，长时间行走不累脚 ▫️分段防滑耐磨大底，凹凸纹路，山路湿滑地面抓地力强 ▫️简约高灰调，做工扎实，缝线精致 户外登山、短途旅行、日常通勤都合适，兼顾实用性与颜值 男士防水运动鞋， 39-45👍 09JWD244A24 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260924/cmp_o_1k39uq2qv1j0o1qb0munnf1a5b2.jpeg","type":"image","alt":"ECCO BIOM 灰色户外徒步鞋，城市山野两用！ ▫️优质光面皮革，搭载 GORE‑TEX 防水膜，雨天出行不怕湿脚 ▫️BIOM 自然律动鞋型，贴合足弓，长时间行走不累脚 ▫️分段防滑耐磨大底，凹凸纹路，山路湿滑地面抓地力强 ▫️简约高灰调，做工扎实，缝线精致 户外登山、短途旅行、日常通勤都合适，兼顾实用性与颜值 男士防水运动鞋， 39-45👍 09JWD244A24 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260924/cmp_o_1k39uq2qv3fo1imm1ep510a2h813.jpeg","type":"image","alt":"ECCO BIOM 灰色户外徒步鞋，城市山野两用！ ▫️优质光面皮革，搭载 GORE‑TEX 防水膜，雨天出行不怕湿脚 ▫️BIOM 自然律动鞋型，贴合足弓，长时间行走不累脚 ▫️分段防滑耐磨大底，凹凸纹路，山路湿滑地面抓地力强 ▫️简约高灰调，做工扎实，缝线精致 户外登山、短途旅行、日常通勤都合适，兼顾实用性与颜值 男士防水运动鞋， 39-45👍 09JWD244A24 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260924/cmp_o_1k39uq2qv1orf84jajb70016jq4.jpeg","type":"image","alt":"ECCO BIOM 灰色户外徒步鞋，城市山野两用！ ▫️优质光面皮革，搭载 GORE‑TEX 防水膜，雨天出行不怕湿脚 ▫️BIOM 自然律动鞋型，贴合足弓，长时间行走不累脚 ▫️分段防滑耐磨大底，凹凸纹路，山路湿滑地面抓地力强 ▫️简约高灰调，做工扎实，缝线精致 户外登山、短途旅行、日常通勤都合适，兼顾实用性与颜值 男士防水运动鞋， 39-45👍 09JWD244A24 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260924/cmp_o_1k39uq2qvesbpbm1dik14vp1egn5.jpeg","type":"image","alt":"ECCO BIOM 灰色户外徒步鞋，城市山野两用！ ▫️优质光面皮革，搭载 GORE‑TEX 防水膜，雨天出行不怕湿脚 ▫️BIOM 自然律动鞋型，贴合足弓，长时间行走不累脚 ▫️分段防滑耐磨大底，凹凸纹路，山路湿滑地面抓地力强 ▫️简约高灰调，做工扎实，缝线精致 户外登山、短途旅行、日常通勤都合适，兼顾实用性与颜值 男士防水运动鞋， 39-45👍 09JWD244A24 image 6"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260924/cmp_o_1k39uq2r0lsdlle1cul1f8gm6t6.jpeg","type":"image","alt":"ECCO BIOM 灰色户外徒步鞋，城市山野两用！ ▫️优质光面皮革，搭载 GORE‑TEX 防水膜，雨天出行不怕湿脚 ▫️BIOM 自然律动鞋型，贴合足弓，长时间行走不累脚 ▫️分段防滑耐磨大底，凹凸纹路，山路湿滑地面抓地力强 ▫️简约高灰调，做工扎实，缝线精致 户外登山、短途旅行、日常通勤都合适，兼顾实用性与颜值 男士防水运动鞋， 39-45👍 09JWD244A24 image 7"}]
+description: {"en":"ECCO BIOM 灰色户外徒步鞋，城市山野两用！ ▫️优质光面皮革，搭载 GORE‑TEX 防水膜，雨天出行不怕湿脚 ▫️BIOM 自然律动鞋型，贴合足弓，长时间行走不累脚 ▫️分段防滑耐磨大底，凹凸纹路，山路湿滑地面抓地力强 ▫️简约高灰调，做工扎实，缝线精致 户外登山、短途旅行、日常通勤都合适，兼顾实用性与颜值 男士防水运动鞋， 39-45👍 09JWD244A24"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 3095
+---
+
+ECCO BIOM 灰色户外徒步鞋，城市山野两用！ ▫️优质光面皮革，搭载 GORE‑TEX 防水膜，雨天出行不怕湿脚 ▫️BIOM 自然律动鞋型，贴合足弓，长时间行走不累脚 ▫️分段防滑耐磨大底，凹凸纹路，山路湿滑地面抓地力强 ▫️简约高灰调，做工扎实，缝线精致 户外登山、短途旅行、日常通勤都合适，兼顾实用性与颜值 男士防水运动鞋， 39-45👍 09JWD244A24

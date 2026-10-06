@@ -1,0 +1,15 @@
+---
+title: {"en":"【】 Adidas Terrex Agravic Speed，户外越野跑鞋，鞋身重量约255克，这也是织唛上255的由来：中底采用EVA结构设置，外底搭载Continental马牌认证橡胶，再加上鞋面的透气网面，鞋头的耐磨性防护拼接以及一体式鞋舌设计，加上特有的抗菌衬里，保持双脚运动过程中的舒适和干爽。全方位减震系统，使得双脚在各个方位都可以增强舒适度。 货号：JS3538 SIZE：40-45 ID：FIRZCL 06JHD496A16"}
+category: {"en":"Shoes"}
+brand: "Adidas"
+sku: "JS3538"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260616/cmp_o_1jr8i0lqsqtbpao4l9qms1kll0.jpeg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260616/cmp_o_1jr8i0lqsqtbpao4l9qms1kll0.jpeg","type":"image","alt":"【】 Adidas Terrex Agravic Speed，户外越野跑鞋，鞋身重量约255克，这也是织唛上255的由来：中底采用EVA结构设置，外底搭载Continental马牌认证橡胶，再加上鞋面的透气网面，鞋头的耐磨性防护拼接以及一体式鞋舌设计，加上特有的抗菌衬里，保持双脚运动过程中的舒适和干爽。全方位减震系统，使得双脚在各个方位都可以增强舒适度。 货号：JS3538 SIZE：40-45 ID：FIRZCL 06JHD496A16 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260616/cmp_o_1jr8i0lqs2ld19mjbfvo791ri91.jpeg","type":"image","alt":"【】 Adidas Terrex Agravic Speed，户外越野跑鞋，鞋身重量约255克，这也是织唛上255的由来：中底采用EVA结构设置，外底搭载Continental马牌认证橡胶，再加上鞋面的透气网面，鞋头的耐磨性防护拼接以及一体式鞋舌设计，加上特有的抗菌衬里，保持双脚运动过程中的舒适和干爽。全方位减震系统，使得双脚在各个方位都可以增强舒适度。 货号：JS3538 SIZE：40-45 ID：FIRZCL 06JHD496A16 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260616/cmp_o_1jr8i0lqt144c12qk1tsi15ml1kja2.jpeg","type":"image","alt":"【】 Adidas Terrex Agravic Speed，户外越野跑鞋，鞋身重量约255克，这也是织唛上255的由来：中底采用EVA结构设置，外底搭载Continental马牌认证橡胶，再加上鞋面的透气网面，鞋头的耐磨性防护拼接以及一体式鞋舌设计，加上特有的抗菌衬里，保持双脚运动过程中的舒适和干爽。全方位减震系统，使得双脚在各个方位都可以增强舒适度。 货号：JS3538 SIZE：40-45 ID：FIRZCL 06JHD496A16 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260616/cmp_o_1jr8i0lqta651g7m1quik6j1us63.jpeg","type":"image","alt":"【】 Adidas Terrex Agravic Speed，户外越野跑鞋，鞋身重量约255克，这也是织唛上255的由来：中底采用EVA结构设置，外底搭载Continental马牌认证橡胶，再加上鞋面的透气网面，鞋头的耐磨性防护拼接以及一体式鞋舌设计，加上特有的抗菌衬里，保持双脚运动过程中的舒适和干爽。全方位减震系统，使得双脚在各个方位都可以增强舒适度。 货号：JS3538 SIZE：40-45 ID：FIRZCL 06JHD496A16 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260616/cmp_o_1jr8i0lqtdrenpj1sn41l6ke6g4.jpeg","type":"image","alt":"【】 Adidas Terrex Agravic Speed，户外越野跑鞋，鞋身重量约255克，这也是织唛上255的由来：中底采用EVA结构设置，外底搭载Continental马牌认证橡胶，再加上鞋面的透气网面，鞋头的耐磨性防护拼接以及一体式鞋舌设计，加上特有的抗菌衬里，保持双脚运动过程中的舒适和干爽。全方位减震系统，使得双脚在各个方位都可以增强舒适度。 货号：JS3538 SIZE：40-45 ID：FIRZCL 06JHD496A16 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260616/cmp_o_1jr8i0lqt14keaamp2k7a1l7i5.jpeg","type":"image","alt":"【】 Adidas Terrex Agravic Speed，户外越野跑鞋，鞋身重量约255克，这也是织唛上255的由来：中底采用EVA结构设置，外底搭载Continental马牌认证橡胶，再加上鞋面的透气网面，鞋头的耐磨性防护拼接以及一体式鞋舌设计，加上特有的抗菌衬里，保持双脚运动过程中的舒适和干爽。全方位减震系统，使得双脚在各个方位都可以增强舒适度。 货号：JS3538 SIZE：40-45 ID：FIRZCL 06JHD496A16 image 6"}]
+description: {"en":"【】 Adidas Terrex Agravic Speed，户外越野跑鞋，鞋身重量约255克，这也是织唛上255的由来：中底采用EVA结构设置，外底搭载Continental马牌认证橡胶，再加上鞋面的透气网面，鞋头的耐磨性防护拼接以及一体式鞋舌设计，加上特有的抗菌衬里，保持双脚运动过程中的舒适和干爽。全方位减震系统，使得双脚在各个方位都可以增强舒适度。 货号：JS3538 SIZE：40-45 ID：FIRZCL 06JHD496A16"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 14479
+---
+
+【】 Adidas Terrex Agravic Speed，户外越野跑鞋，鞋身重量约255克，这也是织唛上255的由来：中底采用EVA结构设置，外底搭载Continental马牌认证橡胶，再加上鞋面的透气网面，鞋头的耐磨性防护拼接以及一体式鞋舌设计，加上特有的抗菌衬里，保持双脚运动过程中的舒适和干爽。全方位减震系统，使得双脚在各个方位都可以增强舒适度。 货号：JS3538 SIZE：40-45 ID：FIRZCL 06JHD496A16

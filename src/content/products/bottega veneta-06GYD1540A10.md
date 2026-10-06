@@ -1,0 +1,15 @@
+---
+title: {"en":"Bottega Veneta Orbit Lace-up Runner BV 葆蝶家时尚休闲王一博同款 老爹鞋运动鞋 MAX 广货 配色不断更新 开发一比一打造 相似度百分之99以上 市场一梯队别品质 区别市场任何标文 顶品质采用轻质科技网布面料 搭配几何图案设计橡胶外底 王炸系列 实际增高很多哦 还是一样显腿细非常 nice 耐玩耐造 对标对版 时尚百搭 高级 大底选用拼色TPU大底 配置包装 尺码:35-46 ID:EDD188-GZJ 06GYD1540A10"}
+category: {"en":"Shoes"}
+brand: "Bottega Veneta"
+sku: "06GYD1540A10"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260621/cmp_i1781981068837_8937_0_0.jpg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260621/cmp_i1781981068837_8937_0_0.jpg","type":"image","alt":"Bottega Veneta Orbit Lace-up Runner BV 葆蝶家时尚休闲王一博同款 老爹鞋运动鞋 MAX 广货 配色不断更新 开发一比一打造 相似度百分之99以上 市场一梯队别品质 区别市场任何标文 顶品质采用轻质科技网布面料 搭配几何图案设计橡胶外底 王炸系列 实际增高很多哦 还是一样显腿细非常 nice 耐玩耐造 对标对版 时尚百搭 高级 大底选用拼色TPU大底 配置包装 尺码:35-46 ID:EDD188-GZJ 06GYD1540A10 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260621/cmp_i1781981068836_536_0_1.jpg","type":"image","alt":"Bottega Veneta Orbit Lace-up Runner BV 葆蝶家时尚休闲王一博同款 老爹鞋运动鞋 MAX 广货 配色不断更新 开发一比一打造 相似度百分之99以上 市场一梯队别品质 区别市场任何标文 顶品质采用轻质科技网布面料 搭配几何图案设计橡胶外底 王炸系列 实际增高很多哦 还是一样显腿细非常 nice 耐玩耐造 对标对版 时尚百搭 高级 大底选用拼色TPU大底 配置包装 尺码:35-46 ID:EDD188-GZJ 06GYD1540A10 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260621/cmp_i1781981068836_9802_0_2.jpg","type":"image","alt":"Bottega Veneta Orbit Lace-up Runner BV 葆蝶家时尚休闲王一博同款 老爹鞋运动鞋 MAX 广货 配色不断更新 开发一比一打造 相似度百分之99以上 市场一梯队别品质 区别市场任何标文 顶品质采用轻质科技网布面料 搭配几何图案设计橡胶外底 王炸系列 实际增高很多哦 还是一样显腿细非常 nice 耐玩耐造 对标对版 时尚百搭 高级 大底选用拼色TPU大底 配置包装 尺码:35-46 ID:EDD188-GZJ 06GYD1540A10 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260621/cmp_i1781981068830_659_0_3.jpg","type":"image","alt":"Bottega Veneta Orbit Lace-up Runner BV 葆蝶家时尚休闲王一博同款 老爹鞋运动鞋 MAX 广货 配色不断更新 开发一比一打造 相似度百分之99以上 市场一梯队别品质 区别市场任何标文 顶品质采用轻质科技网布面料 搭配几何图案设计橡胶外底 王炸系列 实际增高很多哦 还是一样显腿细非常 nice 耐玩耐造 对标对版 时尚百搭 高级 大底选用拼色TPU大底 配置包装 尺码:35-46 ID:EDD188-GZJ 06GYD1540A10 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260621/cmp_i1781981224226_1473_0_4.jpg","type":"image","alt":"Bottega Veneta Orbit Lace-up Runner BV 葆蝶家时尚休闲王一博同款 老爹鞋运动鞋 MAX 广货 配色不断更新 开发一比一打造 相似度百分之99以上 市场一梯队别品质 区别市场任何标文 顶品质采用轻质科技网布面料 搭配几何图案设计橡胶外底 王炸系列 实际增高很多哦 还是一样显腿细非常 nice 耐玩耐造 对标对版 时尚百搭 高级 大底选用拼色TPU大底 配置包装 尺码:35-46 ID:EDD188-GZJ 06GYD1540A10 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260621/cmp_i1781981068839_5517_0_5.jpg","type":"image","alt":"Bottega Veneta Orbit Lace-up Runner BV 葆蝶家时尚休闲王一博同款 老爹鞋运动鞋 MAX 广货 配色不断更新 开发一比一打造 相似度百分之99以上 市场一梯队别品质 区别市场任何标文 顶品质采用轻质科技网布面料 搭配几何图案设计橡胶外底 王炸系列 实际增高很多哦 还是一样显腿细非常 nice 耐玩耐造 对标对版 时尚百搭 高级 大底选用拼色TPU大底 配置包装 尺码:35-46 ID:EDD188-GZJ 06GYD1540A10 image 6"}]
+description: {"en":"Bottega Veneta Orbit Lace-up Runner BV 葆蝶家时尚休闲王一博同款 老爹鞋运动鞋 MAX 广货 配色不断更新 开发一比一打造 相似度百分之99以上 市场一梯队别品质 区别市场任何标文 顶品质采用轻质科技网布面料 搭配几何图案设计橡胶外底 王炸系列 实际增高很多哦 还是一样显腿细非常 nice 耐玩耐造 对标对版 时尚百搭 高级 大底选用拼色TPU大底 配置包装 尺码:35-46 ID:EDD188-GZJ 06GYD1540A10"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 13615
+---
+
+Bottega Veneta Orbit Lace-up Runner BV 葆蝶家时尚休闲王一博同款 老爹鞋运动鞋 MAX 广货 配色不断更新 开发一比一打造 相似度百分之99以上 市场一梯队别品质 区别市场任何标文 顶品质采用轻质科技网布面料 搭配几何图案设计橡胶外底 王炸系列 实际增高很多哦 还是一样显腿细非常 nice 耐玩耐造 对标对版 时尚百搭 高级 大底选用拼色TPU大底 配置包装 尺码:35-46 ID:EDD188-GZJ 06GYD1540A10

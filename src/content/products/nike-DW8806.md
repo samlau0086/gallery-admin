@@ -1,0 +1,15 @@
+---
+title: {"en":"AF1 Nike Air Force 1 ‘07 Low 空军一号 厚底增高百搭运动板鞋 原楦头原纸板 打造纯正空军版型，专注外贸渠道 全掌内置蜂窝气垫 配件 中底钢印、拉帮完美 官方同步上架。 货号：DW8806 SIZE:36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:WNDXX 07GGD1153A23"}
+category: {"en":"Shoes"}
+brand: "Nike"
+sku: "DW8806"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260723/cmp_o_1ju7q39krcht1vjdm1o1jd11dd80.jpeg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260723/cmp_o_1ju7q39krcht1vjdm1o1jd11dd80.jpeg","type":"image","alt":"AF1 Nike Air Force 1 ‘07 Low 空军一号 厚底增高百搭运动板鞋 原楦头原纸板 打造纯正空军版型，专注外贸渠道 全掌内置蜂窝气垫 配件 中底钢印、拉帮完美 官方同步上架。 货号：DW8806 SIZE:36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:WNDXX 07GGD1153A23 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260723/cmp_o_1ju7q39ks1an41601ar91qnp52q1.jpeg","type":"image","alt":"AF1 Nike Air Force 1 ‘07 Low 空军一号 厚底增高百搭运动板鞋 原楦头原纸板 打造纯正空军版型，专注外贸渠道 全掌内置蜂窝气垫 配件 中底钢印、拉帮完美 官方同步上架。 货号：DW8806 SIZE:36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:WNDXX 07GGD1153A23 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260723/cmp_o_1ju7q39kso7j8pm1jdo1eh6nr32.jpeg","type":"image","alt":"AF1 Nike Air Force 1 ‘07 Low 空军一号 厚底增高百搭运动板鞋 原楦头原纸板 打造纯正空军版型，专注外贸渠道 全掌内置蜂窝气垫 配件 中底钢印、拉帮完美 官方同步上架。 货号：DW8806 SIZE:36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:WNDXX 07GGD1153A23 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260723/cmp_o_1ju7q39ks1vnf1q091nqbq191k4l3.jpeg","type":"image","alt":"AF1 Nike Air Force 1 ‘07 Low 空军一号 厚底增高百搭运动板鞋 原楦头原纸板 打造纯正空军版型，专注外贸渠道 全掌内置蜂窝气垫 配件 中底钢印、拉帮完美 官方同步上架。 货号：DW8806 SIZE:36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:WNDXX 07GGD1153A23 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260723/cmp_o_1ju7q39ks1ididlhcnst7i1vq34.jpeg","type":"image","alt":"AF1 Nike Air Force 1 ‘07 Low 空军一号 厚底增高百搭运动板鞋 原楦头原纸板 打造纯正空军版型，专注外贸渠道 全掌内置蜂窝气垫 配件 中底钢印、拉帮完美 官方同步上架。 货号：DW8806 SIZE:36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:WNDXX 07GGD1153A23 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260723/cmp_o_1ju7q39ksgdbncb12sq1m421hsv5.jpeg","type":"image","alt":"AF1 Nike Air Force 1 ‘07 Low 空军一号 厚底增高百搭运动板鞋 原楦头原纸板 打造纯正空军版型，专注外贸渠道 全掌内置蜂窝气垫 配件 中底钢印、拉帮完美 官方同步上架。 货号：DW8806 SIZE:36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:WNDXX 07GGD1153A23 image 6"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260723/cmp_o_1ju7q39kts9s1r2alno1ah316ke6.jpeg","type":"image","alt":"AF1 Nike Air Force 1 ‘07 Low 空军一号 厚底增高百搭运动板鞋 原楦头原纸板 打造纯正空军版型，专注外贸渠道 全掌内置蜂窝气垫 配件 中底钢印、拉帮完美 官方同步上架。 货号：DW8806 SIZE:36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:WNDXX 07GGD1153A23 image 7"}]
+description: {"en":"AF1 Nike Air Force 1 ‘07 Low 空军一号 厚底增高百搭运动板鞋 原楦头原纸板 打造纯正空军版型，专注外贸渠道 全掌内置蜂窝气垫 配件 中底钢印、拉帮完美 官方同步上架。 货号：DW8806 SIZE:36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:WNDXX 07GGD1153A23"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 7507
+---
+
+AF1 Nike Air Force 1 ‘07 Low 空军一号 厚底增高百搭运动板鞋 原楦头原纸板 打造纯正空军版型，专注外贸渠道 全掌内置蜂窝气垫 配件 中底钢印、拉帮完美 官方同步上架。 货号：DW8806 SIZE:36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:WNDXX 07GGD1153A23

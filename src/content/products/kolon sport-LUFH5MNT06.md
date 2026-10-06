@@ -1,0 +1,15 @@
+---
+title: {"en":"KOLON SPORT EGG LITE DYNEEMA 防撕舒适百搭 低帮户外徒步鞋 灵感源自于徒步爱好者圣地阿尔卑斯山 EGG LITE侧身山脊线图案与四季常青树相结合寓意人类对在崇山峻岭中向上不断攀登的决心DYNEEMA耐磨纤维 避免徒步时砂石 树枝的剐蹭延长鞋子使用寿命 超临界物理发泡中底 提供舒适脚部支撑 货号:LUFH5MNT06 尺码:40 40.5 41 42 42.5 43 44 45 ID:ZJD170-HEJ 07GJD241A31"}
+category: {"en":"Shoes"}
+brand: "KOLON Sport"
+sku: "LUFH5MNT06"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260801/cmp_o_1jusicrft13k0vq4cnb1kmi1o1b0.jpeg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260801/cmp_o_1jusicrft13k0vq4cnb1kmi1o1b0.jpeg","type":"image","alt":"KOLON SPORT EGG LITE DYNEEMA 防撕舒适百搭 低帮户外徒步鞋 灵感源自于徒步爱好者圣地阿尔卑斯山 EGG LITE侧身山脊线图案与四季常青树相结合寓意人类对在崇山峻岭中向上不断攀登的决心DYNEEMA耐磨纤维 避免徒步时砂石 树枝的剐蹭延长鞋子使用寿命 超临界物理发泡中底 提供舒适脚部支撑 货号:LUFH5MNT06 尺码:40 40.5 41 42 42.5 43 44 45 ID:ZJD170-HEJ 07GJD241A31 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260801/cmp_o_1jusicrfu1ru6jgs1pme10ep9hj1.jpeg","type":"image","alt":"KOLON SPORT EGG LITE DYNEEMA 防撕舒适百搭 低帮户外徒步鞋 灵感源自于徒步爱好者圣地阿尔卑斯山 EGG LITE侧身山脊线图案与四季常青树相结合寓意人类对在崇山峻岭中向上不断攀登的决心DYNEEMA耐磨纤维 避免徒步时砂石 树枝的剐蹭延长鞋子使用寿命 超临界物理发泡中底 提供舒适脚部支撑 货号:LUFH5MNT06 尺码:40 40.5 41 42 42.5 43 44 45 ID:ZJD170-HEJ 07GJD241A31 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260801/cmp_o_1jusicrfu8rcjmp1r9agtp10lm2.jpeg","type":"image","alt":"KOLON SPORT EGG LITE DYNEEMA 防撕舒适百搭 低帮户外徒步鞋 灵感源自于徒步爱好者圣地阿尔卑斯山 EGG LITE侧身山脊线图案与四季常青树相结合寓意人类对在崇山峻岭中向上不断攀登的决心DYNEEMA耐磨纤维 避免徒步时砂石 树枝的剐蹭延长鞋子使用寿命 超临界物理发泡中底 提供舒适脚部支撑 货号:LUFH5MNT06 尺码:40 40.5 41 42 42.5 43 44 45 ID:ZJD170-HEJ 07GJD241A31 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260801/cmp_o_1jusicrfv1aagra71jpv1j0cn5v3.jpeg","type":"image","alt":"KOLON SPORT EGG LITE DYNEEMA 防撕舒适百搭 低帮户外徒步鞋 灵感源自于徒步爱好者圣地阿尔卑斯山 EGG LITE侧身山脊线图案与四季常青树相结合寓意人类对在崇山峻岭中向上不断攀登的决心DYNEEMA耐磨纤维 避免徒步时砂石 树枝的剐蹭延长鞋子使用寿命 超临界物理发泡中底 提供舒适脚部支撑 货号:LUFH5MNT06 尺码:40 40.5 41 42 42.5 43 44 45 ID:ZJD170-HEJ 07GJD241A31 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260801/cmp_o_1jusicrfv1ehl1g341rn4uih1aeq4.jpeg","type":"image","alt":"KOLON SPORT EGG LITE DYNEEMA 防撕舒适百搭 低帮户外徒步鞋 灵感源自于徒步爱好者圣地阿尔卑斯山 EGG LITE侧身山脊线图案与四季常青树相结合寓意人类对在崇山峻岭中向上不断攀登的决心DYNEEMA耐磨纤维 避免徒步时砂石 树枝的剐蹭延长鞋子使用寿命 超临界物理发泡中底 提供舒适脚部支撑 货号:LUFH5MNT06 尺码:40 40.5 41 42 42.5 43 44 45 ID:ZJD170-HEJ 07GJD241A31 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260801/cmp_o_1jusicrfvk6vq0112k81tum9bi5.jpeg","type":"image","alt":"KOLON SPORT EGG LITE DYNEEMA 防撕舒适百搭 低帮户外徒步鞋 灵感源自于徒步爱好者圣地阿尔卑斯山 EGG LITE侧身山脊线图案与四季常青树相结合寓意人类对在崇山峻岭中向上不断攀登的决心DYNEEMA耐磨纤维 避免徒步时砂石 树枝的剐蹭延长鞋子使用寿命 超临界物理发泡中底 提供舒适脚部支撑 货号:LUFH5MNT06 尺码:40 40.5 41 42 42.5 43 44 45 ID:ZJD170-HEJ 07GJD241A31 image 6"}]
+description: {"en":"KOLON SPORT EGG LITE DYNEEMA 防撕舒适百搭 低帮户外徒步鞋 灵感源自于徒步爱好者圣地阿尔卑斯山 EGG LITE侧身山脊线图案与四季常青树相结合寓意人类对在崇山峻岭中向上不断攀登的决心DYNEEMA耐磨纤维 避免徒步时砂石 树枝的剐蹭延长鞋子使用寿命 超临界物理发泡中底 提供舒适脚部支撑 货号:LUFH5MNT06 尺码:40 40.5 41 42 42.5 43 44 45 ID:ZJD170-HEJ 07GJD241A31"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 4665
+---
+
+KOLON SPORT EGG LITE DYNEEMA 防撕舒适百搭 低帮户外徒步鞋 灵感源自于徒步爱好者圣地阿尔卑斯山 EGG LITE侧身山脊线图案与四季常青树相结合寓意人类对在崇山峻岭中向上不断攀登的决心DYNEEMA耐磨纤维 避免徒步时砂石 树枝的剐蹭延长鞋子使用寿命 超临界物理发泡中底 提供舒适脚部支撑 货号:LUFH5MNT06 尺码:40 40.5 41 42 42.5 43 44 45 ID:ZJD170-HEJ 07GJD241A31

@@ -1,0 +1,15 @@
+---
+title: {"en":"KAILAS FUGA EX3 浅银灰 徒步越野登山机能运动鞋 上架实拍 鞋面主体部分采用网状薄翼材质中底是大坡王最具特色的山形结构 Vibram Megagrip 延续大坡王超强抓地 多重元素组合而成的造型和颜色设计让整双鞋观感丰富而又统一 整双鞋的技术和材料应用使得科技感十足颜色和脚感适合各类场景和场所穿着！ 尺码：36 36.5 37 37.5 38 39 39.5 40 41 41.5 42 42.5 43 44 44.5 45 05JVD384A24"}
+category: {"en":"Shoes"}
+brand: "KAILAS"
+sku: "05JVD384A24"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260527/cmp_o_1jpkpv0oo1dkc1gcppu21bjrfms0.jpeg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260527/cmp_o_1jpkpv0oo1dkc1gcppu21bjrfms0.jpeg","type":"image","alt":"KAILAS FUGA EX3 浅银灰 徒步越野登山机能运动鞋 上架实拍 鞋面主体部分采用网状薄翼材质中底是大坡王最具特色的山形结构 Vibram Megagrip 延续大坡王超强抓地 多重元素组合而成的造型和颜色设计让整双鞋观感丰富而又统一 整双鞋的技术和材料应用使得科技感十足颜色和脚感适合各类场景和场所穿着！ 尺码：36 36.5 37 37.5 38 39 39.5 40 41 41.5 42 42.5 43 44 44.5 45 05JVD384A24 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260527/cmp_o_1jpkpv0oo17dh1iaac97o68l1h1.jpeg","type":"image","alt":"KAILAS FUGA EX3 浅银灰 徒步越野登山机能运动鞋 上架实拍 鞋面主体部分采用网状薄翼材质中底是大坡王最具特色的山形结构 Vibram Megagrip 延续大坡王超强抓地 多重元素组合而成的造型和颜色设计让整双鞋观感丰富而又统一 整双鞋的技术和材料应用使得科技感十足颜色和脚感适合各类场景和场所穿着！ 尺码：36 36.5 37 37.5 38 39 39.5 40 41 41.5 42 42.5 43 44 44.5 45 05JVD384A24 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260527/cmp_o_1jpkpv0op2171fc51o7b9u811lk2.jpeg","type":"image","alt":"KAILAS FUGA EX3 浅银灰 徒步越野登山机能运动鞋 上架实拍 鞋面主体部分采用网状薄翼材质中底是大坡王最具特色的山形结构 Vibram Megagrip 延续大坡王超强抓地 多重元素组合而成的造型和颜色设计让整双鞋观感丰富而又统一 整双鞋的技术和材料应用使得科技感十足颜色和脚感适合各类场景和场所穿着！ 尺码：36 36.5 37 37.5 38 39 39.5 40 41 41.5 42 42.5 43 44 44.5 45 05JVD384A24 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260527/cmp_o_1jpkpv0op1cdn1f03a953arc3c3.jpeg","type":"image","alt":"KAILAS FUGA EX3 浅银灰 徒步越野登山机能运动鞋 上架实拍 鞋面主体部分采用网状薄翼材质中底是大坡王最具特色的山形结构 Vibram Megagrip 延续大坡王超强抓地 多重元素组合而成的造型和颜色设计让整双鞋观感丰富而又统一 整双鞋的技术和材料应用使得科技感十足颜色和脚感适合各类场景和场所穿着！ 尺码：36 36.5 37 37.5 38 39 39.5 40 41 41.5 42 42.5 43 44 44.5 45 05JVD384A24 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260527/cmp_o_1jpkpv0opmvupni1d4917gs11ml4.jpeg","type":"image","alt":"KAILAS FUGA EX3 浅银灰 徒步越野登山机能运动鞋 上架实拍 鞋面主体部分采用网状薄翼材质中底是大坡王最具特色的山形结构 Vibram Megagrip 延续大坡王超强抓地 多重元素组合而成的造型和颜色设计让整双鞋观感丰富而又统一 整双鞋的技术和材料应用使得科技感十足颜色和脚感适合各类场景和场所穿着！ 尺码：36 36.5 37 37.5 38 39 39.5 40 41 41.5 42 42.5 43 44 44.5 45 05JVD384A24 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260527/cmp_o_1jpkpv0oqfkqdfttkiuk71dql5.jpeg","type":"image","alt":"KAILAS FUGA EX3 浅银灰 徒步越野登山机能运动鞋 上架实拍 鞋面主体部分采用网状薄翼材质中底是大坡王最具特色的山形结构 Vibram Megagrip 延续大坡王超强抓地 多重元素组合而成的造型和颜色设计让整双鞋观感丰富而又统一 整双鞋的技术和材料应用使得科技感十足颜色和脚感适合各类场景和场所穿着！ 尺码：36 36.5 37 37.5 38 39 39.5 40 41 41.5 42 42.5 43 44 44.5 45 05JVD384A24 image 6"}]
+description: {"en":"KAILAS FUGA EX3 浅银灰 徒步越野登山机能运动鞋 上架实拍 鞋面主体部分采用网状薄翼材质中底是大坡王最具特色的山形结构 Vibram Megagrip 延续大坡王超强抓地 多重元素组合而成的造型和颜色设计让整双鞋观感丰富而又统一 整双鞋的技术和材料应用使得科技感十足颜色和脚感适合各类场景和场所穿着！ 尺码：36 36.5 37 37.5 38 39 39.5 40 41 41.5 42 42.5 43 44 44.5 45 05JVD384A24"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 25186
+---
+
+KAILAS FUGA EX3 浅银灰 徒步越野登山机能运动鞋 上架实拍 鞋面主体部分采用网状薄翼材质中底是大坡王最具特色的山形结构 Vibram Megagrip 延续大坡王超强抓地 多重元素组合而成的造型和颜色设计让整双鞋观感丰富而又统一 整双鞋的技术和材料应用使得科技感十足颜色和脚感适合各类场景和场所穿着！ 尺码：36 36.5 37 37.5 38 39 39.5 40 41 41.5 42 42.5 43 44 44.5 45 05JVD384A24

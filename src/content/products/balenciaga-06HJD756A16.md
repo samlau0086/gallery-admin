@@ -1,0 +1,15 @@
+---
+title: {"en":"Balenciaga Triple S .2 厚底系带 低帮 老爹鞋 Balenciaga是由被誉为代表二十世纪的伟大天才设计师 CristobalBalenciaga 创立的，在品牌创立的大半个世纪以来，一直以时尚、典雅闻名于时装界，它的主题产品有女士和男士提包、机车包、鞋子和时装，在15年王大仁卸任品牌设计师后，品牌的风格发生了翻天覆地的变化，凭借着人气超高的街头风T恤、老爹鞋等迅速霸屏各大时装周和时尚圈 06HJD756A16"}
+category: {"en":"Shoes"}
+brand: "Balenciaga"
+sku: "06HJD756A16"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260616/cmp_o_1jr8dcc0s1femomt4t91cob1rsm0.jpeg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260616/cmp_o_1jr8dcc0s1femomt4t91cob1rsm0.jpeg","type":"image","alt":"Balenciaga Triple S .2 厚底系带 低帮 老爹鞋 Balenciaga是由被誉为代表二十世纪的伟大天才设计师 CristobalBalenciaga 创立的，在品牌创立的大半个世纪以来，一直以时尚、典雅闻名于时装界，它的主题产品有女士和男士提包、机车包、鞋子和时装，在15年王大仁卸任品牌设计师后，品牌的风格发生了翻天覆地的变化，凭借着人气超高的街头风T恤、老爹鞋等迅速霸屏各大时装周和时尚圈 06HJD756A16 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260616/cmp_o_1jr8dcc0sn831bd99jv1i4k1tgm1.jpeg","type":"image","alt":"Balenciaga Triple S .2 厚底系带 低帮 老爹鞋 Balenciaga是由被誉为代表二十世纪的伟大天才设计师 CristobalBalenciaga 创立的，在品牌创立的大半个世纪以来，一直以时尚、典雅闻名于时装界，它的主题产品有女士和男士提包、机车包、鞋子和时装，在15年王大仁卸任品牌设计师后，品牌的风格发生了翻天覆地的变化，凭借着人气超高的街头风T恤、老爹鞋等迅速霸屏各大时装周和时尚圈 06HJD756A16 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260616/cmp_o_1jr8dcc0seau1duk8mmc3jtf2.jpeg","type":"image","alt":"Balenciaga Triple S .2 厚底系带 低帮 老爹鞋 Balenciaga是由被誉为代表二十世纪的伟大天才设计师 CristobalBalenciaga 创立的，在品牌创立的大半个世纪以来，一直以时尚、典雅闻名于时装界，它的主题产品有女士和男士提包、机车包、鞋子和时装，在15年王大仁卸任品牌设计师后，品牌的风格发生了翻天覆地的变化，凭借着人气超高的街头风T恤、老爹鞋等迅速霸屏各大时装周和时尚圈 06HJD756A16 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260616/cmp_o_1jr8dcc0t4s31c42qla1gtrtb63.jpeg","type":"image","alt":"Balenciaga Triple S .2 厚底系带 低帮 老爹鞋 Balenciaga是由被誉为代表二十世纪的伟大天才设计师 CristobalBalenciaga 创立的，在品牌创立的大半个世纪以来，一直以时尚、典雅闻名于时装界，它的主题产品有女士和男士提包、机车包、鞋子和时装，在15年王大仁卸任品牌设计师后，品牌的风格发生了翻天覆地的变化，凭借着人气超高的街头风T恤、老爹鞋等迅速霸屏各大时装周和时尚圈 06HJD756A16 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260616/cmp_o_1jr8dcc0t1t611aq72oesah1usb4.jpeg","type":"image","alt":"Balenciaga Triple S .2 厚底系带 低帮 老爹鞋 Balenciaga是由被誉为代表二十世纪的伟大天才设计师 CristobalBalenciaga 创立的，在品牌创立的大半个世纪以来，一直以时尚、典雅闻名于时装界，它的主题产品有女士和男士提包、机车包、鞋子和时装，在15年王大仁卸任品牌设计师后，品牌的风格发生了翻天覆地的变化，凭借着人气超高的街头风T恤、老爹鞋等迅速霸屏各大时装周和时尚圈 06HJD756A16 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260616/cmp_o_1jr8dcc0t1nadlg1gn71cinhtj5.jpeg","type":"image","alt":"Balenciaga Triple S .2 厚底系带 低帮 老爹鞋 Balenciaga是由被誉为代表二十世纪的伟大天才设计师 CristobalBalenciaga 创立的，在品牌创立的大半个世纪以来，一直以时尚、典雅闻名于时装界，它的主题产品有女士和男士提包、机车包、鞋子和时装，在15年王大仁卸任品牌设计师后，品牌的风格发生了翻天覆地的变化，凭借着人气超高的街头风T恤、老爹鞋等迅速霸屏各大时装周和时尚圈 06HJD756A16 image 6"}]
+description: {"en":"Balenciaga Triple S .2 厚底系带 低帮 老爹鞋 Balenciaga是由被誉为代表二十世纪的伟大天才设计师 CristobalBalenciaga 创立的，在品牌创立的大半个世纪以来，一直以时尚、典雅闻名于时装界，它的主题产品有女士和男士提包、机车包、鞋子和时装，在15年王大仁卸任品牌设计师后，品牌的风格发生了翻天覆地的变化，凭借着人气超高的街头风T恤、老爹鞋等迅速霸屏各大时装周和时尚圈 06HJD756A16"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 14519
+---
+
+Balenciaga Triple S .2 厚底系带 低帮 老爹鞋 Balenciaga是由被誉为代表二十世纪的伟大天才设计师 CristobalBalenciaga 创立的，在品牌创立的大半个世纪以来，一直以时尚、典雅闻名于时装界，它的主题产品有女士和男士提包、机车包、鞋子和时装，在15年王大仁卸任品牌设计师后，品牌的风格发生了翻天覆地的变化，凭借着人气超高的街头风T恤、老爹鞋等迅速霸屏各大时装周和时尚圈 06HJD756A16

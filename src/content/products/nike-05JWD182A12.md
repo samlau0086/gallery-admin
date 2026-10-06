@@ -1,0 +1,15 @@
+---
+title: {"en":"Nike/ 男女鞋制，2021版更新数据窄楦版型，采用猪巴革鞋面材质，鞋垫嵌EVA缓震物料及Air Zoom气垫，外置RB耐磨橡胶大底❗️质感堪比联名！Nike SB Dunk Low Pro\"Hyper Royal Malachite\"扣篮系列低帮休闲运动滑板板鞋 类型：男女鞋 码数：36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 46 编码：260513375.822 05JWD182A12"}
+category: {"en":"Shoes"}
+brand: "Nike"
+sku: "05JWD182A12"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260514/cmp_i1778758772109_8754_0_0.jpg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260514/cmp_i1778758772109_8754_0_0.jpg","type":"image","alt":"Nike/ 男女鞋制，2021版更新数据窄楦版型，采用猪巴革鞋面材质，鞋垫嵌EVA缓震物料及Air Zoom气垫，外置RB耐磨橡胶大底❗️质感堪比联名！Nike SB Dunk Low Pro\"Hyper Royal Malachite\"扣篮系列低帮休闲运动滑板板鞋 类型：男女鞋 码数：36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 46 编码：260513375.822 05JWD182A12 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260514/cmp_i1778758785436_8669_0_1.jpg","type":"image","alt":"Nike/ 男女鞋制，2021版更新数据窄楦版型，采用猪巴革鞋面材质，鞋垫嵌EVA缓震物料及Air Zoom气垫，外置RB耐磨橡胶大底❗️质感堪比联名！Nike SB Dunk Low Pro\"Hyper Royal Malachite\"扣篮系列低帮休闲运动滑板板鞋 类型：男女鞋 码数：36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 46 编码：260513375.822 05JWD182A12 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260514/cmp_i1778758772112_3188_0_2.jpg","type":"image","alt":"Nike/ 男女鞋制，2021版更新数据窄楦版型，采用猪巴革鞋面材质，鞋垫嵌EVA缓震物料及Air Zoom气垫，外置RB耐磨橡胶大底❗️质感堪比联名！Nike SB Dunk Low Pro\"Hyper Royal Malachite\"扣篮系列低帮休闲运动滑板板鞋 类型：男女鞋 码数：36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 46 编码：260513375.822 05JWD182A12 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260514/cmp_i1778758772110_3900_0_3.jpg","type":"image","alt":"Nike/ 男女鞋制，2021版更新数据窄楦版型，采用猪巴革鞋面材质，鞋垫嵌EVA缓震物料及Air Zoom气垫，外置RB耐磨橡胶大底❗️质感堪比联名！Nike SB Dunk Low Pro\"Hyper Royal Malachite\"扣篮系列低帮休闲运动滑板板鞋 类型：男女鞋 码数：36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 46 编码：260513375.822 05JWD182A12 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260514/cmp_i1778758772110_9257_0_4.jpg","type":"image","alt":"Nike/ 男女鞋制，2021版更新数据窄楦版型，采用猪巴革鞋面材质，鞋垫嵌EVA缓震物料及Air Zoom气垫，外置RB耐磨橡胶大底❗️质感堪比联名！Nike SB Dunk Low Pro\"Hyper Royal Malachite\"扣篮系列低帮休闲运动滑板板鞋 类型：男女鞋 码数：36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 46 编码：260513375.822 05JWD182A12 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260514/cmp_i1778758772118_7325_0_5.jpg","type":"image","alt":"Nike/ 男女鞋制，2021版更新数据窄楦版型，采用猪巴革鞋面材质，鞋垫嵌EVA缓震物料及Air Zoom气垫，外置RB耐磨橡胶大底❗️质感堪比联名！Nike SB Dunk Low Pro\"Hyper Royal Malachite\"扣篮系列低帮休闲运动滑板板鞋 类型：男女鞋 码数：36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 46 编码：260513375.822 05JWD182A12 image 6"}]
+description: {"en":"Nike/ 男女鞋制，2021版更新数据窄楦版型，采用猪巴革鞋面材质，鞋垫嵌EVA缓震物料及Air Zoom气垫，外置RB耐磨橡胶大底❗️质感堪比联名！Nike SB Dunk Low Pro\"Hyper Royal Malachite\"扣篮系列低帮休闲运动滑板板鞋 类型：男女鞋 码数：36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 46 编码：260513375.822 05JWD182A12"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 29531
+---
+
+Nike/ 男女鞋制，2021版更新数据窄楦版型，采用猪巴革鞋面材质，鞋垫嵌EVA缓震物料及Air Zoom气垫，外置RB耐磨橡胶大底❗️质感堪比联名！Nike SB Dunk Low Pro"Hyper Royal Malachite"扣篮系列低帮休闲运动滑板板鞋 类型：男女鞋 码数：36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 46 编码：260513375.822 05JWD182A12

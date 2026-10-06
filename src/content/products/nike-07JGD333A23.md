@@ -1,0 +1,15 @@
+---
+title: {"en":"AJ 乔丹12代 Nike Air Jordan 12 Retro 篮球鞋 真碳含气垫 aj12代 复刻男子运动鞋，重现设计师汀克·哈特菲尔德广受赞誉的 1996 年鞋款设计，后者率先将 Zoom Air 缓震配置引入经典系列。鞋面采用优质材料，打造当季潮流风范。优质材质组合鞋面，实现出色耐穿性，泡绵中底搭载全掌型 Zoom Air 缓震配置，塑就出众回弹的缓震效果，碳纤维稳定片，橡胶外底。 码数：40-48含 07JGD333A23"}
+category: {"en":"Shoes"}
+brand: "Nike"
+sku: "07JGD333A23"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260724/cmp_o_1ju803ukn8o768v1voebb61m1f0.jpeg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260724/cmp_o_1ju803ukn8o768v1voebb61m1f0.jpeg","type":"image","alt":"AJ 乔丹12代 Nike Air Jordan 12 Retro 篮球鞋 真碳含气垫 aj12代 复刻男子运动鞋，重现设计师汀克·哈特菲尔德广受赞誉的 1996 年鞋款设计，后者率先将 Zoom Air 缓震配置引入经典系列。鞋面采用优质材料，打造当季潮流风范。优质材质组合鞋面，实现出色耐穿性，泡绵中底搭载全掌型 Zoom Air 缓震配置，塑就出众回弹的缓震效果，碳纤维稳定片，橡胶外底。 码数：40-48含 07JGD333A23 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260724/cmp_o_1ju803uko1lc016j1jp24rq1e1.jpeg","type":"image","alt":"AJ 乔丹12代 Nike Air Jordan 12 Retro 篮球鞋 真碳含气垫 aj12代 复刻男子运动鞋，重现设计师汀克·哈特菲尔德广受赞誉的 1996 年鞋款设计，后者率先将 Zoom Air 缓震配置引入经典系列。鞋面采用优质材料，打造当季潮流风范。优质材质组合鞋面，实现出色耐穿性，泡绵中底搭载全掌型 Zoom Air 缓震配置，塑就出众回弹的缓震效果，碳纤维稳定片，橡胶外底。 码数：40-48含 07JGD333A23 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260724/cmp_o_1ju803uko19416nr1bpl1rgn184b2.jpeg","type":"image","alt":"AJ 乔丹12代 Nike Air Jordan 12 Retro 篮球鞋 真碳含气垫 aj12代 复刻男子运动鞋，重现设计师汀克·哈特菲尔德广受赞誉的 1996 年鞋款设计，后者率先将 Zoom Air 缓震配置引入经典系列。鞋面采用优质材料，打造当季潮流风范。优质材质组合鞋面，实现出色耐穿性，泡绵中底搭载全掌型 Zoom Air 缓震配置，塑就出众回弹的缓震效果，碳纤维稳定片，橡胶外底。 码数：40-48含 07JGD333A23 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260724/cmp_o_1ju803ukoc911fb1ml81jms1cek3.jpeg","type":"image","alt":"AJ 乔丹12代 Nike Air Jordan 12 Retro 篮球鞋 真碳含气垫 aj12代 复刻男子运动鞋，重现设计师汀克·哈特菲尔德广受赞誉的 1996 年鞋款设计，后者率先将 Zoom Air 缓震配置引入经典系列。鞋面采用优质材料，打造当季潮流风范。优质材质组合鞋面，实现出色耐穿性，泡绵中底搭载全掌型 Zoom Air 缓震配置，塑就出众回弹的缓震效果，碳纤维稳定片，橡胶外底。 码数：40-48含 07JGD333A23 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260724/cmp_o_1ju803ukp1rk1phqickpd034d4.jpeg","type":"image","alt":"AJ 乔丹12代 Nike Air Jordan 12 Retro 篮球鞋 真碳含气垫 aj12代 复刻男子运动鞋，重现设计师汀克·哈特菲尔德广受赞誉的 1996 年鞋款设计，后者率先将 Zoom Air 缓震配置引入经典系列。鞋面采用优质材料，打造当季潮流风范。优质材质组合鞋面，实现出色耐穿性，泡绵中底搭载全掌型 Zoom Air 缓震配置，塑就出众回弹的缓震效果，碳纤维稳定片，橡胶外底。 码数：40-48含 07JGD333A23 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260724/cmp_o_1ju803ukp1ngcgo2fv71f3etrv5.jpeg","type":"image","alt":"AJ 乔丹12代 Nike Air Jordan 12 Retro 篮球鞋 真碳含气垫 aj12代 复刻男子运动鞋，重现设计师汀克·哈特菲尔德广受赞誉的 1996 年鞋款设计，后者率先将 Zoom Air 缓震配置引入经典系列。鞋面采用优质材料，打造当季潮流风范。优质材质组合鞋面，实现出色耐穿性，泡绵中底搭载全掌型 Zoom Air 缓震配置，塑就出众回弹的缓震效果，碳纤维稳定片，橡胶外底。 码数：40-48含 07JGD333A23 image 6"}]
+description: {"en":"AJ 乔丹12代 Nike Air Jordan 12 Retro 篮球鞋 真碳含气垫 aj12代 复刻男子运动鞋，重现设计师汀克·哈特菲尔德广受赞誉的 1996 年鞋款设计，后者率先将 Zoom Air 缓震配置引入经典系列。鞋面采用优质材料，打造当季潮流风范。优质材质组合鞋面，实现出色耐穿性，泡绵中底搭载全掌型 Zoom Air 缓震配置，塑就出众回弹的缓震效果，碳纤维稳定片，橡胶外底。 码数：40-48含 07JGD333A23"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 7685
+---
+
+AJ 乔丹12代 Nike Air Jordan 12 Retro 篮球鞋 真碳含气垫 aj12代 复刻男子运动鞋，重现设计师汀克·哈特菲尔德广受赞誉的 1996 年鞋款设计，后者率先将 Zoom Air 缓震配置引入经典系列。鞋面采用优质材料，打造当季潮流风范。优质材质组合鞋面，实现出色耐穿性，泡绵中底搭载全掌型 Zoom Air 缓震配置，塑就出众回弹的缓震效果，碳纤维稳定片，橡胶外底。 码数：40-48含 07JGD333A23

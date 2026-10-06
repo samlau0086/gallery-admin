@@ -1,0 +1,15 @@
+---
+title: {"en":"鬼冢虎Onitsuka Tiger Mexico 66 一脚蹬帆布鞋面休闲板鞋 1183A360鬼冢虎Onitsuka Tiger的MEXICO 66™系列是其经典复古运动鞋的代表作之一，而“一脚蹬”设计的SLIP-ON款式则是在此基础上的便捷化改良，主打无需系带、穿脱快速的休闲体验‌。该系列鞋款通常采用帆布材质，强调透气性和舒适度，并延续了MEXICO 66的复古外观，如侧面的标志性条纹设计和流畅的鞋型轮廓‌。 尺码: 36-45含 06VY386A26"}
+category: {"en":"Shoes"}
+brand: "Asics"
+sku: "06VY386A26"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260627/cmp_i1782500339758_3900_0_0.jpg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260627/cmp_i1782500339758_3900_0_0.jpg","type":"image","alt":"鬼冢虎Onitsuka Tiger Mexico 66 一脚蹬帆布鞋面休闲板鞋 1183A360鬼冢虎Onitsuka Tiger的MEXICO 66™系列是其经典复古运动鞋的代表作之一，而“一脚蹬”设计的SLIP-ON款式则是在此基础上的便捷化改良，主打无需系带、穿脱快速的休闲体验‌。该系列鞋款通常采用帆布材质，强调透气性和舒适度，并延续了MEXICO 66的复古外观，如侧面的标志性条纹设计和流畅的鞋型轮廓‌。 尺码: 36-45含 06VY386A26 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260627/cmp_i1782500339758_5012_0_1.jpg","type":"image","alt":"鬼冢虎Onitsuka Tiger Mexico 66 一脚蹬帆布鞋面休闲板鞋 1183A360鬼冢虎Onitsuka Tiger的MEXICO 66™系列是其经典复古运动鞋的代表作之一，而“一脚蹬”设计的SLIP-ON款式则是在此基础上的便捷化改良，主打无需系带、穿脱快速的休闲体验‌。该系列鞋款通常采用帆布材质，强调透气性和舒适度，并延续了MEXICO 66的复古外观，如侧面的标志性条纹设计和流畅的鞋型轮廓‌。 尺码: 36-45含 06VY386A26 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260627/cmp_i1782500349942_2404_0_2.jpg","type":"image","alt":"鬼冢虎Onitsuka Tiger Mexico 66 一脚蹬帆布鞋面休闲板鞋 1183A360鬼冢虎Onitsuka Tiger的MEXICO 66™系列是其经典复古运动鞋的代表作之一，而“一脚蹬”设计的SLIP-ON款式则是在此基础上的便捷化改良，主打无需系带、穿脱快速的休闲体验‌。该系列鞋款通常采用帆布材质，强调透气性和舒适度，并延续了MEXICO 66的复古外观，如侧面的标志性条纹设计和流畅的鞋型轮廓‌。 尺码: 36-45含 06VY386A26 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260627/cmp_i1782500339754_6328_0_3.jpg","type":"image","alt":"鬼冢虎Onitsuka Tiger Mexico 66 一脚蹬帆布鞋面休闲板鞋 1183A360鬼冢虎Onitsuka Tiger的MEXICO 66™系列是其经典复古运动鞋的代表作之一，而“一脚蹬”设计的SLIP-ON款式则是在此基础上的便捷化改良，主打无需系带、穿脱快速的休闲体验‌。该系列鞋款通常采用帆布材质，强调透气性和舒适度，并延续了MEXICO 66的复古外观，如侧面的标志性条纹设计和流畅的鞋型轮廓‌。 尺码: 36-45含 06VY386A26 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260627/cmp_i1782500339763_2981_0_4.jpg","type":"image","alt":"鬼冢虎Onitsuka Tiger Mexico 66 一脚蹬帆布鞋面休闲板鞋 1183A360鬼冢虎Onitsuka Tiger的MEXICO 66™系列是其经典复古运动鞋的代表作之一，而“一脚蹬”设计的SLIP-ON款式则是在此基础上的便捷化改良，主打无需系带、穿脱快速的休闲体验‌。该系列鞋款通常采用帆布材质，强调透气性和舒适度，并延续了MEXICO 66的复古外观，如侧面的标志性条纹设计和流畅的鞋型轮廓‌。 尺码: 36-45含 06VY386A26 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260627/cmp_i1782500339756_8788_0_5.jpg","type":"image","alt":"鬼冢虎Onitsuka Tiger Mexico 66 一脚蹬帆布鞋面休闲板鞋 1183A360鬼冢虎Onitsuka Tiger的MEXICO 66™系列是其经典复古运动鞋的代表作之一，而“一脚蹬”设计的SLIP-ON款式则是在此基础上的便捷化改良，主打无需系带、穿脱快速的休闲体验‌。该系列鞋款通常采用帆布材质，强调透气性和舒适度，并延续了MEXICO 66的复古外观，如侧面的标志性条纹设计和流畅的鞋型轮廓‌。 尺码: 36-45含 06VY386A26 image 6"}]
+description: {"en":"鬼冢虎Onitsuka Tiger Mexico 66 一脚蹬帆布鞋面休闲板鞋 1183A360鬼冢虎Onitsuka Tiger的MEXICO 66™系列是其经典复古运动鞋的代表作之一，而“一脚蹬”设计的SLIP-ON款式则是在此基础上的便捷化改良，主打无需系带、穿脱快速的休闲体验‌。该系列鞋款通常采用帆布材质，强调透气性和舒适度，并延续了MEXICO 66的复古外观，如侧面的标志性条纹设计和流畅的鞋型轮廓‌。 尺码: 36-45含 06VY386A26"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 11426
+---
+
+鬼冢虎Onitsuka Tiger Mexico 66 一脚蹬帆布鞋面休闲板鞋 1183A360鬼冢虎Onitsuka Tiger的MEXICO 66™系列是其经典复古运动鞋的代表作之一，而“一脚蹬”设计的SLIP-ON款式则是在此基础上的便捷化改良，主打无需系带、穿脱快速的休闲体验‌。该系列鞋款通常采用帆布材质，强调透气性和舒适度，并延续了MEXICO 66的复古外观，如侧面的标志性条纹设计和流畅的鞋型轮廓‌。 尺码: 36-45含 06VY386A26

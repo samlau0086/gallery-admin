@@ -1,0 +1,15 @@
+---
+title: {"en":"Louis Vuitton Tilted 绒面小牛皮 休闲运动文化百搭板鞋 广东原产 市售顶级 升原楦型开发纸版 鞋型更立体更正 Monogram丹宁布鞋面 质感高耐看 鞋垫嵌入EVA软脚感物料 回弹舒适 后跟耐弯折滴塑支撑片 稳定不塌开发TPR光泽组合隔色鞋底 组合TPU生胶底结构 行走稳 耐磨强 购入开发 厚实抽屉式礼品鞋盒 包装说明书 防尘布袋 附送官方快递加固牛皮纸外盒 尺码:39-45 ID:EED188-GZH 06HHD1826A26"}
+category: {"en":"Shoes"}
+brand: "Louis Vuitton"
+sku: "06HHD1826A26"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260626/cmp_o_1js27sfgr1k4rnbr3ablp5u4q0.jpeg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260626/cmp_o_1js27sfgr1k4rnbr3ablp5u4q0.jpeg","type":"image","alt":"Louis Vuitton Tilted 绒面小牛皮 休闲运动文化百搭板鞋 广东原产 市售顶级 升原楦型开发纸版 鞋型更立体更正 Monogram丹宁布鞋面 质感高耐看 鞋垫嵌入EVA软脚感物料 回弹舒适 后跟耐弯折滴塑支撑片 稳定不塌开发TPR光泽组合隔色鞋底 组合TPU生胶底结构 行走稳 耐磨强 购入开发 厚实抽屉式礼品鞋盒 包装说明书 防尘布袋 附送官方快递加固牛皮纸外盒 尺码:39-45 ID:EED188-GZH 06HHD1826A26 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260626/cmp_o_1js27sfgr1lil9o51u5h11c71q9t1.jpeg","type":"image","alt":"Louis Vuitton Tilted 绒面小牛皮 休闲运动文化百搭板鞋 广东原产 市售顶级 升原楦型开发纸版 鞋型更立体更正 Monogram丹宁布鞋面 质感高耐看 鞋垫嵌入EVA软脚感物料 回弹舒适 后跟耐弯折滴塑支撑片 稳定不塌开发TPR光泽组合隔色鞋底 组合TPU生胶底结构 行走稳 耐磨强 购入开发 厚实抽屉式礼品鞋盒 包装说明书 防尘布袋 附送官方快递加固牛皮纸外盒 尺码:39-45 ID:EED188-GZH 06HHD1826A26 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260626/cmp_o_1js27sfgr1si21gho1v2o1g7qbbe2.jpeg","type":"image","alt":"Louis Vuitton Tilted 绒面小牛皮 休闲运动文化百搭板鞋 广东原产 市售顶级 升原楦型开发纸版 鞋型更立体更正 Monogram丹宁布鞋面 质感高耐看 鞋垫嵌入EVA软脚感物料 回弹舒适 后跟耐弯折滴塑支撑片 稳定不塌开发TPR光泽组合隔色鞋底 组合TPU生胶底结构 行走稳 耐磨强 购入开发 厚实抽屉式礼品鞋盒 包装说明书 防尘布袋 附送官方快递加固牛皮纸外盒 尺码:39-45 ID:EED188-GZH 06HHD1826A26 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260626/cmp_o_1js27sfgs6el16l61sgh6p21fqk3.jpeg","type":"image","alt":"Louis Vuitton Tilted 绒面小牛皮 休闲运动文化百搭板鞋 广东原产 市售顶级 升原楦型开发纸版 鞋型更立体更正 Monogram丹宁布鞋面 质感高耐看 鞋垫嵌入EVA软脚感物料 回弹舒适 后跟耐弯折滴塑支撑片 稳定不塌开发TPR光泽组合隔色鞋底 组合TPU生胶底结构 行走稳 耐磨强 购入开发 厚实抽屉式礼品鞋盒 包装说明书 防尘布袋 附送官方快递加固牛皮纸外盒 尺码:39-45 ID:EED188-GZH 06HHD1826A26 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260626/cmp_o_1js27sfgs1lq3jfp1m36lvoc14.jpeg","type":"image","alt":"Louis Vuitton Tilted 绒面小牛皮 休闲运动文化百搭板鞋 广东原产 市售顶级 升原楦型开发纸版 鞋型更立体更正 Monogram丹宁布鞋面 质感高耐看 鞋垫嵌入EVA软脚感物料 回弹舒适 后跟耐弯折滴塑支撑片 稳定不塌开发TPR光泽组合隔色鞋底 组合TPU生胶底结构 行走稳 耐磨强 购入开发 厚实抽屉式礼品鞋盒 包装说明书 防尘布袋 附送官方快递加固牛皮纸外盒 尺码:39-45 ID:EED188-GZH 06HHD1826A26 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260626/cmp_o_1js27sfgscl81u1a1s2m1g11v3r5.jpeg","type":"image","alt":"Louis Vuitton Tilted 绒面小牛皮 休闲运动文化百搭板鞋 广东原产 市售顶级 升原楦型开发纸版 鞋型更立体更正 Monogram丹宁布鞋面 质感高耐看 鞋垫嵌入EVA软脚感物料 回弹舒适 后跟耐弯折滴塑支撑片 稳定不塌开发TPR光泽组合隔色鞋底 组合TPU生胶底结构 行走稳 耐磨强 购入开发 厚实抽屉式礼品鞋盒 包装说明书 防尘布袋 附送官方快递加固牛皮纸外盒 尺码:39-45 ID:EED188-GZH 06HHD1826A26 image 6"}]
+description: {"en":"Louis Vuitton Tilted 绒面小牛皮 休闲运动文化百搭板鞋 广东原产 市售顶级 升原楦型开发纸版 鞋型更立体更正 Monogram丹宁布鞋面 质感高耐看 鞋垫嵌入EVA软脚感物料 回弹舒适 后跟耐弯折滴塑支撑片 稳定不塌开发TPR光泽组合隔色鞋底 组合TPU生胶底结构 行走稳 耐磨强 购入开发 厚实抽屉式礼品鞋盒 包装说明书 防尘布袋 附送官方快递加固牛皮纸外盒 尺码:39-45 ID:EED188-GZH 06HHD1826A26"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 11485
+---
+
+Louis Vuitton Tilted 绒面小牛皮 休闲运动文化百搭板鞋 广东原产 市售顶级 升原楦型开发纸版 鞋型更立体更正 Monogram丹宁布鞋面 质感高耐看 鞋垫嵌入EVA软脚感物料 回弹舒适 后跟耐弯折滴塑支撑片 稳定不塌开发TPR光泽组合隔色鞋底 组合TPU生胶底结构 行走稳 耐磨强 购入开发 厚实抽屉式礼品鞋盒 包装说明书 防尘布袋 附送官方快递加固牛皮纸外盒 尺码:39-45 ID:EED188-GZH 06HHD1826A26

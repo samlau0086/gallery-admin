@@ -1,0 +1,15 @@
+---
+title: {"en":"（NIKE）Pegasus 42 男女子 登月 飞马跑步百搭缓震透气轻盈Zoom回弹公路跑步鞋 技术革新‌：全掌Zoom Air气垫回归。前掌宽度增加15%。中底厚度提升至34mm。该系列以回弹和缓震性能著称，采用ReactX泡绵和Air Zoom气垫技术，适合日常训练和马拉松备赛。 货号: IB1873 SIZE: 36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID: TIBZX 08JGD384A04"}
+category: {"en":"Shoes"}
+brand: "Nike"
+sku: "IB1873"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260804/cmp_o_1jv6ninge11j388m1vcbm7b1jp30.jpeg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260804/cmp_o_1jv6ninge11j388m1vcbm7b1jp30.jpeg","type":"image","alt":"（NIKE）Pegasus 42 男女子 登月 飞马跑步百搭缓震透气轻盈Zoom回弹公路跑步鞋 技术革新‌：全掌Zoom Air气垫回归。前掌宽度增加15%。中底厚度提升至34mm。该系列以回弹和缓震性能著称，采用ReactX泡绵和Air Zoom气垫技术，适合日常训练和马拉松备赛。 货号: IB1873 SIZE: 36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID: TIBZX 08JGD384A04 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260804/cmp_o_1jv6ningfl8a150lsg71svr18i91.jpeg","type":"image","alt":"（NIKE）Pegasus 42 男女子 登月 飞马跑步百搭缓震透气轻盈Zoom回弹公路跑步鞋 技术革新‌：全掌Zoom Air气垫回归。前掌宽度增加15%。中底厚度提升至34mm。该系列以回弹和缓震性能著称，采用ReactX泡绵和Air Zoom气垫技术，适合日常训练和马拉松备赛。 货号: IB1873 SIZE: 36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID: TIBZX 08JGD384A04 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260804/cmp_o_1jv6ningf7gqcgh1hva15h01fpj2.jpeg","type":"image","alt":"（NIKE）Pegasus 42 男女子 登月 飞马跑步百搭缓震透气轻盈Zoom回弹公路跑步鞋 技术革新‌：全掌Zoom Air气垫回归。前掌宽度增加15%。中底厚度提升至34mm。该系列以回弹和缓震性能著称，采用ReactX泡绵和Air Zoom气垫技术，适合日常训练和马拉松备赛。 货号: IB1873 SIZE: 36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID: TIBZX 08JGD384A04 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260804/cmp_o_1jv6ninggejl9vk1h46sia1lbk3.jpeg","type":"image","alt":"（NIKE）Pegasus 42 男女子 登月 飞马跑步百搭缓震透气轻盈Zoom回弹公路跑步鞋 技术革新‌：全掌Zoom Air气垫回归。前掌宽度增加15%。中底厚度提升至34mm。该系列以回弹和缓震性能著称，采用ReactX泡绵和Air Zoom气垫技术，适合日常训练和马拉松备赛。 货号: IB1873 SIZE: 36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID: TIBZX 08JGD384A04 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260804/cmp_o_1jv6ninggh2ab8h1037s0pnut4.jpeg","type":"image","alt":"（NIKE）Pegasus 42 男女子 登月 飞马跑步百搭缓震透气轻盈Zoom回弹公路跑步鞋 技术革新‌：全掌Zoom Air气垫回归。前掌宽度增加15%。中底厚度提升至34mm。该系列以回弹和缓震性能著称，采用ReactX泡绵和Air Zoom气垫技术，适合日常训练和马拉松备赛。 货号: IB1873 SIZE: 36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID: TIBZX 08JGD384A04 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260804/cmp_o_1jv6ningg1kpevj31ltvccj1dk45.jpeg","type":"image","alt":"（NIKE）Pegasus 42 男女子 登月 飞马跑步百搭缓震透气轻盈Zoom回弹公路跑步鞋 技术革新‌：全掌Zoom Air气垫回归。前掌宽度增加15%。中底厚度提升至34mm。该系列以回弹和缓震性能著称，采用ReactX泡绵和Air Zoom气垫技术，适合日常训练和马拉松备赛。 货号: IB1873 SIZE: 36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID: TIBZX 08JGD384A04 image 6"}]
+description: {"en":"（NIKE）Pegasus 42 男女子 登月 飞马跑步百搭缓震透气轻盈Zoom回弹公路跑步鞋 技术革新‌：全掌Zoom Air气垫回归。前掌宽度增加15%。中底厚度提升至34mm。该系列以回弹和缓震性能著称，采用ReactX泡绵和Air Zoom气垫技术，适合日常训练和马拉松备赛。 货号: IB1873 SIZE: 36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID: TIBZX 08JGD384A04"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 3345
+---
+
+（NIKE）Pegasus 42 男女子 登月 飞马跑步百搭缓震透气轻盈Zoom回弹公路跑步鞋 技术革新‌：全掌Zoom Air气垫回归。前掌宽度增加15%。中底厚度提升至34mm。该系列以回弹和缓震性能著称，采用ReactX泡绵和Air Zoom气垫技术，适合日常训练和马拉松备赛。 货号: IB1873 SIZE: 36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID: TIBZX 08JGD384A04

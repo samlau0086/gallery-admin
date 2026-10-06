@@ -1,0 +1,15 @@
+---
+title: {"en":"CMP_O_1JU7PVIIDQD7G3116HTB4T5210"}
+category: {"en":"Shoes"}
+brand: ""
+sku: "CMP_O_1JU7PVIIDQD7G3116HTB4T5210"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260723/cmp_o_1ju7pviidqd7g3116htb4t5210.jpeg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260723/cmp_o_1ju7pviidqd7g3116htb4t5210.jpeg","type":"image","alt":"CMP_O_1JU7PVIIDQD7G3116HTB4T5210 image 1"}]
+description: {"en":"CMP_O_1JU7PVIIDQD7G3116HTB4T5210"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 7519
+---
+
+CMP_O_1JU7PVIIDQD7G3116HTB4T5210

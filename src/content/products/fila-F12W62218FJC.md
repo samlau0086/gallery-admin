@@ -1,0 +1,15 @@
+---
+title: {"en":"FILA Croissant 1S 可颂 WE 抓绒 织物合成革 防滑耐磨低帮 生活休闲鞋 鞋身采用皮革加透气网面面料 时尚而又精致 采用均衡性能的发泡科技材料 提供均衡重量 回弹 缓震的舒适脚感 侧面融入FILA LOGO变体设计 电绣工艺体现精致优雅细节 彰显品牌感又别具个性让日常穿搭更加摩登活力 延续历代具有辨识度的鞋底 鞋面结构线条创新升 货号:F12W62218FJC 尺码:35～40 编号：507032 05JWD185A25"}
+category: {"en":"Shoes"}
+brand: "FILA"
+sku: "F12W62218FJC"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260527/cmp_o_1jpknsb2kgv315pue861m92t10.jpeg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260527/cmp_o_1jpknsb2kgv315pue861m92t10.jpeg","type":"image","alt":"FILA Croissant 1S 可颂 WE 抓绒 织物合成革 防滑耐磨低帮 生活休闲鞋 鞋身采用皮革加透气网面面料 时尚而又精致 采用均衡性能的发泡科技材料 提供均衡重量 回弹 缓震的舒适脚感 侧面融入FILA LOGO变体设计 电绣工艺体现精致优雅细节 彰显品牌感又别具个性让日常穿搭更加摩登活力 延续历代具有辨识度的鞋底 鞋面结构线条创新升 货号:F12W62218FJC 尺码:35～40 编号：507032 05JWD185A25 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260527/cmp_o_1jpknsb2l1hdrje0vtorct194l1.jpeg","type":"image","alt":"FILA Croissant 1S 可颂 WE 抓绒 织物合成革 防滑耐磨低帮 生活休闲鞋 鞋身采用皮革加透气网面面料 时尚而又精致 采用均衡性能的发泡科技材料 提供均衡重量 回弹 缓震的舒适脚感 侧面融入FILA LOGO变体设计 电绣工艺体现精致优雅细节 彰显品牌感又别具个性让日常穿搭更加摩登活力 延续历代具有辨识度的鞋底 鞋面结构线条创新升 货号:F12W62218FJC 尺码:35～40 编号：507032 05JWD185A25 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260527/cmp_o_1jpknsb2moab29o17bhl71abi2.jpeg","type":"image","alt":"FILA Croissant 1S 可颂 WE 抓绒 织物合成革 防滑耐磨低帮 生活休闲鞋 鞋身采用皮革加透气网面面料 时尚而又精致 采用均衡性能的发泡科技材料 提供均衡重量 回弹 缓震的舒适脚感 侧面融入FILA LOGO变体设计 电绣工艺体现精致优雅细节 彰显品牌感又别具个性让日常穿搭更加摩登活力 延续历代具有辨识度的鞋底 鞋面结构线条创新升 货号:F12W62218FJC 尺码:35～40 编号：507032 05JWD185A25 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260527/cmp_o_1jpknsb2m1uae1ecj1elv1o2j1m3b3.jpeg","type":"image","alt":"FILA Croissant 1S 可颂 WE 抓绒 织物合成革 防滑耐磨低帮 生活休闲鞋 鞋身采用皮革加透气网面面料 时尚而又精致 采用均衡性能的发泡科技材料 提供均衡重量 回弹 缓震的舒适脚感 侧面融入FILA LOGO变体设计 电绣工艺体现精致优雅细节 彰显品牌感又别具个性让日常穿搭更加摩登活力 延续历代具有辨识度的鞋底 鞋面结构线条创新升 货号:F12W62218FJC 尺码:35～40 编号：507032 05JWD185A25 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260527/cmp_o_1jpknsb2n14r5qse1pcm1er5iiu4.jpeg","type":"image","alt":"FILA Croissant 1S 可颂 WE 抓绒 织物合成革 防滑耐磨低帮 生活休闲鞋 鞋身采用皮革加透气网面面料 时尚而又精致 采用均衡性能的发泡科技材料 提供均衡重量 回弹 缓震的舒适脚感 侧面融入FILA LOGO变体设计 电绣工艺体现精致优雅细节 彰显品牌感又别具个性让日常穿搭更加摩登活力 延续历代具有辨识度的鞋底 鞋面结构线条创新升 货号:F12W62218FJC 尺码:35～40 编号：507032 05JWD185A25 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260527/cmp_o_1jpknsb2n2f814nbp844ntvfi5.jpeg","type":"image","alt":"FILA Croissant 1S 可颂 WE 抓绒 织物合成革 防滑耐磨低帮 生活休闲鞋 鞋身采用皮革加透气网面面料 时尚而又精致 采用均衡性能的发泡科技材料 提供均衡重量 回弹 缓震的舒适脚感 侧面融入FILA LOGO变体设计 电绣工艺体现精致优雅细节 彰显品牌感又别具个性让日常穿搭更加摩登活力 延续历代具有辨识度的鞋底 鞋面结构线条创新升 货号:F12W62218FJC 尺码:35～40 编号：507032 05JWD185A25 image 6"}]
+description: {"en":"FILA Croissant 1S 可颂 WE 抓绒 织物合成革 防滑耐磨低帮 生活休闲鞋 鞋身采用皮革加透气网面面料 时尚而又精致 采用均衡性能的发泡科技材料 提供均衡重量 回弹 缓震的舒适脚感 侧面融入FILA LOGO变体设计 电绣工艺体现精致优雅细节 彰显品牌感又别具个性让日常穿搭更加摩登活力 延续历代具有辨识度的鞋底 鞋面结构线条创新升 货号:F12W62218FJC 尺码:35～40 编号：507032 05JWD185A25"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 25079
+---
+
+FILA Croissant 1S 可颂 WE 抓绒 织物合成革 防滑耐磨低帮 生活休闲鞋 鞋身采用皮革加透气网面面料 时尚而又精致 采用均衡性能的发泡科技材料 提供均衡重量 回弹 缓震的舒适脚感 侧面融入FILA LOGO变体设计 电绣工艺体现精致优雅细节 彰显品牌感又别具个性让日常穿搭更加摩登活力 延续历代具有辨识度的鞋底 鞋面结构线条创新升 货号:F12W62218FJC 尺码:35～40 编号：507032 05JWD185A25

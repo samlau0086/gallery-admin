@@ -1,0 +1,15 @@
+---
+title: {"en":"DESCENTE D/F 2.0 舒适百搭防滑耐磨 低帮 休闲跑步鞋 采用大网眼材质鞋面 轻薄通透不闷热 前掌易弯折设计 提供灵活的穿着感受 后跟Z-FOAM填充 缓震回弹 快速系带系统 便捷穿脱 货号:D4331RRN28 尺码:36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 lD:DRD262-GJK 06ND333A13"}
+category: {"en":"Shoes"}
+brand: "DESCENTE"
+sku: "D4331RRN28"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260614/cmp_o_1jr109u9099715jpdvaba51fg80.jpeg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260614/cmp_o_1jr109u9099715jpdvaba51fg80.jpeg","type":"image","alt":"DESCENTE D/F 2.0 舒适百搭防滑耐磨 低帮 休闲跑步鞋 采用大网眼材质鞋面 轻薄通透不闷热 前掌易弯折设计 提供灵活的穿着感受 后跟Z-FOAM填充 缓震回弹 快速系带系统 便捷穿脱 货号:D4331RRN28 尺码:36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 lD:DRD262-GJK 06ND333A13 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260614/cmp_o_1jr109u901knp1krk18e4qfv1rd81.jpeg","type":"image","alt":"DESCENTE D/F 2.0 舒适百搭防滑耐磨 低帮 休闲跑步鞋 采用大网眼材质鞋面 轻薄通透不闷热 前掌易弯折设计 提供灵活的穿着感受 后跟Z-FOAM填充 缓震回弹 快速系带系统 便捷穿脱 货号:D4331RRN28 尺码:36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 lD:DRD262-GJK 06ND333A13 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260614/cmp_o_1jr109u911ugt162hq0p1g3v91c2.jpeg","type":"image","alt":"DESCENTE D/F 2.0 舒适百搭防滑耐磨 低帮 休闲跑步鞋 采用大网眼材质鞋面 轻薄通透不闷热 前掌易弯折设计 提供灵活的穿着感受 后跟Z-FOAM填充 缓震回弹 快速系带系统 便捷穿脱 货号:D4331RRN28 尺码:36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 lD:DRD262-GJK 06ND333A13 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260614/cmp_o_1jr109u9150a1cjqtl01ple193c3.jpeg","type":"image","alt":"DESCENTE D/F 2.0 舒适百搭防滑耐磨 低帮 休闲跑步鞋 采用大网眼材质鞋面 轻薄通透不闷热 前掌易弯折设计 提供灵活的穿着感受 后跟Z-FOAM填充 缓震回弹 快速系带系统 便捷穿脱 货号:D4331RRN28 尺码:36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 lD:DRD262-GJK 06ND333A13 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260614/cmp_o_1jr109u91v6f4ei1ffdo371iac4.jpeg","type":"image","alt":"DESCENTE D/F 2.0 舒适百搭防滑耐磨 低帮 休闲跑步鞋 采用大网眼材质鞋面 轻薄通透不闷热 前掌易弯折设计 提供灵活的穿着感受 后跟Z-FOAM填充 缓震回弹 快速系带系统 便捷穿脱 货号:D4331RRN28 尺码:36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 lD:DRD262-GJK 06ND333A13 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260614/cmp_o_1jr109u9116dj19tmpk1he1l6i5.jpeg","type":"image","alt":"DESCENTE D/F 2.0 舒适百搭防滑耐磨 低帮 休闲跑步鞋 采用大网眼材质鞋面 轻薄通透不闷热 前掌易弯折设计 提供灵活的穿着感受 后跟Z-FOAM填充 缓震回弹 快速系带系统 便捷穿脱 货号:D4331RRN28 尺码:36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 lD:DRD262-GJK 06ND333A13 image 6"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260614/cmp_o_1jr109u911m352rq1i9g1h7117tu6.jpeg","type":"image","alt":"DESCENTE D/F 2.0 舒适百搭防滑耐磨 低帮 休闲跑步鞋 采用大网眼材质鞋面 轻薄通透不闷热 前掌易弯折设计 提供灵活的穿着感受 后跟Z-FOAM填充 缓震回弹 快速系带系统 便捷穿脱 货号:D4331RRN28 尺码:36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 lD:DRD262-GJK 06ND333A13 image 7"}]
+description: {"en":"DESCENTE D/F 2.0 舒适百搭防滑耐磨 低帮 休闲跑步鞋 采用大网眼材质鞋面 轻薄通透不闷热 前掌易弯折设计 提供灵活的穿着感受 后跟Z-FOAM填充 缓震回弹 快速系带系统 便捷穿脱 货号:D4331RRN28 尺码:36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 lD:DRD262-GJK 06ND333A13"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 14890
+---
+
+DESCENTE D/F 2.0 舒适百搭防滑耐磨 低帮 休闲跑步鞋 采用大网眼材质鞋面 轻薄通透不闷热 前掌易弯折设计 提供灵活的穿着感受 后跟Z-FOAM填充 缓震回弹 快速系带系统 便捷穿脱 货号:D4331RRN28 尺码:36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 lD:DRD262-GJK 06ND333A13

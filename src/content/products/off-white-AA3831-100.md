@@ -1,0 +1,15 @@
+---
+title: {"en":"Off-White x Nike Air Vapormax FX 二代 全掌大气垫系列 低帮百搭休闲运动慢跑鞋 升原楦原纸版开发版型 采用德产斯托尔针织横机生产原档案针织鞋面材质 货号:AA3831-100 尺码:36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:JKD170-GJR 06JXD118A18"}
+category: {"en":"Shoes"}
+brand: "Off-White"
+sku: "AA3831-100"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260619/cmp_o_1jrdnkjkvlrj13k71l991p9vumb0.jpeg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260619/cmp_o_1jrdnkjkvlrj13k71l991p9vumb0.jpeg","type":"image","alt":"Off-White x Nike Air Vapormax FX 二代 全掌大气垫系列 低帮百搭休闲运动慢跑鞋 升原楦原纸版开发版型 采用德产斯托尔针织横机生产原档案针织鞋面材质 货号:AA3831-100 尺码:36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:JKD170-GJR 06JXD118A18 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260619/cmp_o_1jrdnkjl0pge1i8k17eu1sgj1rq81.jpeg","type":"image","alt":"Off-White x Nike Air Vapormax FX 二代 全掌大气垫系列 低帮百搭休闲运动慢跑鞋 升原楦原纸版开发版型 采用德产斯托尔针织横机生产原档案针织鞋面材质 货号:AA3831-100 尺码:36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:JKD170-GJR 06JXD118A18 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260619/cmp_o_1jrdnkjl12qi1ha9gok5qs1u602.jpeg","type":"image","alt":"Off-White x Nike Air Vapormax FX 二代 全掌大气垫系列 低帮百搭休闲运动慢跑鞋 升原楦原纸版开发版型 采用德产斯托尔针织横机生产原档案针织鞋面材质 货号:AA3831-100 尺码:36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:JKD170-GJR 06JXD118A18 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260619/cmp_o_1jrdnkjl19e61jic142v1lkq1dkh3.jpeg","type":"image","alt":"Off-White x Nike Air Vapormax FX 二代 全掌大气垫系列 低帮百搭休闲运动慢跑鞋 升原楦原纸版开发版型 采用德产斯托尔针织横机生产原档案针织鞋面材质 货号:AA3831-100 尺码:36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:JKD170-GJR 06JXD118A18 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260619/cmp_o_1jrdnkjl16v317bram86p1i984.jpeg","type":"image","alt":"Off-White x Nike Air Vapormax FX 二代 全掌大气垫系列 低帮百搭休闲运动慢跑鞋 升原楦原纸版开发版型 采用德产斯托尔针织横机生产原档案针织鞋面材质 货号:AA3831-100 尺码:36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:JKD170-GJR 06JXD118A18 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260619/cmp_o_1jrdnkjl21h8nmg7hlp1r691lr85.jpeg","type":"image","alt":"Off-White x Nike Air Vapormax FX 二代 全掌大气垫系列 低帮百搭休闲运动慢跑鞋 升原楦原纸版开发版型 采用德产斯托尔针织横机生产原档案针织鞋面材质 货号:AA3831-100 尺码:36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:JKD170-GJR 06JXD118A18 image 6"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260619/cmp_o_1jrdnkjl217821gje5kg10f21knh6.jpeg","type":"image","alt":"Off-White x Nike Air Vapormax FX 二代 全掌大气垫系列 低帮百搭休闲运动慢跑鞋 升原楦原纸版开发版型 采用德产斯托尔针织横机生产原档案针织鞋面材质 货号:AA3831-100 尺码:36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:JKD170-GJR 06JXD118A18 image 7"}]
+description: {"en":"Off-White x Nike Air Vapormax FX 二代 全掌大气垫系列 低帮百搭休闲运动慢跑鞋 升原楦原纸版开发版型 采用德产斯托尔针织横机生产原档案针织鞋面材质 货号:AA3831-100 尺码:36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:JKD170-GJR 06JXD118A18"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 13809
+---
+
+Off-White x Nike Air Vapormax FX 二代 全掌大气垫系列 低帮百搭休闲运动慢跑鞋 升原楦原纸版开发版型 采用德产斯托尔针织横机生产原档案针织鞋面材质 货号:AA3831-100 尺码:36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:JKD170-GJR 06JXD118A18

@@ -1,0 +1,15 @@
+---
+title: {"en":"️Adidas Originals Samba 2026世界杯 桑巴舞系列绅士德训足球风百搭低帮休闲运动板鞋 货号:IH6827 Size: 36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 44.5 45 05VD1027A17"}
+category: {"en":"Shoes"}
+brand: "Adidas"
+sku: "IH6827"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260522/cmp_i1779396357567_6399_0_0.jpg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260522/cmp_i1779396357567_6399_0_0.jpg","type":"image","alt":"️Adidas Originals Samba 2026世界杯 桑巴舞系列绅士德训足球风百搭低帮休闲运动板鞋 货号:IH6827 Size: 36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 44.5 45 05VD1027A17 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260522/cmp_i1779396260402_4177_0_0.jpg","type":"image","alt":"️Adidas Originals Samba 2026世界杯 桑巴舞系列绅士德训足球风百搭低帮休闲运动板鞋 货号:IH6827 Size: 36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 44.5 45 05VD1027A17 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260522/cmp_i1779396260406_5703_0_5.jpg","type":"image","alt":"️Adidas Originals Samba 2026世界杯 桑巴舞系列绅士德训足球风百搭低帮休闲运动板鞋 货号:IH6827 Size: 36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 44.5 45 05VD1027A17 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260522/cmp_i1779396307551_4126_0_0.jpg","type":"image","alt":"️Adidas Originals Samba 2026世界杯 桑巴舞系列绅士德训足球风百搭低帮休闲运动板鞋 货号:IH6827 Size: 36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 44.5 45 05VD1027A17 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260522/cmp_i1779396301092_9741_0_5.jpg","type":"image","alt":"️Adidas Originals Samba 2026世界杯 桑巴舞系列绅士德训足球风百搭低帮休闲运动板鞋 货号:IH6827 Size: 36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 44.5 45 05VD1027A17 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260522/cmp_i1779396320886_6859_0_0.jpg","type":"image","alt":"️Adidas Originals Samba 2026世界杯 桑巴舞系列绅士德训足球风百搭低帮休闲运动板鞋 货号:IH6827 Size: 36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 44.5 45 05VD1027A17 image 6"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260522/cmp_i1779396320890_345_0_5.jpg","type":"image","alt":"️Adidas Originals Samba 2026世界杯 桑巴舞系列绅士德训足球风百搭低帮休闲运动板鞋 货号:IH6827 Size: 36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 44.5 45 05VD1027A17 image 7"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260522/cmp_i1779396338043_7500_0_0.jpg","type":"image","alt":"️Adidas Originals Samba 2026世界杯 桑巴舞系列绅士德训足球风百搭低帮休闲运动板鞋 货号:IH6827 Size: 36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 44.5 45 05VD1027A17 image 8"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260522/cmp_i1779396338035_338_0_5.jpg","type":"image","alt":"️Adidas Originals Samba 2026世界杯 桑巴舞系列绅士德训足球风百搭低帮休闲运动板鞋 货号:IH6827 Size: 36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 44.5 45 05VD1027A17 image 9"}]
+description: {"en":"️Adidas Originals Samba 2026世界杯 桑巴舞系列绅士德训足球风百搭低帮休闲运动板鞋 货号:IH6827 Size: 36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 44.5 45 05VD1027A17"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 27240
+---
+
+️Adidas Originals Samba 2026世界杯 桑巴舞系列绅士德训足球风百搭低帮休闲运动板鞋 货号:IH6827 Size: 36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 44.5 45 05VD1027A17

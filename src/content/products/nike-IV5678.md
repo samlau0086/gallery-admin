@@ -1,0 +1,15 @@
+---
+title: {"en":"Nike AIR JORDAN 5 RETRO AJ5 乔5 白橙红色 减震防滑篮球鞋原楦原纸板 材料开发 细节把控到位 主供外贸客户 打造完美鞋型 纸板中底 钢印 完美版型 皮料自行品鉴 区别市面各种”伪“ 货号：IV5678 102 尺码：36-47（半） 05HHD896A16"}
+category: {"en":"Shoes"}
+brand: "Nike"
+sku: "IV5678"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260521/cmp_o_1jp5ccgq47n1r9tqv012rfk7a0.jpeg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260521/cmp_o_1jp5ccgq47n1r9tqv012rfk7a0.jpeg","type":"image","alt":"Nike AIR JORDAN 5 RETRO AJ5 乔5 白橙红色 减震防滑篮球鞋原楦原纸板 材料开发 细节把控到位 主供外贸客户 打造完美鞋型 纸板中底 钢印 完美版型 皮料自行品鉴 区别市面各种”伪“ 货号：IV5678 102 尺码：36-47（半） 05HHD896A16 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260521/cmp_o_1jp5ccgq515ft1ngr1cs0fbm49m1.jpeg","type":"image","alt":"Nike AIR JORDAN 5 RETRO AJ5 乔5 白橙红色 减震防滑篮球鞋原楦原纸板 材料开发 细节把控到位 主供外贸客户 打造完美鞋型 纸板中底 钢印 完美版型 皮料自行品鉴 区别市面各种”伪“ 货号：IV5678 102 尺码：36-47（半） 05HHD896A16 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260521/cmp_o_1jp5ccgq65p4161s1i841tr6n172.jpeg","type":"image","alt":"Nike AIR JORDAN 5 RETRO AJ5 乔5 白橙红色 减震防滑篮球鞋原楦原纸板 材料开发 细节把控到位 主供外贸客户 打造完美鞋型 纸板中底 钢印 完美版型 皮料自行品鉴 区别市面各种”伪“ 货号：IV5678 102 尺码：36-47（半） 05HHD896A16 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260521/cmp_o_1jp5ccgq619471eg117m1j70lft3.jpeg","type":"image","alt":"Nike AIR JORDAN 5 RETRO AJ5 乔5 白橙红色 减震防滑篮球鞋原楦原纸板 材料开发 细节把控到位 主供外贸客户 打造完美鞋型 纸板中底 钢印 完美版型 皮料自行品鉴 区别市面各种”伪“ 货号：IV5678 102 尺码：36-47（半） 05HHD896A16 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260521/cmp_o_1jp5ccgq61bg48q1hb41j4uv544.jpeg","type":"image","alt":"Nike AIR JORDAN 5 RETRO AJ5 乔5 白橙红色 减震防滑篮球鞋原楦原纸板 材料开发 细节把控到位 主供外贸客户 打造完美鞋型 纸板中底 钢印 完美版型 皮料自行品鉴 区别市面各种”伪“ 货号：IV5678 102 尺码：36-47（半） 05HHD896A16 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260521/cmp_o_1jp5ccgq71efekjv3tkav7v965.jpeg","type":"image","alt":"Nike AIR JORDAN 5 RETRO AJ5 乔5 白橙红色 减震防滑篮球鞋原楦原纸板 材料开发 细节把控到位 主供外贸客户 打造完美鞋型 纸板中底 钢印 完美版型 皮料自行品鉴 区别市面各种”伪“ 货号：IV5678 102 尺码：36-47（半） 05HHD896A16 image 6"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260521/cmp_o_1jp5ccgq71joo3p41el82rb5pq6.jpeg","type":"image","alt":"Nike AIR JORDAN 5 RETRO AJ5 乔5 白橙红色 减震防滑篮球鞋原楦原纸板 材料开发 细节把控到位 主供外贸客户 打造完美鞋型 纸板中底 钢印 完美版型 皮料自行品鉴 区别市面各种”伪“ 货号：IV5678 102 尺码：36-47（半） 05HHD896A16 image 7"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260521/cmp_o_1jp5ccgq7kiv1kda1deg75ro9g7.jpeg","type":"image","alt":"Nike AIR JORDAN 5 RETRO AJ5 乔5 白橙红色 减震防滑篮球鞋原楦原纸板 材料开发 细节把控到位 主供外贸客户 打造完美鞋型 纸板中底 钢印 完美版型 皮料自行品鉴 区别市面各种”伪“ 货号：IV5678 102 尺码：36-47（半） 05HHD896A16 image 8"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260521/cmp_o_1jp5ccgq7q2o1286feig6f8ct8.jpeg","type":"image","alt":"Nike AIR JORDAN 5 RETRO AJ5 乔5 白橙红色 减震防滑篮球鞋原楦原纸板 材料开发 细节把控到位 主供外贸客户 打造完美鞋型 纸板中底 钢印 完美版型 皮料自行品鉴 区别市面各种”伪“ 货号：IV5678 102 尺码：36-47（半） 05HHD896A16 image 9"}]
+description: {"en":"Nike AIR JORDAN 5 RETRO AJ5 乔5 白橙红色 减震防滑篮球鞋原楦原纸板 材料开发 细节把控到位 主供外贸客户 打造完美鞋型 纸板中底 钢印 完美版型 皮料自行品鉴 区别市面各种”伪“ 货号：IV5678 102 尺码：36-47（半） 05HHD896A16"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 27496
+---
+
+Nike AIR JORDAN 5 RETRO AJ5 乔5 白橙红色 减震防滑篮球鞋原楦原纸板 材料开发 细节把控到位 主供外贸客户 打造完美鞋型 纸板中底 钢印 完美版型 皮料自行品鉴 区别市面各种”伪“ 货号：IV5678 102 尺码：36-47（半） 05HHD896A16

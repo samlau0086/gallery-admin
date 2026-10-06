@@ -1,0 +1,15 @@
+---
+title: {"en":"Salomon XT-6 户外越野跑鞋 鞋面采用SENSIFIT贴合技术 全方位贴合包裹脚型 鞋跟部鞋底牵引设计 提供强大的抓地性能 更适应野外崎岖不平的道路 其3D ADVANCED CHASSIS底盘 材料轻量大化 钉齿设计更具稳定性、防护性 鞋底易磨损区运用CONTAGRIP高耐磨材料 应对城市硬质路面长距离跑考验 尺码:36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 06JLD344A04"}
+category: {"en":"Shoes"}
+brand: "Salomon"
+sku: "06JLD344A04"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260605/cmp_o_1jqbvl4s74ia7uoaimg6f48k0.jpeg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260605/cmp_o_1jqbvl4s74ia7uoaimg6f48k0.jpeg","type":"image","alt":"Salomon XT-6 户外越野跑鞋 鞋面采用SENSIFIT贴合技术 全方位贴合包裹脚型 鞋跟部鞋底牵引设计 提供强大的抓地性能 更适应野外崎岖不平的道路 其3D ADVANCED CHASSIS底盘 材料轻量大化 钉齿设计更具稳定性、防护性 鞋底易磨损区运用CONTAGRIP高耐磨材料 应对城市硬质路面长距离跑考验 尺码:36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 06JLD344A04 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260605/cmp_o_1jqbvl4s717rg1tep2kj16861nbl1.jpeg","type":"image","alt":"Salomon XT-6 户外越野跑鞋 鞋面采用SENSIFIT贴合技术 全方位贴合包裹脚型 鞋跟部鞋底牵引设计 提供强大的抓地性能 更适应野外崎岖不平的道路 其3D ADVANCED CHASSIS底盘 材料轻量大化 钉齿设计更具稳定性、防护性 鞋底易磨损区运用CONTAGRIP高耐磨材料 应对城市硬质路面长距离跑考验 尺码:36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 06JLD344A04 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260605/cmp_o_1jqbvl4sf9fqosg1va1n8q14jl2.jpeg","type":"image","alt":"Salomon XT-6 户外越野跑鞋 鞋面采用SENSIFIT贴合技术 全方位贴合包裹脚型 鞋跟部鞋底牵引设计 提供强大的抓地性能 更适应野外崎岖不平的道路 其3D ADVANCED CHASSIS底盘 材料轻量大化 钉齿设计更具稳定性、防护性 鞋底易磨损区运用CONTAGRIP高耐磨材料 应对城市硬质路面长距离跑考验 尺码:36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 06JLD344A04 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260605/cmp_o_1jqbvl4sgtj91eipp7mhd21u8a3.jpeg","type":"image","alt":"Salomon XT-6 户外越野跑鞋 鞋面采用SENSIFIT贴合技术 全方位贴合包裹脚型 鞋跟部鞋底牵引设计 提供强大的抓地性能 更适应野外崎岖不平的道路 其3D ADVANCED CHASSIS底盘 材料轻量大化 钉齿设计更具稳定性、防护性 鞋底易磨损区运用CONTAGRIP高耐磨材料 应对城市硬质路面长距离跑考验 尺码:36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 06JLD344A04 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260605/cmp_o_1jqbvl4sg1rh2s90196fvno12004.jpeg","type":"image","alt":"Salomon XT-6 户外越野跑鞋 鞋面采用SENSIFIT贴合技术 全方位贴合包裹脚型 鞋跟部鞋底牵引设计 提供强大的抓地性能 更适应野外崎岖不平的道路 其3D ADVANCED CHASSIS底盘 材料轻量大化 钉齿设计更具稳定性、防护性 鞋底易磨损区运用CONTAGRIP高耐磨材料 应对城市硬质路面长距离跑考验 尺码:36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 06JLD344A04 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260605/cmp_o_1jqbvl4sh1m6noa6ne21mb2166g5.jpeg","type":"image","alt":"Salomon XT-6 户外越野跑鞋 鞋面采用SENSIFIT贴合技术 全方位贴合包裹脚型 鞋跟部鞋底牵引设计 提供强大的抓地性能 更适应野外崎岖不平的道路 其3D ADVANCED CHASSIS底盘 材料轻量大化 钉齿设计更具稳定性、防护性 鞋底易磨损区运用CONTAGRIP高耐磨材料 应对城市硬质路面长距离跑考验 尺码:36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 06JLD344A04 image 6"}]
+description: {"en":"Salomon XT-6 户外越野跑鞋 鞋面采用SENSIFIT贴合技术 全方位贴合包裹脚型 鞋跟部鞋底牵引设计 提供强大的抓地性能 更适应野外崎岖不平的道路 其3D ADVANCED CHASSIS底盘 材料轻量大化 钉齿设计更具稳定性、防护性 鞋底易磨损区运用CONTAGRIP高耐磨材料 应对城市硬质路面长距离跑考验 尺码:36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 06JLD344A04"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 20153
+---
+
+Salomon XT-6 户外越野跑鞋 鞋面采用SENSIFIT贴合技术 全方位贴合包裹脚型 鞋跟部鞋底牵引设计 提供强大的抓地性能 更适应野外崎岖不平的道路 其3D ADVANCED CHASSIS底盘 材料轻量大化 钉齿设计更具稳定性、防护性 鞋底易磨损区运用CONTAGRIP高耐磨材料 应对城市硬质路面长距离跑考验 尺码:36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 06JLD344A04

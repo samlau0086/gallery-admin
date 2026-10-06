@@ -1,0 +1,15 @@
+---
+title: {"en":"Moncler Grenoble Trailgrip Lite2 织物 圆头系带 低帮休闲鞋 鞋身采用CORDURA防撕裂尼龙 GORE-TEX防水材质 中底内置全掌碳板 支撑性能拉满 侧边3M反光带 鞋底搭载Vibram外底提供超强的抓地力和防滑性能 大盒包装 内赠Moncler徽章防层袋一副 货号:4M00080 M3457P114 尺码:36 36.5 37.5 38 38.5 39 40 ID:ZGD534-FJD 06GWD978A18"}
+category: {"en":"Shoes"}
+brand: "Moncler"
+sku: "4M00080"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260523/cmp_i1779478334938_8728_0_0.jpg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260523/cmp_i1779478334938_8728_0_0.jpg","type":"image","alt":"Moncler Grenoble Trailgrip Lite2 织物 圆头系带 低帮休闲鞋 鞋身采用CORDURA防撕裂尼龙 GORE-TEX防水材质 中底内置全掌碳板 支撑性能拉满 侧边3M反光带 鞋底搭载Vibram外底提供超强的抓地力和防滑性能 大盒包装 内赠Moncler徽章防层袋一副 货号:4M00080 M3457P114 尺码:36 36.5 37.5 38 38.5 39 40 ID:ZGD534-FJD 06GWD978A18 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260523/cmp_i1779478340353_2600_0_1.jpg","type":"image","alt":"Moncler Grenoble Trailgrip Lite2 织物 圆头系带 低帮休闲鞋 鞋身采用CORDURA防撕裂尼龙 GORE-TEX防水材质 中底内置全掌碳板 支撑性能拉满 侧边3M反光带 鞋底搭载Vibram外底提供超强的抓地力和防滑性能 大盒包装 内赠Moncler徽章防层袋一副 货号:4M00080 M3457P114 尺码:36 36.5 37.5 38 38.5 39 40 ID:ZGD534-FJD 06GWD978A18 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260523/cmp_i1779478334938_777_0_2.jpg","type":"image","alt":"Moncler Grenoble Trailgrip Lite2 织物 圆头系带 低帮休闲鞋 鞋身采用CORDURA防撕裂尼龙 GORE-TEX防水材质 中底内置全掌碳板 支撑性能拉满 侧边3M反光带 鞋底搭载Vibram外底提供超强的抓地力和防滑性能 大盒包装 内赠Moncler徽章防层袋一副 货号:4M00080 M3457P114 尺码:36 36.5 37.5 38 38.5 39 40 ID:ZGD534-FJD 06GWD978A18 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260523/cmp_i1779478334937_5612_0_3.jpg","type":"image","alt":"Moncler Grenoble Trailgrip Lite2 织物 圆头系带 低帮休闲鞋 鞋身采用CORDURA防撕裂尼龙 GORE-TEX防水材质 中底内置全掌碳板 支撑性能拉满 侧边3M反光带 鞋底搭载Vibram外底提供超强的抓地力和防滑性能 大盒包装 内赠Moncler徽章防层袋一副 货号:4M00080 M3457P114 尺码:36 36.5 37.5 38 38.5 39 40 ID:ZGD534-FJD 06GWD978A18 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260523/cmp_i1779478334942_4559_0_4.jpg","type":"image","alt":"Moncler Grenoble Trailgrip Lite2 织物 圆头系带 低帮休闲鞋 鞋身采用CORDURA防撕裂尼龙 GORE-TEX防水材质 中底内置全掌碳板 支撑性能拉满 侧边3M反光带 鞋底搭载Vibram外底提供超强的抓地力和防滑性能 大盒包装 内赠Moncler徽章防层袋一副 货号:4M00080 M3457P114 尺码:36 36.5 37.5 38 38.5 39 40 ID:ZGD534-FJD 06GWD978A18 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260523/cmp_i1779478334955_2590_0_5.jpg","type":"image","alt":"Moncler Grenoble Trailgrip Lite2 织物 圆头系带 低帮休闲鞋 鞋身采用CORDURA防撕裂尼龙 GORE-TEX防水材质 中底内置全掌碳板 支撑性能拉满 侧边3M反光带 鞋底搭载Vibram外底提供超强的抓地力和防滑性能 大盒包装 内赠Moncler徽章防层袋一副 货号:4M00080 M3457P114 尺码:36 36.5 37.5 38 38.5 39 40 ID:ZGD534-FJD 06GWD978A18 image 6"}]
+description: {"en":"Moncler Grenoble Trailgrip Lite2 织物 圆头系带 低帮休闲鞋 鞋身采用CORDURA防撕裂尼龙 GORE-TEX防水材质 中底内置全掌碳板 支撑性能拉满 侧边3M反光带 鞋底搭载Vibram外底提供超强的抓地力和防滑性能 大盒包装 内赠Moncler徽章防层袋一副 货号:4M00080 M3457P114 尺码:36 36.5 37.5 38 38.5 39 40 ID:ZGD534-FJD 06GWD978A18"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 26537
+---
+
+Moncler Grenoble Trailgrip Lite2 织物 圆头系带 低帮休闲鞋 鞋身采用CORDURA防撕裂尼龙 GORE-TEX防水材质 中底内置全掌碳板 支撑性能拉满 侧边3M反光带 鞋底搭载Vibram外底提供超强的抓地力和防滑性能 大盒包装 内赠Moncler徽章防层袋一副 货号:4M00080 M3457P114 尺码:36 36.5 37.5 38 38.5 39 40 ID:ZGD534-FJD 06GWD978A18

@@ -1,0 +1,15 @@
+---
+title: {"en":"Nike × FRAGMENT AIR LIQUID MAX 舒适贴合跑步鞋 Air Max 家族一直在探索缓震科技的演进，从早期的开窗气垫，到近年的 VaporMax、DN 系列，都在不断突破。 这次的 Liquid Max 更是带来了的气垫形态，鞋底由多个独立气垫模块构成，模块之间加入镂空切割处理。 货号：IQ7634 001 尺码：36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 46 47 05JVD1561A11"}
+category: {"en":"Shoes"}
+brand: "Nike"
+sku: "IQ7634"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260514/cmp_i1778713673650_9700_0_0.jpg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260514/cmp_i1778713673650_9700_0_0.jpg","type":"image","alt":"Nike × FRAGMENT AIR LIQUID MAX 舒适贴合跑步鞋 Air Max 家族一直在探索缓震科技的演进，从早期的开窗气垫，到近年的 VaporMax、DN 系列，都在不断突破。 这次的 Liquid Max 更是带来了的气垫形态，鞋底由多个独立气垫模块构成，模块之间加入镂空切割处理。 货号：IQ7634 001 尺码：36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 46 47 05JVD1561A11 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260514/cmp_i1778713673650_6164_0_1.jpg","type":"image","alt":"Nike × FRAGMENT AIR LIQUID MAX 舒适贴合跑步鞋 Air Max 家族一直在探索缓震科技的演进，从早期的开窗气垫，到近年的 VaporMax、DN 系列，都在不断突破。 这次的 Liquid Max 更是带来了的气垫形态，鞋底由多个独立气垫模块构成，模块之间加入镂空切割处理。 货号：IQ7634 001 尺码：36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 46 47 05JVD1561A11 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260514/cmp_i1778713676996_9677_0_2.jpg","type":"image","alt":"Nike × FRAGMENT AIR LIQUID MAX 舒适贴合跑步鞋 Air Max 家族一直在探索缓震科技的演进，从早期的开窗气垫，到近年的 VaporMax、DN 系列，都在不断突破。 这次的 Liquid Max 更是带来了的气垫形态，鞋底由多个独立气垫模块构成，模块之间加入镂空切割处理。 货号：IQ7634 001 尺码：36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 46 47 05JVD1561A11 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260514/cmp_i1778713673651_7163_0_3.jpg","type":"image","alt":"Nike × FRAGMENT AIR LIQUID MAX 舒适贴合跑步鞋 Air Max 家族一直在探索缓震科技的演进，从早期的开窗气垫，到近年的 VaporMax、DN 系列，都在不断突破。 这次的 Liquid Max 更是带来了的气垫形态，鞋底由多个独立气垫模块构成，模块之间加入镂空切割处理。 货号：IQ7634 001 尺码：36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 46 47 05JVD1561A11 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260514/cmp_i1778713673650_1408_0_4.jpg","type":"image","alt":"Nike × FRAGMENT AIR LIQUID MAX 舒适贴合跑步鞋 Air Max 家族一直在探索缓震科技的演进，从早期的开窗气垫，到近年的 VaporMax、DN 系列，都在不断突破。 这次的 Liquid Max 更是带来了的气垫形态，鞋底由多个独立气垫模块构成，模块之间加入镂空切割处理。 货号：IQ7634 001 尺码：36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 46 47 05JVD1561A11 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260514/cmp_i1778713673651_8955_0_5.jpg","type":"image","alt":"Nike × FRAGMENT AIR LIQUID MAX 舒适贴合跑步鞋 Air Max 家族一直在探索缓震科技的演进，从早期的开窗气垫，到近年的 VaporMax、DN 系列，都在不断突破。 这次的 Liquid Max 更是带来了的气垫形态，鞋底由多个独立气垫模块构成，模块之间加入镂空切割处理。 货号：IQ7634 001 尺码：36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 46 47 05JVD1561A11 image 6"}]
+description: {"en":"Nike × FRAGMENT AIR LIQUID MAX 舒适贴合跑步鞋 Air Max 家族一直在探索缓震科技的演进，从早期的开窗气垫，到近年的 VaporMax、DN 系列，都在不断突破。 这次的 Liquid Max 更是带来了的气垫形态，鞋底由多个独立气垫模块构成，模块之间加入镂空切割处理。 货号：IQ7634 001 尺码：36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 46 47 05JVD1561A11"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 29355
+---
+
+Nike × FRAGMENT AIR LIQUID MAX 舒适贴合跑步鞋 Air Max 家族一直在探索缓震科技的演进，从早期的开窗气垫，到近年的 VaporMax、DN 系列，都在不断突破。 这次的 Liquid Max 更是带来了的气垫形态，鞋底由多个独立气垫模块构成，模块之间加入镂空切割处理。 货号：IQ7634 001 尺码：36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 46 47 05JVD1561A11

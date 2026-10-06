@@ -1,0 +1,15 @@
+---
+title: {"en":"Nike Air Jordan Legacy 312 Low 低帮 乔丹篮球鞋系列 号称 “最强三合一” 的Air Jordan Legacyc 312 Low，自然有着杂交结合的设计，它的名字就展现出它所包含的鞋款元素，312 分别对应了 Air Jordan 3、Air Jordan 1 和Air Trainerc 2将这三双经典又有不俗人气的鞋款融合，“最强三合一” 的名称由此得来！ 货号：IV3217 211 尺码：36-46（半） 05JYY899A19"}
+category: {"en":"Shoes"}
+brand: "Nike"
+sku: "IV3217"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260524/cmp_i1779562570416_9586_0_0.jpg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260524/cmp_i1779562570416_9586_0_0.jpg","type":"image","alt":"Nike Air Jordan Legacy 312 Low 低帮 乔丹篮球鞋系列 号称 “最强三合一” 的Air Jordan Legacyc 312 Low，自然有着杂交结合的设计，它的名字就展现出它所包含的鞋款元素，312 分别对应了 Air Jordan 3、Air Jordan 1 和Air Trainerc 2将这三双经典又有不俗人气的鞋款融合，“最强三合一” 的名称由此得来！ 货号：IV3217 211 尺码：36-46（半） 05JYY899A19 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260524/cmp_i1779562570416_345_0_1.jpg","type":"image","alt":"Nike Air Jordan Legacy 312 Low 低帮 乔丹篮球鞋系列 号称 “最强三合一” 的Air Jordan Legacyc 312 Low，自然有着杂交结合的设计，它的名字就展现出它所包含的鞋款元素，312 分别对应了 Air Jordan 3、Air Jordan 1 和Air Trainerc 2将这三双经典又有不俗人气的鞋款融合，“最强三合一” 的名称由此得来！ 货号：IV3217 211 尺码：36-46（半） 05JYY899A19 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260524/cmp_i1779562570416_5988_0_2.jpg","type":"image","alt":"Nike Air Jordan Legacy 312 Low 低帮 乔丹篮球鞋系列 号称 “最强三合一” 的Air Jordan Legacyc 312 Low，自然有着杂交结合的设计，它的名字就展现出它所包含的鞋款元素，312 分别对应了 Air Jordan 3、Air Jordan 1 和Air Trainerc 2将这三双经典又有不俗人气的鞋款融合，“最强三合一” 的名称由此得来！ 货号：IV3217 211 尺码：36-46（半） 05JYY899A19 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260524/cmp_i1779562570416_733_0_3.jpg","type":"image","alt":"Nike Air Jordan Legacy 312 Low 低帮 乔丹篮球鞋系列 号称 “最强三合一” 的Air Jordan Legacyc 312 Low，自然有着杂交结合的设计，它的名字就展现出它所包含的鞋款元素，312 分别对应了 Air Jordan 3、Air Jordan 1 和Air Trainerc 2将这三双经典又有不俗人气的鞋款融合，“最强三合一” 的名称由此得来！ 货号：IV3217 211 尺码：36-46（半） 05JYY899A19 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260524/cmp_i1779562577202_9041_0_4.jpg","type":"image","alt":"Nike Air Jordan Legacy 312 Low 低帮 乔丹篮球鞋系列 号称 “最强三合一” 的Air Jordan Legacyc 312 Low，自然有着杂交结合的设计，它的名字就展现出它所包含的鞋款元素，312 分别对应了 Air Jordan 3、Air Jordan 1 和Air Trainerc 2将这三双经典又有不俗人气的鞋款融合，“最强三合一” 的名称由此得来！ 货号：IV3217 211 尺码：36-46（半） 05JYY899A19 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260524/cmp_i1779562570416_5590_0_5.jpg","type":"image","alt":"Nike Air Jordan Legacy 312 Low 低帮 乔丹篮球鞋系列 号称 “最强三合一” 的Air Jordan Legacyc 312 Low，自然有着杂交结合的设计，它的名字就展现出它所包含的鞋款元素，312 分别对应了 Air Jordan 3、Air Jordan 1 和Air Trainerc 2将这三双经典又有不俗人气的鞋款融合，“最强三合一” 的名称由此得来！ 货号：IV3217 211 尺码：36-46（半） 05JYY899A19 image 6"}]
+description: {"en":"Nike Air Jordan Legacy 312 Low 低帮 乔丹篮球鞋系列 号称 “最强三合一” 的Air Jordan Legacyc 312 Low，自然有着杂交结合的设计，它的名字就展现出它所包含的鞋款元素，312 分别对应了 Air Jordan 3、Air Jordan 1 和Air Trainerc 2将这三双经典又有不俗人气的鞋款融合，“最强三合一” 的名称由此得来！ 货号：IV3217 211 尺码：36-46（半） 05JYY899A19"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 26158
+---
+
+Nike Air Jordan Legacy 312 Low 低帮 乔丹篮球鞋系列 号称 “最强三合一” 的Air Jordan Legacyc 312 Low，自然有着杂交结合的设计，它的名字就展现出它所包含的鞋款元素，312 分别对应了 Air Jordan 3、Air Jordan 1 和Air Trainerc 2将这三双经典又有不俗人气的鞋款融合，“最强三合一” 的名称由此得来！ 货号：IV3217 211 尺码：36-46（半） 05JYY899A19

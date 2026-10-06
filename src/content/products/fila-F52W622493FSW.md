@@ -1,0 +1,15 @@
+---
+title: {"en":"FILA PEBBLE SANDAL 复古系列 时尚潮流 舒适透气 芭蕾鞋 多层次玛丽珍绑带设计 鞋面采用革料和网布拼接增加整体透气性和舒适度 中底搭载FILA PIUMAX 轻舒发泡科技 轻弹舒适 出街无负担 货号:F52W622493FSW 尺码:35.5 36 36.5 37.5 38 38.5 39 40 ID:JED170-SDZ 08JHD111A01"}
+category: {"en":"Shoes"}
+brand: "FILA"
+sku: "F52W622493FSW"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260802/cmp_o_1juv3080l16bh1obp1v291ani7fq0.jpeg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260802/cmp_o_1juv3080l16bh1obp1v291ani7fq0.jpeg","type":"image","alt":"FILA PEBBLE SANDAL 复古系列 时尚潮流 舒适透气 芭蕾鞋 多层次玛丽珍绑带设计 鞋面采用革料和网布拼接增加整体透气性和舒适度 中底搭载FILA PIUMAX 轻舒发泡科技 轻弹舒适 出街无负担 货号:F52W622493FSW 尺码:35.5 36 36.5 37.5 38 38.5 39 40 ID:JED170-SDZ 08JHD111A01 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260802/cmp_o_1juv3080l15he10vsgcrhhakg01.jpeg","type":"image","alt":"FILA PEBBLE SANDAL 复古系列 时尚潮流 舒适透气 芭蕾鞋 多层次玛丽珍绑带设计 鞋面采用革料和网布拼接增加整体透气性和舒适度 中底搭载FILA PIUMAX 轻舒发泡科技 轻弹舒适 出街无负担 货号:F52W622493FSW 尺码:35.5 36 36.5 37.5 38 38.5 39 40 ID:JED170-SDZ 08JHD111A01 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260802/cmp_o_1juv3080l1lfl1gr016kcedooqb2.jpeg","type":"image","alt":"FILA PEBBLE SANDAL 复古系列 时尚潮流 舒适透气 芭蕾鞋 多层次玛丽珍绑带设计 鞋面采用革料和网布拼接增加整体透气性和舒适度 中底搭载FILA PIUMAX 轻舒发泡科技 轻弹舒适 出街无负担 货号:F52W622493FSW 尺码:35.5 36 36.5 37.5 38 38.5 39 40 ID:JED170-SDZ 08JHD111A01 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260802/cmp_o_1juv3080m1jh4s6i1nb8rtng9f3.jpeg","type":"image","alt":"FILA PEBBLE SANDAL 复古系列 时尚潮流 舒适透气 芭蕾鞋 多层次玛丽珍绑带设计 鞋面采用革料和网布拼接增加整体透气性和舒适度 中底搭载FILA PIUMAX 轻舒发泡科技 轻弹舒适 出街无负担 货号:F52W622493FSW 尺码:35.5 36 36.5 37.5 38 38.5 39 40 ID:JED170-SDZ 08JHD111A01 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260802/cmp_o_1juv3080m19511q22vflih1mq94.jpeg","type":"image","alt":"FILA PEBBLE SANDAL 复古系列 时尚潮流 舒适透气 芭蕾鞋 多层次玛丽珍绑带设计 鞋面采用革料和网布拼接增加整体透气性和舒适度 中底搭载FILA PIUMAX 轻舒发泡科技 轻弹舒适 出街无负担 货号:F52W622493FSW 尺码:35.5 36 36.5 37.5 38 38.5 39 40 ID:JED170-SDZ 08JHD111A01 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260802/cmp_o_1juv3080n1brl19cs83de2n1iks5.jpeg","type":"image","alt":"FILA PEBBLE SANDAL 复古系列 时尚潮流 舒适透气 芭蕾鞋 多层次玛丽珍绑带设计 鞋面采用革料和网布拼接增加整体透气性和舒适度 中底搭载FILA PIUMAX 轻舒发泡科技 轻弹舒适 出街无负担 货号:F52W622493FSW 尺码:35.5 36 36.5 37.5 38 38.5 39 40 ID:JED170-SDZ 08JHD111A01 image 6"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260802/cmp_o_1juv3080nu2e14921sam17pi10126.jpeg","type":"image","alt":"FILA PEBBLE SANDAL 复古系列 时尚潮流 舒适透气 芭蕾鞋 多层次玛丽珍绑带设计 鞋面采用革料和网布拼接增加整体透气性和舒适度 中底搭载FILA PIUMAX 轻舒发泡科技 轻弹舒适 出街无负担 货号:F52W622493FSW 尺码:35.5 36 36.5 37.5 38 38.5 39 40 ID:JED170-SDZ 08JHD111A01 image 7"}]
+description: {"en":"FILA PEBBLE SANDAL 复古系列 时尚潮流 舒适透气 芭蕾鞋 多层次玛丽珍绑带设计 鞋面采用革料和网布拼接增加整体透气性和舒适度 中底搭载FILA PIUMAX 轻舒发泡科技 轻弹舒适 出街无负担 货号:F52W622493FSW 尺码:35.5 36 36.5 37.5 38 38.5 39 40 ID:JED170-SDZ 08JHD111A01"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 4492
+---
+
+FILA PEBBLE SANDAL 复古系列 时尚潮流 舒适透气 芭蕾鞋 多层次玛丽珍绑带设计 鞋面采用革料和网布拼接增加整体透气性和舒适度 中底搭载FILA PIUMAX 轻舒发泡科技 轻弹舒适 出街无负担 货号:F52W622493FSW 尺码:35.5 36 36.5 37.5 38 38.5 39 40 ID:JED170-SDZ 08JHD111A01

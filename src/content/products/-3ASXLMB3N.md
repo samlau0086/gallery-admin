@@ -1,0 +1,15 @@
+---
+title: {"en":"MLB Chunky Liner人气单品学长鞋系列轻量增高厚底百搭休闲运动板鞋男女轻便胶鞋 高街头休閒品牌鞋 MLB CHUNKY LINER 学长鞋是从击球手打出的酷炫直击球中获得灵感,在原有鞋面的再生皮革上,加入了反光滚边细节线,并延续高帮与低帮两种鞋型,为各路潮流选手开辟“少年感”动线。除了复古style,也不乏这种颜色清新一些的款式,干干净净的少年感呼之欲出。 货号：3ASXLMB3N(C0002) 码数：如图 ID：023JYD0518 05JYD307A17"}
+category: {"en":"Shoes"}
+brand: ""
+sku: "3ASXLMB3N"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260522/cmp_i1779389131724_7781_0_0.jpg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260522/cmp_i1779389131724_7781_0_0.jpg","type":"image","alt":"MLB Chunky Liner人气单品学长鞋系列轻量增高厚底百搭休闲运动板鞋男女轻便胶鞋 高街头休閒品牌鞋 MLB CHUNKY LINER 学长鞋是从击球手打出的酷炫直击球中获得灵感,在原有鞋面的再生皮革上,加入了反光滚边细节线,并延续高帮与低帮两种鞋型,为各路潮流选手开辟“少年感”动线。除了复古style,也不乏这种颜色清新一些的款式,干干净净的少年感呼之欲出。 货号：3ASXLMB3N(C0002) 码数：如图 ID：023JYD0518 05JYD307A17 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260522/cmp_i1779389131725_9374_0_1.jpg","type":"image","alt":"MLB Chunky Liner人气单品学长鞋系列轻量增高厚底百搭休闲运动板鞋男女轻便胶鞋 高街头休閒品牌鞋 MLB CHUNKY LINER 学长鞋是从击球手打出的酷炫直击球中获得灵感,在原有鞋面的再生皮革上,加入了反光滚边细节线,并延续高帮与低帮两种鞋型,为各路潮流选手开辟“少年感”动线。除了复古style,也不乏这种颜色清新一些的款式,干干净净的少年感呼之欲出。 货号：3ASXLMB3N(C0002) 码数：如图 ID：023JYD0518 05JYD307A17 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260522/cmp_i1779389131723_9873_0_2.jpg","type":"image","alt":"MLB Chunky Liner人气单品学长鞋系列轻量增高厚底百搭休闲运动板鞋男女轻便胶鞋 高街头休閒品牌鞋 MLB CHUNKY LINER 学长鞋是从击球手打出的酷炫直击球中获得灵感,在原有鞋面的再生皮革上,加入了反光滚边细节线,并延续高帮与低帮两种鞋型,为各路潮流选手开辟“少年感”动线。除了复古style,也不乏这种颜色清新一些的款式,干干净净的少年感呼之欲出。 货号：3ASXLMB3N(C0002) 码数：如图 ID：023JYD0518 05JYD307A17 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260522/cmp_i1779389131723_4529_0_3.jpg","type":"image","alt":"MLB Chunky Liner人气单品学长鞋系列轻量增高厚底百搭休闲运动板鞋男女轻便胶鞋 高街头休閒品牌鞋 MLB CHUNKY LINER 学长鞋是从击球手打出的酷炫直击球中获得灵感,在原有鞋面的再生皮革上,加入了反光滚边细节线,并延续高帮与低帮两种鞋型,为各路潮流选手开辟“少年感”动线。除了复古style,也不乏这种颜色清新一些的款式,干干净净的少年感呼之欲出。 货号：3ASXLMB3N(C0002) 码数：如图 ID：023JYD0518 05JYD307A17 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260522/cmp_i1779389131723_512_0_4.jpg","type":"image","alt":"MLB Chunky Liner人气单品学长鞋系列轻量增高厚底百搭休闲运动板鞋男女轻便胶鞋 高街头休閒品牌鞋 MLB CHUNKY LINER 学长鞋是从击球手打出的酷炫直击球中获得灵感,在原有鞋面的再生皮革上,加入了反光滚边细节线,并延续高帮与低帮两种鞋型,为各路潮流选手开辟“少年感”动线。除了复古style,也不乏这种颜色清新一些的款式,干干净净的少年感呼之欲出。 货号：3ASXLMB3N(C0002) 码数：如图 ID：023JYD0518 05JYD307A17 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260522/cmp_i1779389137030_4694_0_5.jpg","type":"image","alt":"MLB Chunky Liner人气单品学长鞋系列轻量增高厚底百搭休闲运动板鞋男女轻便胶鞋 高街头休閒品牌鞋 MLB CHUNKY LINER 学长鞋是从击球手打出的酷炫直击球中获得灵感,在原有鞋面的再生皮革上,加入了反光滚边细节线,并延续高帮与低帮两种鞋型,为各路潮流选手开辟“少年感”动线。除了复古style,也不乏这种颜色清新一些的款式,干干净净的少年感呼之欲出。 货号：3ASXLMB3N(C0002) 码数：如图 ID：023JYD0518 05JYD307A17 image 6"}]
+description: {"en":"MLB Chunky Liner人气单品学长鞋系列轻量增高厚底百搭休闲运动板鞋男女轻便胶鞋 高街头休閒品牌鞋 MLB CHUNKY LINER 学长鞋是从击球手打出的酷炫直击球中获得灵感,在原有鞋面的再生皮革上,加入了反光滚边细节线,并延续高帮与低帮两种鞋型,为各路潮流选手开辟“少年感”动线。除了复古style,也不乏这种颜色清新一些的款式,干干净净的少年感呼之欲出。 货号：3ASXLMB3N(C0002) 码数：如图 ID：023JYD0518 05JYD307A17"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 27151
+---
+
+MLB Chunky Liner人气单品学长鞋系列轻量增高厚底百搭休闲运动板鞋男女轻便胶鞋 高街头休閒品牌鞋 MLB CHUNKY LINER 学长鞋是从击球手打出的酷炫直击球中获得灵感,在原有鞋面的再生皮革上,加入了反光滚边细节线,并延续高帮与低帮两种鞋型,为各路潮流选手开辟“少年感”动线。除了复古style,也不乏这种颜色清新一些的款式,干干净净的少年感呼之欲出。 货号：3ASXLMB3N(C0002) 码数：如图 ID：023JYD0518 05JYD307A17

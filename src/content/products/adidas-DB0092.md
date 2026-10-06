@@ -1,0 +1,15 @@
+---
+title: {"en":"Adidas AS SET 低帮防滑板鞋休闲鞋 场下篮球鞋造型复古的运动鞋，这款运动鞋,旨在伴你休闲中舒适生活。鞋面缀三条纹,展现复古情怀。• 系带设计• 皮革帆布鞋面• 缀三条纹的低帮运动板鞋• 橡胶全包大底。 货号：DB0092 SIZE：36 36⅔ 37⅓ 38 38⅔ 39⅓ 40 40⅔ 41⅓ 42 42⅔ 43⅓ 44 45 ID：WNSLJB 06LY295A05"}
+category: {"en":"Shoes"}
+brand: "Adidas"
+sku: "DB0092"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260606/cmp_o_1jqehti5e1j6e1e5rjhag18kue0.jpeg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260606/cmp_o_1jqehti5e1j6e1e5rjhag18kue0.jpeg","type":"image","alt":"Adidas AS SET 低帮防滑板鞋休闲鞋 场下篮球鞋造型复古的运动鞋，这款运动鞋,旨在伴你休闲中舒适生活。鞋面缀三条纹,展现复古情怀。• 系带设计• 皮革帆布鞋面• 缀三条纹的低帮运动板鞋• 橡胶全包大底。 货号：DB0092 SIZE：36 36⅔ 37⅓ 38 38⅔ 39⅓ 40 40⅔ 41⅓ 42 42⅔ 43⅓ 44 45 ID：WNSLJB 06LY295A05 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260606/cmp_o_1jqehti5efi814kd14nivkk1t121.jpeg","type":"image","alt":"Adidas AS SET 低帮防滑板鞋休闲鞋 场下篮球鞋造型复古的运动鞋，这款运动鞋,旨在伴你休闲中舒适生活。鞋面缀三条纹,展现复古情怀。• 系带设计• 皮革帆布鞋面• 缀三条纹的低帮运动板鞋• 橡胶全包大底。 货号：DB0092 SIZE：36 36⅔ 37⅓ 38 38⅔ 39⅓ 40 40⅔ 41⅓ 42 42⅔ 43⅓ 44 45 ID：WNSLJB 06LY295A05 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260606/cmp_o_1jqehti5f2q7p5pnvnmmg1k2l2.jpeg","type":"image","alt":"Adidas AS SET 低帮防滑板鞋休闲鞋 场下篮球鞋造型复古的运动鞋，这款运动鞋,旨在伴你休闲中舒适生活。鞋面缀三条纹,展现复古情怀。• 系带设计• 皮革帆布鞋面• 缀三条纹的低帮运动板鞋• 橡胶全包大底。 货号：DB0092 SIZE：36 36⅔ 37⅓ 38 38⅔ 39⅓ 40 40⅔ 41⅓ 42 42⅔ 43⅓ 44 45 ID：WNSLJB 06LY295A05 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260606/cmp_o_1jqehti5fu6n1qsf11jq182oon63.jpeg","type":"image","alt":"Adidas AS SET 低帮防滑板鞋休闲鞋 场下篮球鞋造型复古的运动鞋，这款运动鞋,旨在伴你休闲中舒适生活。鞋面缀三条纹,展现复古情怀。• 系带设计• 皮革帆布鞋面• 缀三条纹的低帮运动板鞋• 橡胶全包大底。 货号：DB0092 SIZE：36 36⅔ 37⅓ 38 38⅔ 39⅓ 40 40⅔ 41⅓ 42 42⅔ 43⅓ 44 45 ID：WNSLJB 06LY295A05 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260606/cmp_o_1jqehti5fv3kcqasfn1n3v1m6o4.jpeg","type":"image","alt":"Adidas AS SET 低帮防滑板鞋休闲鞋 场下篮球鞋造型复古的运动鞋，这款运动鞋,旨在伴你休闲中舒适生活。鞋面缀三条纹,展现复古情怀。• 系带设计• 皮革帆布鞋面• 缀三条纹的低帮运动板鞋• 橡胶全包大底。 货号：DB0092 SIZE：36 36⅔ 37⅓ 38 38⅔ 39⅓ 40 40⅔ 41⅓ 42 42⅔ 43⅓ 44 45 ID：WNSLJB 06LY295A05 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260606/cmp_o_1jqehti5f1g8dfo410uggbq1db35.jpeg","type":"image","alt":"Adidas AS SET 低帮防滑板鞋休闲鞋 场下篮球鞋造型复古的运动鞋，这款运动鞋,旨在伴你休闲中舒适生活。鞋面缀三条纹,展现复古情怀。• 系带设计• 皮革帆布鞋面• 缀三条纹的低帮运动板鞋• 橡胶全包大底。 货号：DB0092 SIZE：36 36⅔ 37⅓ 38 38⅔ 39⅓ 40 40⅔ 41⅓ 42 42⅔ 43⅓ 44 45 ID：WNSLJB 06LY295A05 image 6"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260606/cmp_o_1jqehti5g1bojnvl1e9mt2o8fo6.jpeg","type":"image","alt":"Adidas AS SET 低帮防滑板鞋休闲鞋 场下篮球鞋造型复古的运动鞋，这款运动鞋,旨在伴你休闲中舒适生活。鞋面缀三条纹,展现复古情怀。• 系带设计• 皮革帆布鞋面• 缀三条纹的低帮运动板鞋• 橡胶全包大底。 货号：DB0092 SIZE：36 36⅔ 37⅓ 38 38⅔ 39⅓ 40 40⅔ 41⅓ 42 42⅔ 43⅓ 44 45 ID：WNSLJB 06LY295A05 image 7"}]
+description: {"en":"Adidas AS SET 低帮防滑板鞋休闲鞋 场下篮球鞋造型复古的运动鞋，这款运动鞋,旨在伴你休闲中舒适生活。鞋面缀三条纹,展现复古情怀。• 系带设计• 皮革帆布鞋面• 缀三条纹的低帮运动板鞋• 橡胶全包大底。 货号：DB0092 SIZE：36 36⅔ 37⅓ 38 38⅔ 39⅓ 40 40⅔ 41⅓ 42 42⅔ 43⅓ 44 45 ID：WNSLJB 06LY295A05"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 2104
+---
+
+Adidas AS SET 低帮防滑板鞋休闲鞋 场下篮球鞋造型复古的运动鞋，这款运动鞋,旨在伴你休闲中舒适生活。鞋面缀三条纹,展现复古情怀。• 系带设计• 皮革帆布鞋面• 缀三条纹的低帮运动板鞋• 橡胶全包大底。 货号：DB0092 SIZE：36 36⅔ 37⅓ 38 38⅔ 39⅓ 40 40⅔ 41⅓ 42 42⅔ 43⅓ 44 45 ID：WNSLJB 06LY295A05

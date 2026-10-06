@@ -1,0 +1,15 @@
+---
+title: {"en":"Asics Gel-PICKAX 运动休闲透气专业跑鞋 采用工程弹性双层再生针织密度鞋面材质升FF BLAST PLUS缓震中底部位科技材质外置高耐磨橡胶外底 稳步升,跑出节奏 尺码：36 37 37.5 38 39 39.5 40 40.5 41.5 42 42.5 43.5 44 45 货号 1203A672#14857975574023 06JDD291A21"}
+category: {"en":"Shoes"}
+brand: "Asics"
+sku: "06JDD291A21"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260622/cmp_o_1jrliuoat1mmui8j1qf1scj12490.jpeg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260622/cmp_o_1jrliuoat1mmui8j1qf1scj12490.jpeg","type":"image","alt":"Asics Gel-PICKAX 运动休闲透气专业跑鞋 采用工程弹性双层再生针织密度鞋面材质升FF BLAST PLUS缓震中底部位科技材质外置高耐磨橡胶外底 稳步升,跑出节奏 尺码：36 37 37.5 38 39 39.5 40 40.5 41.5 42 42.5 43.5 44 45 货号 1203A672#14857975574023 06JDD291A21 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260622/cmp_o_1jrliuoat1o4a1veh1rl86t3pjq1.jpeg","type":"image","alt":"Asics Gel-PICKAX 运动休闲透气专业跑鞋 采用工程弹性双层再生针织密度鞋面材质升FF BLAST PLUS缓震中底部位科技材质外置高耐磨橡胶外底 稳步升,跑出节奏 尺码：36 37 37.5 38 39 39.5 40 40.5 41.5 42 42.5 43.5 44 45 货号 1203A672#14857975574023 06JDD291A21 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260622/cmp_o_1jrliuoatm3pcpdu3jtlc6dd2.jpeg","type":"image","alt":"Asics Gel-PICKAX 运动休闲透气专业跑鞋 采用工程弹性双层再生针织密度鞋面材质升FF BLAST PLUS缓震中底部位科技材质外置高耐磨橡胶外底 稳步升,跑出节奏 尺码：36 37 37.5 38 39 39.5 40 40.5 41.5 42 42.5 43.5 44 45 货号 1203A672#14857975574023 06JDD291A21 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260622/cmp_o_1jrliuoau10d2f6e1f0r13io16u43.jpeg","type":"image","alt":"Asics Gel-PICKAX 运动休闲透气专业跑鞋 采用工程弹性双层再生针织密度鞋面材质升FF BLAST PLUS缓震中底部位科技材质外置高耐磨橡胶外底 稳步升,跑出节奏 尺码：36 37 37.5 38 39 39.5 40 40.5 41.5 42 42.5 43.5 44 45 货号 1203A672#14857975574023 06JDD291A21 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260622/cmp_o_1jrliuoau1ehvqguksg1fi5ev44.jpeg","type":"image","alt":"Asics Gel-PICKAX 运动休闲透气专业跑鞋 采用工程弹性双层再生针织密度鞋面材质升FF BLAST PLUS缓震中底部位科技材质外置高耐磨橡胶外底 稳步升,跑出节奏 尺码：36 37 37.5 38 39 39.5 40 40.5 41.5 42 42.5 43.5 44 45 货号 1203A672#14857975574023 06JDD291A21 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260622/cmp_o_1jrliuoav16t31er8ip8ug8snj5.jpeg","type":"image","alt":"Asics Gel-PICKAX 运动休闲透气专业跑鞋 采用工程弹性双层再生针织密度鞋面材质升FF BLAST PLUS缓震中底部位科技材质外置高耐磨橡胶外底 稳步升,跑出节奏 尺码：36 37 37.5 38 39 39.5 40 40.5 41.5 42 42.5 43.5 44 45 货号 1203A672#14857975574023 06JDD291A21 image 6"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260622/cmp_o_1jrliuoavpp41ab8ee7bs010676.jpeg","type":"image","alt":"Asics Gel-PICKAX 运动休闲透气专业跑鞋 采用工程弹性双层再生针织密度鞋面材质升FF BLAST PLUS缓震中底部位科技材质外置高耐磨橡胶外底 稳步升,跑出节奏 尺码：36 37 37.5 38 39 39.5 40 40.5 41.5 42 42.5 43.5 44 45 货号 1203A672#14857975574023 06JDD291A21 image 7"}]
+description: {"en":"Asics Gel-PICKAX 运动休闲透气专业跑鞋 采用工程弹性双层再生针织密度鞋面材质升FF BLAST PLUS缓震中底部位科技材质外置高耐磨橡胶外底 稳步升,跑出节奏 尺码：36 37 37.5 38 39 39.5 40 40.5 41.5 42 42.5 43.5 44 45 货号 1203A672#14857975574023 06JDD291A21"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 13085
+---
+
+Asics Gel-PICKAX 运动休闲透气专业跑鞋 采用工程弹性双层再生针织密度鞋面材质升FF BLAST PLUS缓震中底部位科技材质外置高耐磨橡胶外底 稳步升,跑出节奏 尺码：36 37 37.5 38 39 39.5 40 40.5 41.5 42 42.5 43.5 44 45 货号 1203A672#14857975574023 06JDD291A21

@@ -1,0 +1,15 @@
+---
+title: {"en":"️Adidas Originals Superstar XLG 贝壳头系列低帮厚底松糕经典百搭休闲运动板鞋 货号:IF9995 尺码:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:DSD101-FED 05JGD627A17"}
+category: {"en":"Shoes"}
+brand: "Adidas"
+sku: "IF9995"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260522/cmp_i1779396198714_4009_0_0.jpg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260522/cmp_i1779396198714_4009_0_0.jpg","type":"image","alt":"️Adidas Originals Superstar XLG 贝壳头系列低帮厚底松糕经典百搭休闲运动板鞋 货号:IF9995 尺码:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:DSD101-FED 05JGD627A17 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260522/cmp_i1779396207344_4118_0_1.jpg","type":"image","alt":"️Adidas Originals Superstar XLG 贝壳头系列低帮厚底松糕经典百搭休闲运动板鞋 货号:IF9995 尺码:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:DSD101-FED 05JGD627A17 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260522/cmp_i1779396198717_8572_0_2.jpg","type":"image","alt":"️Adidas Originals Superstar XLG 贝壳头系列低帮厚底松糕经典百搭休闲运动板鞋 货号:IF9995 尺码:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:DSD101-FED 05JGD627A17 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260522/cmp_i1779396198711_5908_0_3.jpg","type":"image","alt":"️Adidas Originals Superstar XLG 贝壳头系列低帮厚底松糕经典百搭休闲运动板鞋 货号:IF9995 尺码:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:DSD101-FED 05JGD627A17 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260522/cmp_i1779396214082_1561_0_4.jpg","type":"image","alt":"️Adidas Originals Superstar XLG 贝壳头系列低帮厚底松糕经典百搭休闲运动板鞋 货号:IF9995 尺码:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:DSD101-FED 05JGD627A17 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260522/cmp_i1779396198714_4360_0_5.jpg","type":"image","alt":"️Adidas Originals Superstar XLG 贝壳头系列低帮厚底松糕经典百搭休闲运动板鞋 货号:IF9995 尺码:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:DSD101-FED 05JGD627A17 image 6"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260522/cmp_i1779396207340_749_0_6.jpg","type":"image","alt":"️Adidas Originals Superstar XLG 贝壳头系列低帮厚底松糕经典百搭休闲运动板鞋 货号:IF9995 尺码:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:DSD101-FED 05JGD627A17 image 7"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260522/cmp_i1779396207330_8908_0_7.jpg","type":"image","alt":"️Adidas Originals Superstar XLG 贝壳头系列低帮厚底松糕经典百搭休闲运动板鞋 货号:IF9995 尺码:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:DSD101-FED 05JGD627A17 image 8"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260522/cmp_i1779396214082_3461_0_8.jpg","type":"image","alt":"️Adidas Originals Superstar XLG 贝壳头系列低帮厚底松糕经典百搭休闲运动板鞋 货号:IF9995 尺码:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:DSD101-FED 05JGD627A17 image 9"}]
+description: {"en":"️Adidas Originals Superstar XLG 贝壳头系列低帮厚底松糕经典百搭休闲运动板鞋 货号:IF9995 尺码:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:DSD101-FED 05JGD627A17"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 27248
+---
+
+️Adidas Originals Superstar XLG 贝壳头系列低帮厚底松糕经典百搭休闲运动板鞋 货号:IF9995 尺码:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:DSD101-FED 05JGD627A17

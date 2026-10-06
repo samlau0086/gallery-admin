@@ -1,0 +1,15 @@
+---
+title: {"en":"adidas originals × SONG FOR THE MUTE Tokyo 舒适柔软 做旧 生活休闲鞋 蓝色 这双adidas Originals x SONG FOR THE8 MUTE联名生活休闲鞋，联名旨在融合双方的设计精髓，将SONG FOR THE MUTE的高时装美学与adidas的经典运动基因结合，打造出兼具舒适柔软穿着感与低调前卫风格的日常单品。 货号：KJ4402 尺码：36-45 06JJD1198A28"}
+category: {"en":"Shoes"}
+brand: "Adidas"
+sku: "KJ4402"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260629/cmp_o_1js7isg5d2c81iib9dtvbvj9p0.jpeg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260629/cmp_o_1js7isg5d2c81iib9dtvbvj9p0.jpeg","type":"image","alt":"adidas originals × SONG FOR THE MUTE Tokyo 舒适柔软 做旧 生活休闲鞋 蓝色 这双adidas Originals x SONG FOR THE8 MUTE联名生活休闲鞋，联名旨在融合双方的设计精髓，将SONG FOR THE MUTE的高时装美学与adidas的经典运动基因结合，打造出兼具舒适柔软穿着感与低调前卫风格的日常单品。 货号：KJ4402 尺码：36-45 06JJD1198A28 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260629/cmp_o_1js7isg5e1ctf102n1jlv1rjsmfe1.jpeg","type":"image","alt":"adidas originals × SONG FOR THE MUTE Tokyo 舒适柔软 做旧 生活休闲鞋 蓝色 这双adidas Originals x SONG FOR THE8 MUTE联名生活休闲鞋，联名旨在融合双方的设计精髓，将SONG FOR THE MUTE的高时装美学与adidas的经典运动基因结合，打造出兼具舒适柔软穿着感与低调前卫风格的日常单品。 货号：KJ4402 尺码：36-45 06JJD1198A28 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260629/cmp_o_1js7isg5e17u1164c1eqd1avvj4v2.jpeg","type":"image","alt":"adidas originals × SONG FOR THE MUTE Tokyo 舒适柔软 做旧 生活休闲鞋 蓝色 这双adidas Originals x SONG FOR THE8 MUTE联名生活休闲鞋，联名旨在融合双方的设计精髓，将SONG FOR THE MUTE的高时装美学与adidas的经典运动基因结合，打造出兼具舒适柔软穿着感与低调前卫风格的日常单品。 货号：KJ4402 尺码：36-45 06JJD1198A28 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260629/cmp_o_1js7isg5elk08b5s49le9p1h3.jpeg","type":"image","alt":"adidas originals × SONG FOR THE MUTE Tokyo 舒适柔软 做旧 生活休闲鞋 蓝色 这双adidas Originals x SONG FOR THE8 MUTE联名生活休闲鞋，联名旨在融合双方的设计精髓，将SONG FOR THE MUTE的高时装美学与adidas的经典运动基因结合，打造出兼具舒适柔软穿着感与低调前卫风格的日常单品。 货号：KJ4402 尺码：36-45 06JJD1198A28 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260629/cmp_o_1js7isg5emhj1hniq5ibnhek24.jpeg","type":"image","alt":"adidas originals × SONG FOR THE MUTE Tokyo 舒适柔软 做旧 生活休闲鞋 蓝色 这双adidas Originals x SONG FOR THE8 MUTE联名生活休闲鞋，联名旨在融合双方的设计精髓，将SONG FOR THE MUTE的高时装美学与adidas的经典运动基因结合，打造出兼具舒适柔软穿着感与低调前卫风格的日常单品。 货号：KJ4402 尺码：36-45 06JJD1198A28 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260629/cmp_o_1js7isg5f1qaq10q01eud1g4k193s5.jpeg","type":"image","alt":"adidas originals × SONG FOR THE MUTE Tokyo 舒适柔软 做旧 生活休闲鞋 蓝色 这双adidas Originals x SONG FOR THE8 MUTE联名生活休闲鞋，联名旨在融合双方的设计精髓，将SONG FOR THE MUTE的高时装美学与adidas的经典运动基因结合，打造出兼具舒适柔软穿着感与低调前卫风格的日常单品。 货号：KJ4402 尺码：36-45 06JJD1198A28 image 6"}]
+description: {"en":"adidas originals × SONG FOR THE MUTE Tokyo 舒适柔软 做旧 生活休闲鞋 蓝色 这双adidas Originals x SONG FOR THE8 MUTE联名生活休闲鞋，联名旨在融合双方的设计精髓，将SONG FOR THE MUTE的高时装美学与adidas的经典运动基因结合，打造出兼具舒适柔软穿着感与低调前卫风格的日常单品。 货号：KJ4402 尺码：36-45 06JJD1198A28"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 11191
+---
+
+adidas originals × SONG FOR THE MUTE Tokyo 舒适柔软 做旧 生活休闲鞋 蓝色 这双adidas Originals x SONG FOR THE8 MUTE联名生活休闲鞋，联名旨在融合双方的设计精髓，将SONG FOR THE MUTE的高时装美学与adidas的经典运动基因结合，打造出兼具舒适柔软穿着感与低调前卫风格的日常单品。 货号：KJ4402 尺码：36-45 06JJD1198A28

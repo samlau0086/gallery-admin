@@ -1,0 +1,15 @@
+---
+title: {"en":"Adidas Handball Spezial 经典款 复古休闲板鞋 全鞋采用反毛皮制作 牛筋耐磨大底 承载青春情怀的板鞋 经典三条杠装饰鞋侧 品牌辨识度清晰 官方货号:GZ4761 尺码:36 36⅔ 37⅓ 38 38⅔ 39⅓ 40 40⅔ 41⅓ 42 42⅔ 43⅓ 44 45 ID:AUTZX"}
+category: {"en":"Shoes"}
+brand: "Adidas"
+sku: "GZ4761"
+cover: "https://xcimg.szwego.com/img/3c7e08e9/20260531/a1780158326158_6088.jpg"
+media: [{"url":"https://xcimg.szwego.com/img/3c7e08e9/20260531/a1780158326158_6088.jpg","type":"image","alt":"Adidas Handball Spezial 经典款 复古休闲板鞋 全鞋采用反毛皮制作 牛筋耐磨大底 承载青春情怀的板鞋 经典三条杠装饰鞋侧 品牌辨识度清晰 官方货号:GZ4761 尺码:36 36⅔ 37⅓ 38 38⅔ 39⅓ 40 40⅔ 41⅓ 42 42⅔ 43⅓ 44 45 ID:AUTZX image 1"},{"url":"https://xcimg.szwego.com/img/3c7e08e9/20260531/a1780158326117_0015.jpg","type":"image","alt":"Adidas Handball Spezial 经典款 复古休闲板鞋 全鞋采用反毛皮制作 牛筋耐磨大底 承载青春情怀的板鞋 经典三条杠装饰鞋侧 品牌辨识度清晰 官方货号:GZ4761 尺码:36 36⅔ 37⅓ 38 38⅔ 39⅓ 40 40⅔ 41⅓ 42 42⅔ 43⅓ 44 45 ID:AUTZX image 2"},{"url":"https://xcimg.szwego.com/img/3c7e08e9/20260531/a1780158326249_1176.jpg","type":"image","alt":"Adidas Handball Spezial 经典款 复古休闲板鞋 全鞋采用反毛皮制作 牛筋耐磨大底 承载青春情怀的板鞋 经典三条杠装饰鞋侧 品牌辨识度清晰 官方货号:GZ4761 尺码:36 36⅔ 37⅓ 38 38⅔ 39⅓ 40 40⅔ 41⅓ 42 42⅔ 43⅓ 44 45 ID:AUTZX image 3"},{"url":"https://xcimg.szwego.com/img/3c7e08e9/20260531/a1780158326258_6138.jpg","type":"image","alt":"Adidas Handball Spezial 经典款 复古休闲板鞋 全鞋采用反毛皮制作 牛筋耐磨大底 承载青春情怀的板鞋 经典三条杠装饰鞋侧 品牌辨识度清晰 官方货号:GZ4761 尺码:36 36⅔ 37⅓ 38 38⅔ 39⅓ 40 40⅔ 41⅓ 42 42⅔ 43⅓ 44 45 ID:AUTZX image 4"},{"url":"https://xcimg.szwego.com/img/3c7e08e9/20260531/a1780158326114_5105.jpg","type":"image","alt":"Adidas Handball Spezial 经典款 复古休闲板鞋 全鞋采用反毛皮制作 牛筋耐磨大底 承载青春情怀的板鞋 经典三条杠装饰鞋侧 品牌辨识度清晰 官方货号:GZ4761 尺码:36 36⅔ 37⅓ 38 38⅔ 39⅓ 40 40⅔ 41⅓ 42 42⅔ 43⅓ 44 45 ID:AUTZX image 5"},{"url":"https://xcimg.szwego.com/img/3c7e08e9/20260531/a1780158326086_5524.jpg","type":"image","alt":"Adidas Handball Spezial 经典款 复古休闲板鞋 全鞋采用反毛皮制作 牛筋耐磨大底 承载青春情怀的板鞋 经典三条杠装饰鞋侧 品牌辨识度清晰 官方货号:GZ4761 尺码:36 36⅔ 37⅓ 38 38⅔ 39⅓ 40 40⅔ 41⅓ 42 42⅔ 43⅓ 44 45 ID:AUTZX image 6"},{"url":"https://xcimg.szwego.com/img/3c7e08e9/20260531/a1780158327723_1776.jpg","type":"image","alt":"Adidas Handball Spezial 经典款 复古休闲板鞋 全鞋采用反毛皮制作 牛筋耐磨大底 承载青春情怀的板鞋 经典三条杠装饰鞋侧 品牌辨识度清晰 官方货号:GZ4761 尺码:36 36⅔ 37⅓ 38 38⅔ 39⅓ 40 40⅔ 41⅓ 42 42⅔ 43⅓ 44 45 ID:AUTZX image 7"},{"url":"https://xcimg.szwego.com/img/3c7e08e9/20260531/a1780158327826_8240.jpg","type":"image","alt":"Adidas Handball Spezial 经典款 复古休闲板鞋 全鞋采用反毛皮制作 牛筋耐磨大底 承载青春情怀的板鞋 经典三条杠装饰鞋侧 品牌辨识度清晰 官方货号:GZ4761 尺码:36 36⅔ 37⅓ 38 38⅔ 39⅓ 40 40⅔ 41⅓ 42 42⅔ 43⅓ 44 45 ID:AUTZX image 8"},{"url":"https://xcimg.szwego.com/img/3c7e08e9/20260531/a1780158327533_0013.jpg","type":"image","alt":"Adidas Handball Spezial 经典款 复古休闲板鞋 全鞋采用反毛皮制作 牛筋耐磨大底 承载青春情怀的板鞋 经典三条杠装饰鞋侧 品牌辨识度清晰 官方货号:GZ4761 尺码:36 36⅔ 37⅓ 38 38⅔ 39⅓ 40 40⅔ 41⅓ 42 42⅔ 43⅓ 44 45 ID:AUTZX image 9"}]
+description: {"en":"Adidas Handball Spezial 经典款 复古休闲板鞋 全鞋采用反毛皮制作 牛筋耐磨大底 承载青春情怀的板鞋 经典三条杠装饰鞋侧 品牌辨识度清晰 官方货号:GZ4761 尺码:36 36⅔ 37⅓ 38 38⅔ 39⅓ 40 40⅔ 41⅓ 42 42⅔ 43⅓ 44 45 ID:AUTZX"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 22009
+---
+
+Adidas Handball Spezial 经典款 复古休闲板鞋 全鞋采用反毛皮制作 牛筋耐磨大底 承载青春情怀的板鞋 经典三条杠装饰鞋侧 品牌辨识度清晰 官方货号:GZ4761 尺码:36 36⅔ 37⅓ 38 38⅔ 39⅓ 40 40⅔ 41⅓ 42 42⅔ 43⅓ 44 45 ID:AUTZX

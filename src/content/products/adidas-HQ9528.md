@@ -1,0 +1,15 @@
+---
+title: {"en":"adidas Hyperboost image Edge Zinedine Zidane 跑步鞋在脚型适配性上有一定特点。鞋头款式为圆头，理论上能提供一定脚趾活动空间。但根据实测数据，鞋头宽度71.4毫米，对宽脚用户不够友好，正常脚型或微窄脚型穿着会更贴合。鞋面采用PRIMEWEAVE编织材质，配合系带闭合方式，可通过鞋带调节松紧，提升包裹感。后跟内侧有柔性衬垫，能增强贴合度，但整体鞋型设计偏向标准脚型。 货号：HQ9528 鞋码：40-46 06JLD763A13"}
+category: {"en":"Shoes"}
+brand: "Adidas"
+sku: "HQ9528"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260614/cmp_i1781378914232_6586_0_0.jpg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260614/cmp_i1781378914232_6586_0_0.jpg","type":"image","alt":"adidas Hyperboost image Edge Zinedine Zidane 跑步鞋在脚型适配性上有一定特点。鞋头款式为圆头，理论上能提供一定脚趾活动空间。但根据实测数据，鞋头宽度71.4毫米，对宽脚用户不够友好，正常脚型或微窄脚型穿着会更贴合。鞋面采用PRIMEWEAVE编织材质，配合系带闭合方式，可通过鞋带调节松紧，提升包裹感。后跟内侧有柔性衬垫，能增强贴合度，但整体鞋型设计偏向标准脚型。 货号：HQ9528 鞋码：40-46 06JLD763A13 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260614/cmp_i1781378916059_5385_0_1.jpg","type":"image","alt":"adidas Hyperboost image Edge Zinedine Zidane 跑步鞋在脚型适配性上有一定特点。鞋头款式为圆头，理论上能提供一定脚趾活动空间。但根据实测数据，鞋头宽度71.4毫米，对宽脚用户不够友好，正常脚型或微窄脚型穿着会更贴合。鞋面采用PRIMEWEAVE编织材质，配合系带闭合方式，可通过鞋带调节松紧，提升包裹感。后跟内侧有柔性衬垫，能增强贴合度，但整体鞋型设计偏向标准脚型。 货号：HQ9528 鞋码：40-46 06JLD763A13 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260614/cmp_i1781378914126_3377_0_2.jpg","type":"image","alt":"adidas Hyperboost image Edge Zinedine Zidane 跑步鞋在脚型适配性上有一定特点。鞋头款式为圆头，理论上能提供一定脚趾活动空间。但根据实测数据，鞋头宽度71.4毫米，对宽脚用户不够友好，正常脚型或微窄脚型穿着会更贴合。鞋面采用PRIMEWEAVE编织材质，配合系带闭合方式，可通过鞋带调节松紧，提升包裹感。后跟内侧有柔性衬垫，能增强贴合度，但整体鞋型设计偏向标准脚型。 货号：HQ9528 鞋码：40-46 06JLD763A13 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260614/cmp_i1781378914126_9537_0_3.jpg","type":"image","alt":"adidas Hyperboost image Edge Zinedine Zidane 跑步鞋在脚型适配性上有一定特点。鞋头款式为圆头，理论上能提供一定脚趾活动空间。但根据实测数据，鞋头宽度71.4毫米，对宽脚用户不够友好，正常脚型或微窄脚型穿着会更贴合。鞋面采用PRIMEWEAVE编织材质，配合系带闭合方式，可通过鞋带调节松紧，提升包裹感。后跟内侧有柔性衬垫，能增强贴合度，但整体鞋型设计偏向标准脚型。 货号：HQ9528 鞋码：40-46 06JLD763A13 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260614/cmp_i1781378914259_9916_0_4.jpg","type":"image","alt":"adidas Hyperboost image Edge Zinedine Zidane 跑步鞋在脚型适配性上有一定特点。鞋头款式为圆头，理论上能提供一定脚趾活动空间。但根据实测数据，鞋头宽度71.4毫米，对宽脚用户不够友好，正常脚型或微窄脚型穿着会更贴合。鞋面采用PRIMEWEAVE编织材质，配合系带闭合方式，可通过鞋带调节松紧，提升包裹感。后跟内侧有柔性衬垫，能增强贴合度，但整体鞋型设计偏向标准脚型。 货号：HQ9528 鞋码：40-46 06JLD763A13 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260614/cmp_i1781378914232_1762_0_5.jpg","type":"image","alt":"adidas Hyperboost image Edge Zinedine Zidane 跑步鞋在脚型适配性上有一定特点。鞋头款式为圆头，理论上能提供一定脚趾活动空间。但根据实测数据，鞋头宽度71.4毫米，对宽脚用户不够友好，正常脚型或微窄脚型穿着会更贴合。鞋面采用PRIMEWEAVE编织材质，配合系带闭合方式，可通过鞋带调节松紧，提升包裹感。后跟内侧有柔性衬垫，能增强贴合度，但整体鞋型设计偏向标准脚型。 货号：HQ9528 鞋码：40-46 06JLD763A13 image 6"}]
+description: {"en":"adidas Hyperboost image Edge Zinedine Zidane 跑步鞋在脚型适配性上有一定特点。鞋头款式为圆头，理论上能提供一定脚趾活动空间。但根据实测数据，鞋头宽度71.4毫米，对宽脚用户不够友好，正常脚型或微窄脚型穿着会更贴合。鞋面采用PRIMEWEAVE编织材质，配合系带闭合方式，可通过鞋带调节松紧，提升包裹感。后跟内侧有柔性衬垫，能增强贴合度，但整体鞋型设计偏向标准脚型。 货号：HQ9528 鞋码：40-46 06JLD763A13"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 14932
+---
+
+adidas Hyperboost image Edge Zinedine Zidane 跑步鞋在脚型适配性上有一定特点。鞋头款式为圆头，理论上能提供一定脚趾活动空间。但根据实测数据，鞋头宽度71.4毫米，对宽脚用户不够友好，正常脚型或微窄脚型穿着会更贴合。鞋面采用PRIMEWEAVE编织材质，配合系带闭合方式，可通过鞋带调节松紧，提升包裹感。后跟内侧有柔性衬垫，能增强贴合度，但整体鞋型设计偏向标准脚型。 货号：HQ9528 鞋码：40-46 06JLD763A13

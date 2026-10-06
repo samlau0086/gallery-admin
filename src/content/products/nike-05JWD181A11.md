@@ -1,0 +1,15 @@
+---
+title: {"en":"Nike/ 男女鞋制，2021版更新数据窄楦版型，鞋垫嵌EVA缓震物料及Air Zoom气垫，外置RB耐磨橡胶大底❗️Nike SB Dunk Low Pro\"Pastoral Print\"扣篮系列低帮休闲运动滑板板鞋“ FN5880-001 类型：男女鞋 码数：36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 46 编码：260512375.822 05JWD181A11"}
+category: {"en":"Shoes"}
+brand: "Nike"
+sku: "05JWD181A11"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260512/cmp_o_1joed60vi1a0c1iloqa102flpc0.jpeg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260512/cmp_o_1joed60vi1a0c1iloqa102flpc0.jpeg","type":"image","alt":"Nike/ 男女鞋制，2021版更新数据窄楦版型，鞋垫嵌EVA缓震物料及Air Zoom气垫，外置RB耐磨橡胶大底❗️Nike SB Dunk Low Pro\"Pastoral Print\"扣篮系列低帮休闲运动滑板板鞋“ FN5880-001 类型：男女鞋 码数：36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 46 编码：260512375.822 05JWD181A11 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260512/cmp_o_1joed60viec41qs42ib3hb1jam1.jpeg","type":"image","alt":"Nike/ 男女鞋制，2021版更新数据窄楦版型，鞋垫嵌EVA缓震物料及Air Zoom气垫，外置RB耐磨橡胶大底❗️Nike SB Dunk Low Pro\"Pastoral Print\"扣篮系列低帮休闲运动滑板板鞋“ FN5880-001 类型：男女鞋 码数：36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 46 编码：260512375.822 05JWD181A11 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260512/cmp_o_1joed60vj4c9vh8aocoo1qn42.jpeg","type":"image","alt":"Nike/ 男女鞋制，2021版更新数据窄楦版型，鞋垫嵌EVA缓震物料及Air Zoom气垫，外置RB耐磨橡胶大底❗️Nike SB Dunk Low Pro\"Pastoral Print\"扣篮系列低帮休闲运动滑板板鞋“ FN5880-001 类型：男女鞋 码数：36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 46 编码：260512375.822 05JWD181A11 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260512/cmp_o_1joed60vjgv47blaoe7uko9m3.jpeg","type":"image","alt":"Nike/ 男女鞋制，2021版更新数据窄楦版型，鞋垫嵌EVA缓震物料及Air Zoom气垫，外置RB耐磨橡胶大底❗️Nike SB Dunk Low Pro\"Pastoral Print\"扣篮系列低帮休闲运动滑板板鞋“ FN5880-001 类型：男女鞋 码数：36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 46 编码：260512375.822 05JWD181A11 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260512/cmp_o_1joed60vj1h4n1qsp1qv1i7nof4.jpeg","type":"image","alt":"Nike/ 男女鞋制，2021版更新数据窄楦版型，鞋垫嵌EVA缓震物料及Air Zoom气垫，外置RB耐磨橡胶大底❗️Nike SB Dunk Low Pro\"Pastoral Print\"扣篮系列低帮休闲运动滑板板鞋“ FN5880-001 类型：男女鞋 码数：36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 46 编码：260512375.822 05JWD181A11 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260512/cmp_o_1joed60vjgj9kvq59h4i1psb5.jpeg","type":"image","alt":"Nike/ 男女鞋制，2021版更新数据窄楦版型，鞋垫嵌EVA缓震物料及Air Zoom气垫，外置RB耐磨橡胶大底❗️Nike SB Dunk Low Pro\"Pastoral Print\"扣篮系列低帮休闲运动滑板板鞋“ FN5880-001 类型：男女鞋 码数：36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 46 编码：260512375.822 05JWD181A11 image 6"}]
+description: {"en":"Nike/ 男女鞋制，2021版更新数据窄楦版型，鞋垫嵌EVA缓震物料及Air Zoom气垫，外置RB耐磨橡胶大底❗️Nike SB Dunk Low Pro\"Pastoral Print\"扣篮系列低帮休闲运动滑板板鞋“ FN5880-001 类型：男女鞋 码数：36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 46 编码：260512375.822 05JWD181A11"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 30387
+---
+
+Nike/ 男女鞋制，2021版更新数据窄楦版型，鞋垫嵌EVA缓震物料及Air Zoom气垫，外置RB耐磨橡胶大底❗️Nike SB Dunk Low Pro"Pastoral Print"扣篮系列低帮休闲运动滑板板鞋“ FN5880-001 类型：男女鞋 码数：36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 46 编码：260512375.822 05JWD181A11

@@ -1,0 +1,15 @@
+---
+title: {"en":"【】SALOMON XA PRO 3D 户外运动 网布减震防滑透气 低帮跑步鞋 男女款运动鞋 沙场灰#xapro3D 大面积的织物材质让质感超棒。鞋腰侧身还有3D反光效果，夜里穿也更酷炫！鞋头、鞋带内里和两边都标注了鞋款系列信息，整体造型流畅，适合户外登山或者日常运动。后跟的TPU材质包裹，包裹感非常强，给人一种满满的安全感。 #SALOMON #XA新配色 @salomon SIZE:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:TIBZBL 06JXD494A04"}
+category: {"en":"Shoes"}
+brand: "Salomon"
+sku: "06JXD494A04"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260605/cmp_o_1jqbvjavjlvj1u0t1kbl1akb1u2c0.jpeg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260605/cmp_o_1jqbvjavjlvj1u0t1kbl1akb1u2c0.jpeg","type":"image","alt":"【】SALOMON XA PRO 3D 户外运动 网布减震防滑透气 低帮跑步鞋 男女款运动鞋 沙场灰#xapro3D 大面积的织物材质让质感超棒。鞋腰侧身还有3D反光效果，夜里穿也更酷炫！鞋头、鞋带内里和两边都标注了鞋款系列信息，整体造型流畅，适合户外登山或者日常运动。后跟的TPU材质包裹，包裹感非常强，给人一种满满的安全感。 #SALOMON #XA新配色 @salomon SIZE:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:TIBZBL 06JXD494A04 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260605/cmp_o_1jqbvjavj2qt1gvbu20drj6dk1.jpeg","type":"image","alt":"【】SALOMON XA PRO 3D 户外运动 网布减震防滑透气 低帮跑步鞋 男女款运动鞋 沙场灰#xapro3D 大面积的织物材质让质感超棒。鞋腰侧身还有3D反光效果，夜里穿也更酷炫！鞋头、鞋带内里和两边都标注了鞋款系列信息，整体造型流畅，适合户外登山或者日常运动。后跟的TPU材质包裹，包裹感非常强，给人一种满满的安全感。 #SALOMON #XA新配色 @salomon SIZE:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:TIBZBL 06JXD494A04 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260605/cmp_o_1jqbvjavj1058fm97kn7k3ump2.jpeg","type":"image","alt":"【】SALOMON XA PRO 3D 户外运动 网布减震防滑透气 低帮跑步鞋 男女款运动鞋 沙场灰#xapro3D 大面积的织物材质让质感超棒。鞋腰侧身还有3D反光效果，夜里穿也更酷炫！鞋头、鞋带内里和两边都标注了鞋款系列信息，整体造型流畅，适合户外登山或者日常运动。后跟的TPU材质包裹，包裹感非常强，给人一种满满的安全感。 #SALOMON #XA新配色 @salomon SIZE:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:TIBZBL 06JXD494A04 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260605/cmp_o_1jqbvjavklik13ui1ab3bd01j6h3.jpeg","type":"image","alt":"【】SALOMON XA PRO 3D 户外运动 网布减震防滑透气 低帮跑步鞋 男女款运动鞋 沙场灰#xapro3D 大面积的织物材质让质感超棒。鞋腰侧身还有3D反光效果，夜里穿也更酷炫！鞋头、鞋带内里和两边都标注了鞋款系列信息，整体造型流畅，适合户外登山或者日常运动。后跟的TPU材质包裹，包裹感非常强，给人一种满满的安全感。 #SALOMON #XA新配色 @salomon SIZE:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:TIBZBL 06JXD494A04 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260605/cmp_o_1jqbvjavkkm1j8p1g7kcd31fk54.jpeg","type":"image","alt":"【】SALOMON XA PRO 3D 户外运动 网布减震防滑透气 低帮跑步鞋 男女款运动鞋 沙场灰#xapro3D 大面积的织物材质让质感超棒。鞋腰侧身还有3D反光效果，夜里穿也更酷炫！鞋头、鞋带内里和两边都标注了鞋款系列信息，整体造型流畅，适合户外登山或者日常运动。后跟的TPU材质包裹，包裹感非常强，给人一种满满的安全感。 #SALOMON #XA新配色 @salomon SIZE:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:TIBZBL 06JXD494A04 image 5"}]
+description: {"en":"【】SALOMON XA PRO 3D 户外运动 网布减震防滑透气 低帮跑步鞋 男女款运动鞋 沙场灰#xapro3D 大面积的织物材质让质感超棒。鞋腰侧身还有3D反光效果，夜里穿也更酷炫！鞋头、鞋带内里和两边都标注了鞋款系列信息，整体造型流畅，适合户外登山或者日常运动。后跟的TPU材质包裹，包裹感非常强，给人一种满满的安全感。 #SALOMON #XA新配色 @salomon SIZE:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:TIBZBL 06JXD494A04"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 20156
+---
+
+【】SALOMON XA PRO 3D 户外运动 网布减震防滑透气 低帮跑步鞋 男女款运动鞋 沙场灰#xapro3D 大面积的织物材质让质感超棒。鞋腰侧身还有3D反光效果，夜里穿也更酷炫！鞋头、鞋带内里和两边都标注了鞋款系列信息，整体造型流畅，适合户外登山或者日常运动。后跟的TPU材质包裹，包裹感非常强，给人一种满满的安全感。 #SALOMON #XA新配色 @salomon SIZE:36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 ID:TIBZBL 06JXD494A04

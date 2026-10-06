@@ -1,0 +1,15 @@
+---
+title: {"en":"New Balance/新百伦 男女鞋采用超轻透气合成网状材料结构鞋面材质，中底嵌入FuelCell轻量化技术避震中底，外置防滑耐磨橡胶底片❗️ 创新与改变，NB新百伦New Balance FuelCell Rebel V2 叛逆者V2系列超轻量化低帮休闲运动慢跑鞋 类型：男女鞋 码数：36 37 38 38.5 39.5 40 40.5 41.5 42 42.5 43 44 45 编码：260512365.822 05JYD181A11"}
+category: {"en":"Shoes"}
+brand: "New Balance"
+sku: "05JYD181A11"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260512/cmp_o_1joedef4im0g1s5qk6f1afhlkd0.jpeg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260512/cmp_o_1joedef4im0g1s5qk6f1afhlkd0.jpeg","type":"image","alt":"New Balance/新百伦 男女鞋采用超轻透气合成网状材料结构鞋面材质，中底嵌入FuelCell轻量化技术避震中底，外置防滑耐磨橡胶底片❗️ 创新与改变，NB新百伦New Balance FuelCell Rebel V2 叛逆者V2系列超轻量化低帮休闲运动慢跑鞋 类型：男女鞋 码数：36 37 38 38.5 39.5 40 40.5 41.5 42 42.5 43 44 45 编码：260512365.822 05JYD181A11 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260512/cmp_o_1joedef4jfj31b5li8q8151rm11.jpeg","type":"image","alt":"New Balance/新百伦 男女鞋采用超轻透气合成网状材料结构鞋面材质，中底嵌入FuelCell轻量化技术避震中底，外置防滑耐磨橡胶底片❗️ 创新与改变，NB新百伦New Balance FuelCell Rebel V2 叛逆者V2系列超轻量化低帮休闲运动慢跑鞋 类型：男女鞋 码数：36 37 38 38.5 39.5 40 40.5 41.5 42 42.5 43 44 45 编码：260512365.822 05JYD181A11 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260512/cmp_o_1joedef4j1g911lodh7tsvkpkg2.jpeg","type":"image","alt":"New Balance/新百伦 男女鞋采用超轻透气合成网状材料结构鞋面材质，中底嵌入FuelCell轻量化技术避震中底，外置防滑耐磨橡胶底片❗️ 创新与改变，NB新百伦New Balance FuelCell Rebel V2 叛逆者V2系列超轻量化低帮休闲运动慢跑鞋 类型：男女鞋 码数：36 37 38 38.5 39.5 40 40.5 41.5 42 42.5 43 44 45 编码：260512365.822 05JYD181A11 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260512/cmp_o_1joedef4jdngje91o9l149r19173.jpeg","type":"image","alt":"New Balance/新百伦 男女鞋采用超轻透气合成网状材料结构鞋面材质，中底嵌入FuelCell轻量化技术避震中底，外置防滑耐磨橡胶底片❗️ 创新与改变，NB新百伦New Balance FuelCell Rebel V2 叛逆者V2系列超轻量化低帮休闲运动慢跑鞋 类型：男女鞋 码数：36 37 38 38.5 39.5 40 40.5 41.5 42 42.5 43 44 45 编码：260512365.822 05JYD181A11 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260512/cmp_o_1joedef4k17ha1u0d84p1ncr1r5p4.jpeg","type":"image","alt":"New Balance/新百伦 男女鞋采用超轻透气合成网状材料结构鞋面材质，中底嵌入FuelCell轻量化技术避震中底，外置防滑耐磨橡胶底片❗️ 创新与改变，NB新百伦New Balance FuelCell Rebel V2 叛逆者V2系列超轻量化低帮休闲运动慢跑鞋 类型：男女鞋 码数：36 37 38 38.5 39.5 40 40.5 41.5 42 42.5 43 44 45 编码：260512365.822 05JYD181A11 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260512/cmp_o_1joedef4k4mu1k1om9ggm0ep95.jpeg","type":"image","alt":"New Balance/新百伦 男女鞋采用超轻透气合成网状材料结构鞋面材质，中底嵌入FuelCell轻量化技术避震中底，外置防滑耐磨橡胶底片❗️ 创新与改变，NB新百伦New Balance FuelCell Rebel V2 叛逆者V2系列超轻量化低帮休闲运动慢跑鞋 类型：男女鞋 码数：36 37 38 38.5 39.5 40 40.5 41.5 42 42.5 43 44 45 编码：260512365.822 05JYD181A11 image 6"}]
+description: {"en":"New Balance/新百伦 男女鞋采用超轻透气合成网状材料结构鞋面材质，中底嵌入FuelCell轻量化技术避震中底，外置防滑耐磨橡胶底片❗️ 创新与改变，NB新百伦New Balance FuelCell Rebel V2 叛逆者V2系列超轻量化低帮休闲运动慢跑鞋 类型：男女鞋 码数：36 37 38 38.5 39.5 40 40.5 41.5 42 42.5 43 44 45 编码：260512365.822 05JYD181A11"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 30381
+---
+
+New Balance/新百伦 男女鞋采用超轻透气合成网状材料结构鞋面材质，中底嵌入FuelCell轻量化技术避震中底，外置防滑耐磨橡胶底片❗️ 创新与改变，NB新百伦New Balance FuelCell Rebel V2 叛逆者V2系列超轻量化低帮休闲运动慢跑鞋 类型：男女鞋 码数：36 37 38 38.5 39.5 40 40.5 41.5 42 42.5 43 44 45 编码：260512365.822 05JYD181A11

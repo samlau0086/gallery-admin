@@ -1,0 +1,15 @@
+---
+title: {"en":"️ ASICSGEL-KAYANO 33 男女跑鞋马拉松稳定支撑跑步鞋 612170WPR 36-45 06JJD628A28"}
+category: {"en":"Shoes"}
+brand: "Asics"
+sku: "06JJD628A28"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260629/cmp_i1782675505786_2405_0_0.jpg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260629/cmp_i1782675505786_2405_0_0.jpg","type":"image","alt":"️ ASICSGEL-KAYANO 33 男女跑鞋马拉松稳定支撑跑步鞋 612170WPR 36-45 06JJD628A28 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260629/cmp_i1782675502119_3506_0_1.jpg","type":"image","alt":"️ ASICSGEL-KAYANO 33 男女跑鞋马拉松稳定支撑跑步鞋 612170WPR 36-45 06JJD628A28 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260629/cmp_i1782675461573_3529_0_6.jpg","type":"image","alt":"️ ASICSGEL-KAYANO 33 男女跑鞋马拉松稳定支撑跑步鞋 612170WPR 36-45 06JJD628A28 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260629/cmp_i1782675498022_6689_0_3.jpg","type":"image","alt":"️ ASICSGEL-KAYANO 33 男女跑鞋马拉松稳定支撑跑步鞋 612170WPR 36-45 06JJD628A28 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260629/cmp_i1782675498022_390_0_4.jpg","type":"image","alt":"️ ASICSGEL-KAYANO 33 男女跑鞋马拉松稳定支撑跑步鞋 612170WPR 36-45 06JJD628A28 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260629/cmp_i1782675498022_433_0_5.jpg","type":"image","alt":"️ ASICSGEL-KAYANO 33 男女跑鞋马拉松稳定支撑跑步鞋 612170WPR 36-45 06JJD628A28 image 6"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260629/cmp_i1782675498022_6868_0_6.jpg","type":"image","alt":"️ ASICSGEL-KAYANO 33 男女跑鞋马拉松稳定支撑跑步鞋 612170WPR 36-45 06JJD628A28 image 7"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260629/cmp_i1782675502119_2754_0_7.jpg","type":"image","alt":"️ ASICSGEL-KAYANO 33 男女跑鞋马拉松稳定支撑跑步鞋 612170WPR 36-45 06JJD628A28 image 8"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260629/cmp_i1782675505749_5751_0_8.jpg","type":"image","alt":"️ ASICSGEL-KAYANO 33 男女跑鞋马拉松稳定支撑跑步鞋 612170WPR 36-45 06JJD628A28 image 9"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260629/cmp_i1782675502119_6693_0_9.jpg","type":"image","alt":"️ ASICSGEL-KAYANO 33 男女跑鞋马拉松稳定支撑跑步鞋 612170WPR 36-45 06JJD628A28 image 10"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260629/cmp_i1782675505713_4645_0_10.jpg","type":"image","alt":"️ ASICSGEL-KAYANO 33 男女跑鞋马拉松稳定支撑跑步鞋 612170WPR 36-45 06JJD628A28 image 11"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260629/cmp_i1782675509055_6331_0_11.jpg","type":"image","alt":"️ ASICSGEL-KAYANO 33 男女跑鞋马拉松稳定支撑跑步鞋 612170WPR 36-45 06JJD628A28 image 12"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260629/cmp_i1782675502114_3334_0_12.jpg","type":"image","alt":"️ ASICSGEL-KAYANO 33 男女跑鞋马拉松稳定支撑跑步鞋 612170WPR 36-45 06JJD628A28 image 13"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260629/cmp_i1782675502114_7391_0_13.jpg","type":"image","alt":"️ ASICSGEL-KAYANO 33 男女跑鞋马拉松稳定支撑跑步鞋 612170WPR 36-45 06JJD628A28 image 14"}]
+description: {"en":"️ ASICSGEL-KAYANO 33 男女跑鞋马拉松稳定支撑跑步鞋 612170WPR 36-45 06JJD628A28"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 10534
+---
+
+️ ASICSGEL-KAYANO 33 男女跑鞋马拉松稳定支撑跑步鞋 612170WPR 36-45 06JJD628A28

@@ -1,0 +1,15 @@
+---
+title: {"en":"Nike/ 男女鞋制，升原楦开发纸版楦型，采用弹性工程网眼布鞋面材质，内里嵌入定型海绵，中底ZoomX 减震泡绵与 Air Zoom 气垫单元相结合，外置滑耐磨锯齿橡胶大底❗缓震再革新！Nike Vomero Premium 顶迈柔系列低帮轻量厚底休闲运动慢跑鞋 HQ2050 类型：男女鞋 码数：36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 46 编码：260513455.822 05GXD184A14"}
+category: {"en":"Shoes"}
+brand: "Nike"
+sku: "05GXD184A14"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260519/cmp_o_1jotu9b7t19vg17l11jbqr2u1bn50.jpeg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260519/cmp_o_1jotu9b7t19vg17l11jbqr2u1bn50.jpeg","type":"image","alt":"Nike/ 男女鞋制，升原楦开发纸版楦型，采用弹性工程网眼布鞋面材质，内里嵌入定型海绵，中底ZoomX 减震泡绵与 Air Zoom 气垫单元相结合，外置滑耐磨锯齿橡胶大底❗缓震再革新！Nike Vomero Premium 顶迈柔系列低帮轻量厚底休闲运动慢跑鞋 HQ2050 类型：男女鞋 码数：36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 46 编码：260513455.822 05GXD184A14 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260519/cmp_o_1jotu9b7u1c58jcdt4d1vi891.jpeg","type":"image","alt":"Nike/ 男女鞋制，升原楦开发纸版楦型，采用弹性工程网眼布鞋面材质，内里嵌入定型海绵，中底ZoomX 减震泡绵与 Air Zoom 气垫单元相结合，外置滑耐磨锯齿橡胶大底❗缓震再革新！Nike Vomero Premium 顶迈柔系列低帮轻量厚底休闲运动慢跑鞋 HQ2050 类型：男女鞋 码数：36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 46 编码：260513455.822 05GXD184A14 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260519/cmp_o_1jotu9b7u15k7qmf7u514gk1fuo2.jpeg","type":"image","alt":"Nike/ 男女鞋制，升原楦开发纸版楦型，采用弹性工程网眼布鞋面材质，内里嵌入定型海绵，中底ZoomX 减震泡绵与 Air Zoom 气垫单元相结合，外置滑耐磨锯齿橡胶大底❗缓震再革新！Nike Vomero Premium 顶迈柔系列低帮轻量厚底休闲运动慢跑鞋 HQ2050 类型：男女鞋 码数：36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 46 编码：260513455.822 05GXD184A14 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260519/cmp_o_1jotu9b7uq52unc142pgbnbqr3.jpeg","type":"image","alt":"Nike/ 男女鞋制，升原楦开发纸版楦型，采用弹性工程网眼布鞋面材质，内里嵌入定型海绵，中底ZoomX 减震泡绵与 Air Zoom 气垫单元相结合，外置滑耐磨锯齿橡胶大底❗缓震再革新！Nike Vomero Premium 顶迈柔系列低帮轻量厚底休闲运动慢跑鞋 HQ2050 类型：男女鞋 码数：36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 46 编码：260513455.822 05GXD184A14 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260519/cmp_o_1jotu9b7udml1sluq921l581bto4.jpeg","type":"image","alt":"Nike/ 男女鞋制，升原楦开发纸版楦型，采用弹性工程网眼布鞋面材质，内里嵌入定型海绵，中底ZoomX 减震泡绵与 Air Zoom 气垫单元相结合，外置滑耐磨锯齿橡胶大底❗缓震再革新！Nike Vomero Premium 顶迈柔系列低帮轻量厚底休闲运动慢跑鞋 HQ2050 类型：男女鞋 码数：36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 46 编码：260513455.822 05GXD184A14 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260519/cmp_o_1jotu9b7v18vcrth1kun57mn0h5.jpeg","type":"image","alt":"Nike/ 男女鞋制，升原楦开发纸版楦型，采用弹性工程网眼布鞋面材质，内里嵌入定型海绵，中底ZoomX 减震泡绵与 Air Zoom 气垫单元相结合，外置滑耐磨锯齿橡胶大底❗缓震再革新！Nike Vomero Premium 顶迈柔系列低帮轻量厚底休闲运动慢跑鞋 HQ2050 类型：男女鞋 码数：36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 46 编码：260513455.822 05GXD184A14 image 6"}]
+description: {"en":"Nike/ 男女鞋制，升原楦开发纸版楦型，采用弹性工程网眼布鞋面材质，内里嵌入定型海绵，中底ZoomX 减震泡绵与 Air Zoom 气垫单元相结合，外置滑耐磨锯齿橡胶大底❗缓震再革新！Nike Vomero Premium 顶迈柔系列低帮轻量厚底休闲运动慢跑鞋 HQ2050 类型：男女鞋 码数：36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 46 编码：260513455.822 05GXD184A14"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 28607
+---
+
+Nike/ 男女鞋制，升原楦开发纸版楦型，采用弹性工程网眼布鞋面材质，内里嵌入定型海绵，中底ZoomX 减震泡绵与 Air Zoom 气垫单元相结合，外置滑耐磨锯齿橡胶大底❗缓震再革新！Nike Vomero Premium 顶迈柔系列低帮轻量厚底休闲运动慢跑鞋 HQ2050 类型：男女鞋 码数：36 36.5 37.5 38 38.5 39 40 40.5 41 42 42.5 43 44 45 46 编码：260513455.822 05GXD184A14

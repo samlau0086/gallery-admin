@@ -1,0 +1,15 @@
+---
+title: {"en":"Adidas Samba Jane 玛丽珍款 板鞋懒人一脚蹬运动鞋 采用皮革材质的设计融合了经典与现代元素 它采用了玛丽珍鞋的特色设计 如鞋面上的扣带和环扣装饰 同时保留了Samba鞋的经典三道杠设计和橡胶大底 这款鞋的鞋型修长 中足偏窄 整体贴合感强 适合标准脚型和宽脚型的人群‌ 货号:JQ6445 尺码:35.5 36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 lD:DHD262-FZF 05LD334A24"}
+category: {"en":"Shoes"}
+brand: "Adidas"
+sku: "JQ6445"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260529/cmp_o_1jppv9ufd1q1r35i4l61t443so0.jpeg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260529/cmp_o_1jppv9ufd1q1r35i4l61t443so0.jpeg","type":"image","alt":"Adidas Samba Jane 玛丽珍款 板鞋懒人一脚蹬运动鞋 采用皮革材质的设计融合了经典与现代元素 它采用了玛丽珍鞋的特色设计 如鞋面上的扣带和环扣装饰 同时保留了Samba鞋的经典三道杠设计和橡胶大底 这款鞋的鞋型修长 中足偏窄 整体贴合感强 适合标准脚型和宽脚型的人群‌ 货号:JQ6445 尺码:35.5 36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 lD:DHD262-FZF 05LD334A24 image 1"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260529/cmp_o_1jppv9ufd1m5jmhn1r6gpthus31.jpeg","type":"image","alt":"Adidas Samba Jane 玛丽珍款 板鞋懒人一脚蹬运动鞋 采用皮革材质的设计融合了经典与现代元素 它采用了玛丽珍鞋的特色设计 如鞋面上的扣带和环扣装饰 同时保留了Samba鞋的经典三道杠设计和橡胶大底 这款鞋的鞋型修长 中足偏窄 整体贴合感强 适合标准脚型和宽脚型的人群‌ 货号:JQ6445 尺码:35.5 36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 lD:DHD262-FZF 05LD334A24 image 2"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260529/cmp_o_1jppv9ufe14h4132e11dj1nsq1ntf2.jpeg","type":"image","alt":"Adidas Samba Jane 玛丽珍款 板鞋懒人一脚蹬运动鞋 采用皮革材质的设计融合了经典与现代元素 它采用了玛丽珍鞋的特色设计 如鞋面上的扣带和环扣装饰 同时保留了Samba鞋的经典三道杠设计和橡胶大底 这款鞋的鞋型修长 中足偏窄 整体贴合感强 适合标准脚型和宽脚型的人群‌ 货号:JQ6445 尺码:35.5 36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 lD:DHD262-FZF 05LD334A24 image 3"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260529/cmp_o_1jppv9ufegrcc6pq073tl1ll83.jpeg","type":"image","alt":"Adidas Samba Jane 玛丽珍款 板鞋懒人一脚蹬运动鞋 采用皮革材质的设计融合了经典与现代元素 它采用了玛丽珍鞋的特色设计 如鞋面上的扣带和环扣装饰 同时保留了Samba鞋的经典三道杠设计和橡胶大底 这款鞋的鞋型修长 中足偏窄 整体贴合感强 适合标准脚型和宽脚型的人群‌ 货号:JQ6445 尺码:35.5 36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 lD:DHD262-FZF 05LD334A24 image 4"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260529/cmp_o_1jppv9ufe1t031k52rou1qe2ie24.jpeg","type":"image","alt":"Adidas Samba Jane 玛丽珍款 板鞋懒人一脚蹬运动鞋 采用皮革材质的设计融合了经典与现代元素 它采用了玛丽珍鞋的特色设计 如鞋面上的扣带和环扣装饰 同时保留了Samba鞋的经典三道杠设计和橡胶大底 这款鞋的鞋型修长 中足偏窄 整体贴合感强 适合标准脚型和宽脚型的人群‌ 货号:JQ6445 尺码:35.5 36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 lD:DHD262-FZF 05LD334A24 image 5"},{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260529/cmp_o_1jppv9uff1e541an019fem71f305.jpeg","type":"image","alt":"Adidas Samba Jane 玛丽珍款 板鞋懒人一脚蹬运动鞋 采用皮革材质的设计融合了经典与现代元素 它采用了玛丽珍鞋的特色设计 如鞋面上的扣带和环扣装饰 同时保留了Samba鞋的经典三道杠设计和橡胶大底 这款鞋的鞋型修长 中足偏窄 整体贴合感强 适合标准脚型和宽脚型的人群‌ 货号:JQ6445 尺码:35.5 36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 lD:DHD262-FZF 05LD334A24 image 6"}]
+description: {"en":"Adidas Samba Jane 玛丽珍款 板鞋懒人一脚蹬运动鞋 采用皮革材质的设计融合了经典与现代元素 它采用了玛丽珍鞋的特色设计 如鞋面上的扣带和环扣装饰 同时保留了Samba鞋的经典三道杠设计和橡胶大底 这款鞋的鞋型修长 中足偏窄 整体贴合感强 适合标准脚型和宽脚型的人群‌ 货号:JQ6445 尺码:35.5 36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 lD:DHD262-FZF 05LD334A24"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 24347
+---
+
+Adidas Samba Jane 玛丽珍款 板鞋懒人一脚蹬运动鞋 采用皮革材质的设计融合了经典与现代元素 它采用了玛丽珍鞋的特色设计 如鞋面上的扣带和环扣装饰 同时保留了Samba鞋的经典三道杠设计和橡胶大底 这款鞋的鞋型修长 中足偏窄 整体贴合感强 适合标准脚型和宽脚型的人群‌ 货号:JQ6445 尺码:35.5 36 36.5 37 38 38.5 39 40 40.5 41 42 42.5 43 44 45 lD:DHD262-FZF 05LD334A24

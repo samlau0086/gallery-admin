@@ -1,0 +1,15 @@
+---
+title: {"en":"CMP_O_1JQ1VJVB315STOT3F0GG9317QN0"}
+category: {"en":"Shoes"}
+brand: ""
+sku: "CMP_O_1JQ1VJVB315STOT3F0GG9317QN0"
+cover: "https://xcimg.szwego.com/imgHD/9a26ac80/20260602/cmp_o_1jq1vjvb315stot3f0gg9317qn0.jpeg"
+media: [{"url":"https://xcimg.szwego.com/imgHD/9a26ac80/20260602/cmp_o_1jq1vjvb315stot3f0gg9317qn0.jpeg","type":"image","alt":"CMP_O_1JQ1VJVB315STOT3F0GG9317QN0 image 1"}]
+description: {"en":"CMP_O_1JQ1VJVB315STOT3F0GG9317QN0"}
+tags: ["shoes"]
+featured: false
+published: true
+sortOrder: 23452
+---
+
+CMP_O_1JQ1VJVB315STOT3F0GG9317QN0
