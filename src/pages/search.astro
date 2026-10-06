@@ -2,12 +2,11 @@
 import Layout from '../layouts/Layout.astro';
 import { site } from '../data/site';
 import { localizedValue, productLocaleFromUrl } from '../data/product-i18n';
+import { loadSearchIndex } from '../data/search-index';
 import '../styles/global.css';
 import '../styles/overrides.css';
 export const prerender = false;
-const runtime = (Astro.locals as App.Locals & { runtime?: { env?: { ASSETS?: { fetch: (request: Request | string) => Promise<Response> } } } }).runtime;
-const response = runtime?.env?.ASSETS ? await runtime.env.ASSETS.fetch(new Request(new URL('/search-index.json', Astro.url))) : await fetch(new URL('/search-index.json', Astro.url));
-const productsData = response.ok ? await response.json() : [];
+const productsData = await loadSearchIndex(Astro.url, Astro.locals).catch(() => []);
 const query=(Astro.url.searchParams.get('q')||'').trim();
 const q=query.toLowerCase();
 const locale = productLocaleFromUrl(Astro.url);

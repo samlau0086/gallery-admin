@@ -1,6 +1,6 @@
 import type { APIRoute } from 'astro';
+import { loadSearchIndex } from '../../../data/search-index';
 
-type RuntimeLocals = App.Locals & { runtime?: { env?: { ASSETS?: { fetch: (request: Request | string) => Promise<Response> } } } };
 type ProductIndexRecord = { slug: string; sku?: string };
 
 const SUCCESS_CACHE_CONTROL = 'public, max-age=2592000, s-maxage=2592000, stale-while-revalidate=86400';
@@ -29,9 +29,7 @@ export const GET: APIRoute = async ({ url, locals }) => {
   if (!sku) return json({ error: 'The sku query parameter is required.' }, 400, ERROR_CACHE_CONTROL);
 
   try {
-    const indexResponse = await fetchAsset(url, locals, '/search-index.json');
-    if (!indexResponse.ok) throw new Error('Product index unavailable');
-    const products = await indexResponse.json() as ProductIndexRecord[];
+    const products = await loadSearchIndex(url, locals) as ProductIndexRecord[];
     const normalizedSku = sku.toLowerCase();
     const matches = products.filter((product) => product.sku?.trim().toLowerCase() === normalizedSku);
 

@@ -2,7 +2,7 @@ import { mkdir, readdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 
 const productsDir = path.resolve('src/content/products');
-const searchOutputPath = path.resolve('public/search-index.json');
+const searchOutputDir = path.resolve('public/search-index');
 const productsOutputDir = path.resolve('public/product-data');
 const categoriesOutputPath = path.resolve('src/data/product-categories.ts');
 const reviewsDir = path.resolve('src/content/reviews');
@@ -108,8 +108,27 @@ for (const file of files) {
   });
 }
 records.sort((a, b) => a.sortOrder - b.sortOrder);
-await mkdir(path.dirname(searchOutputPath), { recursive: true });
-await writeFile(searchOutputPath, JSON.stringify(records.map(({ slug, title, category, brand, sku, cover, sortOrder, searchable, description, tags, i18n }) => ({ slug, title, category, brand, sku, cover, sortOrder, searchable, description, tags, i18n, featured: sortOrder < 24 }))), 'utf8');
+const searchRecords = records.map(({ slug, title, category, brand, sku, cover, sortOrder, searchable, description, tags, i18n }) => ({ slug, title, category, brand, sku, cover, sortOrder, searchable, description, tags, i18n, featured: sortOrder < 24 }));
+const searchShardLimit = 8 * 1024 * 1024;
+await mkdir(searchOutputDir, { recursive: true });
+const existingSearchFiles = (await readdir(searchOutputDir).catch(() => [])).filter((file) => /^\d+\.json$/.test(file));
+for (const file of existingSearchFiles) await import('node:fs/promises').then(({ unlink }) => unlink(path.join(searchOutputDir, file)));
+let shard = [];
+let shardBytes = 2;
+let shardIndex = 0;
+for (const record of searchRecords) {
+  const recordBytes = Buffer.byteLength(JSON.stringify(record), 'utf8') + (shard.length ? 1 : 0);
+  if (shard.length && shardBytes + recordBytes > searchShardLimit) {
+    await writeFile(path.join(searchOutputDir, `${shardIndex}.json`), JSON.stringify(shard), 'utf8');
+    shardIndex += 1;
+    shard = [];
+    shardBytes = 2;
+  }
+  shard.push(record);
+  shardBytes += recordBytes;
+}
+if (shard.length) await writeFile(path.join(searchOutputDir, `${shardIndex}.json`), JSON.stringify(shard), 'utf8');
+await writeFile(path.join(searchOutputDir, 'manifest.json'), JSON.stringify({ shards: shardIndex + 1 }), 'utf8');
 await mkdir(productsOutputDir, { recursive: true });
 for (const record of records) await writeFile(path.join(productsOutputDir, `${record.slug}.json`), JSON.stringify(record), 'utf8');
 const categories = [...new Set(records.map(({ category }) => String(category).trim()).filter(Boolean))].sort((a, b) => a.localeCompare(b));

@@ -1,17 +1,10 @@
 import type { APIRoute } from 'astro';
+import { loadSearchIndex } from '../../data/search-index';
 
-type RuntimeLocals = App.Locals & { runtime?: { env?: { ASSETS?: { fetch: (request: Request | string) => Promise<Response> } } } };
 type Product = { slug: string; title: string; category: string; brand?: string; sku?: string; cover: string; sortOrder: number; searchable: string; description?: string; tags?: string[]; featured?: boolean; i18n?: { title?: Record<string, string>; description?: Record<string, string>; category?: Record<string, string> } };
 
 const SUCCESS_CACHE_CONTROL = 'public, max-age=2592000, s-maxage=2592000, stale-while-revalidate=86400';
 const ERROR_CACHE_CONTROL = 'no-store';
-
-const loadIndex = async (url: URL, locals: App.Locals): Promise<Product[]> => {
-  const assets = (locals as RuntimeLocals).runtime?.env?.ASSETS;
-  const response = assets ? await assets.fetch(new Request(new URL('/search-index.json', url))) : await fetch(new URL('/search-index.json', url));
-  if (!response.ok) throw new Error('Product index unavailable');
-  return response.json() as Promise<Product[]>;
-};
 
 export const prerender = false;
 export const GET: APIRoute = async ({ url, locals }) => {
@@ -24,7 +17,7 @@ export const GET: APIRoute = async ({ url, locals }) => {
   const tag = (url.searchParams.get('tag') || '').trim();
   const facetsOnly = url.searchParams.get('facets') === '1';
   try {
-    const allProducts = await loadIndex(url, locals);
+    const allProducts = await loadSearchIndex(url, locals) as Product[];
     if (facetsOnly) {
       const categories = [...new Set(allProducts.map((product) => product.category).filter(Boolean))].sort((a, b) => a.localeCompare(b));
       const brands = [...new Set(allProducts.map((product) => product.brand).filter(Boolean))].sort((a, b) => a.localeCompare(b));
