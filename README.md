@@ -401,3 +401,53 @@ GET https://gallery.maesvanti.online/api/products/by-sku?sku=170004
 ## 14. 当前版本暂不包含
 
 购物车、在线支付、订单管理、库存扣减、客户账户、自动图片压缩，以及 Decap CMS 内置的一键 R2 媒体库。
+# 缓存与 Cloudflare Pages
+
+## 产品 API 缓存
+
+`/api/products` 的成功响应使用长期缓存：
+
+- 浏览器缓存：365 天（`max-age=31536000`）
+- Cloudflare 边缘缓存：365 天（`s-maxage=31536000`）
+- 允许过期后后台重新验证：1 天（`stale-while-revalidate=86400`）
+
+产品列表 API 会按固定顺序规范化查询参数：
+
+```text
+page, pageSize, category, kind, brand, tag, q, facets
+```
+
+同时会清理空参数、重复参数和首尾空格，并将搜索参数 `q` 转为小写。这样同一个请求即使参数顺序不同，也能尽量使用相同的缓存对象。
+
+## Cloudflare Cache Rules
+
+免费版没有自定义 Cache Key 时，建议在 Cloudflare 控制台创建 Cache Rule：
+
+匹配条件：
+
+```text
+(http.host eq "gallery.maesvanti.online" and
+ starts_with(http.request.uri.path, "/api/products"))
+```
+
+设置：
+
+- Cache eligibility：`Eligible for cache`
+- Edge TTL：`1 year`
+- Browser TTL：`Respect existing headers`
+- 如果免费版控制台提供 `Query String Sort`，建议开启
+
+`Query String Sort` 会在边缘缓存层统一查询参数顺序；应用层的参数规范化仍需保留，二者互不冲突。
+
+不要忽略 `/api/products` 的全部查询参数。`page`、`pageSize`、`category`、`brand`、`tag` 和 `q` 会改变响应内容，必须参与缓存区分。
+
+## 检查缓存命中
+
+部署后可以在浏览器开发者工具或命令行中查看响应头：
+
+```text
+CF-Cache-Status: HIT
+```
+
+首次请求出现 `MISS` 是正常的；相同 URL 后续请求应逐渐变为 `HIT`。不同页码、分类或搜索词属于不同缓存对象。
+
