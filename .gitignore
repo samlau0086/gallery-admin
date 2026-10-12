@@ -55,5 +55,9 @@ uploads/
 
 # Generated product data used by the Cloudflare build
 /public/search-index.json
+/public/search-index/
+/public/catalog-pages/
+/public/filter-indexes/
+/public/catalog-query/
 /public/product-data/
 src/data/product-categories.ts

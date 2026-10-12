@@ -4,6 +4,9 @@ import path from 'node:path';
 const productsDir = path.resolve('src/content/products');
 const searchOutputDir = path.resolve('public/search-index');
 const productsOutputDir = path.resolve('public/product-data');
+const catalogPagesOutputDir = path.resolve('public/catalog-pages');
+const filterIndexesOutputDir = path.resolve('public/filter-indexes');
+const queryOutputDir = path.resolve('public/catalog-query');
 const categoriesOutputPath = path.resolve('src/data/product-categories.ts');
 const reviewsDir = path.resolve('src/content/reviews');
 const parseScalar = (value = '') => {
@@ -109,7 +112,7 @@ for (const file of files) {
 }
 records.sort((a, b) => a.sortOrder - b.sortOrder);
 const searchRecords = records.map(({ slug, title, category, brand, sku, cover, sortOrder, searchable, description, tags, i18n }) => ({ slug, title, category, brand, sku, cover, sortOrder, searchable, description, tags, i18n, featured: sortOrder < 24 }));
-const searchShardLimit = 8 * 1024 * 1024;
+const searchShardLimit = 2 * 1024 * 1024;
 await mkdir(searchOutputDir, { recursive: true });
 const existingSearchFiles = (await readdir(searchOutputDir).catch(() => [])).filter((file) => /^\d+\.json$/.test(file));
 for (const file of existingSearchFiles) await import('node:fs/promises').then(({ unlink }) => unlink(path.join(searchOutputDir, file)));
@@ -129,6 +132,38 @@ for (const record of searchRecords) {
 }
 if (shard.length) await writeFile(path.join(searchOutputDir, `${shardIndex}.json`), JSON.stringify(shard), 'utf8');
 await writeFile(path.join(searchOutputDir, 'manifest.json'), JSON.stringify({ shards: shardIndex + 1 }), 'utf8');
+await mkdir(queryOutputDir, { recursive: true });
+for (const file of (await readdir(queryOutputDir)).filter((file) => /^\d+\.json$/.test(file))) {
+  await import('node:fs/promises').then(({ unlink }) => unlink(path.join(queryOutputDir, file)));
+}
+// Retire the duplicated per-filter product files from the previous implementation.
+for (const kind of ['category', 'brand', 'tag']) {
+  const dir = path.join(filterIndexesOutputDir, kind);
+  for (const file of (await readdir(dir).catch(() => [])).filter((file) => file.endsWith('.json'))) {
+    await import('node:fs/promises').then(({ unlink }) => unlink(path.join(dir, file)));
+  }
+}
+const queryShardSize = 1024;
+const filters = { category: new Map(), brand: new Map(), tag: new Map() };
+const featured = [];
+for (const [id, record] of searchRecords.entries()) {
+  if (record.featured) featured.push(id);
+  for (const kind of ['category', 'brand', 'tag']) {
+    const values = new Set(kind === 'tag' ? record.tags : [record[kind]]);
+    for (const value of values) {
+      if (!value) continue;
+      if (!filters[kind].has(value)) filters[kind].set(value, []);
+      filters[kind].get(value).push(id);
+    }
+  }
+}
+for (let offset = 0, index = 0; offset < searchRecords.length; offset += queryShardSize, index += 1) {
+  await writeFile(path.join(queryOutputDir, `${index}.json`), JSON.stringify(searchRecords.slice(offset, offset + queryShardSize).map((record) => record.searchable)), 'utf8');
+}
+await writeFile(path.join(queryOutputDir, 'manifest.json'), JSON.stringify({
+  total: searchRecords.length, shardSize: queryShardSize, cardPageSize: 24, featured,
+  filters: Object.fromEntries(Object.entries(filters).map(([kind, values]) => [kind, Object.fromEntries(values)])),
+}), 'utf8');
 await mkdir(productsOutputDir, { recursive: true });
 const existingProductFiles = (await readdir(productsOutputDir).catch(() => [])).filter((file) => file.endsWith('.json') && file !== 'manifest.json');
 for (const file of existingProductFiles) await import('node:fs/promises').then(({ unlink }) => unlink(path.join(productsOutputDir, file)));
@@ -155,6 +190,23 @@ if (Object.keys(productShard).length) {
   productShards.push(productShard);
 }
 await writeFile(path.join(productsOutputDir, 'manifest.json'), JSON.stringify({ shards: productShardIndex + 1 }), 'utf8');
+// Keep the common unfiltered pagination path small at runtime. The API can serve
+// one page directly instead of parsing the complete search index on a cold Worker.
+await mkdir(catalogPagesOutputDir, { recursive: true });
+const existingCatalogPageFiles = (await readdir(catalogPagesOutputDir).catch(() => [])).filter((file) => /^\d+\.json$/.test(file));
+for (const file of existingCatalogPageFiles) await import('node:fs/promises').then(({ unlink }) => unlink(path.join(catalogPagesOutputDir, file)));
+const catalogPageSize = 24;
+for (let offset = 0, page = 1; offset < searchRecords.length; offset += catalogPageSize, page += 1) {
+  const products = searchRecords.slice(offset, offset + catalogPageSize);
+  await writeFile(path.join(catalogPagesOutputDir, `${page}.json`), JSON.stringify({
+    products,
+    page,
+    pageSize: catalogPageSize,
+    total: records.length,
+    hasMore: offset + catalogPageSize < records.length,
+  }), 'utf8');
+}
+await writeFile(path.join(catalogPagesOutputDir, 'manifest.json'), JSON.stringify({ pageSize: catalogPageSize, pages: Math.ceil(records.length / catalogPageSize), total: records.length }), 'utf8');
 const categories = [...new Set(records.map(({ category }) => String(category).trim()).filter(Boolean))].sort((a, b) => a.localeCompare(b));
 await writeFile(categoriesOutputPath, `// Generated by tools/build-search-index.mjs. Do not edit.\nexport const productCategories = ${JSON.stringify(categories)} as const;\n`, 'utf8');
 console.log(`Built search index with ${records.length} products.`);

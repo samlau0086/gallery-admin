@@ -29,3 +29,17 @@ export const loadSearchIndex = async (url: URL, locals: App.Locals): Promise<Sea
   const records = await Promise.all(shards.map((response) => response.json() as Promise<SearchIndexRecord[]>));
   return records.flat();
 };
+
+export const filterSearchIndex = async (url: URL, locals: App.Locals, predicate: (record: SearchIndexRecord) => boolean): Promise<SearchIndexRecord[]> => {
+  const manifestResponse = await fetchAsset(url, locals, '/search-index/manifest.json');
+  if (!manifestResponse.ok) throw new Error('Search index manifest unavailable');
+  const manifest = await manifestResponse.json() as { shards: number };
+  const matches: SearchIndexRecord[] = [];
+  for (let index = 0; index < manifest.shards; index += 1) {
+    const response = await fetchAsset(url, locals, `/search-index/${index}.json`);
+    if (!response.ok) throw new Error('Search index shard unavailable');
+    const records = await response.json() as SearchIndexRecord[];
+    for (const record of records) if (predicate(record)) matches.push(record);
+  }
+  return matches;
+};

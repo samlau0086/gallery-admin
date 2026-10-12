@@ -411,13 +411,11 @@ GET https://gallery.maesvanti.online/api/products/by-sku?sku=170004
 - Cloudflare 边缘缓存：365 天（`s-maxage=31536000`）
 - 允许过期后后台重新验证：1 天（`stale-while-revalidate=86400`）
 
-产品列表 API 会按固定顺序规范化查询参数：
+产品列表 API 读取参数时会使用第一个非空值、清理首尾空格，并将搜索参数 `q` 转为小写。这只统一查询行为，不会改变 Cloudflare 收到的 URL 或自动合并边缘缓存对象。
 
-```text
-page, pageSize, category, kind, brand, tag, q, facets
-```
+构建时会生成分页商品数据、分类/品牌/标签的商品编号索引，以及精简搜索文本分片。普通分页只读取分页清单和当前页；精确筛选先求编号交集，再读取当前页涉及的商品；关键词搜索仅扫描候选商品所在的文本分片。商品顺序、返回字段和筛选规则保持一致，`facets=1` 仍返回完整筛选选项，忽略其他查询条件。
 
-同时会清理空参数、重复参数和首尾空格，并将搜索参数 `q` 转为小写。这样同一个请求即使参数顺序不同，也能尽量使用相同的缓存对象。
+运行 `node tools/build-search-index.mjs` 后，可用 `node tools/test-catalog-query.mjs` 对比新旧查询结果。索引缺失时接口返回不可缓存的 503，避免回退到完整商品索引。仅带 `q` 的请求仍需扫描全部搜索文本，应在部署后观察实际 CPU 和内存指标。
 
 ## Cloudflare Cache Rules
 
